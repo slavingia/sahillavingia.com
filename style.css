@@ -1,0 +1,41 @@
+* { border: 0; margin: 0; padding: 0; outline: 0; }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #333;
+  background: white;
+}
+
+#box {
+  margin: 50px auto;
+  padding: 50px 50px 40px;
+}
+
+.amp { font-family: Baskerville; font-style: italic; }
+
+img {
+  border-radius: 99px;
+  height: 64px;
+  width: 64px;
+  margin: 0 auto 25px;
+  display: block;
+}
+
+h1 {
+  margin-bottom: 25px;
+  font-size: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: normal;
+  font-family: Georgia, serif;
+  text-align: center;
+  color: #aaa;
+  margin-bottom: 25px;
+}
