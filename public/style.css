@@ -40,6 +40,10 @@ h2 {
   margin-bottom: 25px;
 }
 
+a {
+  color: #666;
+}
+
 @media screen and (max-width: 480px) {
   #box {
     padding-left: 20px;
