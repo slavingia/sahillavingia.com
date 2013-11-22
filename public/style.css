@@ -9,8 +9,9 @@ body {
 }
 
 #box {
-  margin: 50px auto;
-  padding: 50px 50px 40px;
+  margin: 0 auto;
+  padding: 50px 20px 40px;
+  text-align: center;
 }
 
 .amp { font-family: Baskerville; font-style: italic; }
@@ -27,7 +28,6 @@ h1 {
   margin-bottom: 25px;
   font-size: 32px;
   line-height: 32px;
-  text-align: center;
 }
 
 h2 {
@@ -35,19 +35,10 @@ h2 {
   line-height: 26px;
   font-weight: normal;
   font-family: Georgia, serif;
-  text-align: center;
   color: #aaa;
   margin-bottom: 25px;
 }
 
-a {
-  color: #666;
-}
-
-@media screen and (max-width: 480px) {
-  #box {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin: 0;
-  }
+a, a:visited {
+  color: #999;
 }
