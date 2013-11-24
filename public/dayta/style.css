@@ -1,0 +1,212 @@
+* {
+	padding: 0;
+	margin: 0;
+	outline: 0;
+	border: 0;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	opacity: .8;
+}
+
+body {
+	background: url(background.png) repeat-x #5f2a06 0px 0px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wrapper {
+    position: relative;
+	width: 1123px;
+	margin: 0 auto;
+}
+
+#banner {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#top-bar {
+	clear: both;
+	font-size: 16px;
+	color: #aaa;
+	background: url(top_bar.png);
+	height: 49px;
+}
+	
+	#top-bar .left {
+		margin: 14px 0 0 20px;
+		float: left;
+	}
+	
+	#top-bar .right {
+		margin: 14px 180px 0 0;
+		float: right;
+	}
+	
+	#top-bar strong {
+		color: #fff;
+	}
+	
+	.rivets {
+		width: 5px;
+		margin: 6px 0 0 5px;
+		float: left;
+	}
+	
+	.rivets-right {
+		width: 5px;
+		margin: 6px 5px 0 0;
+		float: right;
+	}
+
+#top-content {
+	clear: both;
+	overflow: hidden;
+}
+		
+	#info {
+		padding-top: 20px;
+		float: right;
+		overflow: hidden;
+		margin: 40px 0 0 0;
+		width: 660px;
+		font-size: 18px;
+		line-height: 27px;
+		color: #e0b68d;
+	}
+	
+		#info img {
+			margin: 14px 10px 0 0;
+		}
+		
+		#info h1 {
+			text-indent: -9999px;
+			background: url(dayta_for_iphone.png);
+			width: 466px; height: 58px;
+			margin: 0 0 5px 10px;
+		}
+	
+		#info a {
+			margin: 0 0 0 8px;
+			color: #76b0cf;
+			text-shadow: 0px -1px 1px #563314;
+		}
+		
+		#info h3 {
+			color: #fff;
+			text-shadow: 0px -1px 1px #563314;
+			margin: 60px 0 15px 10px;
+			font-size: 30px;
+		}
+	
+		#info ul {
+			margin-bottom: 30px;
+		}
+	
+		#info li {
+			text-shadow: 0px -1px 1px #563314;
+			font-size: 16px;
+			margin: 7px 0 0 28px;
+		}
+	
+		#info #under-h1 p {
+			float: right;
+			text-shadow: 0px -1px 1px #563314;
+			width: 530px;
+			margin: 16px 0 15px 0;
+		}
+		
+			#under-h1 {
+				clear: both;
+				width: 100%;
+				text-shadow: 0px -1px 1px #563314;
+				overflow: hidden;
+			}
+			
+				#under-h1 strong {
+					color: #fff;
+				}
+	
+	#sidebar {
+		float: left;
+		width: 463px;
+	}
+	
+		#iphone {
+			margin-top: 10px;
+			height: 833px;
+		}
+	
+		#sidebar img.screenshot {
+			position: absolute;
+		}
+		
+		.screens {
+			margin-top: -666px;
+			clear: both;
+		}
+		
+		.quote {
+			text-shadow: 0px -1px 1px #563314;
+			margin: 0 0 30px 10px;
+			line-height: 30px;
+			color: #fff;
+			font-size: 20px;
+			font-weight: normal;
+		}
+		
+			.quote span {
+				font-weight: normal;
+				color: #e0b68d;
+			}
+			
+		
+
+#footer {
+	font-size: 17px;
+	margin: 20px 0 40px 0;
+	padding: 0 40px;
+	clear: both;
+	overflow: hidden;
+}
+
+#footer p {
+	color: #fff;
+	float: left;
+	background: #000;
+	opacity: 0.3;
+	padding: 15px;
+	-moz-border-radius: 15px; -webkit-border-radius: 15px;
+}
+
+#footer p.copyright {
+	float: right;
+}
+
+#footer p a {
+	color: #fff;
+}
+
+#contest ul { margin-top: 15px; }
+
+#contest li {
+	margin: 0 0 10px 10px;
+	font-size: 18px;
+}
+
+	#contest li a {
+		color: #fff;
+		margin: 0;
+	}
+	
+#website {
+    z-index: 11;
+    top: 390px;
+    left: -80px;
+    position: absolute;
+}
