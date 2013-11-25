@@ -1,5 +1,7 @@
 * { border: 0; margin: 0; padding: 0; outline: 0; }
 
+a { color: inherit; }
+
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
