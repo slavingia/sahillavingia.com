@@ -17,15 +17,18 @@ body {
 .amp { font-family: Baskerville; font-style: italic; }
 
 img {
-  border-radius: 99px;
   height: 64px;
   width: 64px;
-  margin: 0 auto 25px;
+  margin: 0 auto;
   display: block;
 }
 
+.rounded {
+  border-radius: 99px;  
+}
+
 h1 {
-  margin-bottom: 25px;
+  margin: 25px 0;
   font-size: 32px;
   line-height: 32px;
 }
@@ -39,6 +42,138 @@ h2 {
   margin-bottom: 25px;
 }
 
-a, a:visited {
+h2 a {
   color: #999;
 }
+
+section {
+  background: #f5f5f5;
+  border-top: 1px solid #ddd;
+  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, .1);
+  padding: 25px;
+  position: relative;
+}
+
+ul {
+  padding: 0 40px;
+  margin: 0 auto;
+  list-style: none;
+  overflow: hidden;
+}
+
+ul:before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  left: 50%;
+  margin-left: -1px;
+  display: block;
+  top: 0;
+  bottom: 80px;
+  background: #ddd;
+}
+
+ul li {
+  clear: both;
+  display: block;
+  width: 100%;
+  position: relative;
+  margin: 40px 0;
+  height: 30px;
+}
+
+ul li:before {
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 0;
+  left: 50%;
+  margin-left: -6px;
+  top: 50%;
+  margin-top: -6px;
+  padding: 6px;
+  background: #ddd;
+  border-radius: 10px;  
+}
+
+ul li span {
+  margin-top: 8px;
+  border-radius: 6px;
+  background: white;
+  padding: 8px 12px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+  position: absolute;
+  top: -15px;
+  transition: all .1s linear;  
+}
+
+ul li small {
+  text-align: right;
+  display: block;
+  line-height: 31px;
+  color: #aaa;
+}
+
+ul li:nth-child(2n) span {
+  right: 50%;
+  margin-right: 35px;
+}
+
+ul li:nth-child(2n + 1) span {
+  left: 50%;
+  margin-left: 35px;
+}
+
+ul li:nth-child(2n + 1) small {
+  margin-right: 50%;
+  padding-right: 30px;  
+}
+
+ul li:nth-child(2n) small {
+  text-align: left;
+  margin-left: 50%;
+  padding-left: 30px;
+}
+
+ul li:nth-child(2n) span:before, ul li:nth-child(2n) span:after {
+  left: 100%;
+  border-left-color: white;
+}
+
+ul li:nth-child(2n + 1) span:before, ul li:nth-child(2n + 1) span:after {
+  border-right-color: white;
+  right: 100%;
+}
+
+span:before, span:after {
+  content: ''; height: 0; position: absolute; width: 0;
+  border-color: transparent; border-style: solid;
+
+  margin-bottom: -8px;
+  bottom: 50%;
+  border-width: 8px;
+
+  transition: all .1s linear;  
+}
+
+ul li:nth-child(2n) span:before {
+  margin-left: 1px;
+  border-left-color: rgba(0, 0, 0, .1);
+}
+
+ul li:nth-child(2n + 1) span:before {
+  margin-right: 1px;
+  border-right-color: rgba(0, 0, 0, .1);
+}
+
+.pinterest:hover {
+  color: white;
+  background: #cb2027;
+}
+
+ul li:nth-child(2n) span.pinterest:hover:after {
+  left: 100%;
+  border-left-color: #cb2027;
+}
+
+a:visited { color: inherit; }
