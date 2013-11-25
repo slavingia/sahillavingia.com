@@ -104,7 +104,7 @@ ul li span {
   box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
   position: absolute;
   top: -15px;
-  transition: all .1s linear;  
+  background-size: 100% 100%;
 }
 
 ul li small {
@@ -152,8 +152,6 @@ span:before, span:after {
   margin-bottom: -8px;
   bottom: 50%;
   border-width: 8px;
-
-  transition: all .1s linear;  
 }
 
 ul li:nth-child(2n) span:before {
@@ -172,8 +170,17 @@ ul li:nth-child(2n + 1) span:before {
 }
 
 ul li:nth-child(2n) span.pinterest:hover:after {
-  left: 100%;
   border-left-color: #cb2027;
+}
+
+.gumroad:hover {
+  color: white;
+  background: url(header_bar.png);
+  background-size: 100% 100%;
+}
+
+ul li:nth-child(2n + 1) span.gumroad:hover:after {
+  border-right-color: #f4b936;
 }
 
 a:visited { color: inherit; }
