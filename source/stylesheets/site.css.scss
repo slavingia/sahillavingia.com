@@ -52,10 +52,10 @@ h2 a {
 
 section {
   background: #f5f5f5;
-  border-top: 1px solid #ddd;
-  box-shadow: inset 0 10px 10px -10px rgba(0, 0, 0, .1);
+  border-top: 2px solid #ddd;
   padding: 25px;
   position: relative;
+  text-align: center;
 }
 
 ul {
@@ -73,7 +73,7 @@ ul:before {
   margin-left: -1px;
   display: block;
   top: 0;
-  bottom: 80px;
+  bottom: 0;
   background: #ddd;
 }
 
@@ -83,7 +83,7 @@ ul li {
   width: 100%;
   position: relative;
   margin: 40px 0;
-  height: 30px;
+  height: 50px;
 }
 
 ul li:before {
@@ -97,11 +97,11 @@ ul li:before {
   margin-top: -6px;
   padding: 6px;
   background: #ddd;
-  border-radius: 10px;  
+  border-radius: 10px;
 }
 
 ul li span {
-  margin-top: 8px;
+  margin-top: 18px;
   border-radius: 6px;
   background: white;
   padding: 8px 12px;
@@ -114,37 +114,21 @@ ul li span {
 ul li small {
   text-align: right;
   display: block;
-  line-height: 31px;
+  line-height: 51px;
   color: #aaa;
 }
 
-ul li:nth-child(2n) span {
-  right: 50%;
-  margin-right: 35px;
-}
-
-ul li:nth-child(2n + 1) span {
+ul li span {
   left: 50%;
   margin-left: 35px;
 }
 
-ul li:nth-child(2n + 1) small {
+ul li small {
   margin-right: 50%;
   padding-right: 30px;  
 }
 
-ul li:nth-child(2n) small {
-  text-align: left;
-  margin-left: 50%;
-  padding-left: 30px;
-}
-
-ul li:nth-child(2n) span:before, ul li:nth-child(2n) span:after {
-  left: 100%;
-  border-left-color: white;
-}
-
-ul li:nth-child(2n + 1) span:before, ul li:nth-child(2n + 1) span:after {
+ul li span:before, ul li span:after {
   border-right-color: white;
   right: 100%;
 }
@@ -158,33 +142,42 @@ span:before, span:after {
   border-width: 8px;
 }
 
-ul li:nth-child(2n) span:before {
-  margin-left: 1px;
-  border-left-color: rgba(0, 0, 0, .1);
-}
-
-ul li:nth-child(2n + 1) span:before {
+ul li span:before {
   margin-right: 1px;
   border-right-color: rgba(0, 0, 0, .1);
 }
 
-.pinterest:hover {
-  color: white;
-  background: #cb2027;
+.section-header {
+  background: #ddd;
+  color: #aaa;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  margin: 20px auto 0;
+  display: inline-block;
+  padding: 2px 9px;
+  text-transform: uppercase;
+  font-size: 13px;
+  position: relative;
+  z-index: 1;
 }
 
-ul li:nth-child(2n) span.pinterest:hover:after {
-  border-left-color: #cb2027;
+.pinterest {
+  color: #cb2027;
+  text-decoration: none;
 }
 
-.gumroad:hover {
+.gumroad {
   color: white;
   background: url('/images/header_bar.png');
   background-size: 100% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-ul li:nth-child(2n + 1) span.gumroad:hover:after {
-  border-right-color: #f4b936;
+.usc {
+  color: rgb(153, 0, 0) !important;
+  text-decoration: none;
+  border-bottom: #fc0 1px solid;
 }
 
 a:visited { color: inherit; }
