@@ -1,6 +1,8 @@
 @charset "utf-8";
 @import "normalize";
 
+$responsive-sm-query: 768px;
+
 a { color: inherit; }
 
 body {
@@ -145,6 +147,23 @@ span:before, span:after {
 ul li span:before {
   margin-right: 1px;
   border-right-color: rgba(0, 0, 0, .1);
+}
+
+@media (max-width: $responsive-sm-query) {
+  ul li span, ul li small {
+    position: static;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  ul li:before, ul:before, span:before, span:after {
+    display: none;
+  }
+
+  ul li small {
+    margin-top: 5px;
+  }
 }
 
 .section-header {
