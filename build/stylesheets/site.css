@@ -349,33 +349,38 @@ table {
 
 /* line 4, site.css.scss */
 body {
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f06d06;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em; }
 
-/* line 9, site.css.scss */
-.content {
-  background: linear-gradient(#132069, #381E0C);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0; }
-
-/* line 18, site.css.scss */
-.content-inner {
-  text-align: center;
+/* line 10, site.css.scss */
+main {
   background: white;
-  margin: 15px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0; }
 
-/* line 29, site.css.scss */
+/* line 25, site.css.scss */
 h1 {
   color: #453333;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
   font-weight: 400;
   margin: 0; }
+
+/* line 33, site.css.scss */
+.twitter {
+  margin: 0 auto;
+  display: block;
+  background: url("/images/twitter.png");
+  width: 128px;
+  height: 128px;
+  text-indent: -9999px; }
