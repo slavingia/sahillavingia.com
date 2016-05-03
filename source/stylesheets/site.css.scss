@@ -1,194 +1,98 @@
 @charset "utf-8";
 @import "normalize";
+@import "reset";
 
 $responsive-sm-query: 768px;
 
 a { color: inherit; }
+
+.clear { clear: both; }
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 27px;
   color: #333;
-  background: #f5f5f5;
+  padding: 60px;
 }
 
-#box {
-  margin: 0 auto;
-  padding: 50px 20px 40px;
-  text-align: center;
+section {
+  padding: 30px 0;
   background: white;
 }
 
-.amp { font-family: Baskerville; font-style: italic; }
+footer {
+  padding: 15px;
+  text-indent: 0px;
+  color: #999;
+
+  .twitter {
+    float: right;
+  }
+}
 
 img {
-  height: 64px;
-  width: 64px;
-  margin: 0 auto;
-  display: block;
+  width: 32px;
+  height: 32px;
 }
 
-.rounded {
-  border-radius: 99px;  
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
+
+.amp { font-family: Baskerville; font-style: italic; font-weight: normal; }
 
 h1 {
-  margin: 25px 0;
-  font-size: 32px;
+  margin: 0;
+  font-size: 30px;
   line-height: 32px;
 }
 
 h2 {
-  font-size: 26px;
-  line-height: 26px;
+  margin: 8px 0 0;
+  font-size: 20px;
   font-weight: normal;
   font-family: Georgia, serif;
   color: #aaa;
-  margin-bottom: 25px;
 }
 
-h2 a {
-  color: #999;
-}
-
-section {
-  background: #f5f5f5;
-  border-top: 2px solid #ddd;
-  padding: 25px;
-  position: relative;
-  text-align: center;
+h3 {
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: bold;
 }
 
 ul {
-  padding: 0 40px;
-  margin: 0 auto;
   list-style: none;
   overflow: hidden;
-}
 
-ul:before {
-  content: '';
-  position: absolute;
-  width: 2px;
-  left: 50%;
-  margin-left: -1px;
-  display: block;
-  top: 0;
-  bottom: 0;
-  background: #ddd;
-}
+  li {
+    &:first-child {
+      padding-top: 0;
+    }
 
-ul li {
-  clear: both;
-  display: block;
-  width: 100%;
-  position: relative;
-  margin: 40px 0;
-  height: 50px;
-}
-
-ul li:before {
-  content: '';
-  height: 0;
-  position: absolute;
-  width: 0;
-  left: 50%;
-  margin-left: -6px;
-  top: 50%;
-  margin-top: -6px;
-  padding: 6px;
-  background: #ddd;
-  border-radius: 10px;
-}
-
-ul li span {
-  margin-top: 18px;
-  border-radius: 6px;
-  background: white;
-  padding: 8px 12px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
-  position: absolute;
-  top: -15px;
-  background-size: 100% 100%;
-}
-
-ul li small {
-  text-align: right;
-  display: block;
-  line-height: 51px;
-  color: #aaa;
-}
-
-ul li span {
-  left: 50%;
-  margin-left: 35px;
-}
-
-ul li small {
-  margin-right: 50%;
-  padding-right: 30px;  
-}
-
-ul li span:before, ul li span:after {
-  border-right-color: white;
-  right: 100%;
-}
-
-span:before, span:after {
-  content: ''; height: 0; position: absolute; width: 0;
-  border-color: transparent; border-style: solid;
-
-  margin-bottom: -8px;
-  bottom: 50%;
-  border-width: 8px;
-}
-
-ul li span:before {
-  margin-right: 1px;
-  border-right-color: rgba(0, 0, 0, .1);
+    small {
+      color: #eee;
+      position: absolute;
+      opacity: 1;
+      z-index: -1;
+    }
+  }
 }
 
 @media (max-width: $responsive-sm-query) {
-  ul li span, ul li small {
-    position: static;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-  }
-
-  ul li:before, ul:before, span:before, span:after {
-    display: none;
-  }
-
-  ul li small {
-    margin-top: 5px;
-  }
-}
-
-.section-header {
-  background: #ddd;
-  color: #aaa;
-  letter-spacing: 1px;
-  border-radius: 4px;
-  margin: 20px auto 0;
-  display: inline-block;
-  padding: 2px 9px;
-  text-transform: uppercase;
-  font-size: 13px;
-  position: relative;
-  z-index: 1;
 }
 
 .pinterest {
-  color: #cb2027;
   text-decoration: none;
+  color: #cb2027;
 }
 
 .gumroad {
   color: white;
   background: url('/images/header_bar.png');
-  background-size: 100% 100%;
+  background-size: 50% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -196,7 +100,29 @@ ul li span:before {
 .usc {
   color: rgb(153, 0, 0) !important;
   text-decoration: none;
-  border-bottom: #fc0 1px solid;
+  border-bottom: #fc0 8px solid;
 }
 
-a:visited { color: inherit; }
+.dayta {
+  color: white;
+  background: url('/images/dayta.jpg');
+  background-position: -7px -20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.color {
+  color: white;
+  background: url('/images/color.png');
+  background-position: 0px -20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.twizzle {
+  color: white;
+  background: url('/images/twizzle.png');
+  background-position: -30px -40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
