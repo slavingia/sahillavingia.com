@@ -52,19 +52,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 7, site.css.scss */
+/* line 5, site.css.scss */
 a {
   color: inherit; }
 
-/* line 9, site.css.scss */
+/* line 7, site.css.scss */
 .clear {
   clear: both; }
 
-/* line 11, site.css.scss */
+/* line 9, site.css.scss */
 html {
   font-size: 62.5%; }
 
-/* line 15, site.css.scss */
+/* line 13, site.css.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1.8em;
@@ -72,58 +72,58 @@ body {
   color: #333;
   padding: 60px; }
 
-/* line 23, site.css.scss */
+/* line 21, site.css.scss */
 section {
   padding: 30px 0;
   background: white; }
 
-/* line 28, site.css.scss */
+/* line 26, site.css.scss */
 footer {
   clear: both;
   padding: 30px 0;
   color: #999; }
-  /* line 33, site.css.scss */
+  /* line 31, site.css.scss */
   footer .twitter {
     float: right; }
 
-/* line 38, site.css.scss */
+/* line 36, site.css.scss */
 img {
   width: 32px;
   height: 32px; }
 
-/* line 43, site.css.scss */
+/* line 41, site.css.scss */
 .container {
   max-width: 960px;
   margin: 0 auto; }
 
-/* line 48, site.css.scss */
+/* line 46, site.css.scss */
 .amp {
   font-family: Baskerville;
   font-style: italic;
   font-weight: normal; }
 
-/* line 50, site.css.scss */
+/* line 48, site.css.scss */
 h1 {
   margin: 0;
   font-size: 2em;
   line-height: 32px; }
 
-/* line 56, site.css.scss */
+/* line 54, site.css.scss */
 h3 {
   font-size: 5em;
   line-height: 100%;
   height: 100px;
   font-weight: bold; }
-  /* line 62, site.css.scss */
+  /* line 60, site.css.scss */
   h3.past {
     text-decoration: line-through; }
 
-/* line 67, site.css.scss */
+/* line 65, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 72, site.css.scss */
+/* line 70, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -131,13 +131,13 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 80, site.css.scss */
+/* line 78, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
   border-bottom: #fc0 12px solid; }
 
-/* line 86, site.css.scss */
+/* line 84, site.css.scss */
 .dayta {
   color: white;
   background: url("/images/dayta.jpg");
@@ -146,62 +146,79 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 95, site.css.scss */
+/* line 93, site.css.scss */
 .born {
   color: white;
   background: url("/images/born.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 102, site.css.scss */
+/* line 100, site.css.scss */
 li {
   float: left;
   clear: left; }
-  /* line 106, site.css.scss */
+  /* line 104, site.css.scss */
   li .hidden {
     display: none; }
-  /* line 111, site.css.scss */
+  /* line 109, site.css.scss */
   li:hover h3 {
     pointer-events: none;
     opacity: 0; }
-  /* line 116, site.css.scss */
+  /* line 114, site.css.scss */
   li:hover .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
 
-@media (max-width: 840px) {
-  /* line 125, site.css.scss */
+@media (max-width: 1400px) {
+  /* line 123, site.css.scss */
+  .container {
+    max-width: 600px; }
+
+  /* line 127, site.css.scss */
   body {
-    padding: 30px; }
+    padding: 40px; }
 
-  /* line 129, site.css.scss */
-  section {
-    padding: 0; }
-
-  /* line 133, site.css.scss */
+  /* line 131, site.css.scss */
   footer {
     padding: 15px 0; }
 
-  /* line 137, site.css.scss */
+  /* line 135, site.css.scss */
   h1 {
-    font-size: 1em; }
+    font-size: 1.5em; }
 
-  /* line 141, site.css.scss */
+  /* line 139, site.css.scss */
+  h3 {
+    font-size: 3.5em;
+    height: 70px; } }
+@media (max-width: 840px) {
+  /* line 146, site.css.scss */
+  body {
+    padding: 30px; }
+
+  /* line 150, site.css.scss */
+  section {
+    padding: 0; }
+
+  /* line 154, site.css.scss */
+  h1 {
+    font-size: 1.1em; }
+
+  /* line 158, site.css.scss */
   h3 {
     font-size: 2em;
     height: 40px; }
 
-  /* line 147, site.css.scss */
+  /* line 164, site.css.scss */
   li h3 {
     pointer-events: none;
     opacity: 0; }
-  /* line 152, site.css.scss */
+  /* line 169, site.css.scss */
   li .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
 
-  /* line 159, site.css.scss */
+  /* line 176, site.css.scss */
   .usc {
     border-bottom-width: 4px; } }

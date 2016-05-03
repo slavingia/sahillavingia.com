@@ -1,6 +1,11 @@
+To run locally:
+
+```bash
+middleman server
+```
+
 To publish:
 
 ```bash
-rake build
 rake publish BRANCH_NAME=master
 ```
