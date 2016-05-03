@@ -2,8 +2,6 @@
 @import "normalize";
 @import "reset";
 
-$responsive-sm-query: 840px;
-
 a { color: inherit; }
 
 .clear { clear: both; }
@@ -121,7 +119,30 @@ li {
   }
 }
 
-@media (max-width: $responsive-sm-query) {
+@media (max-width: 1400px) {
+  .container {
+    max-width: 600px;
+  }
+
+  body {
+    padding: 40px;
+  }
+
+  footer {
+    padding: 15px 0;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 3.5em;
+    height: 70px;
+  }
+}
+
+@media (max-width: 840px) {
   body {
     padding: 30px;
   }
@@ -130,12 +151,8 @@ li {
     padding: 0;
   }
 
-  footer {
-    padding: 15px 0;
-  }
-
   h1 {
-    font-size: 1em;
+    font-size: 1.1em;
   }
 
   h3 {

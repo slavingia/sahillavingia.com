@@ -79,50 +79,51 @@ section {
 
 /* line 28, site.css.scss */
 footer {
-  padding: 15px 0;
+  clear: both;
+  padding: 30px 0;
   color: #999; }
-  /* line 32, site.css.scss */
+  /* line 33, site.css.scss */
   footer .twitter {
     float: right; }
 
-/* line 37, site.css.scss */
+/* line 38, site.css.scss */
 img {
   width: 32px;
   height: 32px; }
 
-/* line 42, site.css.scss */
+/* line 43, site.css.scss */
 .container {
   max-width: 960px;
   margin: 0 auto; }
 
-/* line 47, site.css.scss */
+/* line 48, site.css.scss */
 .amp {
   font-family: Baskerville;
   font-style: italic;
   font-weight: normal; }
 
-/* line 49, site.css.scss */
+/* line 50, site.css.scss */
 h1 {
   margin: 0;
   font-size: 2em;
   line-height: 32px; }
 
-/* line 55, site.css.scss */
+/* line 56, site.css.scss */
 h3 {
   font-size: 5em;
   line-height: 100%;
   height: 100px;
   font-weight: bold; }
-  /* line 61, site.css.scss */
+  /* line 62, site.css.scss */
   h3.past {
     text-decoration: line-through; }
 
-/* line 66, site.css.scss */
+/* line 67, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 71, site.css.scss */
+/* line 72, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -130,68 +131,77 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 79, site.css.scss */
+/* line 80, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
   border-bottom: #fc0 12px solid; }
 
-/* line 85, site.css.scss */
+/* line 86, site.css.scss */
 .dayta {
   color: white;
   background: url("/images/dayta.jpg");
-  background-position: -10px -25%;
-  background-size: 110% 100%;
+  background-position: 0 -25px;
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 94, site.css.scss */
+/* line 95, site.css.scss */
 .born {
   color: white;
   background: url("/images/born.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
+/* line 102, site.css.scss */
+li {
+  float: left;
+  clear: left; }
+  /* line 106, site.css.scss */
+  li .hidden {
+    display: none; }
+  /* line 111, site.css.scss */
+  li:hover h3 {
+    pointer-events: none;
+    opacity: 0; }
+  /* line 116, site.css.scss */
+  li:hover .hidden {
+    opacity: 1;
+    display: block;
+    position: absolute; }
+
 @media (max-width: 840px) {
-  /* line 102, site.css.scss */
+  /* line 125, site.css.scss */
   body {
     padding: 30px; }
 
-  /* line 106, site.css.scss */
+  /* line 129, site.css.scss */
   section {
     padding: 0; }
 
-  /* line 110, site.css.scss */
+  /* line 133, site.css.scss */
+  footer {
+    padding: 15px 0; }
+
+  /* line 137, site.css.scss */
   h1 {
     font-size: 1em; }
 
-  /* line 114, site.css.scss */
+  /* line 141, site.css.scss */
   h3 {
     font-size: 2em;
-    height: 40px;
-    display: none; }
-    /* line 119, site.css.scss */
-    h3.hidden {
-      display: block !important; }
+    height: 40px; }
 
-  /* line 124, site.css.scss */
+  /* line 147, site.css.scss */
+  li h3 {
+    pointer-events: none;
+    opacity: 0; }
+  /* line 152, site.css.scss */
+  li .hidden {
+    opacity: 1;
+    display: block;
+    position: absolute; }
+
+  /* line 159, site.css.scss */
   .usc {
     border-bottom-width: 4px; } }
-/* line 131, site.css.scss */
-ul li:first-child {
-  padding-top: 0; }
-/* line 135, site.css.scss */
-ul li small {
-  color: #eee;
-  position: absolute;
-  opacity: 1;
-  z-index: -1; }
-/* line 142, site.css.scss */
-ul li .hidden {
-  display: none; }
-/* line 147, site.css.scss */
-ul li:hover h3 {
-  display: none; }
-/* line 151, site.css.scss */
-ul li:hover .hidden {
-  display: block; }
