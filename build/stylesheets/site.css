@@ -61,83 +61,101 @@ a {
   clear: both; }
 
 /* line 11, site.css.scss */
+html {
+  font-size: 62.5%; }
+
+/* line 15, site.css.scss */
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 18px;
+  font-size: 1.8em;
   line-height: 27px;
   color: #333;
   padding: 60px; }
 
-/* line 19, site.css.scss */
+/* line 23, site.css.scss */
 section {
   padding: 30px 0;
   background: white; }
 
-/* line 24, site.css.scss */
+/* line 28, site.css.scss */
 footer {
-  padding: 15px;
-  text-indent: 0px;
+  padding: 15px 0;
   color: #999; }
-  /* line 29, site.css.scss */
+  /* line 32, site.css.scss */
   footer .twitter {
     float: right; }
 
-/* line 34, site.css.scss */
+/* line 37, site.css.scss */
 img {
   width: 32px;
   height: 32px; }
 
-/* line 39, site.css.scss */
+/* line 42, site.css.scss */
 .container {
   max-width: 960px;
   margin: 0 auto; }
 
-/* line 44, site.css.scss */
+/* line 47, site.css.scss */
 .amp {
   font-family: Baskerville;
   font-style: italic;
   font-weight: normal; }
 
-/* line 46, site.css.scss */
+/* line 49, site.css.scss */
 h1 {
   margin: 0;
-  font-size: 30px;
+  font-size: 2em;
   line-height: 32px; }
 
-/* line 52, site.css.scss */
-h2 {
-  margin: 8px 0 0;
-  font-size: 20px;
-  font-weight: normal;
-  font-family: Georgia, serif;
-  color: #aaa; }
-
-/* line 60, site.css.scss */
+/* line 55, site.css.scss */
 h3 {
-  font-size: 100px;
-  line-height: 100px;
+  font-size: 5em;
+  line-height: 100%;
+  height: 100px;
   font-weight: bold; }
 
-/* line 66, site.css.scss */
-ul {
-  list-style: none;
-  overflow: hidden; }
-  /* line 71, site.css.scss */
-  ul li:first-child {
-    padding-top: 0; }
-  /* line 75, site.css.scss */
-  ul li small {
-    color: #eee;
-    position: absolute;
-    opacity: 1;
-    z-index: -1; }
+@media (max-width: 768px) {
+  /* line 63, site.css.scss */
+  body {
+    padding: 30px; }
 
+  /* line 67, site.css.scss */
+  section {
+    padding: 0; }
+
+  /* line 71, site.css.scss */
+  h1 {
+    font-size: 1em; }
+
+  /* line 75, site.css.scss */
+  h3 {
+    font-size: 2em;
+    height: 40px; } }
+/* line 83, site.css.scss */
+ul li:first-child {
+  padding-top: 0; }
 /* line 87, site.css.scss */
+ul li small {
+  color: #eee;
+  position: absolute;
+  opacity: 1;
+  z-index: -1; }
+/* line 94, site.css.scss */
+ul li .hidden {
+  display: none; }
+/* line 99, site.css.scss */
+ul li:hover h3 {
+  display: none; }
+/* line 103, site.css.scss */
+ul li:hover .hidden {
+  display: block; }
+
+/* line 110, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 92, site.css.scss */
+/* line 115, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -145,16 +163,39 @@ ul {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 100, site.css.scss */
+/* line 123, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
   border-bottom: #fc0 8px solid; }
 
-/* line 106, site.css.scss */
-.apps {
+/* line 129, site.css.scss */
+.dayta {
   color: white;
   background: url("/images/dayta.jpg");
-  background-size: 50% 100%;
+  background-position: -7px -20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/* line 137, site.css.scss */
+.color {
+  color: white;
+  background: url("/images/color.png");
+  background-position: 0px -20px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/* line 145, site.css.scss */
+.twizzle {
+  color: white;
+  background: url("/images/twizzle.png");
+  background-position: -30px -40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/* line 153, site.css.scss */
+.born {
+  color: white;
+  background: url("/images/born.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
