@@ -114,7 +114,7 @@ h3 {
   height: 100px;
   font-weight: bold; }
 
-@media (max-width: 768px) {
+@media (max-width: 840px) {
   /* line 63, site.css.scss */
   body {
     padding: 30px; }
