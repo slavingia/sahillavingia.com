@@ -113,49 +113,56 @@ h3 {
   line-height: 100%;
   height: 100px;
   font-weight: bold; }
+  /* line 61, site.css.scss */
+  h3.past {
+    text-decoration: line-through; }
 
 @media (max-width: 840px) {
-  /* line 63, site.css.scss */
+  /* line 67, site.css.scss */
   body {
     padding: 30px; }
 
-  /* line 67, site.css.scss */
+  /* line 71, site.css.scss */
   section {
     padding: 0; }
 
-  /* line 71, site.css.scss */
+  /* line 75, site.css.scss */
   h1 {
     font-size: 1em; }
 
-  /* line 75, site.css.scss */
+  /* line 79, site.css.scss */
   h3 {
     font-size: 2em;
-    height: 40px; } }
-/* line 83, site.css.scss */
+    height: 40px;
+    display: none; }
+    /* line 84, site.css.scss */
+    h3.hidden {
+      display: block !important; } }
+/* line 92, site.css.scss */
 ul li:first-child {
   padding-top: 0; }
-/* line 87, site.css.scss */
+/* line 96, site.css.scss */
 ul li small {
   color: #eee;
   position: absolute;
   opacity: 1;
   z-index: -1; }
-/* line 94, site.css.scss */
+/* line 103, site.css.scss */
 ul li .hidden {
   display: none; }
-/* line 99, site.css.scss */
+/* line 108, site.css.scss */
 ul li:hover h3 {
   display: none; }
-/* line 103, site.css.scss */
+/* line 112, site.css.scss */
 ul li:hover .hidden {
   display: block; }
 
-/* line 110, site.css.scss */
+/* line 119, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 115, site.css.scss */
+/* line 124, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -163,37 +170,22 @@ ul li:hover .hidden {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 123, site.css.scss */
+/* line 132, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
   border-bottom: #fc0 8px solid; }
 
-/* line 129, site.css.scss */
+/* line 138, site.css.scss */
 .dayta {
   color: white;
   background: url("/images/dayta.jpg");
-  background-position: -7px -20px;
+  background-position: -10px -25%;
+  background-size: 110% 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 137, site.css.scss */
-.color {
-  color: white;
-  background: url("/images/color.png");
-  background-position: 0px -20px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-/* line 145, site.css.scss */
-.twizzle {
-  color: white;
-  background: url("/images/twizzle.png");
-  background-position: -30px -40px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-/* line 153, site.css.scss */
+/* line 147, site.css.scss */
 .born {
   color: white;
   background: url("/images/born.png");
