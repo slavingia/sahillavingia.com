@@ -117,52 +117,12 @@ h3 {
   h3.past {
     text-decoration: line-through; }
 
-@media (max-width: 840px) {
-  /* line 67, site.css.scss */
-  body {
-    padding: 30px; }
-
-  /* line 71, site.css.scss */
-  section {
-    padding: 0; }
-
-  /* line 75, site.css.scss */
-  h1 {
-    font-size: 1em; }
-
-  /* line 79, site.css.scss */
-  h3 {
-    font-size: 2em;
-    height: 40px;
-    display: none; }
-    /* line 84, site.css.scss */
-    h3.hidden {
-      display: block !important; } }
-/* line 92, site.css.scss */
-ul li:first-child {
-  padding-top: 0; }
-/* line 96, site.css.scss */
-ul li small {
-  color: #eee;
-  position: absolute;
-  opacity: 1;
-  z-index: -1; }
-/* line 103, site.css.scss */
-ul li .hidden {
-  display: none; }
-/* line 108, site.css.scss */
-ul li:hover h3 {
-  display: none; }
-/* line 112, site.css.scss */
-ul li:hover .hidden {
-  display: block; }
-
-/* line 119, site.css.scss */
+/* line 66, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 124, site.css.scss */
+/* line 71, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -170,13 +130,13 @@ ul li:hover .hidden {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 132, site.css.scss */
+/* line 79, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
-  border-bottom: #fc0 8px solid; }
+  border-bottom: #fc0 12px solid; }
 
-/* line 138, site.css.scss */
+/* line 85, site.css.scss */
 .dayta {
   color: white;
   background: url("/images/dayta.jpg");
@@ -185,9 +145,53 @@ ul li:hover .hidden {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 147, site.css.scss */
+/* line 94, site.css.scss */
 .born {
   color: white;
   background: url("/images/born.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+@media (max-width: 840px) {
+  /* line 102, site.css.scss */
+  body {
+    padding: 30px; }
+
+  /* line 106, site.css.scss */
+  section {
+    padding: 0; }
+
+  /* line 110, site.css.scss */
+  h1 {
+    font-size: 1em; }
+
+  /* line 114, site.css.scss */
+  h3 {
+    font-size: 2em;
+    height: 40px;
+    display: none; }
+    /* line 119, site.css.scss */
+    h3.hidden {
+      display: block !important; }
+
+  /* line 124, site.css.scss */
+  .usc {
+    border-bottom-width: 4px; } }
+/* line 131, site.css.scss */
+ul li:first-child {
+  padding-top: 0; }
+/* line 135, site.css.scss */
+ul li small {
+  color: #eee;
+  position: absolute;
+  opacity: 1;
+  z-index: -1; }
+/* line 142, site.css.scss */
+ul li .hidden {
+  display: none; }
+/* line 147, site.css.scss */
+ul li:hover h3 {
+  display: none; }
+/* line 151, site.css.scss */
+ul li:hover .hidden {
+  display: block; }

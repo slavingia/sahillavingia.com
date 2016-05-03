@@ -26,7 +26,8 @@ section {
 }
 
 footer {
-  padding: 15px 0;
+  clear: both;
+  padding: 30px 0;
   color: #999;
 
   .twitter {
@@ -85,8 +86,8 @@ h3 {
 .dayta {
   color: white;
   background: url('/images/dayta.jpg');
-  background-position: -10px -25%;
-  background-size: 110% 100%;
+  background-position: 0 -25px;
+  background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -98,6 +99,28 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+li {
+  float: left;
+  clear: left;
+
+  .hidden {
+    display: none;
+  }
+
+  &:hover {
+    h3 {
+      pointer-events: none;
+      opacity: 0;
+    }
+
+    .hidden {
+      opacity: 1;
+      display: block;
+      position: absolute;
+    }
+  }
+}
+
 @media (max-width: $responsive-sm-query) {
   body {
     padding: 30px;
@@ -107,6 +130,10 @@ h3 {
     padding: 0;
   }
 
+  footer {
+    padding: 15px 0;
+  }
+
   h1 {
     font-size: 1em;
   }
@@ -114,43 +141,22 @@ h3 {
   h3 {
     font-size: 2em;
     height: 40px;
-    display: none;
+  }
 
-    &.hidden {
-      display: block !important;
+  li {
+    h3 {
+      pointer-events: none;
+      opacity: 0;
+    }
+
+    .hidden {
+      opacity: 1;
+      display: block;
+      position: absolute;
     }
   }
 
   .usc {
     border-bottom-width: 4px;
-  }
-}
-
-ul {
-  li {
-    &:first-child {
-      padding-top: 0;
-    }
-
-    small {
-      color: #eee;
-      position: absolute;
-      opacity: 1;
-      z-index: -1;
-    }
-
-    .hidden {
-      display: none;
-    }
-
-    &:hover {
-      h3 {
-        display: none;
-      }
-
-      .hidden {
-        display: block;
-      }
-    }
   }
 }
