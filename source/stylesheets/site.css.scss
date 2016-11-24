@@ -47,7 +47,7 @@ img {
 
 h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.2em;
   line-height: 32px;
 }
 
@@ -90,6 +90,28 @@ h3 {
   -webkit-text-fill-color: transparent;
 }
 
+.designer {
+  color: white;
+  background: black;
+
+  &:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    cursor: none !important;
+  }
+
+  &:after {
+    content: 'Designer.';
+    position: absolute;
+    left: 0;
+  }
+}
+
 .born {
   color: white;
   background: url('/images/born.png');
@@ -129,11 +151,11 @@ li {
   }
 
   footer {
-    padding: 15px 0;
+    padding: 20px 0;
   }
 
   h1 {
-    font-size: 1.5em;
+    font-size: 2em;
   }
 
   h3 {
@@ -175,5 +197,13 @@ li {
 
   .usc {
     border-bottom-width: 4px;
+  }
+
+  .designer:before {
+    opacity: 0;
+  }
+
+  .designer:after {
+    content: 'Designer'
   }
 }
