@@ -42,6 +42,18 @@ footer {
   .twitter {
     float: right;
   }
+
+  hr {
+    margin: 30px 0;
+    background: #ddd;
+    min-height: 1px;
+    height: 1px;
+    border: none;
+  }
+
+  button {
+    text-overflow: ellipsis;
+  }
 }
 
 img {

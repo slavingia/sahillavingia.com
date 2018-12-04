@@ -83,47 +83,88 @@ footer {
   padding: 30px 0;
   color: #999; }
   /* line 31, site.css.scss */
+  footer .email {
+    float: right;
+    margin-right: 15px; }
+    /* line 35, site.css.scss */
+    footer .email img {
+      width: 24px;
+      height: 24px;
+      margin-top: 3px; }
+  /* line 42, site.css.scss */
   footer .twitter {
     float: right; }
 
-/* line 36, site.css.scss */
+/* line 47, site.css.scss */
 img {
   width: 32px;
   height: 32px; }
 
-/* line 41, site.css.scss */
+/* line 52, site.css.scss */
 .container {
-  max-width: 960px;
+  max-width: 800px;
   margin: 0 auto; }
 
-/* line 46, site.css.scss */
+/* line 57, site.css.scss */
 .amp {
   font-family: Baskerville;
   font-style: italic;
   font-weight: normal; }
 
-/* line 48, site.css.scss */
+/* line 59, site.css.scss */
 h1 {
   margin: 0;
   font-size: 2.2em;
   line-height: 32px; }
 
-/* line 54, site.css.scss */
+/* line 65, site.css.scss */
 h3 {
   font-size: 5em;
   line-height: 100%;
   height: 100px;
   font-weight: bold; }
-  /* line 60, site.css.scss */
+  /* line 71, site.css.scss */
   h3.past {
     text-decoration: line-through; }
 
-/* line 65, site.css.scss */
+/* line 76, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 70, site.css.scss */
+/* line 81, site.css.scss */
+.spec-fic {
+  color: #f4d1e2;
+  font-family: 'Space Mono', monospace;
+  text-shadow: 0 0 10px #f4d1e2;
+  text-transform: uppercase; }
+  /* line 87, site.css.scss */
+  .spec-fic:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -2000px;
+    right: -2000px;
+    bottom: 0;
+    background: url("/images/atb.png");
+    cursor: none !important; }
+  /* line 98, site.css.scss */
+  .spec-fic:after {
+    content: 'Speculative fiction';
+    position: absolute;
+    font-size: .8em;
+    top: .04em;
+    left: 0; }
+
+/* line 107, site.css.scss */
+.painter {
+  color: white;
+  background: url("/images/painting.jpg");
+  background-position: -100px -600px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+/* line 115, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -131,13 +172,13 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 78, site.css.scss */
+/* line 123, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
   border-bottom: #fc0 12px solid; }
 
-/* line 84, site.css.scss */
+/* line 129, site.css.scss */
 .dayta {
   color: white;
   background: url("/images/dayta.jpg");
@@ -146,11 +187,11 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 93, site.css.scss */
+/* line 138, site.css.scss */
 .designer {
   color: white;
   background: black; }
-  /* line 97, site.css.scss */
+  /* line 142, site.css.scss */
   .designer:before {
     content: '';
     position: fixed;
@@ -160,93 +201,95 @@ h3 {
     bottom: 0;
     background: black;
     cursor: none !important; }
-  /* line 108, site.css.scss */
+  /* line 153, site.css.scss */
   .designer:after {
     content: 'Designer.';
     position: absolute;
     left: 0; }
 
-/* line 115, site.css.scss */
-.born {
-  color: white;
-  background: url("/images/born.png");
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-/* line 122, site.css.scss */
+/* line 160, site.css.scss */
 li {
   float: left;
   clear: left; }
-  /* line 126, site.css.scss */
+  /* line 164, site.css.scss */
   li .hidden {
     display: none; }
-  /* line 131, site.css.scss */
+  /* line 169, site.css.scss */
   li:hover h3 {
-    pointer-events: none;
     opacity: 0; }
-  /* line 136, site.css.scss */
+  /* line 173, site.css.scss */
   li:hover .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
+  /* line 181, site.css.scss */
+  li.designer-li:hover h3 {
+    pointer-events: none; }
 
 @media (max-width: 1400px) {
-  /* line 145, site.css.scss */
+  /* line 188, site.css.scss */
   .container {
     max-width: 600px; }
 
-  /* line 149, site.css.scss */
+  /* line 192, site.css.scss */
   body {
     padding: 40px; }
 
-  /* line 153, site.css.scss */
+  /* line 196, site.css.scss */
   footer {
     padding: 20px 0; }
 
-  /* line 157, site.css.scss */
+  /* line 200, site.css.scss */
   h1 {
     font-size: 2em; }
 
-  /* line 161, site.css.scss */
+  /* line 204, site.css.scss */
   h3 {
     font-size: 3.5em;
     height: 70px; } }
 @media (max-width: 840px) {
-  /* line 168, site.css.scss */
+  /* line 211, site.css.scss */
   body {
     padding: 30px; }
 
-  /* line 172, site.css.scss */
+  /* line 215, site.css.scss */
   section {
     padding: 0; }
 
-  /* line 176, site.css.scss */
+  /* line 219, site.css.scss */
   h1 {
     font-size: 1.1em; }
 
-  /* line 180, site.css.scss */
+  /* line 223, site.css.scss */
   h3 {
     font-size: 2em;
     height: 40px; }
 
-  /* line 186, site.css.scss */
+  /* line 229, site.css.scss */
   li h3 {
     pointer-events: none;
     opacity: 0; }
-  /* line 191, site.css.scss */
+  /* line 234, site.css.scss */
   li .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
 
-  /* line 198, site.css.scss */
+  /* line 241, site.css.scss */
   .usc {
     border-bottom-width: 4px; }
 
-  /* line 202, site.css.scss */
+  /* line 245, site.css.scss */
+  .spec-fic {
+    font-size: .5em; }
+    /* line 248, site.css.scss */
+    .spec-fic:after {
+      font-size: 1em; }
+
+  /* line 253, site.css.scss */
   .designer:before {
     opacity: 0; }
 
-  /* line 206, site.css.scss */
+  /* line 257, site.css.scss */
   .designer:after {
-    content: "Designer"; } }
+    content: 'Designer'; } }
