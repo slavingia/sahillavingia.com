@@ -105,7 +105,7 @@ img {
 /* line 48, site.css.scss */
 h1 {
   margin: 0;
-  font-size: 2em;
+  font-size: 2.2em;
   line-height: 32px; }
 
 /* line 54, site.css.scss */
@@ -147,78 +147,106 @@ h3 {
   -webkit-text-fill-color: transparent; }
 
 /* line 93, site.css.scss */
+.designer {
+  color: white;
+  background: black; }
+  /* line 97, site.css.scss */
+  .designer:before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    cursor: none !important; }
+  /* line 108, site.css.scss */
+  .designer:after {
+    content: 'Designer.';
+    position: absolute;
+    left: 0; }
+
+/* line 115, site.css.scss */
 .born {
   color: white;
   background: url("/images/born.png");
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 100, site.css.scss */
+/* line 122, site.css.scss */
 li {
   float: left;
   clear: left; }
-  /* line 104, site.css.scss */
+  /* line 126, site.css.scss */
   li .hidden {
     display: none; }
-  /* line 109, site.css.scss */
+  /* line 131, site.css.scss */
   li:hover h3 {
     pointer-events: none;
     opacity: 0; }
-  /* line 114, site.css.scss */
+  /* line 136, site.css.scss */
   li:hover .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
 
 @media (max-width: 1400px) {
-  /* line 123, site.css.scss */
+  /* line 145, site.css.scss */
   .container {
     max-width: 600px; }
 
-  /* line 127, site.css.scss */
+  /* line 149, site.css.scss */
   body {
     padding: 40px; }
 
-  /* line 131, site.css.scss */
+  /* line 153, site.css.scss */
   footer {
-    padding: 15px 0; }
+    padding: 20px 0; }
 
-  /* line 135, site.css.scss */
+  /* line 157, site.css.scss */
   h1 {
-    font-size: 1.5em; }
+    font-size: 2em; }
 
-  /* line 139, site.css.scss */
+  /* line 161, site.css.scss */
   h3 {
     font-size: 3.5em;
     height: 70px; } }
 @media (max-width: 840px) {
-  /* line 146, site.css.scss */
+  /* line 168, site.css.scss */
   body {
     padding: 30px; }
 
-  /* line 150, site.css.scss */
+  /* line 172, site.css.scss */
   section {
     padding: 0; }
 
-  /* line 154, site.css.scss */
+  /* line 176, site.css.scss */
   h1 {
     font-size: 1.1em; }
 
-  /* line 158, site.css.scss */
+  /* line 180, site.css.scss */
   h3 {
     font-size: 2em;
     height: 40px; }
 
-  /* line 164, site.css.scss */
+  /* line 186, site.css.scss */
   li h3 {
     pointer-events: none;
     opacity: 0; }
-  /* line 169, site.css.scss */
+  /* line 191, site.css.scss */
   li .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
 
-  /* line 176, site.css.scss */
+  /* line 198, site.css.scss */
   .usc {
-    border-bottom-width: 4px; } }
+    border-bottom-width: 4px; }
+
+  /* line 202, site.css.scss */
+  .designer:before {
+    opacity: 0; }
+
+  /* line 206, site.css.scss */
+  .designer:after {
+    content: "Designer"; } }
