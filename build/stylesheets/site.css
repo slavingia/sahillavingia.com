@@ -94,51 +94,61 @@ footer {
   /* line 42, site.css.scss */
   footer .twitter {
     float: right; }
+  /* line 46, site.css.scss */
+  footer hr {
+    margin: 30px 0;
+    background: #ddd;
+    min-height: 1px;
+    height: 1px;
+    border: none; }
+  /* line 54, site.css.scss */
+  footer button {
+    text-overflow: ellipsis; }
 
-/* line 47, site.css.scss */
+/* line 59, site.css.scss */
 img {
   width: 32px;
   height: 32px; }
 
-/* line 52, site.css.scss */
+/* line 64, site.css.scss */
 .container {
   max-width: 800px;
   margin: 0 auto; }
 
-/* line 57, site.css.scss */
+/* line 69, site.css.scss */
 .amp {
   font-family: Baskerville;
   font-style: italic;
   font-weight: normal; }
 
-/* line 59, site.css.scss */
+/* line 71, site.css.scss */
 h1 {
   margin: 0;
   font-size: 2.2em;
   line-height: 32px; }
 
-/* line 65, site.css.scss */
+/* line 77, site.css.scss */
 h3 {
   font-size: 5em;
   line-height: 100%;
   height: 100px;
   font-weight: bold; }
-  /* line 71, site.css.scss */
+  /* line 83, site.css.scss */
   h3.past {
     text-decoration: line-through; }
 
-/* line 76, site.css.scss */
+/* line 88, site.css.scss */
 .pinterest {
   text-decoration: none;
   color: #cb2027; }
 
-/* line 81, site.css.scss */
+/* line 93, site.css.scss */
 .spec-fic {
   color: #f4d1e2;
   font-family: 'Space Mono', monospace;
   text-shadow: 0 0 10px #f4d1e2;
   text-transform: uppercase; }
-  /* line 87, site.css.scss */
+  /* line 99, site.css.scss */
   .spec-fic:before {
     content: '';
     position: absolute;
@@ -148,7 +158,7 @@ h3 {
     bottom: 0;
     background: url("/images/atb.png");
     cursor: none !important; }
-  /* line 98, site.css.scss */
+  /* line 110, site.css.scss */
   .spec-fic:after {
     content: 'Speculative fiction';
     position: absolute;
@@ -156,7 +166,7 @@ h3 {
     top: .04em;
     left: 0; }
 
-/* line 107, site.css.scss */
+/* line 119, site.css.scss */
 .painter {
   color: white;
   background: url("/images/painting.jpg");
@@ -164,7 +174,7 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 115, site.css.scss */
+/* line 127, site.css.scss */
 .gumroad {
   color: white;
   background: url("/images/header_bar.png");
@@ -172,13 +182,13 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 123, site.css.scss */
+/* line 135, site.css.scss */
 .usc {
   color: #990000 !important;
   text-decoration: none;
   border-bottom: #fc0 12px solid; }
 
-/* line 129, site.css.scss */
+/* line 141, site.css.scss */
 .dayta {
   color: white;
   background: url("/images/dayta.jpg");
@@ -187,11 +197,11 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 138, site.css.scss */
+/* line 150, site.css.scss */
 .designer {
   color: white;
   background: black; }
-  /* line 142, site.css.scss */
+  /* line 154, site.css.scss */
   .designer:before {
     content: '';
     position: fixed;
@@ -201,95 +211,95 @@ h3 {
     bottom: 0;
     background: black;
     cursor: none !important; }
-  /* line 153, site.css.scss */
+  /* line 165, site.css.scss */
   .designer:after {
     content: 'Designer.';
     position: absolute;
     left: 0; }
 
-/* line 160, site.css.scss */
+/* line 172, site.css.scss */
 li {
   float: left;
   clear: left; }
-  /* line 164, site.css.scss */
+  /* line 176, site.css.scss */
   li .hidden {
     display: none; }
-  /* line 169, site.css.scss */
+  /* line 181, site.css.scss */
   li:hover h3 {
     opacity: 0; }
-  /* line 173, site.css.scss */
+  /* line 185, site.css.scss */
   li:hover .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
-  /* line 181, site.css.scss */
+  /* line 193, site.css.scss */
   li.designer-li:hover h3 {
     pointer-events: none; }
 
 @media (max-width: 1400px) {
-  /* line 188, site.css.scss */
+  /* line 200, site.css.scss */
   .container {
     max-width: 600px; }
 
-  /* line 192, site.css.scss */
+  /* line 204, site.css.scss */
   body {
     padding: 40px; }
 
-  /* line 196, site.css.scss */
+  /* line 208, site.css.scss */
   footer {
     padding: 20px 0; }
 
-  /* line 200, site.css.scss */
+  /* line 212, site.css.scss */
   h1 {
     font-size: 2em; }
 
-  /* line 204, site.css.scss */
+  /* line 216, site.css.scss */
   h3 {
     font-size: 3.5em;
     height: 70px; } }
 @media (max-width: 840px) {
-  /* line 211, site.css.scss */
+  /* line 223, site.css.scss */
   body {
     padding: 30px; }
 
-  /* line 215, site.css.scss */
+  /* line 227, site.css.scss */
   section {
     padding: 0; }
 
-  /* line 219, site.css.scss */
+  /* line 231, site.css.scss */
   h1 {
     font-size: 1.1em; }
 
-  /* line 223, site.css.scss */
+  /* line 235, site.css.scss */
   h3 {
     font-size: 2em;
     height: 40px; }
 
-  /* line 229, site.css.scss */
+  /* line 241, site.css.scss */
   li h3 {
     pointer-events: none;
     opacity: 0; }
-  /* line 234, site.css.scss */
+  /* line 246, site.css.scss */
   li .hidden {
     opacity: 1;
     display: block;
     position: absolute; }
 
-  /* line 241, site.css.scss */
+  /* line 253, site.css.scss */
   .usc {
     border-bottom-width: 4px; }
 
-  /* line 245, site.css.scss */
+  /* line 257, site.css.scss */
   .spec-fic {
     font-size: .5em; }
-    /* line 248, site.css.scss */
+    /* line 260, site.css.scss */
     .spec-fic:after {
       font-size: 1em; }
 
-  /* line 253, site.css.scss */
+  /* line 265, site.css.scss */
   .designer:before {
     opacity: 0; }
 
-  /* line 257, site.css.scss */
+  /* line 269, site.css.scss */
   .designer:after {
     content: 'Designer'; } }
