@@ -89,9 +89,60 @@ h3 {
   }
 }
 
-.pinterest {
-  text-decoration: none;
-  color: #cb2027;
+li {
+  float: left;
+  clear: left;
+
+  .hidden {
+    display: none;
+  }
+
+  .gumroad, .spec-fic, .painter, .pinterest {
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -2000px;
+      right: -2000px;
+      bottom: 0;
+      cursor: none !important;
+    }
+
+    &:after {
+      position: absolute;
+      left: 0;
+    }
+  }
+
+  &:hover {
+    h3 {
+      opacity: 0;
+    }
+
+    .hidden {
+      opacity: 1;
+      display: block;
+      position: absolute;
+    }
+  }
+
+  &.designer-li:hover {
+    h3 {
+      pointer-events: none;
+    }
+  }
+}
+
+.gumroad {
+  color: white;
+
+  &:before {
+    background: url('/images/header_bar.png');
+  }
+
+  &:after {
+    content: 'Gumroad';
+  }
 }
 
 .spec-fic {
@@ -99,50 +150,39 @@ h3 {
   font-family: 'Space Mono', monospace;
   text-shadow: 0 0 10px #f4d1e2;
   text-transform: uppercase;
+  font-size: .8em;
+  top: .04em;
 
   &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -2000px;
-    right: -2000px;
-    bottom: 0;
     background: url('/images/atb.png');
-    cursor: none !important;
   }
 
   &:after {
     content: 'Speculative fiction';
-    position: absolute;
     font-size: .8em;
     top: .04em;
-    left: 0;
   }
 }
 
 .painter {
   color: white;
   background: url('/images/painting.jpg');
-  background-position: -100px -600px;
+  background-size: 1000px;
+  background-position: -240px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;  
 }
 
-.gumroad {
+.pinterest {
   color: white;
-  background: url('/images/header_bar.png');
-  background-size: 50% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 
-.dayta {
-  color: white;
-  background: url('/images/dayta.jpg');
-  background-position: 0 -25px;
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  &:before {
+    background: #cb2027;
+  }
+
+  &:after {
+    content: 'Pinterest';
+  }
 }
 
 .designer {
@@ -164,33 +204,6 @@ h3 {
     content: 'Designer.';
     position: absolute;
     left: 0;
-  }
-}
-
-li {
-  float: left;
-  clear: left;
-
-  .hidden {
-    display: none;
-  }
-
-  &:hover {
-    h3 {
-      opacity: 0;
-    }
-
-    .hidden {
-      opacity: 1;
-      display: block;
-      position: absolute;
-    }
-  }
-
-  &.designer-li:hover {
-    h3 {
-      pointer-events: none;
-    }
   }
 }
 
@@ -217,7 +230,7 @@ li {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 700px) {
   body {
     padding: 30px;
   }
@@ -231,13 +244,19 @@ li {
   }
 
   h3 {
-    font-size: 2em;
-    height: 40px;
+    font-size: 1.8em;
+    line-height: 42px;
+    height: 44px;
+  }
+
+  footer form, footer hr {
+    display: none;
   }
 
   li {
+    width: 100%;
+
     h3 {
-      pointer-events: none;
       opacity: 0;
     }
 
@@ -248,19 +267,33 @@ li {
     }
   }
 
-  .spec-fic {
-    font-size: .5em;
+  .gumroad:after {
+    content: 'Gumroad,';
+  }
 
-    &:after {
-      font-size: 1em;
-    }
+  .spec-fic:after {
+    content: 'Speculative fiction,';
+  }
+
+  .painter:after {
+    position: static !important;
+    content: ',';
+  }
+
+  .pinterest:after {
+    content: 'Pinterest,';
   }
 
   .designer:before {
-    opacity: 0;
-  }
+    position: absolute;
+    top: 0;
+    left: -2000px;
+    right: -2000px;
+    bottom: 0;
+    cursor: none !important;
+  }  
 
   .designer:after {
-    content: 'Designer';
+    content: 'Designer.';
   }
 }
