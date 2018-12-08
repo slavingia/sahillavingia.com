@@ -141,64 +141,88 @@ h3 {
     text-decoration: line-through; }
 
 /* line 92, site.css.scss */
-.pinterest {
-  text-decoration: none;
-  color: #cb2027; }
-
-/* line 97, site.css.scss */
-.spec-fic {
-  color: #f4d1e2;
-  font-family: 'Space Mono', monospace;
-  text-shadow: 0 0 10px #f4d1e2;
-  text-transform: uppercase; }
-  /* line 103, site.css.scss */
-  .spec-fic:before {
+li {
+  float: left;
+  clear: left; }
+  /* line 96, site.css.scss */
+  li .hidden {
+    display: none; }
+  /* line 101, site.css.scss */
+  li .gumroad:before, li .spec-fic:before, li .painter:before, li .pinterest:before {
     content: '';
     position: absolute;
     top: 0;
     left: -2000px;
     right: -2000px;
     bottom: 0;
-    background: url("/images/atb.png");
     cursor: none !important; }
-  /* line 114, site.css.scss */
+  /* line 111, site.css.scss */
+  li .gumroad:after, li .spec-fic:after, li .painter:after, li .pinterest:after {
+    position: absolute;
+    left: 0; }
+  /* line 118, site.css.scss */
+  li:hover h3 {
+    opacity: 0; }
+  /* line 122, site.css.scss */
+  li:hover .hidden {
+    opacity: 1;
+    display: block;
+    position: absolute; }
+  /* line 130, site.css.scss */
+  li.designer-li:hover h3 {
+    pointer-events: none; }
+
+/* line 136, site.css.scss */
+.gumroad {
+  color: white; }
+  /* line 139, site.css.scss */
+  .gumroad:before {
+    background: url("/images/header_bar.png"); }
+  /* line 143, site.css.scss */
+  .gumroad:after {
+    content: 'Gumroad'; }
+
+/* line 148, site.css.scss */
+.spec-fic {
+  color: #f4d1e2;
+  font-family: 'Space Mono', monospace;
+  text-shadow: 0 0 10px #f4d1e2;
+  text-transform: uppercase;
+  font-size: .8em;
+  top: .04em; }
+  /* line 156, site.css.scss */
+  .spec-fic:before {
+    background: url("/images/atb.png"); }
+  /* line 160, site.css.scss */
   .spec-fic:after {
     content: 'Speculative fiction';
-    position: absolute;
     font-size: .8em;
-    top: .04em;
-    left: 0; }
+    top: .04em; }
 
-/* line 123, site.css.scss */
+/* line 167, site.css.scss */
 .painter {
   color: white;
   background: url("/images/painting.jpg");
-  background-position: -100px -600px;
+  background-size: 1000px;
+  background-position: -240px 0;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-/* line 131, site.css.scss */
-.gumroad {
-  color: white;
-  background: url("/images/header_bar.png");
-  background-size: 50% 100%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+/* line 176, site.css.scss */
+.pinterest {
+  color: white; }
+  /* line 179, site.css.scss */
+  .pinterest:before {
+    background: #cb2027; }
+  /* line 183, site.css.scss */
+  .pinterest:after {
+    content: 'Pinterest'; }
 
-/* line 139, site.css.scss */
-.dayta {
-  color: white;
-  background: url("/images/dayta.jpg");
-  background-position: 0 -25px;
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
-
-/* line 148, site.css.scss */
+/* line 188, site.css.scss */
 .designer {
   color: white;
   background: black; }
-  /* line 152, site.css.scss */
+  /* line 192, site.css.scss */
   .designer:before {
     content: '';
     position: fixed;
@@ -208,91 +232,94 @@ h3 {
     bottom: 0;
     background: black;
     cursor: none !important; }
-  /* line 163, site.css.scss */
+  /* line 203, site.css.scss */
   .designer:after {
     content: 'Designer.';
     position: absolute;
     left: 0; }
 
-/* line 170, site.css.scss */
-li {
-  float: left;
-  clear: left; }
-  /* line 174, site.css.scss */
-  li .hidden {
-    display: none; }
-  /* line 179, site.css.scss */
-  li:hover h3 {
-    opacity: 0; }
-  /* line 183, site.css.scss */
-  li:hover .hidden {
-    opacity: 1;
-    display: block;
-    position: absolute; }
-  /* line 191, site.css.scss */
-  li.designer-li:hover h3 {
-    pointer-events: none; }
-
 @media (max-width: 1400px) {
-  /* line 198, site.css.scss */
+  /* line 211, site.css.scss */
   .container {
     max-width: 600px; }
 
-  /* line 202, site.css.scss */
+  /* line 215, site.css.scss */
   body {
     padding: 40px; }
 
-  /* line 206, site.css.scss */
+  /* line 219, site.css.scss */
   footer {
     padding: 20px 0; }
 
-  /* line 210, site.css.scss */
+  /* line 223, site.css.scss */
   h1 {
     font-size: 2em; }
 
-  /* line 214, site.css.scss */
+  /* line 227, site.css.scss */
   h3 {
     font-size: 3.5em;
     height: 70px; } }
-@media (max-width: 840px) {
-  /* line 221, site.css.scss */
+@media (max-width: 700px) {
+  /* line 234, site.css.scss */
   body {
     padding: 30px; }
 
-  /* line 225, site.css.scss */
+  /* line 238, site.css.scss */
   section {
     padding: 0; }
 
-  /* line 229, site.css.scss */
+  /* line 242, site.css.scss */
   h1 {
     font-size: 1.1em; }
 
-  /* line 233, site.css.scss */
+  /* line 246, site.css.scss */
   h3 {
-    font-size: 2em;
-    height: 40px; }
+    font-size: 1.8em;
+    line-height: 42px;
+    height: 44px; }
 
-  /* line 239, site.css.scss */
-  li h3 {
-    pointer-events: none;
-    opacity: 0; }
-  /* line 244, site.css.scss */
-  li .hidden {
-    opacity: 1;
-    display: block;
-    position: absolute; }
+  /* line 252, site.css.scss */
+  footer form, footer hr {
+    display: none; }
 
-  /* line 251, site.css.scss */
-  .spec-fic {
-    font-size: .5em; }
-    /* line 254, site.css.scss */
-    .spec-fic:after {
-      font-size: 1em; }
+  /* line 256, site.css.scss */
+  li {
+    width: 100%; }
+    /* line 259, site.css.scss */
+    li h3 {
+      opacity: 0; }
+    /* line 263, site.css.scss */
+    li .hidden {
+      opacity: 1;
+      display: block;
+      position: absolute; }
 
-  /* line 259, site.css.scss */
+  /* line 270, site.css.scss */
+  .gumroad:after {
+    content: 'Gumroad,'; }
+
+  /* line 274, site.css.scss */
+  .spec-fic:after {
+    content: 'Speculative fiction,'; }
+
+  /* line 278, site.css.scss */
+  .painter:after {
+    position: static !important;
+    content: ','; }
+
+  /* line 283, site.css.scss */
+  .pinterest:after {
+    content: 'Pinterest,'; }
+
+  /* line 287, site.css.scss */
   .designer:before {
-    opacity: 0; }
+    position: absolute;
+    top: 0;
+    left: -2000px;
+    right: -2000px;
+    bottom: 0;
+    cursor: none !important; }
 
-  /* line 263, site.css.scss */
+  /* line 296, site.css.scss */
   .designer:after {
-    content: 'Designer'; } }
+    content: 'Designer.'; } }

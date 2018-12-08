@@ -4,8 +4,12 @@ To run locally:
 middleman server
 ```
 
-To publish:
+To build:
 
 ```bash
-rake publish BRANCH_NAME=master
+middleman build
 ```
+
+To deploy:
+
+Nothing. Happens on build.
