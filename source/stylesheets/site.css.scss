@@ -154,8 +154,6 @@ li {
   color: #f4d1e2;
   font-family: 'Space Mono', monospace;
   text-shadow: 0 0 10px #f4d1e2;
-  font-size: .8em;
-  top: .04em;
 
   &:before {
     background: url('/images/atb.png');
@@ -163,8 +161,6 @@ li {
 
   &:after {
     content: 'Speculative fiction';
-    font-size: .8em;
-    top: .04em;
   }
 }
 
@@ -236,7 +232,7 @@ li {
 
 @media (max-width: 700px) {
   body {
-    padding: 30px;
+    padding: 0 30px;
   }
 
   section {
@@ -261,6 +257,7 @@ li {
     width: 100%;
 
     h3 {
+      padding: 20px 0;
       opacity: 0;
     }
 
@@ -271,23 +268,6 @@ li {
     }
   }
 
-  .gumroad:after {
-    content: 'Gumroad,';
-  }
-
-  .spec-fic:after {
-    content: 'Speculative fiction,';
-  }
-
-  .painter:after {
-    position: static !important;
-    content: ',';
-  }
-
-  .pinterest:after {
-    content: 'Pinterest,';
-  }
-
   .designer:before {
     position: absolute;
     top: 0;
@@ -295,9 +275,5 @@ li {
     right: -2000px;
     bottom: 0;
     cursor: none !important;
-  }  
-
-  .designer:after {
-    content: 'Designer.';
   }
 }
