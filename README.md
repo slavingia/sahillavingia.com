@@ -1,15 +1,5 @@
-To run locally:
+To run:
 
-```bash
-middleman server
 ```
-
-To build:
-
-```bash
-middleman build
+npm run dev
 ```
-
-To deploy:
-
-Nothing. Happens on build.
