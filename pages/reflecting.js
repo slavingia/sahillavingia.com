@@ -142,6 +142,8 @@ export default function Home() {
 
         <p>Gumroad is a product of many people’s hard work, including our alumni: Leigh McCulloch, Sidharth Shanker, Anish Bhayani, Kathleen Warner, Heather Whiles, Benjamin Nguyen, Steve Kaye, Tuhin Srivastava, Avinash Ananth, Joel Packer, Katsuya Noguchi, Matan-Paul Shetrit, Amir Haghighat, Ian Atha, Emmiliese von Clemm, Kate Yu, Sri Raghavan, Ryan Delk, Al Hertz, Travis Nichols, Maxwell Elliott, Phil Howes, Ben Reynolds, Michael Klocker, Bryan English, Laura Biester, Jake Heimark, Aaron Relph, Ben Walsh, Greg Terrono, Donald Huang, Paul McKellar, Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.</p>
 
+        <hr />
+
         <label className="centered">
           I share monthly updates about Gumroad and business-building. Sign up:
         </label>
