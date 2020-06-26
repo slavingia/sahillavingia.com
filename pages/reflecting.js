@@ -138,17 +138,15 @@ export default function Home() {
         <p>There’s nothing wrong with trying to build the next Microsoft. I personally don’t think billionaires are evil. And there’s a part of me that wishes I was still on that path.</p>
         <p>But for better or worse, I’m on this one now. This has been my path to not building a billion-dollar company. There are many like it, but this one is mine.</p>
 
-        <hr />
-
-        <p>Gumroad is a product of many people’s hard work, including our alumni: Leigh McCulloch, Sidharth Shanker, Anish Bhayani, Kathleen Warner, Heather Whiles, Benjamin Nguyen, Steve Kaye, Tuhin Srivastava, Avinash Ananth, Joel Packer, Katsuya Noguchi, Matan-Paul Shetrit, Amir Haghighat, Ian Atha, Emmiliese von Clemm, Kate Yu, Sri Raghavan, Ryan Delk, Al Hertz, Travis Nichols, Maxwell Elliott, Phil Howes, Ben Reynolds, Michael Klocker, Bryan English, Laura Biester, Jake Heimark, Aaron Relph, Ben Walsh, Greg Terrono, Donald Huang, Paul McKellar, Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.</p>
+        <p><em>Gumroad is a product of many people’s hard work, including our alumni: Leigh McCulloch, Sidharth Shanker, Anish Bhayani, Kathleen Warner, Heather Whiles, Benjamin Nguyen, Steve Kaye, Tuhin Srivastava, Avinash Ananth, Joel Packer, Katsuya Noguchi, Matan-Paul Shetrit, Amir Haghighat, Ian Atha, Emmiliese von Clemm, Kate Yu, Sri Raghavan, Ryan Delk, Al Hertz, Travis Nichols, Maxwell Elliott, Phil Howes, Ben Reynolds, Michael Klocker, Bryan English, Laura Biester, Jake Heimark, Aaron Relph, Ben Walsh, Greg Terrono, Donald Huang, Paul McKellar, Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.</em></p>
 
         <hr />
 
         <label className="centered">
-          I share monthly updates about Gumroad and business-building. Sign up:
+          Sign up for monthly updates about Gumroad and business-building:
         </label>
 
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed" method="post">
+        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
           <input name="seller_id" type="hidden" value="2614450981218" />
           <input name="email" placeholder="Your email address" type="email" />
           <button data-custom-highlight-color="" type="submit">Subscribe</button>

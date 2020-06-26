@@ -57,8 +57,6 @@ export default function Home() {
           <input name="email" placeholder="Your email address" type="email" />
           <button data-custom-highlight-color="" type="submit">Subscribe</button>
         </form>
-
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </main>
     </Layout>
   )

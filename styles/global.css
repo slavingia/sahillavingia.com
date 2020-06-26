@@ -170,9 +170,26 @@ button:hover {
     padding: 0 1rem 1rem 1rem;
   }
 
+  .email {
+    content: "@";
+    display: block;
+    margin-left: 0;
+    margin-top: 1rem;
+    position: static;
+  }
+
   p img {
     max-width: 100%;
     margin: 0;
+  }
+
+  label {
+    margin-top: 2rem;
+  }
+
+  input,
+  button {
+    width: 100%;
   }
 
   .tiny-title {
