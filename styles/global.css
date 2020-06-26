@@ -20,7 +20,7 @@ button {
 }
 
 main {
-  padding: 0 0 3rem 3rem;
+  padding: 0 3rem 3rem 3rem;
   flex: 1;
   width: 100%;
   max-width: 800px;
@@ -167,7 +167,7 @@ button:hover {
 @media (max-width: 600px) {
   main {
     width: 100%;
-    padding: 0 0 1rem 1rem;
+    padding: 0 1rem 1rem 1rem;
   }
 
   p img {

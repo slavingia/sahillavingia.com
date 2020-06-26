@@ -41,11 +41,11 @@ export default function Home() {
         </h2>
 
         <label>
-          Angel investor in startups including
+          Angel investor
         </label>
 
         <h2 className="item">
-          Movable Ink, Lambda School, Squad, Haus, Figma, and Clubhouse.
+          Movable Ink, Lambda School, Squad, Haus, Figma, and Clubhouse, among <a href="https://twitter.com/i/lists/230576934">others</a>.
         </h2>
 
         <label>
