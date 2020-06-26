@@ -8,6 +8,11 @@ export default function Home() {
       <Head>
         <title>Reflecting on My Failure to Build a Billion-Dollar Company - Sahil Lavingia</title>
         <link rel="icon" href="/favicon.svg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@shl" />
+        <meta name="twitter:title" content="Reflecting on My Failure to Build a Billion-Dollar Company" />
+        <meta name="twitter:description" content="In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life’s work..." />
+        <meta name="twitter:image" content="https://sahillavingia.com/gr.png" />
       </Head>
 
       <a className="tiny-title" href="/">
