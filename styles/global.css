@@ -1,0 +1,177 @@
+html,
+body,
+input,
+button {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.amp {
+  font-family: Baskerville, Georgia, serif;
+  font-style: italic;
+}
+
+main {
+  padding: 0 0 3rem 3rem;
+  flex: 1;
+  width: 100%;
+  max-width: 800px;
+}
+
+main.centered-main {
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.twitter {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  display: inline-block;
+  top: 6px;
+  margin-left: 18px;
+}
+
+.email {
+  margin-left: 18px;
+  position: relative;
+  top: -5px;
+}
+
+.title,
+.tiny-title {
+  margin: 0;
+  padding: 1rem;
+  line-height: 1.15;
+  font-size: 2rem;
+  color: white;
+  background: rgb(41, 41, 41);
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.tiny-title {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+label {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  display: block;
+  color: #aaa;
+  margin-top: 3rem;
+}
+
+.item,
+input,
+button {
+  font-size: 3rem;
+  line-height: 1;
+  margin-top: 2rem;
+}
+
+label + .item {
+  margin-top: 0.5rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+p,
+blockquote,
+li {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+  color: rgb(41, 41, 41);
+}
+
+h2 + p {
+  margin-top: 2rem;
+}
+
+blockquote {
+  font-style: italic;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(41, 41, 41);
+  margin: 2rem 0;
+}
+
+p img {
+  max-width: 120%;
+  margin: 1rem -10%;
+}
+
+hr {
+  margin: 2rem 10rem;
+  border: 1px solid rgb(41, 41, 41);
+}
+
+.twitter-tweet {
+  margin: 2rem auto !important;
+}
+
+input,
+button {
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  height: 56px;
+}
+
+input {
+  border: 1px solid #aaa;
+}
+
+button {
+  background: rgb(41, 41, 41);
+  color: white;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.centered {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 0 0 1rem 1rem;
+  }
+
+  p img {
+    max-width: 100%;
+    margin: 0;
+  }
+}
