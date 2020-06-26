@@ -45,7 +45,7 @@ export default function Home() {
         </label>
 
         <h2 className="item">
-        HelloSign, Movable Ink, Lambda School, Squad, Haus, Figma, and Clubhouse.
+          Movable Ink, Lambda School, Squad, Haus, Figma, and Clubhouse.
         </h2>
 
         <label>
