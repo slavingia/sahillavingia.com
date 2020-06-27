@@ -24,6 +24,7 @@ export default function Home() {
           <a href="https://gumroad.com">
             Gumroad
           </a>
+          <small>2011–</small>
         </h2>
 
         <label>
@@ -34,12 +35,14 @@ export default function Home() {
           <a href="/reflecting">
             Reflecting on My Failure to Build a Billion-Dollar Company
           </a>
+          <small>Feb 2019</small>
         </h2>
 
         <h2 className="item">
           <a href="/bubble">
             From Bubble to Bubble
           </a>
+          <small>Feb 2018</small>
         </h2>
 
         <label>
