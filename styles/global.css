@@ -1,5 +1,5 @@
 html {
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 html,
@@ -24,7 +24,7 @@ button {
 }
 
 main {
-  padding: 0 3rem 3rem 3rem;
+  padding: 1rem 3rem 2rem 2rem;
   flex: 1;
   width: 100%;
   max-width: 800px;
@@ -92,7 +92,7 @@ a:hover {
 .title,
 .tiny-title {
   margin: 0;
-  padding: 1rem 0;
+  padding: 1rem 0 0;
   line-height: 1.15;
   font-size: 2rem;
   color: rgb(41, 41, 41);
@@ -202,12 +202,12 @@ button:hover {
 
 @media (max-width: 600px) {
   html {
-    font-size: .675rem;
+    font-size: .75rem;
   }
 
   main {
     width: 100%;
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem;
   }
 
   .tiny-title {
