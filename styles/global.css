@@ -210,16 +210,16 @@ button:hover {
     padding: 1rem;
   }
 
-  .tiny-title {
-    padding: 0.5rem 1rem;
-  }
-
   .email {
     content: "@";
     display: block;
     margin-left: 0;
     margin-top: 1rem;
     position: static;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 
   p img {
@@ -237,6 +237,9 @@ button:hover {
   }
 
   .tiny-title {
-    display: none;
+    position: static;
+    background: rgba(41, 41, 41);
+    padding: 0.5rem 1rem;
+    color: white
   }
 }

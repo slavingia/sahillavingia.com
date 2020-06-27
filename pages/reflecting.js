@@ -16,7 +16,7 @@ export default function Home() {
       </Head>
 
       <a className="tiny-title" href="/">
-        Sahil Lavingia
+        &larr; Sahil Lavingia
       </a>
 
       <main className="centered-main">
@@ -148,7 +148,7 @@ export default function Home() {
         <hr />
 
         <label className="centered">
-          Sign up for monthly updates about Gumroad and business-building:
+          Sign up for monthly updates about Gumroad
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
