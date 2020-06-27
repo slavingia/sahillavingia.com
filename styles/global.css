@@ -99,7 +99,8 @@ a:hover {
   left: 0;
   top: 0;
   font-size: 1rem;
-  padding: 0.5rem 0;
+  padding: 0.5rem;
+  z-index: 2;
 }
 
 label {
@@ -200,6 +201,10 @@ button:hover {
   main {
     width: 100%;
     padding: 0 1rem 1rem 1rem;
+  }
+
+  .tiny-title {
+    padding: 0.5rem 1rem;
   }
 
   .email {
