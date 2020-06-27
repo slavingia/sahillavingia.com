@@ -1,3 +1,7 @@
+html {
+  font-size: 1rem;
+}
+
 html,
 body,
 input,
@@ -35,15 +39,18 @@ main {
   right: 0;
   bottom: 0;
   z-index: 0;
+  min-height: 100vh;
 }
 
 .background-caption {
   font-size: 2rem;
   bottom: 3rem;
-  right: 3rem;
+  left: 800px;
+  padding-left: 3rem;
+  min-height: 0;
   color: rgba(255, 200, 200, .6);
-  text-shadow: 0 1px 2px rgba(41, 41, 41, .5);
-  text-align: right;
+  text-shadow: 0 1px 2px rgba(41, 41, 41);
+  text-align: left;
 }
 
 .background-caption a {

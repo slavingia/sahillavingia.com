@@ -31,10 +31,6 @@
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/reflecting": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }
