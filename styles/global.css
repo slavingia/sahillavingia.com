@@ -24,6 +24,35 @@ main {
   flex: 1;
   width: 100%;
   max-width: 800px;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+.background-image,
+.background-caption {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.background-caption {
+  font-size: 2rem;
+  bottom: 3rem;
+  right: 3rem;
+  color: rgba(255, 200, 200, .6);
+  text-shadow: 0 1px 2px rgba(41, 41, 41, .5);
+  text-align: right;
+}
+
+.background-caption a {
+  text-decoration: none;
+}
+
+.background-caption a span {
+  text-decoration: none;
+  display: block;
 }
 
 main.centered-main {
@@ -56,11 +85,10 @@ a:hover {
 .title,
 .tiny-title {
   margin: 0;
-  padding: 1rem;
+  padding: 1rem 0;
   line-height: 1.15;
   font-size: 2rem;
-  color: white;
-  background: rgb(41, 41, 41);
+  color: rgb(41, 41, 41);
   display: inline-block;
   text-decoration: none;
   font-weight: bold;
@@ -71,7 +99,7 @@ a:hover {
   left: 0;
   top: 0;
   font-size: 1rem;
-  padding: 0.5rem;
+  padding: 0.5rem 0;
 }
 
 label {
@@ -165,6 +193,10 @@ button:hover {
 }
 
 @media (max-width: 600px) {
+  html {
+    font-size: .675rem;
+  }
+
   main {
     width: 100%;
     padding: 0 1rem 1rem 1rem;

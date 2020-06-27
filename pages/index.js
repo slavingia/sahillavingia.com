@@ -10,6 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
+      <img src="/painting.jpeg" className="background-image" />
+      <span className="background-caption"><a href="https://instagram.com/shlpaints">Paintings<span> &rarr;</span></a></span>
+
       <main>
         <Header></Header>
 
