@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="twitter:title" content="Across the Border" />
-        <meta name="twitter:description" content="Matthew lifted his foot off the gas pedal, inching the car forward. The re-entry point was only a few hundred feet away" />
+        <meta name="twitter:description" content="A story about the distances technology fails to bridge." />
         <meta name="twitter:image" content="https://sahillavingia.com/border.png" />
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700" rel="stylesheet" />
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
