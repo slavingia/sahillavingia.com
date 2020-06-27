@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Sahil Lavingia</title>
         <link rel="icon" href="/favicon.svg" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700" rel="stylesheet" />
       </Head>
 
       <img src="/painting.jpeg" className="background-image" />
@@ -35,14 +36,21 @@ export default function Home() {
           <a href="/reflecting">
             Reflecting on My Failure to Build a Billion-Dollar Company
           </a>
-          <small>Feb 2019</small>
+          <small>2019</small>
+        </h2>
+
+        <h2 className="item">
+          <a href="/border"  style={{fontFamily: "Roboto"}}>
+            Across the Border
+          </a>
+          <small>2018</small>
         </h2>
 
         <h2 className="item">
           <a href="/bubble">
             From Bubble to Bubble
           </a>
-          <small>Feb 2018</small>
+          <small>2018</small>
         </h2>
 
         <label>
