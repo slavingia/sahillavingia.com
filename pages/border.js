@@ -46,9 +46,9 @@ export default function Home() {
           <span className="text">I miss u</span>
           <span className="text">Cya soon…. rite?</span>
           <span className="text">R u coming or not?</span>
-          <span className="text">I love u</span>
+          <span className="text">I ❤️ u</span>
           <span className="text">Got an A in MoBio!!</span>
-          <span className="text">I hate u</span>
+          <span className="text">😡</span>
         </p>
         <p>“Call Vanessa,” Matthew said.</p>
         <p>“Hello?” Came her voice. “Where are you dad? You’re not coming, are you?”</p>
