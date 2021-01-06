@@ -28,7 +28,7 @@ export default function Home() {
         </h2>
 
         <p>I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time employees. In 2016, after <a href="/reflecting">failing</a> to raise more money, I ended up back where I began: a one-person company.</p>
-        <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated.</p>
+        <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated:</p>
         <p>If we include everyone who works on Gumroad, it’s 25.</p>
         <p>If we include full-time employees, it’s none. Not even me.</p>
         <p>We have no meetings, and no deadlines either. And it’s working: our creators earn over $175 million a year, and we generate $11 million in annualized revenue, growing 85% year-over-year.</p>
@@ -43,7 +43,7 @@ export default function Home() {
         <p>For me, it was no longer about growth at all costs, but “freedom at all costs.”</p>
         <p>This way, Gumroad stayed profitable, I got a much-needed break to explore my hobbies, and creators got a product that improved over time.</p>
         <p><img src="/operating.png" /></p>
-        <h2>How stuff gets shipped</h2>
+        <h2>How work gets done</h2>
         <p>Today, working at Gumroad resembles working on an open source project like Rails. Except it’s not open source, and you get paid.</p>
         <p>Instead of having meetings, people “talk” to each other via GitHub, Notion, and (occasionally) Slack, expecting responses within 24 hours.  Because there are no meetings to “sync up” and some projects can involve expensive feedback loops to collaborate, working this way requires clear and thoughtful communication. Everyone writes well, and writes a lot.</p>
         <p>There are no deadlines either. We ship incrementally, and launch things whenever the stuff in development is better than what’s currently in production. The occasional exception does exist, such as a tax deadline, but as a rule, I try not to tell anyone what to do or how fast to do it. When someone new joins the company, they do what everyone else does: go into our Notion queue, pick a task, and get to work, asking for clarification when needed.</p>
