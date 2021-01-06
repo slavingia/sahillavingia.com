@@ -43,7 +43,7 @@ export default function Home() {
         <p>For me, it was no longer about growth at all costs, but “freedom at all costs.”</p>
         <p>This way, Gumroad stayed profitable, I got a much-needed break to explore my hobbies, and creators got a product that improved over time.</p>
         <p><img src="/operating.png" /></p>
-        <h2>How stuff gets shipped</h2>
+        <h2>How work gets done</h2>
         <p>Today, working at Gumroad resembles working on an open source project like Rails. Except it’s not open source, and you get paid.</p>
         <p>Instead of having meetings, people “talk” to each other via GitHub, Notion, and (occasionally) Slack, expecting responses within 24 hours.  Because there are no meetings to “sync up” and some projects can involve expensive feedback loops to collaborate, working this way requires clear and thoughtful communication. Everyone writes well, and writes a lot.</p>
         <p>There are no deadlines either. We ship incrementally, and launch things whenever the stuff in development is better than what’s currently in production. The occasional exception does exist, such as a tax deadline, but as a rule, I try not to tell anyone what to do or how fast to do it. When someone new joins the company, they do what everyone else does: go into our Notion queue, pick a task, and get to work, asking for clarification when needed.</p>
