@@ -10,7 +10,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="twitter:title" content="No Meetings, No Deadlines, No Full-Time Employees" />
-        <meta name="twitter:description" content="In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life’s work..." />
+        <meta name="twitter:description" content="How we work at Gumroad" />
         <meta name="twitter:image" content="https://sahillavingia.com/gumroadians.png" />
       </Head>
 
