@@ -105,13 +105,9 @@ export default function Home() {
         <p>But the deal we already had in place was better for what our people prioritize: freedom over growth, sustainability over speed, life over work.</p>
         <p><a href="https://gumroad.com/">Gumroad’s homepage</a> is clear about its benefits to creators who use it: “Escape your 9-to-5 job. Take off your suit and tie. End your commute. Get paid for your craft.”</p>
         <p>As cliché as it may be, we are trying to be a company of creators, for creators.</p>
-        <p>The internet has enabled new ways of working, but we’re just starting to watch them unfold. There are a lot of different ways to make work work. Ours is just one.</p>
-
-        <hr />
+        <p>The internet has enabled new ways of working, but we’re just starting to see them unfold. There are a lot of different ways to make work work. Ours is just one.</p>
 
         <p class="centered">Meet the Gumroad team: <img src="/gumroadians.png" /></p>
-
-        <hr />
 
         <label className="centered">
           If you’re interested in staying up to date on the Gumroad journey:
