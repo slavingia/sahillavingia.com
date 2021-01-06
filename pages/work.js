@@ -28,7 +28,7 @@ export default function Home() {
         </h2>
 
         <p>I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time employees. In 2016, after <a href="/reflecting">failing</a> to raise more money, I ended up back where I began: a one-person company.</p>
-        <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated.</p>
+        <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated:</p>
         <p>If we include everyone who works on Gumroad, it’s 25.</p>
         <p>If we include full-time employees, it’s none. Not even me.</p>
         <p>We have no meetings, and no deadlines either. And it’s working: our creators earn over $175 million a year, and we generate $11 million in annualized revenue, growing 85% year-over-year.</p>
