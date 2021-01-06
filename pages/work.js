@@ -107,11 +107,7 @@ export default function Home() {
         <p>As cliché as it may be, we are trying to be a company of creators, for creators.</p>
         <p>The internet has enabled new ways of working, but we’re just starting to watch them unfold. There are a lot of different ways to make work work. Ours is just one.</p>
 
-        <hr />
-
         <p class="centered">Meet the Gumroad team: <img src="/gumroadians.png" /></p>
-
-        <hr />
 
         <label className="centered">
           If you’re interested in staying up to date on the Gumroad journey:

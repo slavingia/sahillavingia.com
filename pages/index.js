@@ -28,6 +28,14 @@ export default function Home() {
         </h2>
 
         <label>
+          Funder
+        </label>
+
+        <h2 className="item">
+          Notion, Figma, Vercel, Lambda School, Clubhouse, <a href="https://shl.vc/apply">and you?</a>
+        </h2>
+
+        <label>
           Writer
         </label>
 
@@ -60,15 +68,7 @@ export default function Home() {
         </h2>
 
         <label>
-          Funder
-        </label>
-
-        <h2 className="item">
-          Notion, Figma, Vercel, Lambda School, Clubhouse, Haus, and <a href="https://shl.vc/">others</a>.
-        </h2>
-
-        <label>
-          Newsletter-sender
+          Get updates:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed" method="post">
