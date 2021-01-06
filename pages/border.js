@@ -12,7 +12,6 @@ export default function Home() {
         <meta name="twitter:title" content="Across the Border" />
         <meta name="twitter:description" content="A story about the distances technology fails to bridge." />
         <meta name="twitter:image" content="https://sahillavingia.com/border.png" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700" rel="stylesheet" />
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="/border.js"></script>
@@ -30,7 +29,7 @@ export default function Home() {
           Aug 31, 2018 • 19 min read
         </label>
 
-        <h2 className="item" style={{fontFamily: "Roboto"}}>
+        <h2 className="item">
           Across the Border
         </h2>
 

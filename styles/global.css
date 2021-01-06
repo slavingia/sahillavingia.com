@@ -13,6 +13,12 @@ button {
     sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -27,7 +33,7 @@ main {
   padding: 1rem 3rem 2rem 2rem;
   flex: 1;
   width: 100%;
-  max-width: 800px;
+  max-width: 760px;
   background: white;
   position: relative;
   z-index: 1;
@@ -55,11 +61,6 @@ main {
 
 .background-caption a {
   text-decoration: none;
-}
-
-.background-caption a span {
-  text-decoration: none;
-  display: block;
 }
 
 main.centered-main {
@@ -98,7 +99,6 @@ a:hover {
   color: rgb(41, 41, 41);
   display: inline-block;
   text-decoration: none;
-  font-weight: bold;
 }
 
 .tiny-title {
@@ -151,22 +151,40 @@ h2 {
 p,
 blockquote,
 li {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.3rem;
-  line-height: 1.5;
+  line-height: 1.8;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   color: rgb(41, 41, 41);
+}
+
+p + h2 {
+  font-weight: bold;
+}
+
+p + ul {
+  margin-top: 2rem;
+}
+
+li {
+  margin-top: 1rem;
 }
 
 h2 + p {
   margin-top: 2rem;
 }
 
+p a,
+li a {
+  text-decoration: none;
+  border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+
 blockquote {
   font-style: italic;
   padding-left: 1rem;
-  border-left: 2px solid rgba(41, 41, 41);
   margin: 2rem 0;
+  font-size: 1.5rem;
 }
 
 .text {

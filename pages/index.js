@@ -8,17 +8,16 @@ export default function Home() {
       <Head>
         <title>Sahil Lavingia</title>
         <link rel="icon" href="/favicon.svg" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700" rel="stylesheet" />
       </Head>
 
       <img src="/painting.jpeg" className="background-image" />
-      <span className="background-caption"><a href="https://instagram.com/shlpaints">Paintings<span> &rarr;</span></a></span>
+      <span className="background-caption"><a href="https://instagram.com/shlpaints">Painter &rarr;</a></span>
 
       <main>
         <Header></Header>
 
         <label>
-          Founder <span className="amp">&amp;</span> CEO
+          Founder
         </label>
 
         <h2 className="item gumroad">
@@ -32,6 +31,13 @@ export default function Home() {
           Writer
         </label>
 
+        <h2 className="item" style={{display: "none !important"}}>
+          <a href="/work">
+            No Meetings, No Deadlines, No Full-Time Employees
+          </a>
+          <small>2021</small>
+        </h2>
+
         <h2 className="item">
           <a href="/reflecting">
             Reflecting on My Failure to Build a Billion-Dollar Company
@@ -40,10 +46,10 @@ export default function Home() {
         </h2>
 
         <h2 className="item">
-          <a href="/border"  style={{fontFamily: "Roboto"}}>
+          <a href="/border">
             Across the Border
           </a>
-          <small>2018</small>
+          <small>Fiction, 2018</small>
         </h2>
 
         <h2 className="item">
@@ -54,15 +60,15 @@ export default function Home() {
         </h2>
 
         <label>
-          Angel investor
+          Funder
         </label>
 
         <h2 className="item">
-          Movable Ink, Lambda School, Squad, Haus, Figma, Clubhouse, and <a href="https://twitter.com/i/lists/230576934">others</a>.
+          Notion, Figma, Vercel, Lambda School, Clubhouse, Haus, and <a href="https://shl.vc/">others</a>.
         </h2>
 
         <label>
-          Monthly newsletter-sender
+          Newsletter-sender
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed" method="post">
