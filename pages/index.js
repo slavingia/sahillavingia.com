@@ -39,7 +39,7 @@ export default function Home() {
           Writer
         </label>
 
-        <h2 className="item" style={{display: "none !important"}}>
+        <h2 className="item">
           <a href="/work">
             No Meetings, No Deadlines, No Full-Time Employees
           </a>

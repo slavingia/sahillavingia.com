@@ -46,16 +46,16 @@ export default function Home() {
         <p>While Gumroad was no longer on track to become a billion-dollar company, I acquired a new asset: time. I used that time to take classes on writing and painting.</p>
         <p>Because I was burned out and didn’t want to think about working any more than I needed to, I instituted a no-meeting, no-deadline culture.</p>
         <p>For me, it was no longer about growth at all costs, but “freedom at all costs.”</p>
-        <p>This way, Gumroad stayed profitable, I could take a much-needed break to explore my hobbies, and the product continued to improved over time.</p>
+        <p>This way, Gumroad stayed profitable, I could take a much-needed break to explore my hobbies, and the product continued to improve over time.</p>
         <p><img src="/operating.png" /></p>
         <h2>How we work</h2>
         <p>Today, working at Gumroad resembles working on an open source project like Rails. Except it’s neither open source, nor unpaid.</p>
-        <p>Instead of having meetings, people “talk” to each other via GitHub, Notion, and (occasionally) Slack, expecting responses within 24 hours. Because there are standups or “syncs” and some projects can involve expensive feedback loops to collaborate, working this way requires clear and thoughtful communication.</p>
+        <p>Instead of having meetings, people “talk” to each other via GitHub, Notion, and (occasionally) Slack, expecting responses within 24 hours. Because there are no standups or “syncs” and some projects can involve expensive feedback loops to collaborate, working this way requires clear and thoughtful communication.</p>
         <p>Everyone writes well, and writes <em>a lot</em>.</p>
         <p>There are no deadlines either. We ship incrementally, and launch things whenever the stuff in development is better than what’s currently in production. The occasional exception does exist, such as a tax deadline, but as a rule, I try not to tell anyone what to do or how fast to do it. When someone new joins the company, they do what everyone else does: go into our Notion queue, pick a task, and get to work, asking for clarification when needed.</p>
         <p>Instead of setting quarterly goals or using OKRs, we move towards a single north star: maximizing how much money creators earn. It’s simple and measurable, allowing anyone in the company to do the math on how much a feature or bug-fix might be worth.</p>
         <p>But we don’t prioritize ruthlessly.</p>
-        <p>People can work on what’s fun or rely on their intuition, because as long as we remain profitable and keep shipping, we tend to get to the important stuff eventually. Our <a href="https://www.notion.so/gumroad/Roadmap-ce2ad07c483046e7941227ad7810730d">a public roadmap</a> helps Gumroad's creators hold us accountable.</p>
+        <p>People can work on what’s fun or rely on their intuition, because as long as we remain profitable and keep shipping, we tend to get to the important stuff eventually. Our <a href="https://www.notion.so/gumroad/Roadmap-ce2ad07c483046e7941227ad7810730d">public roadmap</a> helps Gumroad's creators hold us accountable.</p>
         <p>We ship big things this way too.</p>
         <p>In November 2020, we shipped <a href="https://gumroad.com/gumroad/p/introducing-gumroad-memberships">Gumroad Memberships</a>, a year in the works and now used by hundreds of creators to earn over $1,500,000 per month.</p>
         <p>This is a screenshot from our roadmap to show what it looks like in practice:</p>
