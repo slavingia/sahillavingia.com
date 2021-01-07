@@ -43,6 +43,10 @@ main {
   font-weight: bold;
 }
 
+.content h2.item {
+  font-weight: normal;
+}
+
 .background-image,
 .background-caption {
   position: fixed;
