@@ -28,14 +28,6 @@ export default function Home() {
         </h2>
 
         <label>
-          Funder
-        </label>
-
-        <h2 className="item">
-          Notion, Figma, Vercel, Lambda School, HelloSign, Clubhouse. <a href="https://shl.vc/apply">You?</a>
-        </h2>
-
-        <label>
           Writer
         </label>
 
@@ -65,6 +57,14 @@ export default function Home() {
             From Bubble to Bubble
           </a>
           <small>2018</small>
+        </h2>
+
+        <label>
+          Funder
+        </label>
+
+        <h2 className="item">
+          Notion, Figma, Vercel, Lambda School, HelloSign, Clubhouse. <a href="https://shl.vc/apply">You?</a>
         </h2>
 
         <label>
