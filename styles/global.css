@@ -39,6 +39,10 @@ main {
   z-index: 1;
 }
 
+.content h2 {
+  font-weight: bold;
+}
+
 .background-image,
 .background-caption {
   position: fixed;
@@ -178,6 +182,11 @@ p a,
 li a {
   text-decoration: none;
   border-bottom: 2px solid rgba(0, 0, 0, .2);
+}
+
+li p {
+  margin-top: 1rem;
+  margin-left: 1rem;
 }
 
 blockquote {
