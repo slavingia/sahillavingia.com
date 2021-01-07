@@ -32,7 +32,7 @@ export default function Home() {
         </label>
 
         <h2 className="item">
-          Notion, Figma, Vercel, Lambda School, Clubhouse, <a href="https://shl.vc/apply">and you?</a>
+          Notion, Figma, Vercel, Lambda School, HelloSign, Clubhouse. <a href="https://shl.vc/apply">You?</a>
         </h2>
 
         <label>
