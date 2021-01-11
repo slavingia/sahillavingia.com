@@ -117,6 +117,7 @@ export default function Home() {
           <li>An unpaid, few-hour challenge, that resembles the high-level work we do at Gumroad. This may include breaking down a large shipment (like Gumroad Memberships) into its atomic parts, planning the schema associated with a new feature, or writing up a Help Center article.</li>
           <li>A paid, few-week trial period, that resembles the day-to-day work we do at Gumroad. This may include fixing bugs, shipping a feature, or answering support tickets.</li>
         </ol>
+        <p><em>Note: We'll be hiring for more positions soon! <a href="https://twitter.com/shl">Follow me on Twitter</a> for updates.</em></p>
         <p>Within the company, we keep a document that lists how much everyone is paid, along with their average working hours. This allows the team to have as much information as I do when making compensation decisions.</p>
         <p>We also have an “anti-overtime” rate: past twenty hours a week, people can continue to work at an hourly rate of 50 percent. This allows us to have a high hourly rate for the highest leverage work and also allows people to work more per week if they wish.</p>
         <p>There are no perks of any kind, besides the flexibility and the cash.</p>
