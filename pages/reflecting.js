@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Reflecting on My Failure to Build a Billion-Dollar Company - Sahil Lavingia</title>
+        <title>Reflecting on My Failure to Build a Billion-Dollar Company</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />

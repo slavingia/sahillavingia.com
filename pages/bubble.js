@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>From Bubble to Bubble - Sahil Lavingia</title>
+        <title>From Bubble to Bubble</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />

@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>No Meetings, No Deadlines, No Full-Time Employees - Sahil Lavingia</title>
+        <title>No Meetings, No Deadlines, No Full-Time Employees</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />

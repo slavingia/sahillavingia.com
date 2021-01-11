@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Across the Border - Sahil Lavingia</title>
+        <title>Across the Border</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
