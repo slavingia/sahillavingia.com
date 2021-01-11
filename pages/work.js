@@ -18,6 +18,10 @@ export default function Home() {
         &larr; Sahil Lavingia
       </a>
 
+      <a className="twitter-link" href="https://twitter.com/shl">
+        <img src="/twitter.png" className="twitter" /> &rarr;
+      </a>
+
       <main className="centered-main content">
         <label>
           Jan 7, 2021 • 10 min read
@@ -139,7 +143,7 @@ export default function Home() {
         <hr />
 
         <label className="centered">
-          If you’re interested in staying up to date on the Gumroad journey:
+          Join 18,000 people receiving updates on the Gumroad journey:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">

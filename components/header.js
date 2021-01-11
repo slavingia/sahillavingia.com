@@ -3,11 +3,9 @@ import Link from 'next/link'
 export default function Header({ children }) {
   return (
     <div>
-      <Link href="/">
-        <a className="title">
-          Sahil Lavingia
-        </a>
-      </Link>
+      <h1 className="title">
+        Sahil Lavingia
+      </h1>
 
       <a href="https://twitter.com/shl">
         <img src="/twitter.png" className="twitter" />

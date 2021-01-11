@@ -10,22 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <img src="/painting.jpeg" className="background-image" />
-      <span className="background-caption"><a href="https://instagram.com/shlpaints">Painter &rarr;</a></span>
-
-      <main>
+      <main class="centered-main">
         <Header></Header>
-
-        <label>
-          Founder
-        </label>
-
-        <h2 className="item gumroad">
-          <a href="https://gumroad.com">
-            Gumroad
-          </a>
-          <small>2011–</small>
-        </h2>
 
         <label>
           Writer
@@ -60,15 +46,19 @@ export default function Home() {
         </h2>
 
         <label>
-          Funder
+          Painter
         </label>
 
         <h2 className="item">
-          Notion, Figma, Vercel, Lambda School, HelloSign, Clubhouse. <a href="https://shl.vc/apply">You?</a>
+          <a href="https://instagram.com/shlpaints">
+            <img src="/painting.jpeg" className="painting" />
+            <img src="/rocks.png" className="painting" />
+            <img src="/bhosle.jpeg" className="painting" />
+          </a>
         </h2>
 
         <label>
-          Get updates:
+          Join 18,000 people receiving my updates:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed" method="post">
