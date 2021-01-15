@@ -7,6 +7,11 @@ export default function Home() {
       <Head>
         <title>The Minimalist Entrepreneur</title>
         <link rel="icon" href="/favicon.svg" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@shl" />
+        <meta name="twitter:title" content="The Minimalist Entrepreneur" />
+        <meta name="twitter:description" content="A four-week cohort-based course" />
+        <meta name="twitter:image" content="https://sahillavingia.com/minient.png" />
       </Head>
 
       <a className="tiny-title" href="/">
@@ -30,6 +35,8 @@ export default function Home() {
         <p>This course is about helping people do that.</p>
 
         <p>The goal of this course is to help you think differently about entrepreneurship. It exists because I had to think differently about how to construct my life–and my work–before I got happy.</p>
+
+        <p><img src="/minient.png" /></p>
 
         <p>This course is not about raising tens of millions of VC dollars, nor is it about building a one-person powered-by-Amazon dropshipping business. There's nothing wrong with that, but this course is about <strong>how to build a sustainable business that matters</strong>.</p>
 
@@ -143,6 +150,8 @@ export default function Home() {
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
         <p><a href="https://gum.co/kYTMI?wanted=true" class="buy-button centered">Sign up via Gumroad</a></p>
+
+        <p><img src="/mini.png" /></p>
       </main>
     </Layout>
   )
