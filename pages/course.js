@@ -137,24 +137,12 @@ export default function Home() {
           </li>
         </ul>
 
-        <p>If you have questions, please email me, or DM me on Twitter.</p>
+        <p>If you have further questions, please email or DM me on Twitter.</p>
 
-        <h2>
-          This is a college-like course with limited seats, priced at $850.
-        </h2>
-
-        <p>If you're interested:</p>
+        <p>This is a college-like course with limited seats, priced at <strong>$850</strong>. If you're interested:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
-        <p><a href="https://gum.co/kYTMI?wanted=true" class="buy-button">Sign up via Gumroad</a></p>
-
-        <p>If you'd prefer to buy a book on these subjects, sign up here:</p>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <p><a href="https://gum.co/kYTMI?wanted=true" class="buy-button centered">Sign up via Gumroad</a></p>
       </main>
     </Layout>
   )

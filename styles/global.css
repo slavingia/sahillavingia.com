@@ -257,7 +257,10 @@ button,
 
 .buy-button {
   height: auto;
-  padding: 0 1rem;
+  margin: 0 auto;
+  display: block;
+  max-width: 300px;
+  margin-bottom: 100px;
 }
 
 input {
