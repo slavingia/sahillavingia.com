@@ -42,7 +42,9 @@ export default function Home() {
 
         <h2>Curriculum</h2>
 
-        <p>This is a four-week course, consisting of eight classes:</p>
+        <p>This is a four-week course, consisting of eight classes.</p>
+
+        <p>We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
 
         <ol>
           <li>
@@ -79,7 +81,7 @@ export default function Home() {
           </li>
         </ol>
 
-        <p>It's going to be intense. We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
+        <p>We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
 
         <h2>Topics that will be covered</h2>
 
@@ -146,10 +148,12 @@ export default function Home() {
 
         <p>If you have further questions, please email or DM me on Twitter.</p>
 
-        <p>This is a course with limited seats, priced at <strong>$850</strong>. If you're interested:</p>
+        <p>This is a course with limited seats, priced at <strong>$850</strong>. We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
+
+        <p>If you're interested, please sign up ASAP:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
-        <p><a href="https://gum.co/kYTMI?wanted=true" class="buy-button centered">Sign up via Gumroad</a></p>
+        <p><a href="https://gum.co/kYTMI" class="buy-button centered">Sign up via Gumroad</a></p>
 
         <p><img src="/mini.png" /></p>
       </main>
