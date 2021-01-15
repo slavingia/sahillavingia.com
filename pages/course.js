@@ -146,7 +146,7 @@ export default function Home() {
 
         <p>If you have further questions, please email or DM me on Twitter.</p>
 
-        <p>This is a college-like course with limited seats, priced at <strong>$850</strong>. If you're interested:</p>
+        <p>This is a course with limited seats, priced at <strong>$850</strong>. If you're interested:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
         <p><a href="https://gum.co/kYTMI?wanted=true" class="buy-button centered">Sign up via Gumroad</a></p>
