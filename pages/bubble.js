@@ -21,7 +21,7 @@ export default function Home() {
 
       <main className="centered-main">
         <label>
-          Feb 7, 2018 • 9 min read
+          Feb 7, 2018
         </label>
 
         <h2 className="item">

@@ -24,9 +24,8 @@ export default function Home() {
       </a>
 
       <main className="centered-main">
-
         <label>
-          Aug 31, 2018 • 19 min read
+          Aug 31, 2018
         </label>
 
         <h2 className="item">

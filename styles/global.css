@@ -319,3 +319,11 @@ button:hover {
     position: absolute;
   }
 }
+
+.buy-button {
+  background: black;
+  color: white;
+  padding: 8px 12px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+}

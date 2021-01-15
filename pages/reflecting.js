@@ -18,9 +18,13 @@ export default function Home() {
         &larr; Sahil Lavingia
       </a>
 
+      <a className="twitter-link" href="https://twitter.com/shl">
+        <img src="/twitter.png" className="twitter" /> &rarr;
+      </a>
+
       <main className="centered-main">
         <label>
-          Feb 7, 2019 • 14 min read
+          Feb 7, 2019
         </label>
 
         <h2 className="item">
