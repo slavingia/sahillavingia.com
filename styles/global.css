@@ -5,7 +5,8 @@ html {
 html,
 body,
 input,
-button {
+button,
+.buy-button {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto,
@@ -242,8 +243,8 @@ hr {
 }
 
 input,
-button {
-  margin-top: 1rem;
+button,
+.buy-button {
   margin-right: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: 2rem;
@@ -254,17 +255,24 @@ button {
   height: 56px;
 }
 
+.buy-button {
+  height: auto;
+  padding: 0 1rem;
+}
+
 input {
   border: 1px solid #aaa;
 }
 
-button {
+button,
+.buy-button {
   background: rgb(41, 41, 41);
   color: white;
   border: none;
 }
 
-button:hover {
+button:hover,
+.buy-button:hover {
   cursor: pointer;
 }
 
@@ -304,7 +312,8 @@ button:hover {
   }
 
   input,
-  button {
+  button,
+  .buy-button {
     width: 100%;
   }
 
@@ -318,12 +327,4 @@ button:hover {
     color: white;
     position: absolute;
   }
-}
-
-.buy-button {
-  background: black;
-  color: white;
-  padding: 8px 12px;
-  margin-bottom: 30px;
-  border-radius: 4px;
 }

@@ -140,15 +140,21 @@ export default function Home() {
         <p>If you have questions, please email me, or DM me on Twitter.</p>
 
         <h2>
-          There are 150 spots for the first cohort.
+          This is a college-like course with limited seats, priced at $850.
         </h2>
 
-        <p>If you're interested, please...</p>
+        <p>If you're interested:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
         <p><a href="https://gum.co/kYTMI?wanted=true" class="buy-button">Sign up via Gumroad</a></p>
 
-        <p>Thanks for considering it! And if you'd prefer to just buy a book on the subject, hold on tight...</p>
+        <p>If you'd prefer to buy a book on these subjects, sign up here:</p>
+
+        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed" method="post">
+          <input name="seller_id" type="hidden" value="2614450981218" />
+          <input name="email" placeholder="Your email address" type="email" />
+          <button data-custom-highlight-color="" type="submit">Subscribe</button>
+        </form>
       </main>
     </Layout>
   )
