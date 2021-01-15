@@ -24,11 +24,11 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/next/dist/pages/_error": [
+    "/reflecting": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/reflecting": [
+    "/thanks": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]
