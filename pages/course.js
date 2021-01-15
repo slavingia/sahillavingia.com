@@ -153,7 +153,7 @@ export default function Home() {
         <p>If you're interested, please sign up ASAP:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
-        <p><a href="https://gum.co/kYTMI" class="buy-button centered">Sign up via Gumroad</a></p>
+        <p><a href="https://gum.co/kYTMI" class="buy-button centered">Register via Gumroad</a></p>
 
         <p><img src="/mini.png" /></p>
       </main>
