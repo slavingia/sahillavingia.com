@@ -136,7 +136,7 @@ export default function Home() {
           </li>
           <li>
             <strong>Who is this course for?</strong>
-            <p>This course is for people who want to build meaningful, sustainable businesses, and who are willing to put in the hard work and time to make that happen.</p>
+            <p>This course is for people who want to build meaningful, sustainable businesses, are willing to put in the hard work and time to make that happen, and who are willing to help others succeed as well. This course isn’t a solo journey.</p>
           </li>
           <li>
             <strong>Who isn't this for?</strong>
