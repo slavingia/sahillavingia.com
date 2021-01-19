@@ -99,7 +99,7 @@ export default function Home() {
         <p>After taking this course (if not during it!), you will be able to start your own business to serve a community, ship a value-additive product for them, and sell it to a hundred customers.</p>
 
         <h2>Cohort-based courses</h2>
-        <p>There's no way I could do this alone. Besides my co-instructor Julie Mosow, I am working with a <a href="bit.ly/wk-gb">new startup</a> by AltMBA co-founder Wes Kao and Udemy co-founder Gagan Biyani to make this course happen.</p>
+        <p>There's no way I could do this alone. Besides my co-instructor Julie Mosow, I am working with a <a href="https://bit.ly/wk-gb">new startup</a> by AltMBA co-founder Wes Kao and Udemy co-founder Gagan Biyani to make this course happen.</p>
         <p>The benefits include...</p>
         <ul>
           <li>
