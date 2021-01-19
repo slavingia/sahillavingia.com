@@ -23,9 +23,9 @@ export default function Home() {
       </a>
 
       <main class="centered-main">
+        <h2 class="centered item">Thank you for your trust.</h2>
+        <p class="centered">Details will be sent to you soon via minimalistentrepreneurcourse@gmail.com</p>
         <p><img src="/thanks.png" /></p>
-        <h2 class="centered">Thank you for your trust.</h2>
-        <p class="centered">Details will come via email to you soon.</p>
       </main>
     </Layout>
   )
