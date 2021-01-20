@@ -32,7 +32,7 @@ export default function Home() {
 
         <p>If you follow me, you know I care about mostly one thing: more people should be starting their own businesses. Gumroad helps people do that. My fund helps people do that.</p>
 
-        <p>This course is about helping people do that.</p>
+        <p>This course is also about helping people do that.</p>
 
         <p>The goal of this course is to help you think differently about entrepreneurship. It exists because, after Gumroad came to a <a href="/reflecting">screeching halt in 2015</a>, I had to think differently about how to rebuild my life–and my work–in a way that would make me happy.</p>
 
@@ -150,10 +150,10 @@ export default function Home() {
 
         <p>This is a course with limited seats, priced at <strong>$850</strong>. We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
 
-        <p>If you're interested, please sign up ASAP:</p>
+        <p>The first cohort is now sold out. If you're interested, please sign up for the waitlist:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
-        <p><a href="https://gum.co/kYTMI" class="buy-button centered">Register via Gumroad</a></p>
+        <p><a href="https://gum.co/tme-waitlist?price=0&wanted=true" class="buy-button centered">Register via Gumroad</a></p>
 
         <p><img src="/mini.png" /></p>
       </main>
