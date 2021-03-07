@@ -153,9 +153,7 @@ export default function Home() {
         <p>The first cohort is now sold out. If you're interested, please sign up for the waitlist:</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
-        <p><a href="https://gum.co/tme-waitlist?price=0&wanted=true" class="buy-button centered">Register via Gumroad</a></p>
-
-        <p><img src="/mini.png" /></p>
+        <p><a href="https://gum.co/tme-waitlist?price=0&wanted=true" class="buy-button">Register via Gumroad</a></p>
       </main>
     </Layout>
   )

@@ -119,7 +119,8 @@ a:hover {
 
 label {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  margin-bottom: 15px;
   display: block;
   color: #666;
   margin-top: 3rem;
@@ -130,7 +131,10 @@ input,
 button {
   font-size: 3rem;
   line-height: 1;
-  margin-top: 2rem;
+}
+
+.index-list-of-writings-title {
+  font-size: 1.8rem;
 }
 
 label + .item {
@@ -330,4 +334,8 @@ button:hover,
     color: white;
     position: absolute;
   }
+}
+
+.index-follow-form {
+  margin-top: 0;
 }
