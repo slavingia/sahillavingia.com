@@ -11,6 +11,10 @@
     {
       "source": "/phone",
       "destination": "https://calendly.com/sahil-lavingia/phone"
+    },
+    {
+      "source": "/class",
+      "destination": "https://calendly.com/sahil-lavingia/creator-class-hosted-by-sahil"
     }
   ]
 }
