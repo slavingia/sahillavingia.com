@@ -44,6 +44,7 @@ export default function Home() {
         <p>A logical extension: owning part of Gumroad too.</p>
         <h2>The future of fundraising</h2>
         <p>On March 15, 2021 the SEC allowed startups to raise up to $5M using Regulation Crowdfunding. We hit that limit in just about 12 hours, raising the money from over 7,500 different individuals–including many of our creators.</p>
+        <p><img src="/republic.png" /></p>
         <p>Including $1M from Naval Ravikant, Jason Fried, and others, the total amount raised is $6M. We raised this capital at a $100M pre-money valuation.</p>
         <p>I hope to see more startups raise money from their customers and communities. <strong>Why isn’t it more common?</strong> First off, the legislation is a day old. So it’ll take some time to get people (both founders and retail investors) educated.</p>
         <p>There are other reasons too:</p>
