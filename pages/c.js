@@ -57,7 +57,7 @@ export default function Home() {
         </ul>
         <p>More businesses will embrace this method to fundraise, because the upside of having your customers as your owners is too great. Customer-owners will help make your product better, use the product more, and help the company grow faster.</p>
         <p>There is one way to make this happen sooner: show founders that taking this approach will make their companies more valuable.</p>
-        <p>So, to my 7,756 new investors asking "How can I help?" for the very first time:</p>
+        <p>So, to Gumroad's 7,756 new investors asking "How can I help?" for the very first time:</p>
         <ul>
           <li><a href="https://gumroad.com/signup">Sign up for Gumroad as a creator</a></li>
           <li><a href="https://gumroad.com/discover">Support Gumroad creators as a customer</a></li>
