@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>The Creator-owner Economy: Gumroad’s Series C</title>
+        <title>The Creator-Owner Economy: Gumroad’s Series C</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="twitter:title" content="The Creator-owner Economy" />
+        <meta name="twitter:title" content="The Creator-Owner Economy" />
         <meta name="twitter:description" content="Gumroad’s Series C" />
         <meta name="twitter:image" content="https://sahillavingia.com/c.png" />
       </Head>
@@ -28,7 +28,7 @@ export default function Home() {
         </label>
 
         <h2 className="item">
-          <strong>The Creator-owner Economy: Gumroad’s Series C</strong>
+          <strong>The Creator-Owner Economy: Gumroad’s Series C</strong>
         </h2>
 
         <p>Creators deserve to get paid for their work.</p>
