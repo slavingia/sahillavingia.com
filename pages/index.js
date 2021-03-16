@@ -10,12 +10,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <main class="centered-main">
+      <main className="centered-main">
         <Header></Header>
 
         <label>
           Writer
         </label>
+
+        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed index-follow-form" method="post">
+          <input name="seller_id" type="hidden" value="2614450981218" />
+          <input name="email" placeholder="Your email address" type="email" />
+          <button data-custom-highlight-color="" type="submit">Subscribe</button>
+        </form>
 
         <h2 className="item index-list-of-writings-title">
           <a href="/work">
@@ -56,16 +62,6 @@ export default function Home() {
             <img src="/bhosle.jpeg" className="painting" />
           </a>
         </h2>
-
-        <label>
-          Join my mailing list of 20,000 subscribers:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed index-follow-form" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
       </main>
     </Layout>
   )
