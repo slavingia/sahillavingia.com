@@ -44,7 +44,7 @@ export default function Home() {
         <p>A logical extension: owning part of Gumroad too.</p>
         <h2>The future of fundraising</h2>
         <p>On March 15, 2021 the SEC allowed startups to raise up to $5M using Regulation Crowdfunding. We hit that limit in just about 12 hours, raising the money from over 7,500 different individuals–including many of our creators.</p>
-        <p><img src="/republic.png" /></p>
+        <p><img src="/republic.png" style={{margin: "1rem 0"}} /></p>
         <p>Including $1M from Naval Ravikant, Jason Fried, and others, the total amount raised is $6M. We raised this capital at a $100M pre-money valuation.</p>
         <p>I hope to see more startups raise money from their customers and communities. <strong>Why isn’t it more common?</strong> First off, the legislation is a day old. So it’ll take some time to get people (both founders and retail investors) educated.</p>
         <p>There are other reasons too:</p>
@@ -57,7 +57,7 @@ export default function Home() {
         </ul>
         <p>More businesses will embrace this method to fundraise, because the upside of having your customers as your owners is too great. Customer-owners will help make your product better, use the product more, and help the company grow faster.</p>
         <p>There is one way to make this happen sooner: show founders that taking this approach will make their companies more valuable.</p>
-        <p>So, to my 7,747 new investors asking "How can I help?" for the very first time:</p>
+        <p>So, to my 7,756 new investors asking "How can I help?" for the very first time:</p>
         <ul>
           <li><a href="https://gumroad.com/signup">Sign up for Gumroad as a creator</a></li>
           <li><a href="https://gumroad.com/discover">Support Gumroad creators as a customer</a></li>
