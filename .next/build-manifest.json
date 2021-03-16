@@ -24,6 +24,14 @@
       "static/runtime/polyfills.js",
       "static/runtime/polyfills.js.map"
     ],
+    "/c": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
+    "/course": [
+      "static/runtime/webpack.js",
+      "static/runtime/main.js"
+    ],
     "/index": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
