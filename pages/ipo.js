@@ -67,7 +67,7 @@ export default function Home() {
         <p>To be clear: quintupling the crowdfunding cap is not going to 5x crowdfunding, it is going to 50x crowdfunding. Gumroad did not go from raising $1M to raising $5M, but from not raising this way to raising this way. Equity crowdfunding now has product-market fit.</p>
         <h2>How can I help?</h2>
         <p>There <em>is</em> one way to make this happen sooner: show founders that taking this approach will make their companies more valuable.</p>
-        <p>So, to Gumroad's 7,303 or so new investors asking "How can I help?" for the very first time:</p>
+        <p>So, to Gumroad's 7,303 new investors asking "How can I help?" for the very first time:</p>
         <ul>
           <li><a href="https://gumroad.com/signup">Sign up for Gumroad as a creator</a></li>
           <li><a href="https://gumroad.com/discover">Support Gumroad creators as a customer</a></li>
