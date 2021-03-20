@@ -42,7 +42,7 @@ export default function Home() {
         <p>It was a painful decision, but it was the right one. While it was tempting for me and others to Gumroad down and start anew, creators deserved to get paid–and many were counting on their income from Gumroad.</p>
         <p>In the years since I’ve often thought about how to make interests align more cleanly. Recently I <a href="/work">hired a few of our top creators</a> to run various parts of Gumroad.</p>
         <p>A logical next step: allowing them to become Gumroad investors too.</p>
-        <p>If I'm "successful," it's in large part because I went from earning an income to owning equity. Now, I get to put my company where my mouth is and allow others to do the same.</p>
+        <p>In the words of the newest Gumroadian, Raul Popadineți: "I became a Gumroad creator in January. Two days ago I became an angel investor at Gumroad, and now the circle is complete."</p>
         <h2>Turning creators into owners</h2>
         <p>Why now? As of March 15 2021, the SEC allows companies to raise up to $5M from the public, using Regulation Crowdfunding (Reg CF). Startups are now also allowed to "test the waters," making sure demand is there before commiting to spinning up a campaign.</p>
         <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we hit the new limit in just about 12 hours, from 7,300 investors–including thousands of Gumroad creators.</p>
