@@ -38,9 +38,9 @@ export default function Home() {
         <h2>From income to equity</h2>
         <p>The last time I tried to raise money, I failed. After meeting with dozens of investors and getting dozens of nos, we gave up on a Series B and had to either sell Gumroad, shut down, or get acquired. But in spite of <a href="/reflecting">“failing,”</a> we were still helping customers earn about $2 million a month to pay rent, top off their children’s college funds, or even just to buy a few cups of coffee.</p>
         <p>Instead of selling or shutting down, I chose our creators over our employees and our investors. I shrunk the team from 20 to five–and later from five to one, in order to keep serving our creators.</p>
-        <p>It was a painful decision, but it was the right one. While it was tempting for me and others to shut Gumroad down and start anew, creators deserved to get paid–and many were counting on their income from Gumroad.</p>
-        <p>In the years since I’ve often thought about how to make the interests of creators, employees, and investors align more cleantly. Recently I <a href="/work">hired a few of our top creators part-time</a> to run various parts of Gumroad.</p>
-        <p>I've wanted to allow Gumroad creators to become Gumroad investors for awhile too, and that recently became possible.</p>
+        <p>It was a painful decision, but it was the right one. While it was tempting for me and others to shut Gumroad down and start anew, creators deserved to get paid–and many were counting on Gumroad for their entire income.</p>
+        <p>In the years since I’ve often thought about how to make the interests of Gumroad's creators, employees, and investors align more cleantly. Recently I <a href="/work">hired a few of our top creators part-time</a> to run various parts of Gumroad.</p>
+        <p>I've wanted to let Gumroad's creators to become its investors too, and that recently became possible.</p>
         <h2>Turning creators into owners</h2>
         <p>On March 15 2021, the SEC started to allow companies to raise up to $5M from the public using Regulation Crowdfunding (Reg CF). Startups are now also allowed to "test the waters," making sure demand is there before committing to spinning up a campaign.</p>
         <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we raised $5M in 12 hours, from 7,303 investors–including over 5,800 first-time angel investors and hundreds of Gumroad creators.</p>
