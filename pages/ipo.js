@@ -64,8 +64,8 @@ export default function Home() {
         <ul>
           <li><a href="https://gumroad.com/signup">Sign up for Gumroad as a creator</a></li>
           <li><a href="https://gumroad.com/discover">Support Gumroad creators as a customer</a></li>
-          <li>Tell people that Gumroad exists–start by sharing this news</li>
-          <li>Send me and the team feedback–via <a href="https://joinclubhouse.com/club/gumroad">Clubhouse</a>, <a href="https://twitter.com/gumroad">Twitter</a>, and email</li>
+          <li>Tell people that Regulation Crowdfunding exists–start by sharing this news</li>
+          <li>Send me and the team feedback–via <a href="https://joinclubhouse.com/club/gumroad">Clubhouse</a> and <a href="https://twitter.com/gumroad">Twitter</a></li>
         </ul>
 
         <p>And if you're a founder, please check out <a href="https://raise.gumroad.com/">the materials I used</a> to crowdfund this raise, and reach out if you have any questions.</p>
