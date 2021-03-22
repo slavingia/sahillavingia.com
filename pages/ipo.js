@@ -60,8 +60,8 @@ export default function Home() {
         <p>Other businesses will come up with their own ways to solve these problems, because the upside of having your customers as your investors is too good to pass up. Gumroad now has hundreds of creators as owners who are now doubly incentivized to use the product and to spread the word to other creators.</p>
         <p>This isn't hypothetical. In the UK, where the maximum is higher and the required financial disclosures fewer,  <a href="https://docs.google.com/spreadsheets/d/1CZXdI0Giq1AGsPEG2HTg2t6zU5MrSazEvrpSQ0kcib0/edit#gid=0">crowdfunding is more than 60x the US</a>.</p>
         <p>To be clear: quintupling the crowdfunding cap is not going to 5x crowdfunding, it is going to 50x crowdfunding. Gumroad did not go from raising $1M to raising $5M, but from not raising this way to raising this way. Thanks to the rule changes on March 15, 2021, equity crowdfunding now has product-market fit.</p>
-        <p>There <em>is</em> one way to make crowdfunding as the new default happen sooner: show founders that taking this approach will make their companies more valuable.</p>
-        <p>So, to Gumroad's 7,303 new investors asking "How can I help?" for the very first time:</p>
+        <p>There <em>is</em> one way to make crowdfunding the new default sooner: show founders that taking this approach will make their companies more valuable.</p>
+        <p>So, to Gumroad's new investors asking "How can I help?" for the very first time:</p>
         <ul>
           <li><a href="https://gumroad.com/signup">Sign up for Gumroad as a creator</a></li>
           <li><a href="https://gumroad.com/discover">Support Gumroad creators as a customer</a></li>
