@@ -24,7 +24,7 @@ export default function Home() {
 
       <main className="centered-main content">
         <label>
-          March 23, 2021
+          March 22, 2021
         </label>
 
         <h2 className="item">
