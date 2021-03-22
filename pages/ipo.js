@@ -43,7 +43,7 @@ export default function Home() {
         <p>In the words of the newest Gumroadian, Raul Popadineți: "I became a Gumroad creator in January. Two days ago I became an angel investor at Gumroad, and now the circle is complete."</p>
         <h2>Turning creators into owners</h2>
         <p>Why now? As of March 15 2021, the SEC allows companies to raise up to $5M from the public using Regulation Crowdfunding (Reg CF). Startups are now also allowed to "test the waters," making sure demand is there before committing to spinning up a campaign.</p>
-        <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we raised $5M in 12 hours, from 7,303 investors–including thousands of Gumroad creators. That also includes over 5,800 people for whom this was their first angel investment.</p>
+        <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we raised $5M in 12 hours, from 7,303 investors–including over 5,800 first-time angel investmors.</p>
         <p><img src="/republic.png" style={{margin: "1rem 0"}} /></p>
         <p>Separately, we raised $1M from Naval Ravikant, Jason Fried, and others, bringing the total amount raised in this "IPO" to $6M. All of this capital was raised at the same terms: $100M pre-money valuation, 20% discount.</p>
         <p>I thought about calling this our Series C–for creators, community, crowdfunding, and out of respect for our failed Series B. But I think it's more accurate to say that this is our version of an "IPO," or initial public offering.</p>
