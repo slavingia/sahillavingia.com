@@ -46,8 +46,8 @@ export default function Home() {
         <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we raised $5M in 12 hours, from 7,303 investors–including over 5,800 first-time angel investors and hundreds of Gumroad creators.</p>
         <p><img src="/republic.png" style={{margin: "1rem 0"}} /></p>
         <p>Separately, we raised $1M from Naval Ravikant, Jason Fried, and others, bringing the total amount raised in this "IPO" to $6M. All of this capital was raised at the same terms: $100M pre-money valuation, 20% discount.</p>
-        <p>I thought about calling this our Series C–for creators, community, crowdfunding, and out of respect for our failed Series B. But I think it's more accurate to say that this is our version of an "IPO," or initial public offering.</p>
-        <p>There only thing that's missing: post-IPO liquidity. But liquidity is coming. An underreported fact of Reg CF is that it allows for secondary sales after a one-year lockup period. Gumroad will soon allow owners to buy and sell their stake.</p>
+        <p>I thought about calling this our Series C–for creators, community, crowdfunding, and out of respect for our failed Series B–but I think it's more accurate to say that this is our limited version of an "IPO."</p>
+        <p>There's only thing missing: post-IPO liquidity. But liquidity is coming; an underreported fact of Reg CF is that it allows for secondary sales after a one-year lockup period. Like Reg CF itself, Gumroad will take advantage of that the day it becomes possible.</p>
         <h2>The future of fundraising</h2>
         <p>I hope to see more startups raise money from their customers and communities. And not just startups, but restaurants and coffee shops and bookstores and more mature companies, and maybe even venture capital firms.</p>
         <p>Why isn’t raising money this way more common? First off, the legislation is a day old. It’ll take some time to get both sides of the marketplace–founders and retail investors–warmed up.</p>
