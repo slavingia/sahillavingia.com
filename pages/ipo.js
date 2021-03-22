@@ -55,7 +55,7 @@ export default function Home() {
         <ul>
           <li>Reg CF requires a lot of financial transparency, <em>BUT I publish our financials already</em></li>
           <li>Having thousands of investors may create external decision-making pressure around things like moderation, deplatforming, and pricing, <em>BUT we’re very open about our decision-making already with our Open Board Meetings, encouraging feedback</em></li>
-          <li>Founders often prefer VC brands and experience over what the general public has to offer when selling customers, employees, etc., <em>BUT I’ve raised money from VCs before and can get the help I need (I’m kind of one myself!)</em></li>
+          <li>Founders often prefer VC brands and experience over what the general public has to offer, <em>BUT I’ve raised money from VCs before and can get the help I need (I’m kind of one myself!)</em></li>
           <li>You need to have high confidence you can reach a large audience of retail investors, <em>BUT with “testing the waters” now allowed, founders can gauge demand before committing.</em></li>
         </ul>
         <p>Other businesses will come up with their own ways to solve these problems, because the upside of having your customers as your investors is too good to pass up. Gumroad now has hundreds of creators as owners who are now doubly incentivized to use the product, and to spread the word to other creators.</p>
