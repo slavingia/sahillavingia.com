@@ -75,7 +75,7 @@ export default function Home() {
         <hr />
 
         <label className="centered">
-          Join 20,000 people receiving updates on the Gumroad journey:
+          Be the first to know when Gumroad raises money from the public again:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
