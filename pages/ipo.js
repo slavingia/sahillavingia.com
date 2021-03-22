@@ -49,7 +49,7 @@ export default function Home() {
         <p>There's only thing missing: post-IPO liquidity. But liquidity is coming; an underreported fact of Reg CF is that it allows for secondary sales after a one-year lockup period. Gumroad will take advantage of that the day it becomes possible.</p>
         <h2>The future of fundraising</h2>
         <p>I hope to see more startups raise money from their customers and communities. And not just startups, but restaurants and coffee shops and bookstores and more mature companies, and maybe even venture capital firms.</p>
-        <p>Why isn’t raising money this way more common? First off, the legislation is a day old. It’ll take some time to get both sides of the marketplace–founders and retail investors–warmed up.</p>
+        <p>Why isn’t raising money this way more common? First off, the legislation is days old. It’ll take some time to get both sides of the marketplace–founders and retail investors–warmed up.</p>
         <p>There are additional reasons too, but I was able to resolve them:</p>
         <ul>
           <li>Reg CF requires a lot of financial transparency, <em>BUT I publish our financials already</em></li>
@@ -60,8 +60,7 @@ export default function Home() {
         <p>Other businesses will come up with their own ways to solve these problems, because the upside of having your customers as your investors is too good to pass up. Gumroad now has hundreds of creators as owners who are now doubly incentivized to use the product and to spread the word to other creators.</p>
         <p>This isn't hypothetical. In the UK, where the maximum is higher and the required financial disclosures fewer,  <a href="https://docs.google.com/spreadsheets/d/1CZXdI0Giq1AGsPEG2HTg2t6zU5MrSazEvrpSQ0kcib0/edit#gid=0">crowdfunding is more than 60x the US</a>.</p>
         <p>To be clear: quintupling the crowdfunding cap is not going to 5x crowdfunding, it is going to 50x crowdfunding. Gumroad did not go from raising $1M to raising $5M, but from not raising this way to raising this way. Thanks to the rule changes on March 15, 2021, equity crowdfunding now has product-market fit.</p>
-        <h2>How can I help?</h2>
-        <p>There <em>is</em> one way to make this happen sooner: show founders that taking this approach will make their companies more valuable.</p>
+        <p>There <em>is</em> one way to make crowdfunding as the new default happen sooner: show founders that taking this approach will make their companies more valuable.</p>
         <p>So, to Gumroad's 7,303 new investors asking "How can I help?" for the very first time:</p>
         <ul>
           <li><a href="https://gumroad.com/signup">Sign up for Gumroad as a creator</a></li>
