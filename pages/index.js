@@ -24,6 +24,13 @@ export default function Home() {
         </form>
 
         <h2 className="item index-list-of-writings-title">
+          <a href="/ipo">
+            The Creator-Owner Economy: Gumroad’s "IPO"
+          </a>
+          <small>2021</small>
+        </h2>
+
+        <h2 className="item index-list-of-writings-title">
           <a href="/work">
             No Meetings, No Deadlines, No Full-Time Employees
           </a>
