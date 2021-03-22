@@ -51,7 +51,7 @@ export default function Home() {
         <p>Why isn’t raising money this way more common? First off, the legislation is days old. It’ll take some time to get both sides of the marketplace–founders and retail investors–warmed up.</p>
         <p>There are additional reasons too, but I was able to resolve them:</p>
         <ul>
-          <li>Reg CF requires a lot of financial transparency, <em>BUT I publish our financials already</em></li>
+          <li>Reg CF requires a lot of financial transparency, <em>BUT I publish our financials already.</em></li>
           <li>Having thousands of investors may create external decision-making pressure around things like moderation, deplatforming, and pricing, <em>BUT we encourage feedback already, and we're very open about our decision-making through our <a href="https://www.youtube.com/watch?v=I192Z6WaVWQ">Open Board Meetings</a>.</em></li>
           <li>Founders often prefer VC brands and experience over what the general public has to offer, <em>BUT one can raise from both, like I did.</em></li>
           <li>You need to have high confidence you can reach a large audience of retail investors, <em>BUT with “testing the waters” now allowed, founders can gauge demand before committing.</em></li>
