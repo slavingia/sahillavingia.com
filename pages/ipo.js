@@ -41,25 +41,25 @@ export default function Home() {
         <p>It was a painful decision, but it was the right one. While it was tempting for me and others to shut Gumroad down and start anew, creators deserved to get paid–and many were counting on Gumroad for their entire income.</p>
         <p>In the years since I’ve often thought about how to make the interests of Gumroad's creators, employees, and investors align more cleantly. Recently I <a href="/work">hired a few of our top creators part-time</a> to run various parts of Gumroad. Letting them become investors was the next logical step.</p>
         <h2>Turning creators into owners</h2>
-        <p>On March 15 2021, the SEC started to allow companies to raise up to $5M from the public using Regulation Crowdfunding (Reg CF). Startups are now also allowed to "test the waters," making sure demand is there before committing to spinning up a campaign.</p>
+        <p>On March 15 2021, the SEC started to allow companies to raise up to $5M from the public using Regulation Crowdfunding (Reg CF). Startups are also now allowed to "test the waters," making sure the demand is there before committing to a campaign.</p>
         <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we raised $5M in 12 hours, from 7,303 investors–including over 5,800 first-time angel investors and hundreds of Gumroad creators.</p>
         <p><img src="/republic.png" style={{margin: "1rem 0"}} /></p>
-        <p>Separately, we raised $1M from Naval Ravikant, Jason Fried, and others, bringing the total amount raised in this "IPO" to $6M. All of this capital was raised at the same terms: $100M pre-money valuation, 20% discount.</p>
+        <p>Separately, we raised $1M from Naval Ravikant, Jason Fried, and others, bringing the total amount raised to $6M. All of this capital was raised at the same terms: $100M pre-money valuation, 20% discount.</p>
         <p>I thought about calling this our Series C–for creators, community, crowdfunding, and out of respect for our failed Series B–but I think it's more accurate to say that this is our limited version of an "IPO."</p>
-        <p>There's only thing missing: post-IPO liquidity. But liquidity is coming; an underreported fact of Reg CF is that it allows for secondary sales after a one-year lockup period. Like Reg CF itself, Gumroad will take advantage of that the day it becomes possible.</p>
+        <p>There's only thing missing: post-IPO liquidity. But liquidity is coming; an underreported fact of Reg CF is that it allows for secondary sales after a one-year lockup period. Gumroad will take advantage of that the day it becomes possible.</p>
         <h2>The future of fundraising</h2>
         <p>I hope to see more startups raise money from their customers and communities. And not just startups, but restaurants and coffee shops and bookstores and more mature companies, and maybe even venture capital firms.</p>
         <p>Why isn’t raising money this way more common? First off, the legislation is a day old. It’ll take some time to get both sides of the marketplace–founders and retail investors–warmed up.</p>
-        <p>There are additional reasons that were less of an impediment for me than they might be for others:</p>
+        <p>There are additional reasons too, but I was able to resolve them:</p>
         <ul>
           <li>Reg CF requires a lot of financial transparency, <em>BUT I publish our financials already</em></li>
-          <li>Having thousands of investors may create external decision-making pressure around things like moderation, deplatforming, and pricing, <em>BUT we’re very open about our decision-making already with our Open Board Meetings, encouraging feedback</em></li>
-          <li>Founders often prefer VC brands and experience over what the general public has to offer, <em>BUT I’ve raised money from VCs before and can get the help I need (I’m kind of one myself!)</em></li>
+          <li>Having thousands of investors may create external decision-making pressure around things like moderation, deplatforming, and pricing, <em>BUT we’ve been open about our decision-making already with open board meetings, encouraging feedback.</em></li>
+          <li>Founders often prefer VC brands and experience over what the general public has to offer, <em>BUT one can raise from both, like I did.</em></li>
           <li>You need to have high confidence you can reach a large audience of retail investors, <em>BUT with “testing the waters” now allowed, founders can gauge demand before committing.</em></li>
         </ul>
-        <p>Other businesses will come up with their own ways to solve these problems, because the upside of having your customers as your investors is too good to pass up. Gumroad now has hundreds of creators as owners who are now doubly incentivized to use the product, and to spread the word to other creators.</p>
+        <p>Other businesses will come up with their own ways to solve these problems, because the upside of having your customers as your investors is too good to pass up. Gumroad now has hundreds of creators as owners who are now doubly incentivized to use the product and to spread the word to other creators.</p>
         <p>This isn't hypothetical. In the UK, where the maximum is higher and the required financial disclosures fewer,  <a href="https://docs.google.com/spreadsheets/d/1CZXdI0Giq1AGsPEG2HTg2t6zU5MrSazEvrpSQ0kcib0/edit#gid=0">crowdfunding is more than 60x the US</a>.</p>
-        <p>To be clear: quintupling the crowdfunding cap is not going to 5x crowdfunding, it is going to 50x crowdfunding. Gumroad did not go from raising $1M to raising $5M, but from not raising this way to raising this way. Equity crowdfunding now has product-market fit.</p>
+        <p>To be clear: quintupling the crowdfunding cap is not going to 5x crowdfunding, it is going to 50x crowdfunding. Gumroad did not go from raising $1M to raising $5M, but from not raising this way to raising this way. Thanks to the rule changes on March 15, 2021, equity crowdfunding now has product-market fit.</p>
         <h2>How can I help?</h2>
         <p>There <em>is</em> one way to make this happen sooner: show founders that taking this approach will make their companies more valuable.</p>
         <p>So, to Gumroad's 7,303 new investors asking "How can I help?" for the very first time:</p>
