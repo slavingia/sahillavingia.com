@@ -9,8 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="twitter:title" content="The Creator-Owner Economy" />
-        <meta name="twitter:description" content="Gumroad’s 'IPO'" />
+        <meta name="twitter:title" content="The Creator-Owner Economy: Gumroad's 'IPO'" />
         <meta name="twitter:image" content="https://sahillavingia.com/republic.png" />
       </Head>
 
