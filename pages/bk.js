@@ -10,8 +10,8 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="twitter:title" content="The Minimalist Entrepreneur" />
-        <meta name="twitter:description" content="A four-week cohort-based course" />
-        <meta name="twitter:image" content="https://sahillavingia.com/MinimalistEntrepreneur_BookCover_Final.png" />
+        <meta name="twitter:description" content="How Great Founders Do More With Less" />
+        <meta name="twitter:image" content="https://sahillavingia.com/HJjDU2wx.png" />
       </Head>
 
       <a className="tiny-title" href="/">

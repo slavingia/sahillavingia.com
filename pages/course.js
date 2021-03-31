@@ -57,24 +57,24 @@ export default function Home() {
 
         <p>We'll cover my approach to starting a business from scratch, as well as scaling it to your definition of success. Plus, once you get there, how to own it such that it doesn't own you.</p>
 
-        <h2 style={{textShadow: "1px 1px 0 white"}}>Curriculum</h2>
+        <h2 style={{marginTop: "700px"}}>Curriculum</h2>
 
-        <p style={{textShadow: "1px 1px 0 white"}}>
+        <p>
           <strong>The Minimalist Entrepreneur</strong>
           <br />
           Eight attributes define our archetypal founder: profitability, community, process, discovery, transparency, growth, culture, and purpose.
         </p>
-        <p style={{textShadow: "1px 1px 0 white"}}>
+        <p>
           <strong>Community first</strong>
           <br />
           One of the best places to start your business is by picking a community. But which community, and how should you think about building for them? Plus, how to spot problems worth solving.
         </p>
-        <p style={{textShadow: "1px 1px 0 white"}}>
+        <p>
           <strong>Build a manual valuable process</strong>
           <br />
           A framework to convert ideas into products that solve problems for your customers, and how to scale your solution over time.
         </p>
-        <p style={{textShadow: "1px 1px 0 white"}}>
+        <p>
           <strong>Selling to your first 100 customers</strong>
           <br />
           How to teach your way to product-market fit, and have fun doing it.
