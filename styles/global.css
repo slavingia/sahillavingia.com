@@ -30,7 +30,7 @@ h3 {
 }
 
 main {
-  padding: 1rem 2rem 2rem 2rem;
+  padding: 1rem 2rem 0 2rem;
   flex: 1;
   width: 100%;
   max-width: 760px;
@@ -47,12 +47,33 @@ main {
   font-weight: normal;
 }
 
+.paintings {
+  margin-top: 60px;
+  background: black;
+  padding: 1px 0 60px;
+  position: relative;
+}
+
+.paintings label {
+  color: white;
+}
+
+.paintings-border {
+  background: black;
+  display: block;
+  content: "";
+  width: 9999px;
+  height: 100%;
+  position: absolute;
+  left: -200%;
+  top: 0;
+  z-index: -1;
+}
+
 .painting {
-  max-height: 200px;
+  max-height: 230px;
   margin-right: 20px;
-  border: 1px solid #daa520;
-  box-shadow: 0 0 0 5px black;
-  margin: 5px 20px 5px 5px;
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, .4);
 }
 
 main.centered-main {
@@ -67,24 +88,8 @@ a:hover {
   cursor: pointer;
 }
 
-.twitter {
-  width: 32px;
-  height: 32px;
-  position: relative;
-  display: inline-block;
-  top: 6px;
-  margin-left: 18px;
-}
-
-.email {
-  margin-left: 18px;
-  position: relative;
-  top: -5px;
-}
-
 .title,
-.tiny-title,
-.twitter-link {
+.tiny-title {
   margin: 0;
   padding: 1rem 0 0;
   line-height: 1.15;
@@ -94,26 +99,13 @@ a:hover {
   text-decoration: none;
 }
 
-.tiny-title,
-.twitter-link {
+.tiny-title {
   position: fixed;
   left: 0;
   top: 0;
   font-size: 1rem;
   padding: 0.5rem;
   z-index: 2;
-}
-
-.twitter-link {
-  left: auto;
-  right: 0;
-}
-
-.twitter-link img {
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-  top: 0;
 }
 
 label {
@@ -334,11 +326,6 @@ button:hover {
     position: static;
     background: rgba(41, 41, 41);
     color: white;
-  }
-
-  .twitter-link {
-    color: white;
-    position: absolute;
   }
 }
 

@@ -17,12 +17,6 @@ export default function Home() {
           Writer
         </label>
 
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed index-follow-form" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
-
         <h2 className="item index-list-of-writings-title">
           <a href="/ipo">
             The Creator-Owner Economy: Gumroad’s "IPO"
@@ -58,11 +52,12 @@ export default function Home() {
           <small>2018</small>
         </h2>
 
-        <label>
-          Painter
-        </label>
+        <h2 className="paintings">
+          <div class="paintings-border"></div>
+          <label>
+            Painter
+          </label>
 
-        <h2 className="item">
           <a href="https://instagram.com/shlpaints">
             <img src="/painting.jpeg" className="painting" />
             <img src="/rocks.png" className="painting" />
