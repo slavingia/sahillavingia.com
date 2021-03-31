@@ -21,8 +21,17 @@ export default function Home() {
       <main class="course">
         <img src="/title.png" width="400" />
         <img src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
-        <img src="/pink object.png" width="120" style={{ position: "absolute", top: "880px", right: "-100px", zIndex: "1" }} />
-        <div style={{ background: "#ccc", width: "3px", height: "1050px", transform: "rotate(-60deg)", position: "absolute", top: "232px", left: "370px", zIndex: "1" }}></div>
+        <img src="/pink object.png" width="120" style={{ position: "absolute", top: "1062px", right: "-300px", zIndex: "1" }} />
+        <div style={{
+          background: "#aaa",
+          width: "3px",
+          height: "1300px",
+          transform: "rotate(-57deg)",
+          position: "absolute",
+          top: "198px",
+          left: "470px",
+          zIndex: "1"
+        }}></div>
 
         <p>This is a four-week cohort-based course for founders who want to learn to do more with less.</p>
 
