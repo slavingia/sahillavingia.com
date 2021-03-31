@@ -117,7 +117,9 @@ export default function Home() {
           The more you put in, the more you'll get out. I recommend at least a couple hours a week dedicated to this course content and optional assignments.
         </p>
 
-        <p>The first cohort of 150 students sold out in a few hours! <a href="https://gum.co/tme-waitlist?price=0&wanted=true" class="buy-button">Join the waitlist</a> to secure your spot in the next one, in June.</p>
+        <p>The first cohort of 150 students sold out in a few hours! Please join the waitlist to secure your spot in the next one, in June.</p>
+
+        <a href="https://gum.co/tme-waitlist?price=0&wanted=true" style={{background: "#d4287f", color: "white", padding: "15px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "60px 0 0", display: "inline-block"}}>Join the waitlist</a>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
       </main>
