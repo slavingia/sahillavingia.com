@@ -334,3 +334,16 @@ button:hover {
     padding: 60px 20px;
   }
 }
+
+.retailer-link {
+  display: block;
+  color: #aaa;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 20px auto;
+  position: relative;
+  z-index: 4;
+  font-family: "Menlo, Courier, monospace";
+  text-decoration: underline;
+  border-bottom: 0;
+}

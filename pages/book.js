@@ -19,12 +19,13 @@ export default function Home() {
       </a>
 
       <main className="course">
-        <img src="/title.png"  style={{maxWidth: "400px", width: "100%"}}  />
-        <img src="/subtitle.png"  style={{maxWidth: "400px", width: "100%"}}  />
+        <img src="/title.png"  style={{maxWidth: "360px", width: "100%"}}  />
+        <img src="/subtitle.png"  style={{maxWidth: "360px", width: "100%"}}  />
         <p style={{
           textAlign: "center"
         }}>
-          <a href="https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", position: "relative", zIndex: "4", fontFamily: "Menlo, Courier, monospace"}}>Pre-order now</a>
+          <a href="https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", position: "relative", zIndex: "4", fontFamily: "Menlo, Courier, monospace"}}>Pre-order on Amazon</a>
+          <a href="https://www.penguinrandomhouse.com/books/652764/the-minimalist-entrepreneur-by-sahil--lavingia/" className="retailer-link">From other retailers</a>
         </p>
         <img src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
         <img src="/pink object.png" width="120" style={{ position: "absolute", top: "1062px", right: "-300px", zIndex: "1" }} />
