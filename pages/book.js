@@ -24,7 +24,7 @@ export default function Home() {
         <p style={{
           textAlign: "center"
         }}>
-          <a href="https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", zIndex: "1"}}>Pre-order now</a>
+          <a href="https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", zIndex: "1", fontFamily: "Menlo, Courier, monospace"}}>Pre-order now</a>
         </p>
         <img src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
         <img src="/pink object.png" width="120" style={{ position: "absolute", top: "1062px", right: "-300px", zIndex: "1" }} />
