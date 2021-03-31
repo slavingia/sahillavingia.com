@@ -15,145 +15,111 @@ export default function Home() {
       </Head>
 
       <a className="tiny-title" href="/">
-        &larr; Sahil Lavingia
+        &larr;
       </a>
 
-      <a className="twitter-link" href="https://twitter.com/shl">
-        <img src="/twitter.png" className="twitter" /> &rarr;
-      </a>
+      <main class="course">
+        <img src="/title.png" width="400" />
+        <img src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
+        <img src="/pink object.png" width="120" style={{ position: "absolute", top: "880px", right: "-100px", zIndex: "1" }} />
+        <div style={{ background: "#ccc", width: "3px", height: "1050px", transform: "rotate(-60deg)", position: "absolute", top: "232px", left: "370px", zIndex: "1" }}></div>
 
-      <main class="centered-main">
-        <label>
-          A four-week cohort-based course
-        </label>
-        <h2 className="item">
-          The Minimalist Entrepreneur
-        </h2>
+        <p>This is a four-week cohort-based course for founders who want to learn to do more with less.</p>
 
-        <p>If you follow me, you know I care about mostly one thing: more people should be starting their own businesses. Gumroad helps people do that. My fund helps people do that.</p>
-
-        <p>This course is also about helping people do that.</p>
-
-        <p>The goal of this course is to help you think differently about entrepreneurship. It exists because, after Gumroad came to a <a href="/reflecting">screeching halt in 2015</a>, I had to think differently about how to rebuild my life–and my work–in a way that would make me happy.</p>
-
-        <p><img src="/minient.png" /></p>
-
-        <p>This course is not about raising tens of millions of VC dollars, nor is it about building a one-person powered-by-Amazon dropshipping business. There's nothing wrong with that, but this course is about <strong>how to build a sustainable business that matters</strong>.</p>
+        <p>We'll cover my approach to starting a business from scratch, as well as scaling it to your definition of success. Plus, once you get there, how to own it such that it doesn't own you.</p>
 
         <h2>Curriculum</h2>
 
-        <p>This is a four-week course, consisting of eight classes.</p>
+        <p>
+          <strong>The Minimalist Entrepreneur</strong>
+          <br />
+          Eight attributes define our archetypal founder: profitability, community, process, discovery, transparency, growth, culture, and purpose.
+        </p>
+        <p>
+          <strong>Community first</strong>
+          <br />
+          One of the best places to start your business is by picking a community. But which community, and how should you think about building for them? Plus, how to spot problems worth solving.
+        </p>
+        <p>
+          <strong>Build a manual valuable process</strong>
+          <br />
+          A framework to convert ideas into products that solve problems for your customers, and how to scale your solution over time.
+        </p>
+        <p>
+          <strong>Selling to your first 100 customers</strong>
+          <br />
+          How to teach your way to product-market fit, and have fun doing it.
+        </p>
+        <p>
+          <strong>Market by being you</strong>
+          <br />
+          Not by spending money on ads or making headlines. Instead, we'll cover how to turn total strangers into fans, and how to set up your fans to turn themselves into customers. For free.
+        </p>
+        <p>
+          <strong>Grow yourself and your business sustainably</strong>
+          <br />
+          Once you're scaling, it's your job not to mess things up. Here we focus on the fundamentals of business and psychology to avoid unforced errors.
+        </p>
+        <p>
+          <strong>Build the house you want to live in</strong>
+          <br />
+          How to think through your values and finding the best people for you.
+        </p>
+        <p>
+          <strong>Where do we go from here?</strong>
+          <br />
+          Exploring the "dizzying anxiety of freedom" that owning a minimalist business gets you.
+        </p>
 
-        <p>We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
-
-        <ol>
-          <li>
-            <strong>The minimalist business</strong>
-            <p>The real problems with VC-driven startups and IPOs from the perspective of someone who traveled that road (and then skidded right off). Also, on the irony of a “lifestyle” business.</p>
-          </li>
-          <li>
-            <strong>Community first</strong>
-            <p>Designing a vision for your business by working backward from problems worth solving for people worth solving problems for.</p>
-          </li>
-          <li>
-            <strong>Make something they need</strong>
-            <p>Leveraging your experiences and assets as an entrepreneur to hit the ground running.</p>
-          </li>
-          <li>
-            <strong>Sell to your first 100 customers</strong>
-            <p>Don’t launch, sell. Debunking the myth of “virality” and how to market your business like a grown-up.</p>
-          </li>
-          <li>
-            <strong>Market like a minimalist</strong>
-            <p>Turn strangers into fans, and fans into customers. For free.</p>
-          </li>
-          <li>
-            <strong>Grow sustainably</strong>
-            <p>No profits = no payroll = no business. Letting go of Silicon Valley sloppiness and acing the fundamentals: operations, legal, finance.</p>
-          </li>
-          <li>
-            <strong>Build the house you want to live in</strong>
-            <p>Getting the culture to fit without ever using the word “culture-fit.”</p>
-          </li>
-          <li>
-            <strong>The moral company</strong>
-            <p>On the ethical significance of providing a product in return for payment. And exploring what comes next.</p>
-          </li>
-        </ol>
-
-        <p>We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
-
-        <h2>Topics that will be covered</h2>
-
-        <ul>
-          <li>Bootstrapping a customer-focused startup that solves real problems for paying customers</li>
-          <li>Finding and vetting a business idea that leverages your unique strengths as an inherent competitive advantage</li>
-          <li>Creating and leveraging a strong community of customers to kick-start your business’ growth</li>
-          <li>Successful sales tactics since sales is the best way to build your early traction, not Facebook ads or viral tricks</li>
-          <li>Marketing without costs by turning your strangers into your fans, and fans into customers</li>
-          <li>How to nail fundamentals like operations, legal, and finance so you can maintain profitability as you scale</li>
-          <li>Building a company culture that isn’t about beanbags and snacks</li>
-          <li>Using modern workplace options such as remote work and fractional work to build an awesome team without a high full-time headcount</li>
-        </ul>
-
-        <p>After taking this course (if not during it!), you will be able to start your own business to serve a community, ship a value-additive product for them, and sell it to a hundred customers.</p>
+        <p>After taking this course, you'll deeply understand how I think about starting and scaling businesses–and how not to. I promise that while you won't always agree, you will be pushed to evole your thinking–and if you haven't, to start.</p>
 
         <h2>Cohort-based courses</h2>
-        <p>There's no way I could do this alone. Besides my co-instructor Julie Mosow, I am working with a <a href="https://bit.ly/wk-gb">new startup</a> by AltMBA co-founder Wes Kao and Udemy co-founder Gagan Biyani to make this course happen.</p>
-        <p>The benefits include...</p>
-        <ul>
-          <li>
-            <strong>Learn with a cohort of peers</strong>
-            <p>This course is designed to facilitate peer learning and interaction through Zoom breakout groups, an active online community, and group projects.</p>
-          </li>
+        <p>Besides my co-instructor Julie Mosow, I am working with a <a href="https://bit.ly/wk-gb">new startup</a> by AltMBA co-founder Wes Kao and Udemy co-founder Gagan Biyani to make this course happen.</p>
+        <p>
+          <strong>Learn with a cohort of peers</strong>
+          <br />
+          This course is designed to facilitate peer learning and interaction through Zoom breakout groups, an active online community, and group projects.
+        </p>
 
-          <li>
-            <strong>Active learning, not passive lecture watching</strong>
-            <p>I won’t just talk at you. I will engage via live Q&amp;A, so this feels more like an interactive seminar than a massive lecture hall.</p>
-          </li>
+        <p>
+          <strong>Active learning, not passive lecture watching</strong>
+          <br />
+          I won’t just talk at you. I will engage via live Q&amp;A, so this feels more like an interactive seminar than a massive lecture hall.
+        </p>
 
-          <li>
-            <strong>Accountability and feedback</strong>
-            <p>You’re an entrepreneur. You can figure things out when you have to, but sometimes it’s helpful to have feedback and accountability to increase your chances of success.</p>
-          </li>
+        <p>
+          <strong>Accountability and feedback</strong>
+          <br />
+          You’re an entrepreneur. You can figure things out when you have to, but sometimes it’s helpful to have feedback and accountability to increase your chances of success.
+        </p>
 
-          <li>
-            <strong>Guest lecturers</strong>
-            <p>There'll be guests who will come in and provide different perspectives on how to be a Minimalist Entrepreneur.</p>
-          </li>
-        </ul>
+        <p>
+          <strong>Guest lecturers</strong>
+          <br />
+          There'll be guests who will come in and provide different perspectives on how to be a Minimalist Entrepreneur.
+        </p>
 
-        <p>But this is ultimately my course, and I will work hard and be present to improve the experience as much as I can.</p>
+        <h2 class="bold">Frequently-asked questions</h2>
 
-        <h2>Frequently-asked questions</h2>
+        <p>
+          <strong>Who are you?</strong>
+          <br />
+          I am the founder and CEO of Gumroad. I run a $12 million/year rolling venture fund, and I write and paint in my free time.
+        </p>
+        <p>
+          <strong>Who is this course for?</strong>
+          <br />
+          This course is for people who want to build meaningful, sustainable businesses, are willing to put in the hard work and time to make that happen, and who are willing to help others succeed as well. This course isn’t a solo journey.
+        </p>
+        <p>
+          <strong>What's the time commitment like?</strong>
+          <br />
+          The more you put in, the more you'll get out. I recommend at least a couple hours a week dedicated to this course content and optional assignments.
+        </p>
 
-        <p>If these don't answer your questions, please <a href="mailto:sahil@hey.com">email me</a> or <a href="https://twitter.com/shl">DM me on Twitter</a>.</p>
-
-        <ul>
-          <li>
-            <strong>Who are you?</strong>
-            <p>I'm the founder and CEO of Gumroad, a service that helps creators get paid for their work–to the tune of $175 million a year. Before that, I was the second employee at Pinterest and built Pinterest for iPhone.</p>
-          </li>
-          <li>
-            <strong>Who is this course for?</strong>
-            <p>This course is for people who want to build meaningful, sustainable businesses, are willing to put in the hard work and time to make that happen, and who are willing to help others succeed as well. This course isn’t a solo journey.</p>
-          </li>
-          <li>
-            <strong>Who isn't this for?</strong>
-            <p>People who are trying to build billion-dollar companies to "change the world." Or people who are trying to "get rich quick." Or people who are trying to work four hours a week.</p>
-          </li>
-          <li>
-            <strong>What's the time commitment like?</strong>
-            <p>It's at least two hour-long Zoom classes–Tuesdays and Thursdays at 9AM PST–with assignments, every week. The more you put in, the more you'll get out. I would recommend 5-7 hours a week dedicated to this class, if not more.</p>
-          </li>
-        </ul>
-
-        <p>This is a course with limited seats, priced at <strong>$850</strong>. We'll meet every Tuesday and Thursday from February 2nd to February 25th, at 9AM PST.</p>
-
-        <p>The first cohort is now sold out. If you're interested, please sign up for the waitlist:</p>
+        <p>The first cohort of 150 students sold out in a few hours! <a href="https://gum.co/tme-waitlist?price=0&wanted=true" class="buy-button">Join the waitlist</a> to secure your spot in the next one, in June.</p>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
-        <p><a href="https://gum.co/tme-waitlist?price=0&wanted=true" class="buy-button">Register via Gumroad</a></p>
       </main>
     </Layout>
   )

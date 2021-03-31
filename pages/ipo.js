@@ -17,10 +17,6 @@ export default function Home() {
         &larr; Sahil Lavingia
       </a>
 
-      <a className="twitter-link" href="https://twitter.com/shl">
-        <img src="/twitter.png" className="twitter" /> &rarr;
-      </a>
-
       <main className="centered-main content">
         <label>
           March 22, 2021

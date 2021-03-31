@@ -18,12 +18,8 @@ export default function Home() {
         &larr; Sahil Lavingia
       </a>
 
-      <a className="twitter-link" href="https://twitter.com/shl">
-        <img src="/twitter.png" className="twitter" /> &rarr;
-      </a>
-
       <main class="centered-main">
-        <h2 class="centered item">Thank you for your trust.</h2>
+        <h2 class="centered item">Thank you!</h2>
         <p class="centered">Details will be sent to you soon via minimalistentrepreneurcourse@gmail.com</p>
         <p><img src="/thanks.png" /></p>
       </main>

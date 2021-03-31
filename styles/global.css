@@ -5,8 +5,7 @@ html {
 html,
 body,
 input,
-button,
-.buy-button {
+button {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Inter, Segoe UI, Roboto,
@@ -159,6 +158,24 @@ h2 {
   width: 100%;
 }
 
+.course {
+  margin: 60px auto;
+}
+
+.course > p {
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.course > img {
+  margin: 0 auto 60px;
+  display: block;
+}
+
+.course > h2 {
+  font-size: 2rem;
+  margin-top: 60px;
+}
+
 p,
 blockquote,
 li {
@@ -169,7 +186,7 @@ li {
   color: rgb(41, 41, 41);
 }
 
-p + h2 {
+p + h2, h2.bold {
   font-weight: bold;
 }
 
@@ -247,8 +264,7 @@ hr {
 }
 
 input,
-button,
-.buy-button {
+button {
   margin-right: 0.5rem;
   padding: 0.5rem 1rem;
   font-size: 2rem;
@@ -259,27 +275,17 @@ button,
   height: 56px;
 }
 
-.buy-button {
-  height: auto;
-  margin: 0 auto;
-  display: block;
-  max-width: 300px;
-  margin-bottom: 100px;
-}
-
 input {
   border: 1px solid #aaa;
 }
 
-button,
-.buy-button {
+button {
   background: rgb(41, 41, 41);
   color: white;
   border: none;
 }
 
-button:hover,
-.buy-button:hover {
+button:hover {
   cursor: pointer;
 }
 
