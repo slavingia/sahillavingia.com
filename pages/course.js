@@ -30,31 +30,51 @@ export default function Home() {
           position: "absolute",
           top: "198px",
           left: "470px",
-          zIndex: "1"
+          zIndex: "-1"
+        }}></div>
+        <div style={{
+          background: "#aaa",
+          width: "3px",
+          height: "550px",
+          position: "absolute",
+          top: "653px",
+          left: "170px",
+          zIndex: "-1"
+        }}></div>
+        <div style={{
+          background: "#aaa",
+          width: "3px",
+          height: "130px",
+          transform: "rotate(90deg)",
+          position: "absolute",
+          top: "1138px",
+          left: "170px",
+          zIndex: "-1",
+          marginBottom: "60px"
         }}></div>
 
         <p>This is a four-week cohort-based course for founders who want to learn to do more with less.</p>
 
         <p>We'll cover my approach to starting a business from scratch, as well as scaling it to your definition of success. Plus, once you get there, how to own it such that it doesn't own you.</p>
 
-        <h2>Curriculum</h2>
+        <h2 style={{textShadow: "1px 1px 0 white"}}>Curriculum</h2>
 
-        <p>
+        <p style={{textShadow: "1px 1px 0 white"}}>
           <strong>The Minimalist Entrepreneur</strong>
           <br />
           Eight attributes define our archetypal founder: profitability, community, process, discovery, transparency, growth, culture, and purpose.
         </p>
-        <p>
+        <p style={{textShadow: "1px 1px 0 white"}}>
           <strong>Community first</strong>
           <br />
           One of the best places to start your business is by picking a community. But which community, and how should you think about building for them? Plus, how to spot problems worth solving.
         </p>
-        <p>
+        <p style={{textShadow: "1px 1px 0 white"}}>
           <strong>Build a manual valuable process</strong>
           <br />
           A framework to convert ideas into products that solve problems for your customers, and how to scale your solution over time.
         </p>
-        <p>
+        <p style={{textShadow: "1px 1px 0 white"}}>
           <strong>Selling to your first 100 customers</strong>
           <br />
           How to teach your way to product-market fit, and have fun doing it.
