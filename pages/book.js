@@ -19,8 +19,8 @@ export default function Home() {
       </a>
 
       <main className="course">
-        <img src="/title.png" width="400" />
-        <img src="/subtitle.png" width="400" />
+        <img src="/title.png"  style={{maxWidth: "400px", width: "100%"}}  />
+        <img src="/subtitle.png"  style={{maxWidth: "400px", width: "100%"}}  />
         <p style={{
           textAlign: "center"
         }}>
