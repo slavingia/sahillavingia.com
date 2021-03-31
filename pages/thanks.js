@@ -11,12 +11,8 @@ export default function Home() {
         <meta name="twitter:site" content="@shl" />
         <meta name="twitter:title" content="The Minimalist Entrepreneur" />
         <meta name="twitter:description" content="A four-week cohort-based course" />
-        <meta name="twitter:image" content="https://sahillavingia.com/minient.png" />
+        <meta name="twitter:image" content="https://sahillavingia.com/title.png" />
       </Head>
-
-      <a className="tiny-title" href="/">
-        &larr; Sahil Lavingia
-      </a>
 
       <main class="centered-main">
         <h2 class="centered item">Thank you!</h2>
