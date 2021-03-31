@@ -53,7 +53,7 @@ export default function Home() {
           marginBottom: "60px"
         }}></div>
 
-        <p>This is a four-week cohort-based course for founders who want to learn to do more with less.</p>
+        <p>A four-week cohort-based course for founders who want to learn to do more with less.</p>
 
         <p>We'll cover my approach to starting a business from scratch, as well as scaling it to your definition of success. Plus, once you get there, how to own it such that it doesn't own you.</p>
 
@@ -148,7 +148,7 @@ export default function Home() {
 
         <p>The first cohort of 150 students sold out in a few hours! Please join the waitlist to secure your spot in the next one, in June.</p>
 
-        <a href="https://gum.co/tme-waitlist?price=0&wanted=true" style={{background: "#d4287f", color: "white", padding: "15px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "60px 0 0", display: "inline-block"}}>Join the waitlist</a>
+        <a href="https://gum.co/tme-waitlist?price=0&wanted=true" style={{background: "#d4287f", color: "white", padding: "15px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "60px 0 0", display: "inline-block", fontFamily: "Menlo, Courier, monospace"}}>Join the waitlist</a>
 
         <script src="https://gumroad.com/js/gumroad.js"></script>
       </main>
