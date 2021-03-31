@@ -103,7 +103,7 @@ export default function Home() {
         <p>After taking this course, you'll deeply understand how I think about starting and scaling businesses–and how not to. I promise that while you won't always agree, you will be pushed to evolve your thinking–and if you haven't, to start.</p>
 
         <h2>Cohort-based courses</h2>
-        <p>Besides my co-instructor Julie Mosow, I am working with a <a href="https://bit.ly/wk-gb">new startup</a> by AltMBA co-founder Wes Kao and Udemy co-founder Gagan Biyani to make this course happen.</p>
+        <p>Besides my co-instructor Julie Mosow, I am working with <a href="https://maven.com">Maven</a> to make this course happen.</p>
         <p>
           <strong>Learn with a cohort of peers</strong>
           <br />
