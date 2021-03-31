@@ -327,8 +327,10 @@ button:hover {
     background: rgba(41, 41, 41);
     color: white;
   }
-}
 
-.index-follow-form {
-  margin-top: 0;
+  .course {
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
 }
