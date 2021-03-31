@@ -6,7 +6,7 @@ export default function Home() {
     <Layout>
       <Head>
         <title>The Minimalist Entrepreneur</title>
-        <link rel="icon" href="/favicon.svg" />
+        <link rel="icon" href="/pink object.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="twitter:title" content="The Minimalist Entrepreneur" />
