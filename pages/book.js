@@ -19,13 +19,18 @@ export default function Home() {
       </a>
 
       <main className="course book">
-        <img className="title" src="/title.png"  style={{maxWidth: "360px", width: "100%"}}  />
-        <img className="subtitle" src="/subtitle.png"  style={{maxWidth: "360px", width: "100%"}}  />
+        <a href="https://amzn.to/3mb3FuD" style={{textAlign: "center", display: "block", margin: "0 auto"}}>
+          <img className="title" src="/title.png"  style={{maxWidth: "360px", width: "100%"}}  />
+          <img className="subtitle" src="/subtitle.png"  style={{maxWidth: "360px", width: "100%"}}  />
+        </a>
         <p style={{
           textAlign: "center"
         }}>
-          <a href="https://amzn.to/3mb3FuD" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", position: "relative", zIndex: "4", fontFamily: "Menlo, Courier, monospace"}}>Pre-order on Amazon</a>
-          <a href="https://www.penguinrandomhouse.com/books/652764/the-minimalist-entrepreneur-by-sahil--lavingia/" className="retailer-link">From other retailers</a>
+          <a href="https://amzn.to/3mb3FuD" className="retailer-link">Amazon</a>
+          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/2/trackingcode/PRH614281C130" className="retailer-link">Barnes and Noble</a>
+          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/29/trackingcode/PRH614281C130" className="retailer-link">Bookshop.org</a>
+          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/5/trackingcode/PRH614281C130" className="retailer-link">Books A Mllion</a>
+          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192405/siteID/8001/retailerid/3/trackingcode/PRH614281C130" className="retailer-link">Apple Books</a>
         </p>
         <img className="yellow" src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
         <img className="pink" src="/pink object.png" width="120" style={{ position: "absolute", top: "1062px", right: "-300px", zIndex: "1" }} />
