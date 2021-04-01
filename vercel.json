@@ -1,10 +1,6 @@
 {
   "redirects": [
     {
-      "source": "/bk",
-      "destination": "https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1"
-    },
-    {
       "source": "/video",
       "destination": "https://calendly.com/sahil-lavingia/video"
     },
