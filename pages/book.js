@@ -24,7 +24,7 @@ export default function Home() {
         <p style={{
           textAlign: "center"
         }}>
-          <a href="https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", position: "relative", zIndex: "4", fontFamily: "Menlo, Courier, monospace"}}>Pre-order on Amazon</a>
+          <a href="https://amzn.to/3mb3FuD" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", position: "relative", zIndex: "4", fontFamily: "Menlo, Courier, monospace"}}>Pre-order on Amazon</a>
           <a href="https://www.penguinrandomhouse.com/books/652764/the-minimalist-entrepreneur-by-sahil--lavingia/" className="retailer-link">From other retailers</a>
         </p>
         <img className="yellow" src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
