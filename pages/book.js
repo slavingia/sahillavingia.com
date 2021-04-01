@@ -27,9 +27,9 @@ export default function Home() {
           textAlign: "center"
         }}>
           <a href="https://amzn.to/3mb3FuD" className="retailer-link">Amazon</a>
-          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/2/trackingcode/PRH614281C130" className="retailer-link">Barnes and Noble</a>
+          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/2/trackingcode/PRH614281C130" className="retailer-link">Barnes & Noble</a>
           <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/29/trackingcode/PRH614281C130" className="retailer-link">Bookshop.org</a>
-          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/5/trackingcode/PRH614281C130" className="retailer-link">Books A Mllion</a>
+          <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192399/siteID/8001/retailerid/5/trackingcode/PRH614281C130" className="retailer-link">Books A Million</a>
           <a href="http://links.penguinrandomhouse.com/type/affiliate/isbn/9780593192405/siteID/8001/retailerid/3/trackingcode/PRH614281C130" className="retailer-link">Apple Books</a>
         </p>
         <img className="yellow" src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
