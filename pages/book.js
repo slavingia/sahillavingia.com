@@ -18,17 +18,17 @@ export default function Home() {
         &larr;
       </a>
 
-      <main className="course">
-        <img src="/title.png"  style={{maxWidth: "360px", width: "100%"}}  />
-        <img src="/subtitle.png"  style={{maxWidth: "360px", width: "100%"}}  />
+      <main className="course book">
+        <img className="title" src="/title.png"  style={{maxWidth: "360px", width: "100%"}}  />
+        <img className="subtitle" src="/subtitle.png"  style={{maxWidth: "360px", width: "100%"}}  />
         <p style={{
           textAlign: "center"
         }}>
           <a href="https://www.amazon.com/dp/B08V52DP47/ref=dp-kindle-redirect?_encoding=UTF8&btkr=1" style={{background: "#d4287f", color: "white", padding: "12px 25px", borderRadius: "99px", fontSize: 18, textDecoration: "none", margin: "0px auto 0", display: "inline-block", position: "relative", zIndex: "4", fontFamily: "Menlo, Courier, monospace"}}>Pre-order on Amazon</a>
           <a href="https://www.penguinrandomhouse.com/books/652764/the-minimalist-entrepreneur-by-sahil--lavingia/" className="retailer-link">From other retailers</a>
         </p>
-        <img src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
-        <img src="/pink object.png" width="120" style={{ position: "absolute", top: "1062px", right: "-300px", zIndex: "1" }} />
+        <img className="yellow" src="/yellow object.png" width="1200" style={{ position: "absolute", top: "-700px", left: "-700px", zIndex: "-1" }} />
+        <img className="pink" src="/pink object.png" width="120" style={{ position: "absolute", top: "1062px", right: "-300px", zIndex: "1" }} />
         <div style={{
           background: "#aaa",
           width: "3px",
@@ -38,7 +38,7 @@ export default function Home() {
           top: "198px",
           left: "470px",
           zIndex: "1"
-        }}></div>
+        }} className="lever"></div>
         <div style={{
           background: "#aaa",
           width: "3px",
@@ -47,7 +47,7 @@ export default function Home() {
           top: "653px",
           left: "170px",
           zIndex: "1"
-        }}></div>
+        }} className="stem"></div>
         <div style={{
           background: "#aaa",
           width: "3px",
@@ -58,7 +58,7 @@ export default function Home() {
           left: "170px",
           zIndex: "1",
           marginBottom: "60px"
-        }}></div>
+        }} className="stand"></div>
         <div style={{
           background: "white",
           width: "3px",
@@ -68,7 +68,8 @@ export default function Home() {
           top: "488px",
           left: "170px",
           zIndex: "1",
-          marginBottom: "60px"
+          marginBottom: "60px",
+          opacity: "0"
         }}></div>
       </main>
     </Layout>

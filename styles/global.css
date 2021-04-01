@@ -159,7 +159,7 @@ h2 {
 }
 
 .course > img {
-  margin: 0 auto 60px;
+  margin: 0 auto 30px;
   display: block;
 }
 
@@ -322,16 +322,23 @@ button:hover {
     width: 100%;
   }
 
-  .tiny-title {
-    position: static;
-    background: rgba(41, 41, 41);
-    color: white;
-  }
-
-  .course {
+  .course.book {
     overflow: hidden;
     margin: 0 auto;
-    padding: 60px 20px;
+    padding: 30px 20px;
+    max-height: 100vh;
+  }
+
+  .course .yellow {
+    top: -500px !important;
+    width: 900px;
+    left: -620px !important;
+  }
+
+  .course .title,
+  .course .subtitle {
+    max-width: 300px !important;
+    margin-bottom: 30px !important;
   }
 }
 
