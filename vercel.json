@@ -1,6 +1,14 @@
 {
   "redirects": [
     {
+      "source": "/course",
+      "destination": "https://minimalistentrepreneur.com/course"
+    },
+    {
+      "source": "/book",
+      "destination": "https://minimalistentrepreneur.com/book"
+    },
+    {
       "source": "/video",
       "destination": "https://calendly.com/sahil-lavingia/video"
     },
