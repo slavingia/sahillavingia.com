@@ -55,7 +55,7 @@ main {
 }
 
 .paintings label {
-  color: white;
+  color: #666;
 }
 
 .paintings-border {
@@ -126,6 +126,8 @@ button {
 
 .index-list-of-writings-title {
   font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 1.8rem;
 }
 
 label + .item {
@@ -267,7 +269,20 @@ button:hover {
   text-align: center;
 }
 
+.book-cover {
+  max-width: 180px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
 @media (max-width: 600px) {
+  .mobile-single-column {
+    display: block !important;
+  }
+
+  .book-cover {
+    max-width: 50%;
+  }
+
   html {
     font-size: .75rem;
   }
@@ -324,9 +339,4 @@ button:hover {
   .buy-button {
     width: 100%;
   }
-}
-
-.book-cover {
-  max-width: 180px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }

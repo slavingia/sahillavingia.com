@@ -13,38 +13,56 @@ export default function Home() {
       <main className="centered-main">
         <Header></Header>
 
-        <label>
-          Book
-        </label>
+        <div className="mobile-single-column" style={{
+          display: "flex"
+        }}>
+          <div style={{
+            flex: 4
+          }}>
+          <label>
+            Book
+          </label>
 
-        <a href="https://minimalistentrepreneur.com/book">
-          <img src="/book.png" className="book-cover" />
-        </a>
-
-        <label>
-          Essays
-        </label>
-
-        <h2 className="item index-list-of-writings-title">
-          <a href="/work">
-            No Meetings, No Deadlines, No Full-Time Employees
+          <a href="https://minimalistentrepreneur.com/book">
+            <img src="/book.png" className="book-cover" />
           </a>
-          <small>2021</small>
-        </h2>
+          </div>
+          <div style={{
+            flex: 8
+          }}>
+            <label>
+              Essays
+            </label>
 
-        <h2 className="item index-list-of-writings-title">
-          <a href="/reflecting">
-            Reflecting on My Failure to Build a Billion-Dollar Company
-          </a>
-          <small>2019</small>
-        </h2>
+            <h2 className="item index-list-of-writings-title">
+              <a href="/work">
+                No Meetings, No Deadlines, No Full-Time Employees
+              </a>
+              <small>2021</small>
+            </h2>
 
-        <h2 className="item index-list-of-writings-title">
-          <a href="/bubble">
-            From Bubble to Bubble
-          </a>
-          <small>2018</small>
-        </h2>
+            <h2 className="item index-list-of-writings-title">
+              <a href="/reflecting">
+                Reflecting on My Failure to Build a Billion-Dollar Company
+              </a>
+              <small>2019</small>
+            </h2>
+
+            <h2 className="item index-list-of-writings-title">
+              <a href="/bubble">
+                From Bubble to Bubble
+              </a>
+              <small>2018</small>
+            </h2>
+
+            <h2 className="item index-list-of-writings-title">
+              <a href="/border">
+                Across the Border
+              </a>
+              <small>Sci-fi, 2018</small>
+            </h2>
+          </div>
+        </div>
 
         <h2 className="paintings">
           <div className="paintings-border"></div>
