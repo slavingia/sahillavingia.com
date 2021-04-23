@@ -1,4 +1,6 @@
 .container {
+  width: 100%;
+  overflow: hidden;
   min-height: 100vh;
   padding: 0;
   display: flex;

@@ -48,9 +48,9 @@ main {
 }
 
 .paintings {
-  margin-top: 60px;
-  background: black;
-  padding: 1px 0 60px;
+  margin-top: 3rem;
+  background: #100;
+  padding: 1px 0 3rem;
   position: relative;
 }
 
@@ -59,7 +59,7 @@ main {
 }
 
 .paintings-border {
-  background: black;
+  background: #100;
   display: block;
   content: "";
   width: 9999px;
@@ -111,10 +111,10 @@ a:hover {
 label {
   line-height: 1.5;
   font-size: 1.3rem;
-  margin-bottom: 15px;
+  margin-bottom: 2rem;
   display: block;
   color: #666;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 .item,
@@ -148,24 +148,6 @@ h2 {
   background-size: cover;
   height: 100px;
   width: 100%;
-}
-
-.course {
-  margin: 60px auto;
-}
-
-.course > p {
-  font-family: "Menlo", Courier, monospace;
-}
-
-.course > img {
-  margin: 0 auto 30px;
-  display: block;
-}
-
-.course > h2 {
-  font-size: 2rem;
-  margin-top: 60px;
 }
 
 p,
@@ -292,7 +274,7 @@ button:hover {
 
   main {
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 1rem 0;
   }
 
   .email {
@@ -313,7 +295,28 @@ button:hover {
   }
 
   label {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .painting {
+    width: 100%;
+    max-height: inherit;
+    margin-top: 1rem;
+  }
+
+  .index-list-of-writings-title {
+    line-height: 2.5rem;
+    margin-top: 1rem;
+  }
+
+  .paintings {
+    margin-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .paintings label {
+    margin-bottom: 0;
   }
 
   input,
@@ -321,44 +324,9 @@ button:hover {
   .buy-button {
     width: 100%;
   }
-
-  .course.book {
-    overflow: hidden;
-    margin: 0 auto;
-    padding: 30px 20px;
-  }
-
-  .course .yellow {
-    top: -500px !important;
-    width: 900px;
-    left: -620px !important;
-  }
-
-  .course .title,
-  .course .subtitle {
-    max-width: 300px !important;
-    margin-bottom: 30px !important;
-  }
 }
 
-.retailer-link {
-  display: inline-block;
-  color: #aaa;
-  font-size: 18px;
-  text-decoration: none;
-  margin: 20px auto;
-  position: relative;
-  z-index: 4;
-  font-family: "Menlo", Courier, monospace;
-  text-decoration: underline;
-  border-bottom: 0;
-  background: #d4287f;
-  color: white;
-  padding: 12px 25px;
-  border-radius: 99px;
-  font-size: 18;
-  text-decoration: none;
-  margin: 10px;
-  position: "relative";
-  z-index: 4;
+.book-cover {
+  max-width: 180px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
