@@ -14,15 +14,16 @@ export default function Home() {
         <Header></Header>
 
         <label>
-          Writer
+          Book
         </label>
 
-        <h2 className="item index-list-of-writings-title">
-          <a href="/ipo">
-            The Creator-Owner Economy: Gumroad’s "IPO"
-          </a>
-          <small>2021</small>
-        </h2>
+        <a href="https://minimalistentrepreneur.com/book">
+          <img src="/book.png" className="book-cover" />
+        </a>
+
+        <label>
+          Essays
+        </label>
 
         <h2 className="item index-list-of-writings-title">
           <a href="/work">
@@ -39,13 +40,6 @@ export default function Home() {
         </h2>
 
         <h2 className="item index-list-of-writings-title">
-          <a href="/border">
-            Across the Border
-          </a>
-          <small>Fiction, 2018</small>
-        </h2>
-
-        <h2 className="item index-list-of-writings-title">
           <a href="/bubble">
             From Bubble to Bubble
           </a>
@@ -53,9 +47,9 @@ export default function Home() {
         </h2>
 
         <h2 className="paintings">
-          <div class="paintings-border"></div>
+          <div className="paintings-border"></div>
           <label>
-            Painter
+            Paintings
           </label>
 
           <a href="https://instagram.com/shlpaints">
