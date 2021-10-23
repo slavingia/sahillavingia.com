@@ -98,7 +98,7 @@ export default function Home() {
         <hr />
 
         <label className="centered">
-          Occasionally I share similar rants via email
+          Hear about my next thing first:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">

@@ -48,26 +48,12 @@ main {
 }
 
 .paintings {
-  margin-top: 3rem;
-  background: #100;
-  padding: 1px 0 3rem;
+  padding: 0 0 3rem;
   position: relative;
 }
 
 .paintings label {
   color: #666;
-}
-
-.paintings-border {
-  background: #100;
-  display: block;
-  content: "";
-  width: 9999px;
-  height: 100%;
-  position: absolute;
-  left: -200%;
-  top: 0;
-  z-index: -1;
 }
 
 .painting {
@@ -274,6 +260,10 @@ button:hover {
   box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
 }
 
+.gumroad-follow-form-embed {
+  margin-bottom: 2rem;
+}
+
 @media (max-width: 600px) {
   .mobile-single-column {
     display: block !important;
@@ -325,18 +315,8 @@ button:hover {
     margin-top: 1rem;
   }
 
-  .paintings {
-    margin-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-
-  .paintings label {
-    margin-bottom: 0;
-  }
-
   input,
-  button,
-  .buy-button {
+  button {
     width: 100%;
   }
 }

@@ -144,7 +144,7 @@ export default function Home() {
         <hr />
 
         <label className="centered">
-          Get an email when my next short story is published
+          Hear about my next thing first:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
