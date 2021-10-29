@@ -19,13 +19,13 @@ export default function Home() {
           <div style={{
             flex: 4
           }}>
-          <label>
-            Book
-          </label>
+            <label>
+              Book
+            </label>
 
-          <a href="https://minimalistentrepreneur.com/book">
-            <img src="/book.png" className="book-cover" />
-          </a>
+            <a href="https://minimalistentrepreneur.com/book">
+              <img src="/book.png" className="book-cover" />
+            </a>
           </div>
           <div style={{
             flex: 8
@@ -35,17 +35,17 @@ export default function Home() {
             </label>
 
             <h2 className="item index-list-of-writings-title">
-              <a href="/work">
-                No Meetings, No Deadlines, No Full-Time Employees
-              </a>
-              <small>2021</small>
-            </h2>
-
-            <h2 className="item index-list-of-writings-title">
               <a href="/reflecting">
                 Reflecting on My Failure to Build a Billion-Dollar Company
               </a>
               <small>2019</small>
+            </h2>
+
+            <h2 className="item index-list-of-writings-title">
+              <a href="/work">
+                No Meetings, No Deadlines, No Full-Time Employees
+              </a>
+              <small>2021</small>
             </h2>
 
             <h2 className="item index-list-of-writings-title">
@@ -64,8 +64,15 @@ export default function Home() {
           </div>
         </div>
 
+        <h2 className="fund">
+          <label>
+            Fund
+          </label>
+
+          Investing $10 million a year into early-stage startups. <a href="https://shl.vc/lp">Co-invest with me?</a>
+        </h2>
+
         <h2 className="paintings">
-          <div className="paintings-border"></div>
           <label>
             Paintings
           </label>
