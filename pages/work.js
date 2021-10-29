@@ -135,7 +135,7 @@ export default function Home() {
         <p>As cliché as it may be, we are trying to be a company of creators, for creators.</p>
         <p>Meet the Gumroad team: <img src="/gumroadians.png" /></p>
         <p>The internet has enabled new ways of working, but we’re just starting to see them unfold. There are a lot of different ways to make work work. Ours is just one.</p>
-        <p><em>I'm writing my first book on the subject of minimalist entrepreneurship! It comes out October 21, 2021 and you can <a href="https://minimalistentrepreneur.com/book">learn more and pre-order it here</a>.</em></p>
+        <p><em>If you want to learn more, I expand on this topic in Chapter 7 of <a href="https://minimalistentrepreneur.com/book">The Minimalist Entrepreneur</a>.</em></p>
         <hr />
 
         <label className="centered">
