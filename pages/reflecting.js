@@ -142,7 +142,7 @@ export default function Home() {
         <p>But for better or worse, I’m on this one now.</p>
 
         <p><em>Gumroad is a product of many people’s hard work, including our alumni: Leigh McCulloch, Sidharth Shanker, Anish Bhayani, Kathleen Warner, Heather Whiles, Benjamin Nguyen, Steve Kaye, Tuhin Srivastava, Avinash Ananth, Joel Packer, Katsuya Noguchi, Matan-Paul Shetrit, Amir Haghighat, Ian Atha, Emmiliese von Clemm, Kate Yu, Sri Raghavan, Ryan Delk, Al Hertz, Travis Nichols, Maxwell Elliott, Phil Howes, Ben Reynolds, Michael Klocker, Bryan English, Laura Biester, Jake Heimark, Aaron Relph, Ben Walsh, Greg Terrono, Donald Huang, Paul McKellar, Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.</em></p>
-        <p><em>This essay inspired a book! Learn more about The Minimalist Entrepreneur <a href="https://minimalistentrepreneur.com/book">here</a>.</em></p>
+        <p><em>This essay inspired a book! Learn more about The Minimalist Entrepreneur <a href="https://minimalistentrepreneur.com">here</a>.</em></p>
 
         <hr />
 
