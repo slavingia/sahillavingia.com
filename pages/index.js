@@ -23,7 +23,7 @@ export default function Home() {
               Book
             </label>
 
-            <a href="https://minimalistentrepreneur.com/book">
+            <a href="https://askmybook.com/">
               <img src="/book.png" className="book-cover" />
             </a>
           </div>
@@ -66,15 +66,15 @@ export default function Home() {
 
         <h2 className="fund">
           <label>
-            VC
+            Funder
           </label>
 
-          Investing in early-stage startups. <a href="https://shl.vc/lp">Co-invest with me?</a>
+          Investing $6 million a year into early-stage startups. <a href="https://shl.capital">Co-invest with me?</a>
         </h2>
 
         <h2 className="paintings">
           <label>
-            Paintings
+            Painter
           </label>
 
           <a href="https://instagram.com/shlpaints">

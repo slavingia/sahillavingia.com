@@ -27,6 +27,8 @@ export default function Home() {
           No Meetings, No Deadlines, No Full-Time Employees
         </h2>
 
+        <p><em>Note: We turned this blog post into a product! Meet <a href="https://flexile.com">Flexile</a>, the operating system for flexible business.</em></p>
+    
         <p>I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time employees. In 2016, after <a href="/reflecting">failing</a> to raise more money, I ended up back where I began: a one-person company.</p>
         <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated:</p>
         <p>If we include everyone who works on Gumroad, it’s 25.</p>
@@ -139,7 +141,7 @@ export default function Home() {
         <hr />
 
         <label className="centered">
-          Hear about my next thing first:
+          Get my infrequent emails (once a quarter-ish) first:
         </label>
 
         <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
