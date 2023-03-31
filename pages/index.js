@@ -66,10 +66,10 @@ export default function Home() {
 
         <h2 className="fund">
           <label>
-            Fund
+            VC
           </label>
 
-          Investing $10 million a year into early-stage startups. <a href="https://shl.vc/lp">Co-invest with me?</a>
+          Investing in early-stage startups. <a href="https://shl.vc/lp">Co-invest with me?</a>
         </h2>
 
         <h2 className="paintings">
