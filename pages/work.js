@@ -121,7 +121,6 @@ export default function Home() {
         </ol>
         <p><em>Note: We'll be hiring for more positions soon! <a href="https://twitter.com/shl">Follow me on Twitter</a> for updates.</em></p>
         <p>Within the company, we keep a document that lists how much everyone is paid, along with their average working hours. This allows the team to have as much information as I do when making compensation decisions.</p>
-        <p>We also have an “anti-overtime” rate: past twenty hours a week, people can continue to work at an hourly rate of 50 percent. This allows us to have a high hourly rate for the highest leverage work and also allows people to work more per week if they wish.</p>
         <p>There are no perks of any kind, besides the flexibility and the cash.</p>
         <p>To be clear, we don’t provide healthcare. Everyone who works at Gumroad is responsible for  their own healthcare and benefits. Everyone also pays for their own phone, laptop, internet connection, and all the other things they need.</p>
         <p>There is another downside to this system: people have to track their hours. Some people solve this by billing 20 hours a week, even though they may work a bit more or a bit less. Others track it diligently, in 15-minute increments, and send a detailed invoice every week.</p>
