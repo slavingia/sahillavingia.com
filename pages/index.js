@@ -69,7 +69,7 @@ export default function Home() {
             Funder
           </label>
 
-          Investing $6 million a year into early-stage startups. <a href="https://shl.capital">Co-invest with me?</a>
+          Investing $5 million a year into early-stage startups. <a href="https://shl.capital">Co-invest with me?</a>
         </h2>
 
         <h2 className="paintings">
