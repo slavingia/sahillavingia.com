@@ -27,7 +27,7 @@ export default function Home() {
           No Meetings, No Deadlines, No Full-Time Employees
         </h2>
 
-        <p><em>Note: We turned this blog post into a product! Meet <a href="https://flexile.com">Flexile</a>, the operating system for flexible business.</em></p>
+        <p><em>Note: We turned this blog post into a product! <a href="https://flexile.com">Flexile</a> helps businesses onboard and pay freelancers with a mix of cash / equity.</em></p>
     
         <p>I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time employees. In 2016, after <a href="/reflecting">failing</a> to raise more money, I ended up back where I began: a one-person company.</p>
         <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated:</p>
@@ -64,22 +64,22 @@ export default function Home() {
         <p><img src="/memberships-roadmap.png" /></p>
         <p>For more, I recorded <a href="https://www.youtube.com/watch?v=2PcIC1DKBU0">an hour-long video</a> about how we ship something as large as Gumroad Memberships.</p>
         <p>Gumroad engineer Helen Hood, who shipped Memberships, says, “it’s one of the biggest product launches of my career, and we shipped it without a single meeting or video call. I've worked at your typical startup, with an open floor plan, lots of whiteboards, standups and sprint planning, beers after work. I’ve also worked on a remote team with little communication and engineers largely siloed on their own projects. The way we work at Gumroad is ideal for me. It lets me maximize my productive hours, and clock out when I've hit my limit.”</p>
-        <p>Those are the broad strokes, but we’ve published more specific documentation about the way we work:</p>
+        <p>Those are the broad strokes, but we’ve published more specific documentation about <a href="https://jobs.gumroad.com/">the way we work</a>:</p>
         <ul>
           <li>
-            <a href="https://www.notion.so/gumroad/How-do-we-decide-what-to-work-on-f2064b8ab16c4cbcac1077e16c8cf33b">How do we decide what to work on?</a>
+            <strong>How do we decide what to work on?</strong>
             <p>“At the end of the day there's a lot of emotion that goes into Gumroad, that's not dissimilar from an art project. We sometimes pick what's fun and feels good to work on! We love listening to creators! We don't do tons of data analysis to decide what's worth working on.”</p>
           </li>
           <li>
-            <a href="https://www.notion.so/gumroad/How-do-we-communicate-06f2032bfdae4552a38149c99c68e3df">How do we communicate?</a>
+            <strong>How do we communicate?</strong>
             <p>“Turn off all notifications from your phone!”</p>
           </li>
           <li>
-            <a href="https://www.notion.so/gumroad/What-does-working-at-Gumroad-feel-like-7d9fd1c9548245a58afe5569d76a7960">What does working at Gumroad feel like?</a>
+            <strong>What does working at Gumroad feel like?</strong>
             <p>“We ship incrementally, iteratively, and have one massive tentpole launch a year. Every month we see how much creators got paid, then we move on. The journey is the fun part, we're not waiting to arrive at some destination.”</p>
           </li>
           <li>
-            <a href="https://www.notion.so/gumroad/What-s-not-so-good-at-Gumroad-847e3c285b1f45ab955ebacf52867900">What’s not so good at Gumroad?</a>
+            <strong>What’s not so good at Gumroad?</strong>
             <p>“There's not a lot of room for growth. We're staying profitable, and not planning to double the team every year. While there will likely be a few leadership roles, there aren't plenty of them and they aren't built into the career path of working at Gumroad.”</p>
           </li>
         </ul>
