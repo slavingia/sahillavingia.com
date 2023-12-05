@@ -23,7 +23,7 @@ export default function Home() {
               Book
             </label>
 
-            <a href="https://askmybook.com/">
+            <a href="https://minimalistentrepreneur.com/">
               <img src="/book.png" className="book-cover" />
             </a>
           </div>
