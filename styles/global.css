@@ -86,12 +86,7 @@ a:hover {
 }
 
 .tiny-title {
-  position: fixed;
-  left: 0;
-  top: 0;
   font-size: 1rem;
-  padding: 0.5rem;
-  z-index: 2;
 }
 
 label {
