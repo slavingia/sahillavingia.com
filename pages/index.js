@@ -23,7 +23,7 @@ export default function Home() {
               Book
             </label>
 
-            <a href="https://minimalistentrepreneur.com/">
+            <a href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397">
               <img src="/book.png" className="book-cover" />
             </a>
           </div>
