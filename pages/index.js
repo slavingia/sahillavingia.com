@@ -25,6 +25,13 @@ export default function Home() {
         </h2>
 
         <h2 className="item index-list-of-writings-title">
+          <a href="/work">
+            No Meetings, No Deadlines, No Full-Time Employees
+          </a>
+          <small>2021</small>
+        </h2>
+
+        <h2 className="item index-list-of-writings-title">
           <a href="/reflecting">
             Reflecting on My Failure to Build a Billion-Dollar Company
           </a>
@@ -32,10 +39,10 @@ export default function Home() {
         </h2>
 
         <h2 className="item index-list-of-writings-title">
-          <a href="/work">
-            No Meetings, No Deadlines, No Full-Time Employees
+          <a href="/border">
+            Across the Border
           </a>
-          <small>2021</small>
+          <small>2018</small>
         </h2>
 
         <h2 className="item index-list-of-writings-title">
@@ -45,24 +52,17 @@ export default function Home() {
           <small>2018</small>
         </h2>
 
-        <h2 className="item index-list-of-writings-title">
-          <a href="/border">
-            Across the Border
-          </a>
-          <small>Sci-fi, 2018</small>
-        </h2>
-
-        <h2 className="paintings">
-          <label>
-            Painter
-          </label>
-
-          <a href="https://instagram.com/shlpaints">
+        <a href="https://instagram.com/shlpaints">
+          <h2 className="paintings">
+            <label>
+              Painter
+            </label>
+  
             <img src="/painting.jpeg" className="painting" />
             <img src="/rocks.png" className="painting" />
             <img src="/bhosle.jpeg" className="painting" />
-          </a>
-        </h2>
+          </h2>
+        </a>
       </main>
     </Layout>
   )
