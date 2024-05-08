@@ -52,17 +52,17 @@ export default function Home() {
           <small>2018</small>
         </h2>
 
-        <h2 className="paintings">
-          <label>
-            <a href="https://instagram.com/shlpaints">
+        <a href="https://instagram.com/shlpaints">
+          <h2 className="paintings">
+            <label>
               Painter
-            </a>
-          </label>
-
-          <img src="/painting.jpeg" className="painting" />
-          <img src="/rocks.png" className="painting" />
-          <img src="/bhosle.jpeg" className="painting" />
-        </h2>
+            </label>
+  
+            <img src="/painting.jpeg" className="painting" />
+            <img src="/rocks.png" className="painting" />
+            <img src="/bhosle.jpeg" className="painting" />
+          </h2>
+        </a>
       </main>
     </Layout>
   )
