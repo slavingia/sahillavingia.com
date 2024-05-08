@@ -44,7 +44,7 @@ main {
 }
 
 .content h2.item {
-  font-weight: normal;
+  font-weight: 1000;
 }
 
 .paintings {
@@ -263,10 +263,6 @@ button:hover {
 @media (max-width: 600px) {
   .mobile-single-column {
     display: block !important;
-  }
-
-  .book-cover {
-    max-width: 50%;
   }
 
   html {
