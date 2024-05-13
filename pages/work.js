@@ -26,7 +26,7 @@ export default function Home() {
         <h2 className="item">
           No Meetings, No Deadlines, No Full-Time Employees
         </h2>
-    
+
         <p>I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time employees. In 2016, after <a href="/reflecting">failing</a> to raise more money, I ended up back where I began: a one-person company.</p>
         <p>Today, when I’m asked how many people work at Gumroad, I respond with “ten or so.” That’s how I convert the number of people we have into what others expect. But the truth is more complicated:</p>
         <p>If we include everyone who works on Gumroad, it’s 25.</p>
@@ -93,7 +93,7 @@ export default function Home() {
         <p><a href="https://twitter.com/sidyadav">Sid Yadav</a>, former VP of Product at Teachable, joined Gumroad in 2018.</p>
         <p>In his words, “most entrepreneurs have two options: work a full-time job and hustle nights/weekends, or leave your job and risk everything to start the company. Gumroad provided a third way: I could contract 20-35 hours a week, and for a couple days a week, incubate ideas and work on my next thing.”</p>
         <p>In 2020, Sid left Gumroad to start his own creator economy company, <a href="https://circle.so">Circle</a>, together with former Gumroad coworker <a href="https://community.circle.so/u/45ef416b">Rudy Santino</a>:</p>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m starting a new company: <a href="https://t.co/BW40WmGBlF">https://t.co/BW40WmGBlF</a>! I’ll be sharing more about it in the coming weeks, but today I wanted to show gratitude to the life situation that made this possible: contracting for a flexible remote startup — <a href="https://twitter.com/gumroad?ref_src=twsrc%5Etfw">@gumroad</a>. It wouldn’t have happened without it.</p>&mdash; Sid Yadav (@sidyadav) <a href="https://twitter.com/sidyadav/status/1216761573479473152?ref_src=twsrc%5Etfw">January 13, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <Tweet id="1216761573479473152" />
         <p>Working on Gumroad isn't a majority of anyone's identity.</p>
         <p>People work at Gumroad as little as they need to sustain the other parts of their lives they prefer to spend their time and energy on: a creative side-hustle, their family, or anything else.</p>
         <p>Gumroad engineer Nathan Chan says, “I produce more value for my time than at any other company in my career, and I’m able to fully participate in parenting and watching my kiddo grow up.”</p>
@@ -106,11 +106,11 @@ export default function Home() {
         <p>It was a perfect fit. Daniel became our new Head of Product.</p>
         <p>It can be a great deal for Gumroad too. Before Daniel quit his job at Amazon, he was making over $400,000 a year. We pay him $120,000 a year.</p>
         <p>How? He works ten hours a week for us. In his words:</p>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Almost nobody is seeing this trend as an opportunity to work less, rather than to earn more. <a href="https://t.co/U9YBqp1ebn">https://t.co/U9YBqp1ebn</a></p>&mdash; Daniel Vassallo (@dvassallo) <a href="https://twitter.com/dvassallo/status/1334288446697865216?ref_src=twsrc%5Etfw">December 3, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <Tweet id="1334288446697865216" />
         <h2>Getting paid</h2>
         <p>In practice, we pay everyone hourly based on their role. The range varies from $50 (customer support) to $250 (Head of Product) an hour.</p>
         <p>Recently I standardized our rates world-wide:</p>
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">🌍🌎🌏 Excited to announce we&#39;ve deprecated all location-based pay! Gumroad will now pay you the same salary, no matter if you live in San Francisco, Bangalore, Lagos, or anywhere else.</p>&mdash; Sahil (@shl) <a href="https://twitter.com/shl/status/1334201934702493697?ref_src=twsrc%5Etfw">December 2, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <Tweet id="1334201934702493697" />
         <p>This rate is agreed upon during our interview process:</p>
         <ol>
           <li>Apply via a form.</li>

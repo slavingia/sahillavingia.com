@@ -75,7 +75,7 @@ export default function Home() {
         <p>Because I have made a lot of progress in Provo and have learned these things about conservatives, I look back at the time I spent in San Francisco and see a lot of wasted time.</p>
         <p>I think it was unavoidable, but I spent too much time thinking and talking about Trump and persecuting conservatives. There are enough tweets out there covering anything I’ll want to say anyways. I am happier now to channel my energy into thy neighbor, and focus on the impact of specific policies versus the idiocracy.<p></p></p>
 
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Listen&quot; - a story in three parts. <a href="https://t.co/wDmUbWfF51">pic.twitter.com/wDmUbWfF51</a></p>&mdash; Sahil Lavingia (@shl) <a href="https://twitter.com/shl/status/808076173456670721?ref_src=twsrc%5Etfw">December 11, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <Tweet id="808076173456670721" />
 
         <p>I look back and see the hundreds, if not thousands, of things I tweeted. They were funny, maybe, but besides inflate my ego and follower count, I’m not sure what impact they had.</p>
         <p>Today, I only debate in person. Anything else is pointless, because it is too easy to walk away. I make sure we’re pulling from the same dictionary, and I make sure we’re aligned on the same goal, and not about making sure the other person converts to their side. (Warning: This does not work with Mormon missionaries.)</p>

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
+import { Tweet } from 'react-tweet'
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
 
         <p>In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life’s work.</p>
 
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just had an idea for my first billion-dollar company. Tomorrow, I start building it.</p>&mdash; Sahil Lavingia (@shl) <a href="https://twitter.com/shl/status/54072049395712000?ref_src=twsrc%5Etfw">April 2, 2011</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <Tweet id="54072049395712000" />
 
         <p>I thought Gumroad would become a billion-dollar company, with hundreds of employees. It would IPO, and I would work on it until I died. Something like that.</p>
         <p>Needless to say, that didn’t happen.</p>
@@ -111,9 +112,7 @@ export default function Home() {
         <p>Bill’s answer: “Sure, but that’s true with all companies, right? They create some value and succeed in capturing a very small percentage of it.”</p>
         <p>I am now more focused on creating value than capturing it. I still want to have as large an impact as possible, but I don’t need to create it directly or capture it in the form of revenue and valuation.</p>
         <p>Take Austen Allred, for example. He’s raised $48M for his startup Lambda School, and he got his start selling a book on Gumroad.</p>
-
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I shifted my focus from selling my book (using Gumroad, the platform he built) to growing a VC-backed company (which he invested in). <br /><br />We still disagree on some things I’m sure, but everyone could learn a lot and quickly by getting out of his or her bubble.</p>&mdash; Austen Allred (@Austen) <a href="https://twitter.com/Austen/status/961268207398010880?ref_src=twsrc%5Etfw">February 7, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+        <Tweet id="961268207398010880" />
         <p>Startups have been founded by former Gumroad employees, and dozens more companies have been massively improved by recruiting our alumni. On top of that, our product ideas, like our credit card form and inline-checkout experience, have proliferated across the web, making it a better place for everyone — including those that have never used Gumroad.</p>
         <p>While Gumroad, Inc. may be small, our impact is large. There is, of course, the $178,000,000 we have sent to creators. But then there’s the impact of the impact, the opportunities that those creators have taken to create new opportunities for others.</p>
         <h2>Opening up about our financials</h2>
@@ -121,9 +120,7 @@ export default function Home() {
         <p>As a way to re-engage with the community, I thought about sharing our financials publicly. Founders starting their own companies could learn from our mistakes, utilizing our data to make better decisions.</p>
         <p>It was scary: What if we don’t grow every month? It could scare off prospective customers. It’s something I would never expect a startup seeking venture capital to do. It makes sense to hold those cards as close to your chest for as long as possible when you must raise money, hire people, and compete for customers with other venture-seeking startups.</p>
         <p>But, since we were not any of those things anymore, it was easier to share that information. We were profitable, and a no-growth month won’t change that. So in April 2018, I started to release our monthly financials publicly.</p>
-
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Gumroad in April:<br /><br />GMV: $4.2M (down 2%)<br />Revenue: $273K (down 2%)<br />Gross profit: $65K (up 34%)<br /><br />Let me know if you have any questions!</p>&mdash; Sahil Lavingia (@shl) <a href="https://twitter.com/shl/status/996042451843461120?ref_src=twsrc%5Etfw">May 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+        <Tweet id="996042451843461120" />
         <p>Ironically, more investors have reached out (we’re just interested in raising money from our customers for the moment, thanks!), more folks want to contribute to Gumroad, and our shift in focus has brought us closer to our creators.</p>
         <p>And instead of freaking out about how “small” Gumroad actually is (like I thought they would), our creators have grown more loyal. It feels like we’re all in this together, trying to earn a living doing what we love.</p>
         <p>Soon, we’re also planning to open-source the whole product, WordPress-style. Anyone will be able to deploy their own version of Gumroad, make the changes they want, and sell the content they want, without us being the middleman.</p>
@@ -132,9 +129,7 @@ export default function Home() {
         <p>For years, my only metric of success was building a billion-dollar company. Now, I realize that was a terrible goal. It’s completely arbitrary and doesn’t accurately reflect impact.</p>
         <p>I’m not making an excuse or pretending that I didn’t fail. I’m not pretending that failure feels good. Everyone knows that the failure rate in startups — especially venture-funded ones — is super high, but it still sucks when you don’t reach your goals.</p>
         <p>I failed, but I also succeeded at many other things. Gumroad turned $10 million of investor capital into $178 million (and counting) for creators. Without a fundraising goal coming up, we’re simply focused on building the best product we can for our customers. On top of all that, I’m happy creating value beyond our revenue-generating product (like these words you’re reading).</p>
-
-        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">I can&#39;t wait until I&#39;m successful so I can write about failure.</p>&mdash; Sahil Lavingia (@shl) <a href="https://twitter.com/shl/status/384838645829480449?ref_src=twsrc%5Etfw">October 1, 2013</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
+        <Tweet id="384838645829480449" />
         <p>I consider myself “successful” now. Not exactly in the way I intended, though I think what I’m doing now counts.</p>
         <p>Where did my singular focus on building a billion-dollar company come from in the first place? I think I inherited it from a society that worships wealth. I don’t think it’s a coincidence that Bill Gates was my all-time hero and the world’s richest person. Ever since I can remember, I’ve equated “success” with net worth. If I heard someone say “that person’s really successful,” I didn’t assume they were improving the well-being of those around them, but that they’d found a way to make a ton of cash.</p>
         <p>Wealth can be a measure of being able to improve the well-being of those around you, as seems to be the case for someone like Bill Gates, who has invested heavily in philanthropy. But it’s not the only way to measure success, nor is it the best one.</p>
