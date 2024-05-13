@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
+import { Tweet } from 'react-tweet'
 
 export default function Home() {
   return (
@@ -29,7 +30,7 @@ export default function Home() {
         <p>Creators deserve to get paid for their work.</p>
         <p>To date, <a href="https://gumroad.com">Gumroad</a> has made it easy by enabling them to sell digital products, online courses, and memberships directly to their audiences. But earning an income isn't the only way to get paid.</p>
         <p>Owning equity in a business is another.</p>
-        <blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">You’re not going to get rich renting out your time. You must own equity - a piece of a business - to gain your financial freedom.</p>&mdash; Naval (@naval) <a href="https://twitter.com/naval/status/1002103670400417792?ref_src=twsrc%5Etfw">May 31, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <Tweet id="1002103670400417792" />
         <h2>From income to equity</h2>
         <p>The last time I tried to raise money, I failed. After meeting with dozens of investors and getting dozens of nos, we gave up on a Series B and had to either sell Gumroad, shut down, or get acquired. But in spite of <a href="/reflecting">“failing,”</a> we were still helping creators earn about $2 million a month to pay rent, top off their children’s college funds, or even just to buy a few cups of coffee. Knowing that our platform made a big financial difference for our customers impacted my priorities and how I decided to move forward.</p>
         <p>Instead of selling or shutting down, I chose our creators over our employees and our investors. I shrunk the team from 20 to five–and later from five to one, in order to keep serving our creators.</p>

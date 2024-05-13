@@ -145,6 +145,12 @@ li {
   color: rgb(41, 41, 41);
 }
 
+.react-tweet-theme p,
+.react-tweet-theme blockquote,
+.react-tweet-theme li {
+  font-family: inherit;
+}
+
 p + h2, h2.bold {
   font-weight: bold;
 }
@@ -218,7 +224,7 @@ hr {
   border: 1px solid rgb(41, 41, 41);
 }
 
-.twitter-tweet {
+.react-tweet-theme {
   margin: 2rem auto !important;
 }
 
@@ -232,6 +238,12 @@ button {
   display: inline-block;
   border-radius: 4px;
   height: 56px;
+}
+
+.react-tweet-theme button {
+  margin: 0;
+  height: 0;
+  padding: 0;
 }
 
 input {
