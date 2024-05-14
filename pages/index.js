@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main className="centered-main">
-        <Header></Header>
+        <Header />
 
         <label>
           Writer
@@ -52,17 +53,19 @@ export default function Home() {
           <small>2018</small>
         </h2>
 
+        <label>
+          Painter
+        </label>
+
         <a href="https://instagram.com/shlpaints">
           <h2 className="paintings">
-            <label>
-              Painter
-            </label>
-  
-            <img src="/painting.jpeg" className="painting" />
-            <img src="/rocks.png" className="painting" />
-            <img src="/bhosle.jpeg" className="painting" />
+            <img src="/painting.jpeg" className="painting" alt="Digital painting of train station, 2019" />
+            <img src="/rocks.png" className="painting" alt="Oil painting of rocks, 2017" />
+            <img src="/bhosle.jpeg" className="painting" alt="Oil painting of woman, 2019" />
           </h2>
         </a>
+
+        <Footer />
       </main>
     </Layout>
   )

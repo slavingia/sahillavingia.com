@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -15,13 +16,9 @@ export default function Home() {
         <meta name="twitter:image" content="https://sahillavingia.com/gumroadians.png" />
       </Head>
 
-      <a className="tiny-title" href="/">
-        &larr; Sahil Lavingia
-      </a>
-
-      <main className="centered-main content">
+      <main className="centered-main">
         <label>
-          Jan 7, 2021
+          Jan 7, 2021 by <a href="/">Sahil Lavingia</a>
         </label>
 
         <h2 className="item">
@@ -34,12 +31,12 @@ export default function Home() {
         <p>If we include full-time employees, it’s none. Not even me.</p>
         <p>We have no meetings, and no deadlines either.</p>
         <p>And it’s working: our creators earn over $175 million a year, and we generate $11 million in annualized revenue, growing 85% year-over-year.</p>
-        <p><img src="/2020-earnings.png" /></p>
+        <p><img src="/2020-earnings.png" alt="2020 earnings" /></p>
         <p>That said, I don’t expect anyone to copy our way of working wholesale. We got here on accident, not some grand plan.</p>
         <p>However, I do think there are pieces of our story and the way we work that could benefit other companies, their people, and–most importantly–their customers.</p>
         <h2>Freedom at all costs</h2>
         <p>After the layoffs in 2015, even though the team shrunk, Gumroad itself continued to grow.</p>
-        <p><img src="/2018-earnings.png" /></p>
+        <p><img src="/2018-earnings.png" alt="2018 earnings" /></p>
         <p>But hiring people full-time and leasing a new office in San Francisco to work out of was untenable. Instead, I found an Indian firm called <a href="https://bigbinary.com/">BigBinary</a> and hired a few engineers as contractors.</p>
         <p>These contractors saved the company. They fixed bugs and maintained the site while I answered support tickets, designed features, and wrote about new initatives.</p>
         <p>Eventually, I hired back the same customer support person we had from before the layoffs, this time via an hourly contracting agreement too.</p>
@@ -48,7 +45,7 @@ export default function Home() {
         <p>Because I was burned out and didn’t want to think about working any more than I needed to, I instituted a no-meeting, no-deadline culture.</p>
         <p>For me, it was no longer about growth at all costs, but “freedom at all costs.”</p>
         <p>This way, Gumroad stayed profitable, I could take a much-needed break to explore my hobbies, and the product continued to improve over time.</p>
-        <p><img src="/operating.png" /></p>
+        <p><img src="/operating.png" alt="Operating expenses versus creator earnings chart" /></p>
         <h2>How we work</h2>
         <p>Today, working at Gumroad resembles working on an open source project like Rails. Except it’s neither open source, nor unpaid.</p>
         <p>Instead of having meetings, people “talk” to each other via GitHub, Notion, and (occasionally) Slack, expecting responses within 24 hours. Because there are no standups or “syncs” and some projects can involve expensive feedback loops to collaborate, working this way requires clear and thoughtful communication.</p>
@@ -60,7 +57,7 @@ export default function Home() {
         <p>We ship big things this way too.</p>
         <p>In November 2020, we shipped <a href="https://gumroad.com/gumroad/p/introducing-gumroad-memberships">Gumroad Memberships</a>, a year in the works and now used by hundreds of creators to earn over $1,500,000 per month.</p>
         <p>This is a screenshot from our roadmap to show what it looks like in practice:</p>
-        <p><img src="/memberships-roadmap.png" /></p>
+        <p><img src="/memberships-roadmap.png" alt="Memberships roadmap" /></p>
         <p>For more, I recorded <a href="https://www.youtube.com/watch?v=2PcIC1DKBU0">an hour-long video</a> about how we ship something as large as Gumroad Memberships.</p>
         <p>Gumroad engineer Helen Hood, who shipped Memberships, says, “it’s one of the biggest product launches of my career, and we shipped it without a single meeting or video call. I've worked at your typical startup, with an open floor plan, lots of whiteboards, standups and sprint planning, beers after work. I’ve also worked on a remote team with little communication and engineers largely siloed on their own projects. The way we work at Gumroad is ideal for me. It lets me maximize my productive hours, and clock out when I've hit my limit.”</p>
         <p>Those are the broad strokes, but we’ve published more specific documentation about <a href="https://jobs.gumroad.com/">the way we work</a>:</p>
@@ -133,20 +130,10 @@ export default function Home() {
         <p>But the deal we already had in place was better for what our people prioritize: freedom over growth, sustainability over speed, life over work.</p>
         <p><a href="https://gumroad.com/">Gumroad’s homepage</a> is clear about its benefits to creators who use it: “Escape your 9-to-5 job. Take off your suit and tie. End your commute. Get paid for your craft.”</p>
         <p>As cliché as it may be, we are trying to be a company of creators, for creators.</p>
-        <p>Meet the Gumroad team: <img src="/gumroadians.png" /></p>
+        <p>Meet the Gumroad team: <img src="/gumroadians.png" alt="Cartoon illustrations of the Gumroad team" /></p>
         <p>The internet has enabled new ways of working, but we’re just starting to see them unfold. There are a lot of different ways to make work work. Ours is just one.</p>
 
-        <hr />
-
-        <label className="centered">
-          Subscribe to my emails:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -14,13 +15,9 @@ export default function Home() {
         <meta name="twitter:image" content="https://sahillavingia.com/republic.png" />
       </Head>
 
-      <a className="tiny-title" href="/">
-        &larr; Sahil Lavingia
-      </a>
-
-      <main className="centered-main content">
+      <main className="centered-main">
         <label>
-          March 22, 2021
+          March 22, 2021 by <a href="/">Sahil Lavingia</a>
         </label>
 
         <h2 className="item">
@@ -39,7 +36,7 @@ export default function Home() {
         <h2>Turning creators into owners</h2>
         <p>On March 15 2021, the SEC started to allow companies to raise up to $5M from the public using Regulation Crowdfunding (Reg CF). Startups are also now allowed to "test the waters," making sure there is demand before committing to a campaign.</p>
         <p>Gumroad took advantage of these new rules as soon as it could. Even with a cap of $1K per investor, we raised $5M in 12 hours, from 7,303 investors–including more than 5,800 first-time angel investors and hundreds of Gumroad creators.</p>
-        <p><img src="/republic.png" style={{margin: "1rem 0"}} /></p>
+        <p><img src="/republic.png" style={{margin: "1rem 0"}} alt="Crowdfunding page" /></p>
         <p>Separately, we raised $1M from Naval Ravikant, Jason Fried, and others, bringing the total amount raised to $6M. All of this capital was raised at the same terms: $100M pre-money valuation, 20% discount.</p>
         <p>I thought about calling this our Series C–for creators, community, crowdfunding, and out of respect for our failed Series B–but I think it's more accurate to say that this is our limited version of an "IPO."</p>
         <p>There's only thing missing: post-IPO liquidity. But liquidity is coming; an underreported fact of Reg CF is that it allows for secondary sales after a one-year lockup period. Gumroad will take advantage of that the day it becomes possible.</p>
@@ -67,17 +64,7 @@ export default function Home() {
 
         <p>And if you're a founder, please check out <a href="https://raise.gumroad.com/">the materials I used</a> to crowdfund this raise, and reach out if you have any questions.</p>
 
-        <hr />
-
-        <label className="centered">
-          Be the first to know when Gumroad raises money from the public again:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )
