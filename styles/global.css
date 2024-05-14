@@ -7,7 +7,7 @@ html {
 @media (prefers-color-scheme: dark) {
   html {
     background: black;
-    color: rgba(237, 237, 237, 1);
+    color: rgba(245, 245, 245, 1);
   }
 }
 
