@@ -2,6 +2,9 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/reflecting": "pages/reflecting.js",
+  "/": "pages/index.js",
   "/work": "pages/work.js",
-  "/": "pages/index.js"
+  "/border": "pages/border.js",
+  "/bubble": "pages/bubble.js"
 }

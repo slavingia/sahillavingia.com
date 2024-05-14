@@ -30,6 +30,21 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
+    "/border": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/border.js"
+    ],
+    "/bubble": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/bubble.js"
+    ],
+    "/reflecting": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/reflecting.js"
+    ],
     "/work": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
