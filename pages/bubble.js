@@ -15,13 +15,9 @@ export default function Home() {
         <meta name="twitter:image" content="https://sahillavingia.com/1_jYRtHx2U3hhD_ffQLKjMXA.png" />
       </Head>
 
-      <a className="tiny-title" href="/">
-        &larr; Sahil Lavingia
-      </a>
-
       <main className="centered-main">
         <label>
-          Feb 7, 2018
+          Feb 7, 2018 by <a href="/">Sahil Lavingia</a>
         </label>
 
         <h2 className="item">

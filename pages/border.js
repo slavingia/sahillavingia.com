@@ -19,13 +19,9 @@ export default function Home() {
 
       <div className="border-header"/>
 
-      <a className="tiny-title" href="/" style={{color: "white"}}>
-        &larr; Sahil Lavingia
-      </a>
-
       <main className="centered-main">
         <label>
-          Aug 31, 2018
+          Aug 31, 2018 by <a href="/">Sahil Lavingia</a>
         </label>
 
         <h2 className="item">

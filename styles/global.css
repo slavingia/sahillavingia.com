@@ -33,11 +33,6 @@ h3 {
   margin: 0;
 }
 
-.amp {
-  font-family: Baskerville, Georgia, serif;
-  font-style: italic;
-}
-
 main {
   padding: 1rem 2rem 0 2rem;
   flex: 1;
@@ -151,7 +146,7 @@ h2 {
 .border-header {
   background: url("/border.png") bottom center;
   background-size: cover;
-  height: 100px;
+  height: 600px;
   width: 100%;
 }
 
@@ -226,6 +221,13 @@ blockquote {
   transition-timing-function: ease-in-out;
   position: relative;
   top: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  .text {
+    color: black;
+    background: white;
+  }
 }
 
 .text:hover {
