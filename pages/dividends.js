@@ -84,11 +84,11 @@ export default function Home() {
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
+        <p>On May 14, Gumroad issued an annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our global team of hourly freelancers were able to participate.</p>
+        <p><img src="/dividends/metrics2023.png" /></p>
         <p>Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
         <Tweet id="27946496473" />
-        <p>I'd like to think that if things like <a href="https://gumroad.com">Gumroad</a>, <a href="https://flexile.com/">Flexile</a>, and our equity model existed back then, maybe I'd have a college degree today. If so, that's worth some confusion. What think you?</p>
-        <p>On May 14, Gumroad issued an annual dividend, of $5.34M, equal to 60% of 2023’s net income. And for the first time, our global team of hourly freelancers were able to participate.</p>
-        <p><img src="/dividends/metrics2023.png" /></p>
+        <p>No one replied. If someone had, maybe I'd have a college degree today. To my mom, that makes our equity model worth trying out–even if it is a little confusing. My wife agrees. What think you?</p>
         <p>If you’d like to follow along, tune into <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a> on August 15, live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
       </main>
