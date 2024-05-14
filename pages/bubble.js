@@ -40,7 +40,7 @@ export default function Home() {
         <p>So, what did I expect of America’s most conservative bubble, a place where Hillary Clinton garnered just 14% of the vote and less than 1% of the population was black? It sounded like hell to me.</p>
         <h2>Culture shock (and lack thereof)</h2>
         <p>I gave away all of my furniture and landed in Provo on a Sunday, five suitcases in tow, hoping for some grand epiphany about my path forward. Three Mormons skipped church to pick me up from the airport. One of them had seen my moving announcement on Facebook and sent me a message.</p>
-        <p>“Just so you know, we didn’t vote for Trump,” Brigham said as he drove me around the whitest place I’d ever lived.<p></p></p>
+        <p>“Just so you know, we didn’t vote for Trump,” Brigham said as he drove me around the whitest place I’d ever lived.</p>
 
         <p><img src="/1_jYRtHx2U3hhD_ffQLKjMXA.png" /></p>
         <p>“Who did you vote for?”</p>
@@ -69,7 +69,7 @@ export default function Home() {
         <p>Yes, and so do I. We’re part of the same broken system: the America of today. And if I, a self-righteous liberal, decide to vote for Hillary Clinton and do basically nothing else, am I any better than them?</p>
         <h2>Wasted time</h2>
         <p>Because I have made a lot of progress in Provo and have learned these things about conservatives, I look back at the time I spent in San Francisco and see a lot of wasted time.</p>
-        <p>I think it was unavoidable, but I spent too much time thinking and talking about Trump and persecuting conservatives. There are enough tweets out there covering anything I’ll want to say anyways. I am happier now to channel my energy into thy neighbor, and focus on the impact of specific policies versus the idiocracy.<p></p></p>
+        <p>I think it was unavoidable, but I spent too much time thinking and talking about Trump and persecuting conservatives. There are enough tweets out there covering anything I’ll want to say anyways. I am happier now to channel my energy into thy neighbor, and focus on the impact of specific policies versus the idiocracy.</p>
 
         <Tweet id="808076173456670721" />
 

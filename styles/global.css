@@ -42,20 +42,6 @@ main {
   z-index: 1;
 }
 
-.content h2 {
-  font-weight: bold;
-}
-
-.content h2.item {
-  font-weight: 1000;
-}
-
-@media (prefers-color-scheme: dark) {
-  .content h2.item {
-    color: white;
-  }
-}
-
 .paintings {
   padding: 0 0 3rem;
   position: relative;
@@ -75,7 +61,13 @@ main.centered-main {
 }
 
 a {
-  color: inherit;
+  color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  a {
+    color: white;
+  }
 }
 
 a:hover {
@@ -132,6 +124,12 @@ label + .item {
   font-weight: 1000;
 }
 
+@media (prefers-color-scheme: dark) {
+  label + .item {
+    color: white;
+  }
+}
+
 .item small {
   color: #aaa;
   font-size: 1rem;
@@ -156,7 +154,6 @@ li {
   margin-top: 2rem;
   font-size: 1.3rem;
   line-height: 1.8;
-  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   color: rgb(41, 41, 41);
 }
 

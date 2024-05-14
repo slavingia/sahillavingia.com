@@ -44,7 +44,7 @@ export default function Home() {
         <p>So what exactly went wrong, and when?</p>
         <h2>Failing in style</h2>
         <p>Let’s start with the numbers. This is our monthly processed volume, until the layoffs:</p>
-        <p><img src="/0_z7tBf5i6wH-HbLhU.png" /></p>
+        <p><img src="/0_z7tBf5i6wH-HbLhU.png" alt="Up-and-to-the-right growth chart" /></p>
         <p>It doesn’t look too bad, right? It’s going in the right direction: up.</p>
         <p>But we were venture-funded, which was like playing a game of double-or-nothing. It’s euphoric when things are going your way — and suffocating when they’re not. And we weren’t doubling fast enough to raise the $15M+ Series B (the second major round of funding) we were looking for to grow the team.</p>
         <p>For the type of business we were trying to build, every month of less than 20 percent growth should have been a red flag.</p>
@@ -99,7 +99,7 @@ export default function Home() {
         <p>The future came into focus: I could grow a small team, slowly buy back our investors, and build Gumroad into a meaningful business focused on our creators. We would never become a billion-dollar company, and that started to feel okay. Certainly, the thousands of creators selling on Gumroad wouldn’t mind.</p>
         <h2>Finding new forms of impact</h2>
         <p>The eight years I worked on Gumroad were full of personal ups and downs. There were months where I worked 16 hours a day, but there were also some months where I worked four hours a week. Here’s one way to picture that time:</p>
-        <p><img src="/1_nRgMCKaG464-ma278ZG5pA.png" /></p>
+        <p><img src="/1_nRgMCKaG464-ma278ZG5pA.png" alt="Another up-and-to-the-right growth chart" /></p>
         <p>Can you tell which is which? I can’t. We had a sales team for a few years, then we didn’t. Can you tell when we made the switch? I can’t.</p>
         <p>It doesn’t matter how amazing your product is, or how fast you ship features. The market you’re in will determine most of your growth. For better or worse, Gumroad grew at roughly the same rate almost every month because that’s how quickly the market determined we would grow.</p>
         <p>Instead of pretending to be some sort of product visionary, trying to build a billion-dollar company, I’m just focused on making Gumroad better and better for our existing creators. Because they are the ones that have kept us alive.</p>
