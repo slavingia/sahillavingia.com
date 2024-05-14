@@ -18,7 +18,7 @@ export default function Home() {
           Writer
         </label>
 
-        <h2 className="item index-list-of-writings-title">
+        <h2 className="item index-list-of-writings-title" style={{display: "none"}}>
           <a href="/dividends">
             Paying People in Equity and Dividends
           </a>
