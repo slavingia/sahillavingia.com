@@ -247,8 +247,8 @@ p + hr {
 }
 
 hr {
-  margin: 2rem 10rem;
-  border: 1px solid rgb(41, 41, 41);
+  margin: 2rem -1010rem;
+  border: 0.5px solid rgb(41, 41, 41);
 }
 
 .react-tweet-theme {
@@ -257,14 +257,14 @@ hr {
 
 input,
 button {
-  margin-right: 0.5rem;
+  margin-right: 1rem;
   padding: 0.5rem 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   outline: none;
   border: none;
   display: inline-block;
   border-radius: 4px;
-  height: 56px;
+  height: 44px;
 }
 
 .react-tweet-theme button {
@@ -296,10 +296,6 @@ button:hover {
 }
 
 @media (max-width: 600px) {
-  .mobile-single-column {
-    display: block !important;
-  }
-
   html {
     font-size: .75rem;
   }
@@ -307,14 +303,6 @@ button:hover {
   main {
     width: 100%;
     padding: 1rem 1rem 0;
-  }
-
-  .email {
-    content: "@";
-    display: block;
-    margin-left: 0;
-    margin-top: 1rem;
-    position: static;
   }
 
   p {
@@ -340,10 +328,5 @@ button:hover {
   .index-list-of-writings-title {
     line-height: 2.5rem;
     margin-top: 1rem;
-  }
-
-  input,
-  button {
-    width: 100%;
   }
 }

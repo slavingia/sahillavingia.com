@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -63,17 +64,7 @@ export default function Home() {
 
         <p>And if you're a founder, please check out <a href="https://raise.gumroad.com/">the materials I used</a> to crowdfund this raise, and reach out if you have any questions.</p>
 
-        <hr />
-
-        <label className="centered">
-          Be the first to know when Gumroad raises money from the public again:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )

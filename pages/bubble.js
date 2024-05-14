@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -91,17 +92,7 @@ export default function Home() {
         <p>Realizing that even the most liberal of governments cannot fix climate change alone, I have reduced my consumption of red meat. I have deleted Twitter and Reddit off of my phone, and seek to have more in-person conversations. I invest more time in my creative hobbies and volunteer for causes that I support. I see the value of a Christ-like figure in one’s life, and support that journey in those around me. And I am reignited about the impact that Gumroad and our creators can have upon the world, sharing their perspectives through their products.</p>
         <p>I am not a fundamentally different person than the one I was a year ago, but I am a little bit better.</p>
 
-        <hr />
-
-        <label className="centered">
-          Hear about my next thing first:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )

@@ -134,17 +134,7 @@ export default function Home() {
 
         <p><em>Gumroad is a product of many people’s hard work, including our alumni: Leigh McCulloch, Sidharth Shanker, Anish Bhayani, Kathleen Warner, Heather Whiles, Benjamin Nguyen, Steve Kaye, Tuhin Srivastava, Avinash Ananth, Joel Packer, Katsuya Noguchi, Matan-Paul Shetrit, Amir Haghighat, Ian Atha, Emmiliese von Clemm, Kate Yu, Sri Raghavan, Ryan Delk, Al Hertz, Travis Nichols, Maxwell Elliott, Phil Howes, Ben Reynolds, Michael Klocker, Bryan English, Laura Biester, Jake Heimark, Aaron Relph, Ben Walsh, Greg Terrono, Donald Huang, Paul McKellar, Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.</em></p>
 
-        <hr />
-
-        <label className="centered">
-          Subscribe to my emails:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )

@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -137,17 +138,8 @@ export default function Home() {
         <p>“You should give it a try,” Sabrina said. She pushed herself up against the table, gripping her cane tightly with one hand. “Here, I’ll walk you out.”</p>
         <p class="centered">#</p>
         <p>Matthew couldn’t get to sleep, even though it was almost four in the morning. His daughter’s face still glowed green on the windshield. He swiveled the seat around to face an empty desk and reached underneath to pick out a clean sheet of paper. It took him a minute to find a pen, hidden at the very back of the drawer; rolling it between his fingers, he realized it had never been used.</p>
-        <hr />
 
-        <label className="centered">
-          Hear about my next thing first:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )

@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -132,17 +133,7 @@ export default function Home() {
         <p>Meet the Gumroad team: <img src="/gumroadians.png" alt="Cartoon illustrations of the Gumroad team" /></p>
         <p>The internet has enabled new ways of working, but we’re just starting to see them unfold. There are a lot of different ways to make work work. Ours is just one.</p>
 
-        <hr />
-
-        <label className="centered">
-          Subscribe to my emails:
-        </label>
-
-        <form action="https://gumroad.com/follow_from_embed_form" className="gumroad-follow-form-embed centered" method="post">
-          <input name="seller_id" type="hidden" value="2614450981218" />
-          <input name="email" placeholder="Your email address" type="email" />
-          <button data-custom-highlight-color="" type="submit">Subscribe</button>
-        </form>
+        <Footer />
       </main>
     </Layout>
   )
