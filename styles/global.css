@@ -121,7 +121,7 @@ button {
 
 label + .item {
   margin-top: 0.5rem;
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 @media (prefers-color-scheme: dark) {

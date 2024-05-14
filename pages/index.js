@@ -19,6 +19,13 @@ export default function Home() {
         </label>
 
         <h2 className="item index-list-of-writings-title">
+          <a href="/dividends">
+            Paying People in Equity and Dividends
+          </a>
+          <small>2024</small>
+        </h2>
+
+        <h2 className="item index-list-of-writings-title">
           <a href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397">
             The Minimalist Entrepreneur
           </a>
