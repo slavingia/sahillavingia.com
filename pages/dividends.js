@@ -18,7 +18,7 @@ export default function Home() {
 
       <main className="centered-main">
         <label>
-          May 28, 2024 by <a href="/">Sahil Lavingia</a>
+          May 15, 2024 by <a href="/">Sahil Lavingia</a>
         </label>
 
         <h2 className="item">
@@ -55,8 +55,9 @@ export default function Home() {
         <p><img src="/dividends/charter.png" /></p>
         <p>(I got 60% from The Intelligent Investor, a book recommended by Warren Buffett and published in 1949, back when interest rates were non-zero. From it, I learned that the average dividend payout ratio has decreased from 90% in the 1940s to less than 30% in recent years. When interest rates were high in the 60s and 70s, the average dividend payout ratio was 60%.)</p>
         <p>Once we had permission to issue dividends, we needed a way to functionally do so. In our case, to 7,387 investors. This is a large part of the offering that the NYSE and NASDAQ provide their public, enterprise customers, such as Meta, NVIDIA, and Apple.</p>
-        <p>If you’re a private company, options are limited. The portal we used to raise our crowdfunding round had been planning to build this feature for years, but hasn’t yet. Our cap table provider wouldn’t help either. Both an old-school bank and a new-age crypto startup quoted us over $100K for the privilege. Fortunately, we had been building Flexile, to solve our own problem of paying remote workers all over the world. Why not add dividends for investors to it? We decided to DIY.</p>
-        <p>A few months later, in July 2023, we issued a $1M trial dividend to our cap table, using Flexile. My wife and I started planning a move to NYC to start a family.</p>
+        <p>If you’re a private company, options are limited. The portal we used to raise our crowdfunding round had been planning to build this feature for years, but hasn’t yet. Our cap table provider wouldn’t help either. Both an old-school bank and a new-age crypto startup quoted us over $100K for the privilege.</p>
+        <p>Fortunately, we had been building Flexile, to solve our own problem of paying remote workers all over the world. Why not add dividends for investors to it? We decided to DIY.</p>
+        <p>A few months later, in July 2023, we issued a $1M trial dividend to our cap table, using Flexile. Finally, my wife and I started planning a move to NYC to start a family.</p>
         <p>To align the team, I proposed an equity bonus, tied to the amount billed for the prior calendar year and our last public valuation. For example, someone who earned $198K would have received an additional 100%, or $198K, in Gumroad stock options, tied to the $100M crowdfunding valuation.</p>
         <p>To my surprise, there was more confusion than excitement. We jumped on a rare Zoom call, where I learned there were many problems.</p>
         <h2>Splitting equity hairs</h2>
@@ -69,7 +70,10 @@ export default function Home() {
         <p>In 2010, I dropped out of college to join Pinterest, accepting an offer of $65K a year + 0.5% of the company’s shares, vested over four years, with an industry-standard one year cliff.</p>
         <p>Six months in, I got a raise to $75K a year + 0.75% of the company.</p>
         <p>Then, a few months before my cliff, I was told the quality of my work was not up to the bar they were looking for and that “today was [my] last day.” I was fired, and all of my equity returned to the employee stock option pool, to be allocated to future full-time employees. Ashamed, I told everyone I “left” Pinterest and started raising money for Gumroad.</p>
-        <p>Thirteen years later, Gumroad was a sustainable business, and Flexile was handling dividends for us. Why <em>not</em> add equity to the mix?</p>
+        <p>With hindsight, I wasn't a great full-time employee. But I was a good freelancer. Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
+        <Tweet id="27946496473" />
+        <p>Thirteen years later, Gumroad was a profitable business run by a small army of part-time freelancers, and Flexile was handling the complexity of our payroll, cap table, and dividends. Why <em>not</em> add equity for people like 18-year-old-me to the mix?</p>
+        <p>I think we landed somewhere pretty cool.</p>
         <h2>Equity by the hour</h2>
         <p>Today, Gumroad pays $125-$200/hr. This doesn’t change based on where you live. Of this, you choose how much you’d like to get in equity: between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
@@ -86,10 +90,10 @@ export default function Home() {
         <h2>D'end</h2>
         <p>On May 14, Gumroad issued an annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our global team of hourly freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
-        <p>Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
-        <Tweet id="27946496473" />
-        <p>No one replied. If someone had, maybe I'd have a college degree today. To my mom, that makes our equity model worth trying out–even if it is a little confusing. My wife agrees. What think you?</p>
-        <p>If you’d like to follow along, tune into <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a> on August 15, live from our new office in DUMBO, Brooklyn, New York!</p>
+        <p>If you’d like to follow along, tune into <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a> at 12PM ET today, May 15, live from our new office in DUMBO, Brooklyn, New York!</p>
+        <br />
+        <br />
+        <br />
         <Footer />
       </main>
     </Layout>
