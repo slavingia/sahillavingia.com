@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './layout.module.css'
 import { initGA, logPageView } from './analytics'
+import { Analytics } from '@vercel/analytics/react'
 
 export default class Layout extends React.Component {
   componentDidMount () {
