@@ -14,6 +14,9 @@ export default function Home() {
         <meta name="og:title" content="Paying People in Equity and Dividends" />
         <meta name="og:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
         <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
+        <meta name="twitter:title" content="Paying People in Equity and Dividends" />
+        <meta name="twitter:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
+        <meta name="twitter:image" content="https://sahillavingia.com/dividends/split.png" />
       </Head>
 
       <main className="centered-main">
