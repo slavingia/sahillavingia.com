@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="twitter:title" content="Paying People in Equity and Dividends" />
-        <meta name="twitter:description" content="How we work at Gumroad" />
-        <meta name="twitter:image" content="https://sahillavingia.com/gumroadians.png" />
+        <meta name="og:title" content="Paying People in Equity and Dividends" />
+        <meta name="og:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
+        <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
       </Head>
 
       <main className="centered-main">
