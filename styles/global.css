@@ -37,7 +37,7 @@ main {
   padding: 1rem 2rem 0 2rem;
   flex: 1;
   width: 100%;
-  max-width: 760px;
+  max-width: 800px;
   position: relative;
   z-index: 1;
 }
@@ -74,8 +74,7 @@ a:hover {
   cursor: pointer;
 }
 
-.title,
-.tiny-title {
+.title {
   margin: 0;
   padding: 1rem 0 0;
   line-height: 1.15;
@@ -86,15 +85,9 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-  .title,
-  .tiny-title {
+  .title {
     color: white;
   }
-}
-
-.tiny-title {
-  font-size: 1rem;
-  padding: 1rem;
 }
 
 label {
@@ -121,7 +114,7 @@ button {
 
 label + .item {
   margin-top: 0.5rem;
-  font-weight: 1000;
+  font-weight: 700;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -152,7 +145,7 @@ p,
 blockquote,
 li {
   margin-top: 2rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 1.8;
   color: rgb(41, 41, 41);
 }
@@ -185,12 +178,6 @@ li {
 
 h2 + p {
   margin-top: 2rem;
-}
-
-p a,
-li a {
-  text-decoration: none;
-  border-bottom: 2px solid rgba(0, 0, 0, .2);
 }
 
 li p {
@@ -238,8 +225,8 @@ blockquote {
 }
 
 p img {
-  max-width: 120%;
-  margin: 1rem -10%;
+  max-width: 100%;
+  margin: 0 0%;
 }
 
 p + hr {
