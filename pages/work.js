@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="twitter:title" content="No Meetings, No Deadlines, No Full-Time Employees" />
-        <meta name="twitter:description" content="How we work at Gumroad" />
-        <meta name="twitter:image" content="https://sahillavingia.com/gumroadians.png" />
+        <meta name="og:title" content="No Meetings, No Deadlines, No Full-Time Employees" />
+        <meta name="og:description" content="I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time employees. In 2016, after failing to raise more money, I ended up back where I began: a one-person company." />
+        <meta name="og:image" content="https://sahillavingia.com/gumroadians.png" />
       </Head>
 
       <main className="centered-main">

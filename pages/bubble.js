@@ -11,9 +11,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="twitter:title" content="From Bubble to Bubble" />
-        <meta name="twitter:description" content="What I learned moving from San Francisco to the most conservative city in America: Provo, Utah." />
-        <meta name="twitter:image" content="https://sahillavingia.com/1_jYRtHx2U3hhD_ffQLKjMXA.png" />
+        <meta name="og:title" content="From Bubble to Bubble" />
+        <meta name="og:description" content="What I learned moving from San Francisco to the most conservative city in America: Provo, Utah." />
+        <meta name="og:image" content="https://sahillavingia.com/1_jYRtHx2U3hhD_ffQLKjMXA.png" />
       </Head>
 
       <main className="centered-main">

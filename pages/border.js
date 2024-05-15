@@ -10,9 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="twitter:title" content="Across the Border" />
-        <meta name="twitter:description" content="A story about the distances technology fails to bridge." />
-        <meta name="twitter:image" content="https://sahillavingia.com/border.png" />
+        <meta name="og:title" content="Across the Border" />
+        <meta name="og:description" content="A story about the distances technology fails to bridge." />
+        <meta name="og:image" content="https://sahillavingia.com/border.png" />
         <script src="//code.jquery.com/jquery-1.12.4.js"></script>
         <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
         <script src="/border.js"></script>
