@@ -72,8 +72,7 @@ export default function Home() {
         <p>Then, a few months before my cliff, I was told the quality of my work was not up to the bar they were looking for and that “today was [my] last day.” I was fired, and all of my equity returned to the employee stock option pool, to be allocated to future full-time employees. Ashamed, I told everyone I “left” Pinterest and started raising money for Gumroad.</p>
         <p>With hindsight, I wasn't a great full-time employee. But I was a good freelancer. Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
         <Tweet id="27946496473" />
-        <p>Thirteen years later, Gumroad was a profitable business run by a small army of part-time freelancers, and Flexile was handling the complexity of our payroll, cap table, and dividends. Why <em>not</em> add equity for people like 18-year-old-me to the mix?</p>
-        <p>I think we landed somewhere pretty cool.</p>
+        <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our dividends. Why <em>not</em> bother?</p>
         <h2>Equity by the hour</h2>
         <p>Today, Gumroad pays $125-$200/hr. This doesn’t change based on where you live. Of this, you choose how much you’d like to get in equity: between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
