@@ -39,7 +39,7 @@ export default function Home() {
         <p>Raising money was tempting, but I’d been down that road before. Still, I felt that we could ship more product features, and let more creators know about them, with a larger team.</p>
         <p>Equity crowdfunding offered an alternative to VC: founders could raise up to $1.07M per year from non-accredited investors all over the world, so long as they published financials online. I was already publishing my financials online, but the cap was too low to seriously consider.</p>
         <p>On March 15, 2021, the SEC increased the annual equity crowdfunding cap from $1.07M to $5M. That same day, Gumroad used equity crowdfunding to raise $5M from 7,387 investors at a $100M valuation.</p>
-        <p>I used the money to grow the team from 25 to 45, investing heavily in our content and community efforts, and refreshed the Gumroad brand. We also started working on a new product, <a href="https://flexile.com/">Flexile</a>, to productize the way we worked, with <a href="/work">no meetings, no deadlines, and no full-time employees</a>.</p>
+        <p>I used the money to grow the team from 25 to 45, investing heavily in our content and community efforts, and refreshed the Gumroad brand. We also started working on a new product, <a href="https://flexile.com/">Flexile</a>, to productize the way we worked, with <a href="/work">no meetings, no deadlines, and no full-time employees</a>. At the time, I used a combination of Bill.com, HelloSign, and a bunch of manual processes, to hire, pay, and manage a team of hourly freelancers; Flexile would automate all of that.</p>
         <p>Less than a year later, the pandemic's effects began to subside. Two years later, Gumroad’s growth plateaued. Then interest rates went up. I pared the team down to get back to cash flow breakeven. Meanwhile, Flexile acquired no customers.</p>
         <p>In 2022, Gumroad lost $1M helping creators earn $185M. That wasn't sustainable.</p>
         <h2>"Charge more"</h2>
@@ -47,7 +47,7 @@ export default function Home() {
         <p>The ZIRP-fuel haze that peaked during COVID and allowed Gumroad to spend the first decade of its life operating with an incredibly creator-friendly business model was over.</p>
         <p><img src="/dividends/pricing2.png" /></p>
         <p>Spoiler alert: it worked. <em>Thank you</em> to the 55,000 creators who stuck with us!</p>
-        <p>Finally, Gumroad was a sustainable business, not looking for an exit. And frankly, I had waited long enough; it was time to pay dividends.</p>
+        <p>Finally, Gumroad was a sustainable business, not looking for an exit. Frankly, I had waited long enough. My wife and I were planning to move to NYC and start a family. It was time for me to start taking a share of Gumroad's profits, as a reward for the years of work I had put into building the company. It was time to start paying dividends.</p>
         <h2>Delving into dividends</h2>
         <p>This isn't new: Dividends are the primary way businesses pay their owners.</p>
         <p>According to the IRS, about 200,000 businesses in the US pay dividends of more than $10M to their owners. For reference, there are just 6,000 publicly-listed companies in the US.</p>
@@ -79,7 +79,7 @@ export default function Home() {
         <p>Today, Gumroad pays $125-$200/hr. This doesn’t change based on where you live. Of this, you choose how much you’d like to get in equity: between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
         <p>In practice, we issue you a year’s worth of unvested stock options, and vest options automatically with each invoice, using our last public valuation. There are no cliffs.</p>
-        <p>And at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you're entitled to dividends proportional to your equity ownership in the business. If you leave before exercising, you will still have ten years after leaving to do so.</p>
+        <p>And at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. If you leave before exercising, you will still have ten years after leaving to do so. Upon exercising, you're entitled to dividends proportional to your equity ownership in the business.</p>
         <p>Future liquidity is hard to reason about, so I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. A bird in the hand is worth more than a bird in the bush, but how much more? That’s different for everyone. For example:</p>
         <p>One of our software engineers could have made $308K this year. Instead, they decided to take 50% of their compensation as equity ($154K), saying: “My expenses are low, and I've saved up enough over the last year or two that I don't need the extra cash. I see the options as significantly discounted at their current strike price.”</p>
         <p>Someone who chose 80%: “Living from the 20% is enough for us. I know and trust the team who runs Gumroad, and have been planning to start long-term investing anyway.”</p>
