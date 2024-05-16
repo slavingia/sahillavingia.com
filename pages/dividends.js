@@ -90,7 +90,7 @@ export default function Home() {
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
         <p>Today, Gumroad is a profitable business with <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">quarterly public board meetings</a> to keep us accountable.</p>
-        <p>On May 14, we issued ouf first annual dividend, of $5.34M, equal to 60% of 2023’s net income. Also for the first time, our team of remote freelancers were able to participate.</p>
+        <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, come to <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a>, live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
