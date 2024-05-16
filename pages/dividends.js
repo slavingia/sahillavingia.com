@@ -47,7 +47,7 @@ export default function Home() {
         <p>The ZIRP-fuel haze that peaked during COVID and allowed Gumroad to spend the first decade of its life operating with an incredibly creator-friendly business model was over.</p>
         <p><img src="/dividends/pricing2.png" /></p>
         <p>Spoiler alert: it worked. <em>Thank you</em> to the 55,000 creators who stuck with us!</p>
-        <p>Finally, Gumroad was a sustainable business, not looking for an exit. Frankly, I had waited long enough. My wife and I were planning to move to NYC and start a family. It was time for me to start taking a share of Gumroad's profits, as a reward for the years of work I had put into building the company. It was time to start paying dividends.</p>
+        <p>Finally, Gumroad was a sustainable business, not looking for an exit. And frankly, I had waited long enough. My wife and I were planning to move to NYC and start a family. It was time for us to start taking a share of Gumroad's profits, as a reward for the years of work put into building the company.</p>
         <h2>Delving into dividends</h2>
         <p>This isn't new: Dividends are the primary way businesses pay their owners.</p>
         <p>According to the IRS, about 200,000 businesses in the US pay dividends of more than $10M to their owners. For reference, there are just 6,000 publicly-listed companies in the US.</p>
