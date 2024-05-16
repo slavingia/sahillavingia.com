@@ -7,25 +7,25 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Paying People in Equity and Dividends</title>
+        <title>Paying Freelancers in Equity and Dividends</title>
         <link rel="icon" href="/favicon.svg" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
-        <meta name="og:title" content="Paying People in Equity and Dividends" />
+        <meta name="og:title" content="Paying Freelancers in Equity and Dividends" />
         <meta name="og:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
         <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
-        <meta name="twitter:title" content="Paying People in Equity and Dividends" />
+        <meta name="twitter:title" content="Paying Freelancers in Equity and Dividends" />
         <meta name="twitter:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
         <meta name="twitter:image" content="https://sahillavingia.com/dividends/split.png" />
       </Head>
 
       <main className="centered-main">
         <label>
-          May 15, 2024 by <a href="/">Sahil Lavingia</a>
+          May 21, 2024 by <a href="/">Sahil Lavingia</a>
         </label>
 
         <h2 className="item">
-          Paying People in Equity and Dividends
+          Paying Freelancers in Equity and Dividends
         </h2>
 
         <p>Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
@@ -54,8 +54,7 @@ export default function Home() {
         <p>Some people prefer profit-sharing. It’s simpler, but it amounts to a glorified bonus. Because it’s a bonus, it's taxed as income. And what happens when you get fired or laid off, or choose to take a break from work? It's gone.</p>
         <p>Qualified dividends, meanwhile, are taxed at the long-term capital gains rate.</p>
         <p>However, Gumroad’s history made issuing dividends non-trivial. In 2011-2012, we raised Seed and Series A rounds from angels and VCs. As part of owning preferred shares, investors acquire the right to block any dividends to common stockholders.</p>
-        <p>With <a href="https://twitter.com/shl/status/1679308995268587522">a couple emails asking nicely</a>, I was able to get this approval from all of Gumroad’s original investors. I owe a massive <em>thank you</em> to Accel, Max Levchin, SV Angel, First Round, Naval Ravikant, Collab Fund, Tuesday Capital (formerly CrunchFund), and Caffeinated Capital, for allowing us to amend our charter to easily issue 60% of our net income as dividends every year.</p>
-        <p><img src="/dividends/charter.png" /></p>
+        <p>With <a href="https://twitter.com/shl/status/1679308995268587522">a couple emails asking nicely</a>, I was able to get this approval from all of Gumroad’s original investors. Additionally, I owe a massive <em>thank you</em> to Accel, Max Levchin, SV Angel, First Round, Naval Ravikant, Collab Fund, Tuesday Capital (formerly CrunchFund), and Caffeinated Capital, for allowing us to <a href="https://twitter.com/shl/status/1790851049881772073">amend our charter</a> to issue 60% of our net income as dividends every year.</p>
         <p>(I got 60% from The Intelligent Investor, a book recommended by Warren Buffett and published in 1949, back when interest rates were non-zero. From it, I learned that the average dividend payout ratio has decreased from 90% in the 1940s to less than 30% in recent years. When interest rates were high in the 60s and 70s, the average dividend payout ratio was 60%.)</p>
         <p>Once we had permission to issue dividends, we needed a way to functionally do so. In our case, to 7,387 investors. This is a large part of the offering that the NYSE and NASDAQ provide their public, enterprise customers, such as Meta, NVIDIA, and Apple.</p>
         <p>If you’re a private company, options are limited. The portal we used to raise our crowdfunding round had been planning to build this feature for years, but hasn’t yet. Our cap table provider wouldn’t help either. Both an old-school bank and a new-age crypto startup quoted us over $100K for the privilege.</p>
@@ -90,12 +89,9 @@ export default function Home() {
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
-        <p>On May 14, Gumroad issued an annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our global team of hourly freelancers were able to participate.</p>
+        <p>On May 14, Gumroad issued an annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
-        <p>If you’d like to follow along, tune into <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a> at 12PM ET today, May 15, live from our new office in DUMBO, Brooklyn, New York!</p>
-        <br />
-        <br />
-        <br />
+        <p>If you’d like to follow along, come to <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a>, live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
       </main>
     </Layout>
