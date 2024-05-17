@@ -42,12 +42,12 @@ export default function Home() {
         <p>I used the money to grow the team from 25 to 45, investing heavily in our content and community efforts, and refreshed the Gumroad brand. We also started working on a new product, <a href="https://flexile.com/">Flexile</a>, to productize the way we worked, with <a href="/work">no meetings, no deadlines, and no full-time employees</a>. At the time, I used a combination of Bill.com, HelloSign, and a bunch of manual processes, to hire and pay everyone; Flexile would automate all of that.</p>
         <p>Less than a year later, the pandemic's effects began to subside. Two years later, Gumroad’s growth plateaued. Then interest rates went up. I pared the team down to get back to cash flow breakeven. Meanwhile, Flexile acquired no customers.</p>
         <p>In 2022, Gumroad lost $1M helping creators earn $185M. That wasn't sustainable.</p>
-        <h2>"Charge more"</h2>
+        <h2>Charging more</h2>
         <p>On January 31, 2023, we increased Gumroad’s pricing to be simpler, higher, and the same for all creators, regardless of income level: 10% flat, exclusive of payment processing fees.</p>
         <p>The ZIRP-fuel haze that peaked during COVID and allowed Gumroad to spend the first decade of its life operating with an incredibly creator-friendly business model was over.</p>
         <p><img src="/dividends/pricing2.png" /></p>
         <p>Spoiler alert: it worked. <em>Thank you</em> to the 55,000 creators who stuck with us!</p>
-        <p>Finally, Gumroad was a sustainable business, not looking for an exit. And frankly, I had waited long enough. My wife and I were planning to move to NYC and start a family. It was time for us to start taking a share of Gumroad's profits, as a reward for the years of work put into building the company.</p>
+        <p>Finally, Gumroad was a sustainable business, not looking for an exit. Frankly, I had waited long enough. My wife and I were planning to move to NYC and start a family. It was time for us to start taking a share of Gumroad's profits, as a reward for the years of work put into building the company.</p>
         <h2>Delving into dividends</h2>
         <p>This isn't new: Dividends are the primary way businesses pay their owners.</p>
         <p>According to the IRS, about 200,000 businesses in the US pay dividends of more than $10M to their owners. For reference, there are just 6,000 publicly-listed companies in the US.</p>
