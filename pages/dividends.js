@@ -29,6 +29,7 @@ export default function Home() {
         </h2>
 
         <p>Today, Gumroad pays freelancers $125-$200/hr. Of this hourly rate, everyone chooses how much they’d like to get in equity: between 0 and 80%. Equity entitles them to dividends proportional to their ownership in the business.</p>
+        <p>In this way, since the beginning of 2024, Gumroad has raised $268,988 from our team, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
         <p><img src="/dividends/metrics2019.png" /></p>
@@ -89,7 +90,6 @@ export default function Home() {
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
-        <p>In this way, since the beginning of 2024, Gumroad has raised $268,988 from our team, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, come to <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a>, live from our new office in DUMBO, Brooklyn, New York!</p>
