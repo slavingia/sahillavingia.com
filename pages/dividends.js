@@ -28,9 +28,7 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
-        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
-
-        <p>How?</p>
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round:</p>
 
         <p>1. Gumroad pays freelancers around the world $125-$200/hr.</p><p>2. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%.</p><p>3. Equity entitles one to dividends, proportional to their ownership in the business.</p>
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
@@ -59,7 +57,11 @@ export default function Home() {
         <p>Qualified dividends, meanwhile, are taxed at the long-term capital gains rate.</p>
         <p>However, Gumroad’s history made issuing dividends non-trivial. In 2011-2012, we raised Seed and Series A rounds from angels and VCs. As part of owning preferred shares, investors acquire the right to block any dividends to common stockholders.</p>
         <p>I owe a massive <em>thank you</em> to Accel, Max Levchin, SV Angel, First Round, Naval Ravikant, Collab Fund, Tuesday Capital (formerly CrunchFund), and Caffeinated Capital, for allowing us to amend our charter to issue 60% of our net income as dividends every year.</p>
-        <Tweet id="1679053002462855169" />
+
+        <p style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+          <img src="/dividends/charter.jpeg" style={{width: "48%", height: "auto"}} />
+          <img src="/dividends/intelligent.jpeg" style={{width: "48%", height: "auto"}} />
+        </p>
         <p>(I got 60% from The Intelligent Investor, a book recommended by Warren Buffett and published in 1949, back when interest rates were non-zero. From it, I learned that the average dividend payout ratio has decreased from 90% in the 1940s to less than 30% in recent years. When interest rates were high in the 60s and 70s, the average dividend payout ratio was 60%.)</p>
         <p>Once we had permission to issue dividends, we needed a way to functionally do so. In our case, to 7,387 investors. This is a large part of the offering that the NYSE and NASDAQ provide their public, enterprise customers, such as Meta, NVIDIA, and Apple.</p>
         <p>If you’re a private company, options are limited. The portal we used to raise our crowdfunding round had been planning to build this feature for years, but hasn’t yet. Our cap table provider wouldn’t help either. Both an old-school bank and a new-age crypto startup quoted us over $100K for the privilege.</p>
@@ -93,9 +95,9 @@ export default function Home() {
         <p>For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
+        <h2>DIYPO</h2>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p>We have no plans to IPO or sell, just to keep shipping product and issuing dividends. As long as the TAM supports the team, I'm happy. And it does.</p>
-        <h2>D'end</h2>
         <p>If you’d like to follow along, tune into our <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a>, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <Footer />
