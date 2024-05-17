@@ -98,8 +98,8 @@ export default function Home() {
         <h2>DIYPO</h2>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p>We have no plans to IPO or sell, just to keep shipping product and issuing dividends. As long as the TAM supports the team, I'm happy. And it does.</p>
-        <p>If you’d like to follow along, tune into our <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a>, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <p><img src="/dividends/metrics2023.png" /></p>
+        <p>If you’d like to follow along, tune into our <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a>, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
       </main>
     </Layout>
