@@ -51,7 +51,7 @@ export default function Home() {
         <p>The ZIRP-fuel haze that peaked during COVID and allowed Gumroad to spend the first decade of its life operating with an incredibly creator-friendly business model was over.</p>
         <p><img src="/dividends/pricing2.png" /></p>
         <p>Spoiler alert: it worked. <em>Thank you</em> to the 55,000 creators who stuck with us!</p>
-        <p>Finally, Gumroad was a sustainable business, not looking for an exit. Frankly, I had waited long enough. My wife and I were planning to move to NYC and start a family. It was time for us to start taking a share of Gumroad's profits, as a reward for the years of work put into building the company.</p>
+        <p>Finally, Gumroad was a sustainable business, not looking for an exit. Frankly, I had waited long enough. My wife and I wanted to move to NYC and start a family. It was time for us to start taking a share of Gumroad's profits, as a reward for the years of work I put into building the company.</p>
         <h2>Delving into dividends</h2>
         <p>This isn't new: Dividends are the primary way businesses pay their owners.</p>
         <p>According to the IRS, about 200,000 businesses in the US pay dividends of more than $10M to their owners. For reference, there are just 6,000 publicly-listed companies in the US.</p>
@@ -64,7 +64,7 @@ export default function Home() {
         <p>Once we had permission to issue dividends, we needed a way to functionally do so. In our case, to 7,387 investors. This is a large part of the offering that the NYSE and NASDAQ provide their public, enterprise customers, such as Meta, NVIDIA, and Apple.</p>
         <p>If you’re a private company, options are limited. The portal we used to raise our crowdfunding round had been planning to build this feature for years, but hasn’t yet. Our cap table provider wouldn’t help either. Both an old-school bank and a new-age crypto startup quoted us over $100K for the privilege.</p>
         <p>Fortunately, we had been building Flexile, to solve our own problem of paying remote workers all over the world. Why not add dividends for investors to it? We decided to DIY.</p>
-        <p>A few months later, in July 2023, we issued a $1M trial dividend to our cap table, using Flexile. Finally, my wife and I started planning a move to NYC to start a family.</p>
+        <p>A few months later, in July 2023, we issued a $1M trial dividend to our cap table, using Flexile.</p>
         <p>To align the team, I proposed an equity bonus, tied to the amount billed for the prior calendar year and our last public valuation. For example, someone who earned $198K would have received an additional 100%, or $198K, in Gumroad stock options, tied to the $100M crowdfunding valuation.</p>
         <p>To my surprise, there was more confusion than excitement. We jumped on a rare Zoom call, where I learned there were many problems.</p>
         <h2>Splitting equity hairs</h2>
