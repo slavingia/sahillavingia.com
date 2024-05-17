@@ -12,10 +12,10 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="og:title" content="Paying Freelancers in Equity and Dividends" />
-        <meta name="og:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
+        <meta name="og:description" content="Today, Gumroad pays freelancers $125-$200/hr. Of this hourly rate, everyone chooses how much they’d like to get in equity: between 0 and 80%." />
         <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
         <meta name="twitter:title" content="Paying Freelancers in Equity and Dividends" />
-        <meta name="twitter:description" content="Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round." />
+        <meta name="twitter:description" content="Today, Gumroad pays freelancers $125-$200/hr. Of this hourly rate, everyone chooses how much they’d like to get in equity: between 0 and 80%." />
         <meta name="twitter:image" content="https://sahillavingia.com/dividends/split.png" />
       </Head>
 
@@ -28,11 +28,11 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
-        <p>Since the beginning of 2024, Gumroad has raised $180,178 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+        <p>Today, Gumroad pays freelancers $125-$200/hr. Of this hourly rate, everyone chooses how much they’d like to get in equity: between 0 and 80%. Equity entitles them to dividends proportional to their ownership in the business.</p>
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
-        <p>In January 2020, I moved to Portland, Oregon for my wife's job. Then, COVID happened.</p>
         <p><img src="/dividends/metrics2019.png" /></p>
+        <p>In January 2020, I moved to Portland, Oregon for my wife's job. Then, COVID happened.</p>
         <h2>COVID, Equity Crowdfunding, Creator Economy</h2>
         <p>Due to the global pandemic, more people than ever before were using the Internet to learn new hobbies and monetize their creative skills. As a result, Gumroad grew faster in weeks than it had in years. Investors and journalists termed this trend the “creator economy.”</p>
         <p><img src="/dividends/metrics2020.png" /></p>
@@ -75,22 +75,21 @@ export default function Home() {
         <p>Then, a few months before my cliff, I was told the quality of my work was not up to the bar they were looking for and that “today was [my] last day.” I was fired, and all of my equity returned to the employee stock option pool, to be allocated to future full-time employees. Ashamed, I told everyone I “left” Pinterest and started raising money for Gumroad.</p>
         <p>With hindsight, I wasn't a great full-time employee. But I was a good freelancer. Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
         <Tweet id="27946496473" />
-        <p>Thirteen years later, Gumroad was a profitable business, with Flexile was handling our dividends. Why not add equity for freelancers to the mix?</p>
+        <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our cap table and dividends. Why not add equity to the mix?</p>
         <h2>Equity by the hour</h2>
-        <p>Today, Gumroad pays $125-$200/hr. This doesn’t change based on where you live. Of this, you choose how much you’d like to get in equity: between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
-        <p>In practice, we issue you a year’s worth of unvested stock options, and vest options automatically with each invoice, using our last public valuation. There are no cliffs.</p>
-        <p>And at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. If you leave before exercising, you will still have ten years after leaving to do so. Upon exercising, you're entitled to dividends proportional to your equity ownership in the business.</p>
-        <p>Future liquidity is hard to reason about, so I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. A bird in the hand is worth more than a bird in the bush, but how much more? That’s different for everyone. For example:</p>
+        <p>At the beginning of each year, we grant everyone a year’s worth of unvested stock options, and vest options automatically with each invoice, using our last public valuation. There are no cliffs.</p>
+        <p>Then, at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Unexercised options expire ten years after leaving.</p>
+        <p>Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business.</p>
+        <p>Future liquidity is hard to reason about. A bird in the hand is worth more than a bird in the bush, but how much more? That’s different for everyone. So I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For example:</p>
         <p>One of our software engineers could have made $308K this year. Instead, they decided to take 50% of their compensation as equity ($154K), saying: “My expenses are low, and I've saved up enough over the last year or two that I don't need the extra cash. I see the options as significantly discounted at their current strike price.”</p>
         <p>Someone who chose 80%: “Living from the 20% is enough for us. I know and trust the team who runs Gumroad, and have been planning to start long-term investing anyway.”</p>
         <p>Someone who chose 1% didn't want to miss out on the fun completely. “It has very little to do with my outlook on Gumroad. I'm just putting all my spare cash into <a href="https://lazytigerhostel.com/">my own business</a> this year.”</p>
-        <p></p>
         <p>For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
-        <p>Today, Gumroad is a profitable business with <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">quarterly public board meetings</a> to keep us accountable.</p>
+        <p>In this way, since the beginning of 2024, Gumroad has raised $268,988 from our team, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, come to <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/">our next public board meeting</a>, live from our new office in DUMBO, Brooklyn, New York!</p>
