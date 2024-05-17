@@ -28,7 +28,11 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
-        <p>Gumroad pays freelancers around the world $125-$200/hr.</p><p>Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%.</p><p>Equity entitles one to dividends, proportional to their ownership in the business.</p>
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+
+        <p>How?</p>
+
+        <p>1. Gumroad pays freelancers around the world $125-$200/hr.</p><p>2. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%.</p><p>3. Equity entitles one to dividends, proportional to their ownership in the business.</p>
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
         <p><img src="/dividends/metrics2019.png" /></p>
