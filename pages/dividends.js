@@ -87,7 +87,7 @@ export default function Home() {
         <p>Someone who chose 1% didn't want to miss out on the fun completely. “It has very little to do with my outlook on Gumroad. I'm just putting all my spare cash into <a href="https://lazytigerhostel.com/">my own business</a> this year.”</p>
         <p>For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
-        <p>In this way, since the beginning of 2024, Gumroad has raised $180,178 from our team in this way, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+        <p>In this way, since the beginning of 2024, Gumroad has raised $268,988 at the same $100M valuation we used for our 2021 crowdfunding round.</p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
         <p>Today, Gumroad is a profitable business with <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">quarterly public board meetings</a> to keep us accountable.</p>
