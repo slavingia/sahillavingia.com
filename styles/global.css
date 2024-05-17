@@ -11,6 +11,10 @@ html {
   }
 }
 
+ol {
+  padding-left: 2rem;
+}
+
 html,
 body,
 input,
@@ -168,7 +172,8 @@ p + h2, h2.bold {
   font-weight: bold;
 }
 
-p + ul {
+p + ul,
+p + ol {
   margin-top: 2rem;
 }
 
