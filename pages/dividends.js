@@ -78,10 +78,9 @@ export default function Home() {
         <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our cap table and dividends. Why not add equity to the mix?</p>
         <h2>Equity by the hour</h2>
         <p><img src="/dividends/equitybythehour.png" /></p>
-        <p>At the beginning of each year, we grant you a full year’s worth of invoices in unvested stock options. Options are vested with each approved invoice, using our last public valuation.</p>
-        <p>There are no cliffs.</p>
-        <p>Then, at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Unexercised options expire ten years after leaving.</p>
-        <p>Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business.</p>
+        <p>At the beginning of each year, we grant you a full year’s worth of invoices in unvested stock options. Options vest as invoices are approved, using our last public valuation.</p>
+        <p>(In practice, we use the same option pool we set up as part of our Series A.)</p>
+        <p>Then, at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business. Unexercised options expire ten years after leaving.</p>
         <p>Future liquidity is hard to reason about. A bird in the hand is worth more than a bird in the bush, but how much more? That’s different for everyone. So I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For example:</p>
         <p>One of our software engineers could have made $308K this year. Instead, they decided to take 50% of their compensation as equity ($154K), saying: “My expenses are low, and I've saved up enough over the last year or two that I don't need the extra cash. I see the options as significantly discounted at their current strike price.”</p>
         <p>Someone who chose 80%: “Living from the 20% is enough for us. I know and trust the team who runs Gumroad, and have been planning to start long-term investing anyway.”</p>
