@@ -2,8 +2,15 @@ import Head from 'next/head'
 import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
 import Footer from '../components/footer'
+import { useState } from 'react';
 
 export default function Home() {
+  const [isTldrExpanded, setIsTldrExpanded] = useState(false);
+
+  const toggleTldr = () => {
+    setIsTldrExpanded(!isTldrExpanded);
+  };
+
   return (
     <Layout>
       <Head>
@@ -12,10 +19,10 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="og:title" content="Paying Freelancers in Equity and Dividends" />
-        <meta name="og:description" content="Gumroad pays freelancers around the world $125-$200/hr. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%." />
+        <meta name="og:description" content="Gumroad pays freelancers around the world $125-$200/hr. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%. Equity entitles one to dividends." />
         <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
         <meta name="twitter:title" content="Paying Freelancers in Equity and Dividends" />
-        <meta name="twitter:description" content="Gumroad pays freelancers around the world $125-$200/hr. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%." />
+        <meta name="twitter:description" content="Gumroad pays freelancers around the world $125-$200/hr. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%. Equity entitles one to dividends." />
         <meta name="twitter:image" content="https://sahillavingia.com/dividends/split.png" />
       </Head>
 
@@ -28,15 +35,22 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
-        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round. TLDR:</p>
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
 
-        <ol>
-          <li>We pay freelancers around the world $125-$200/hr.</li>
-          <li>Of this, everyone chooses how much they’d like to get in stock options–between 0 and 80%.</li>
-          <li>We cover the cost of turning the options into equity via an end-of-year cash bonus.</li>
-          <li>Equity entitles one to dividends, proportional to their ownership in the business.</li>
-          <li>We issued our first annual dividend, of $5.34M, on May 14, 2024.</li>
-        </ol>
+        <div className="tldr" style={{ background: "#f5f5f5", borderRadius: 10, padding: 10, textAlign: "center" }}>
+          <span onClick={toggleTldr} style={{ cursor: 'pointer' }}>TLDR</span>
+          {isTldrExpanded && (
+            <ol>
+              <li>We pay hourly freelancers around the world $125-$200/hr.</li>
+              <li>Everyone chooses how much they'd like to get in stock options–between 0 and 80%.</li>
+              <li>We cover the cost of turning the options into equity via an end-of-year cash bonus.</li>
+              <li>Equity entitles one to dividends, proportional to their ownership in the business.</li>
+              <li>We issue annual dividends equal to 60% of the previous year's net income.</li>
+            </ol>
+          )}
+        </div>
+
+        <p>We issued our first annual dividend, of $5.34M, on May 14, 2024.</p>
 
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
@@ -89,24 +103,26 @@ export default function Home() {
         <p>With hindsight, I wasn't a great full-time employee. But I was a good freelancer. Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
         <Tweet id="27946496473" />
         <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our cap table and dividends. Why not add equity to the mix?</p>
-        <h2>How equity works at Gumroad</h2>
-        <p>Since the beginning of 2024, Gumroad has "raised" $268,988 from our team at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+        <h2>Equity by the hour</h2>
+        <p>Gumroad pays hourly freelancers around the world $125-$200/hr.</p>
+        <p>Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
-        <p>At the beginning of each year, we grant you a full year’s worth of invoices in unvested stock options. Options vest as invoices are approved, using our last public valuation.</p>
-        <p>(In practice, we use the same option pool we set up as part of our Series A.)</p>
-        <p>Then, at the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business. Unexercised options expire ten years after leaving.</p>
-        <p>Future liquidity is hard to reason about. A bird in the hand is worth more than a bird in the bush, but how much more? That’s different for everyone. So I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For example:</p>
+        <p>In practice, we issue a full year of unvested stock options at the beginning of each year. Options vest as invoices are approved, using the last public valuation–currently $100M.</p>
+        <p>At the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business.</p>
+        <p>Unexercised options expire ten years after leaving.</p>
+        <p>Future liquidity is hard to reason about. $1 in your pocket today is worth more than $1 in your pocket a year from now. But how much more? That’s different for everyone. For example:</p>
         <p>One of our software engineers could have made $308K this year. Instead, they decided to take 50% of their compensation as equity ($154K), saying: “My expenses are low, and I've saved up enough over the last year or two that I don't need the extra cash. I see the options as significantly discounted at their current strike price.”</p>
         <p>Someone who chose 80%: “Living from the 20% is enough for us. I know and trust the team who runs Gumroad, and have been planning to start long-term investing anyway.”</p>
         <p>Someone who chose 1% didn't want to miss out on the fun completely. “It has very little to do with my outlook on Gumroad. I'm just putting all my spare cash into <a href="https://lazytigerhostel.com/">my own business</a> this year.”</p>
-        <p>For 2024, the average equity split is 18.3%.</p>
+        <p>I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>DIYPO</h2>
+        <p>Today, Gumroad hosts <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep us accountable.</p>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
-        <p>We have no plans to IPO or sell, just to keep shipping product and issuing dividends. As long as the TAM supports the team, I'm happy. And it does.</p>
+        <p>We don't have plans to IPO nor sell, just to keep shipping products and issuing dividends. As long as the TAM supports the team, I'm happy. And–at least for now–it does.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
-        <p>If you’d like to follow along, tune into our <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a>, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
+        <p>PS. If you’d like to follow along, <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">register</a> for our next public board meeting on August 15, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
       </main>
     </Layout>

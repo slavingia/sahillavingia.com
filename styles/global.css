@@ -177,6 +177,22 @@ p + ol {
   margin-top: 2rem;
 }
 
+.tldr {
+  margin-top: 2rem;
+  padding: 2rem;
+
+  > span {
+    color: #aaa;
+    margin: 0 auto;
+    display: block;
+    text-decoration: underline;
+  }
+
+  ol {
+    text-align: left;
+  }
+}
+
 li {
   margin-top: 1rem;
 }
