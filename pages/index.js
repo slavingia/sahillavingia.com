@@ -22,7 +22,7 @@ export default function Home() {
           <a href="/dividends" style={{fontWeight: "normal"}}>
             Paying Freelancers in Equity and Dividends
           </a>
-          <small>2024</small>
+          <span className="new-badge">NEW</span>
         </h2>
 
         <h2 className="item index-list-of-writings-title">
