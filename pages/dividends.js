@@ -35,8 +35,6 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
-        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
-
         <div className="tldr" style={{ background: "#f5f5f5", borderRadius: 10, padding: 10, textAlign: "center" }}>
           <span onClick={toggleTldr} style={{ cursor: 'pointer' }}>TLDR</span>
           {isTldrExpanded && (
@@ -49,6 +47,8 @@ export default function Home() {
             </ol>
           )}
         </div>
+
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
 
         <p>We issued our first annual dividend, of $5.34M, on May 14, 2024.</p>
 
@@ -100,11 +100,11 @@ export default function Home() {
         <p>In 2010, I dropped out of college to join Pinterest, accepting an offer of $65K a year + 0.5% of the company’s shares, vested over four years, with an industry-standard one year cliff.</p>
         <p>Six months in, I got a raise to $75K a year + 0.75% of the company.</p>
         <p>Then, a few months before my cliff, I was told the quality of my work was not up to the bar they were looking for and that “today was [my] last day.” I was fired, and all of my equity returned to the employee stock option pool, to be allocated to future full-time employees. Ashamed, I told everyone I “left” Pinterest and started raising money for Gumroad.</p>
-        <p>With hindsight, I wasn't a great full-time employee. But I was a good freelancer. Before joining Pinterest full-time, I freelanced for them remotely. But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
+        <p>While I wasn't a great full-time employee, I was a good freelancer. Before joining Pinterest full-time, I freelanced for them remotely.</p><p>But I wanted to earn equity, so I dropped out. Before I did so, I tweeted:</p>
         <Tweet id="27946496473" />
-        <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our cap table and dividends. Why not add equity to the mix?</p>
+        <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our dividends. Why not add equity to the mix?</p>
         <h2>Equity by the hour</h2>
-        <p>Gumroad pays hourly freelancers around the world $125-$200/hr.</p>
+        <p>Today, Gumroad pays hourly freelancers around the world $125-$200/hr.</p>
         <p>Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
         <p>In practice, we issue a full year of unvested stock options at the beginning of each year. Options vest as invoices are approved, using the last public valuation–currently $100M.</p>
@@ -116,9 +116,9 @@ export default function Home() {
         <p>I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
-        <h2>DIYPO</h2>
-        <p>Today, Gumroad hosts <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep us accountable.</p>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
+        <h2>D'end</h2>
+        <p>Today, Gumroad hosts <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep us accountable.</p>
         <p>We don't have plans to IPO nor sell, just to keep shipping products and issuing dividends. As long as the TAM supports the team, I'm happy. And–at least for now–it does.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>PS. If you’d like to follow along, <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">register</a> for our next public board meeting on August 15, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
