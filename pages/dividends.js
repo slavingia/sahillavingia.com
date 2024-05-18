@@ -19,10 +19,10 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="og:title" content="Paying Freelancers in Equity and Dividends" />
-        <meta name="og:description" content="Gumroad pays freelancers around the world $125-$200/hr. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%. Equity entitles one to dividends." />
+        <meta name="og:description" content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they’d like to get in equity–between 0 and 80%. Equity entitles one to annual dividends." />
         <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
         <meta name="twitter:title" content="Paying Freelancers in Equity and Dividends" />
-        <meta name="twitter:description" content="Gumroad pays freelancers around the world $125-$200/hr. Of this, everyone chooses how much they’d like to get in equity–between 0 and 80%. Equity entitles one to dividends." />
+        <meta name="twitter:description" content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they’d like to get in equity–between 0 and 80%. Equity entitles one to annual dividends." />
         <meta name="twitter:image" content="https://sahillavingia.com/dividends/split.png" />
       </Head>
 
