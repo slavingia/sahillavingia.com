@@ -18,15 +18,15 @@ export default function Home() {
           Writer
         </label>
 
-        <h2 className="item index-list-of-writings-title" style={{display: "none"}}>
-          <a href="/dividends">
-            Paying People in Equity and Dividends
+        <h2 className="item index-list-of-writings-title">
+          <a href="/dividends" style={{fontWeight: "normal"}}>
+            Paying Freelancers in Equity and Dividends
           </a>
           <small>2024</small>
         </h2>
 
         <h2 className="item index-list-of-writings-title">
-          <a href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397">
+          <a href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397" style={{fontWeight: 1000}}>
             The Minimalist Entrepreneur
           </a>
           <small>2021</small>

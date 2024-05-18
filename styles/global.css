@@ -106,12 +106,6 @@ button {
   line-height: 1;
 }
 
-.index-list-of-writings-title {
-  font-size: 1.8rem;
-  line-height: 2rem;
-  margin-top: 1.8rem;
-}
-
 label + .item {
   margin-top: 0.5rem;
   font-weight: 700;
@@ -121,6 +115,13 @@ label + .item {
   label + .item {
     color: white;
   }
+}
+
+.index-list-of-writings-title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 1.8rem;
+  font-weight: normal;
 }
 
 .item small {
