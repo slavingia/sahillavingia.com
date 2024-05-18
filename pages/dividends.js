@@ -87,7 +87,7 @@ export default function Home() {
         <p>Once we had permission to issue dividends, we needed a way to functionally do so. In our case, to 7,387 investors. This is a large part of the offering that the NYSE and NASDAQ provide their public, enterprise customers, such as Meta, NVIDIA, and Apple.</p>
         <p>If you’re a private company, options are limited. The portal we used to raise our crowdfunding round had been planning to build this feature for years, but hasn’t yet. Our cap table provider wouldn’t help either. Both an old-school bank and a new-age crypto startup quoted us over $100K for the privilege.</p>
         <p>Fortunately, we had been building Flexile, to solve our own problem of paying remote workers all over the world. Why not add dividends for investors to it? We decided to DIY.</p>
-        <p>A few months later, in July 2023, we issued a $1M trial dividend to our cap table, using Flexile.</p>
+        <p>A few months later, in July 2023, we issued a $1M trial dividend to our cap table, using <a href="https://flexile.com">Flexile</a>.</p>
         <p>To align the team, I proposed an equity bonus, tied to the amount billed for the prior calendar year and our last public valuation. For example, someone who earned $198K would have received an additional 100%, or $198K, in Gumroad stock options, tied to the $100M crowdfunding valuation.</p>
         <p>To my surprise, there was more confusion than excitement. We jumped on a rare Zoom call, where I learned there were many problems.</p>
         <h2>Splitting equity hairs</h2>
@@ -108,8 +108,7 @@ export default function Home() {
         <p>Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
         <p>In practice, we issue a full year of unvested stock options at the beginning of each year. Options vest as invoices are approved, using the last public valuation–currently $100M.</p>
-        <p>At the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business.</p>
-        <p>Unexercised options expire ten years after leaving.</p>
+        <p>At the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business. Unexercised options expire 10 years after leaving.</p>
         <p>Future liquidity is hard to reason about. $1 in your pocket today is worth more than $1 in your pocket a year from now. But how much more? That’s different for everyone. For example:</p>
         <p>One of our software engineers could have made $308K this year. Instead, they decided to take 50% of their compensation as equity ($154K), saying: “My expenses are low, and I've saved up enough over the last year or two that I don't need the extra cash. I see the options as significantly discounted at their current strike price.”</p>
         <p>Someone who chose 80%: “Living from the 20% is enough for us. I know and trust the team who runs Gumroad, and have been planning to start long-term investing anyway.”</p>
