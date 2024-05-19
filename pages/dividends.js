@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
 import Footer from '../components/footer'
 import { useState } from 'react';
-import { ElevenLabsAudioNative } from '../components/ElevenLabsAudioNative';
 
 export default function Home() {
   const [isTldrExpanded, setIsTldrExpanded] = useState(false);
@@ -35,8 +34,6 @@ export default function Home() {
         <h2 className="item">
           Paying Freelancers in Equity and Dividends
         </h2>
-
-        <ElevenLabsAudioNative publicUserId="f9f7604c951f6c50eb90f3148422e2866a0fe5da6fb27cbf96f32a3aa487e139" />
 
         <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
 
