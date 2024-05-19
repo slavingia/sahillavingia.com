@@ -60,6 +60,13 @@ export default function Home() {
           <small>2018</small>
         </h2>
 
+        <h2 className="item index-list-of-writings-title">
+          <a href="https://x.com/shl">
+            x.com/shl
+          </a>
+          <small>2008–</small>
+        </h2>
+
         <label>
           Painter
         </label>
