@@ -65,6 +65,7 @@ export default function Home() {
         <p>I used the money to grow the team from 25 to 45, investing heavily in our content and community efforts, and refreshed the Gumroad brand. We also started working on a new product, <a href="https://flexile.com/">Flexile</a>, to productize the way we worked, with <a href="/work">no meetings, no deadlines, and no full-time employees</a>. At the time, I used a combination of Bill.com, HelloSign, and a bunch of manual processes, to hire and pay everyone; Flexile would automate all of that.</p>
         <p>Less than a year later, the pandemic's effects began to subside. Two years later, Gumroad’s growth plateaued. Then interest rates went up. I pared the team down to get back to cash flow breakeven. Meanwhile, Flexile acquired no customers.</p>
         <p>In 2022, Gumroad lost $1M helping creators earn $185M. That wasn't sustainable.</p>
+        <p><img src="/dividends/metrics2022.png" /></p>
         <h2>Charging more</h2>
         <p>On January 31, 2023, we increased Gumroad’s pricing to be simpler, higher, and the same for all creators, regardless of income level: 10% flat, exclusive of payment processing fees.</p>
         <p>The ZIRP-fuel haze that peaked during COVID and allowed Gumroad to spend the first decade of its life operating with an incredibly creator-friendly business model was over.</p>
