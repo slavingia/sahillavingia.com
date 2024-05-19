@@ -104,7 +104,7 @@ export default function Home() {
         <Tweet id="27946496473" />
         <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our dividends. Why not add equity to the mix?</p>
         <h2>Equity by the hour</h2>
-        <p>Today, Gumroad pays hourly freelancers around the world $125-$200/hr. Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
+        <p>Today, Gumroad pays hourly freelancers around the world $125-$200/hr.</p><p>Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
         <p>In practice, we issue a full year of unvested stock options at the beginning of each year. Options vest as invoices are approved, using the last public valuation–currently $100M.</p>
         <p>At the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business. Unexercised options expire 10 years after leaving.</p>
