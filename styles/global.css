@@ -271,8 +271,8 @@ blockquote {
 }
 
 p img {
-  max-width: 120%;
-  margin: 0 -10%;
+  max-width: 110%;
+  margin: 1rem -5%;
 }
 
 p + hr {
