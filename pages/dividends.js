@@ -117,7 +117,7 @@ export default function Home() {
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
         <h2>D'end</h2>
         <p>From 2012-2015, Gumroad ended each board meeting with a slide that read: “The end. (IPO)”</p>
-        <p>Today, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable.</p><p>We no longer have plans to IPO nor sell, just to keep shipping product(s) and issuing dividends.</p><p>As long as the TAM supports the team, I'm happy. And, at least for now, it does.</p>
+        <p>Today, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable. We no longer have plans to IPO nor sell, just to keep shipping product(s) and issuing dividends. As long as the TAM supports the team, I'm happy. And, at least for now, it does.</p>
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">register</a> for our next public board meeting on August 15, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
