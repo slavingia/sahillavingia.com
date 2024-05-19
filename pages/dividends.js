@@ -35,10 +35,6 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
-        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
-
-        <p>We issued our first annual dividend, of $5.34M, on May 14, 2024.</p>
-
         <div className="tldr">
           <span onClick={toggleTldr} style={{ cursor: 'pointer' }}>TLDR</span>
           {isTldrExpanded && (
@@ -51,6 +47,10 @@ export default function Home() {
             </ol>
           )}
         </div>
+
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+
+        <p>We issued our first annual dividend, of $5.34M, on May 14, 2024.</p>
 
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
