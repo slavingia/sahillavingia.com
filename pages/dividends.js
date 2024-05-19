@@ -20,10 +20,10 @@ export default function Home() {
         <meta name="twitter:site" content="@shl" />
         <meta name="og:title" content="Paying Freelancers in Equity and Dividends" />
         <meta name="og:description" content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they’d like to get in equity–between 0 and 80%. Equity entitles one to annual dividends." />
-        <meta name="og:image" content="https://sahillavingia.com/dividends/split.png" />
+        <meta name="og:image" content="https://sahillavingia.com/dividends/social-split.png" />
         <meta name="twitter:title" content="Paying Freelancers in Equity and Dividends" />
         <meta name="twitter:description" content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they’d like to get in equity–between 0 and 80%. Equity entitles one to annual dividends." />
-        <meta name="twitter:image" content="https://sahillavingia.com/dividends/split.png" />
+        <meta name="twitter:image" content="https://sahillavingia.com/dividends/social-split.png" />
       </Head>
 
       <main className="centered-main">
@@ -39,7 +39,7 @@ export default function Home() {
           <span onClick={toggleTldr} style={{ cursor: 'pointer' }}>TLDR</span>
           {isTldrExpanded && (
             <ol>
-              <li>We pay hourly freelancers around the world $125-$200/hr.</li>
+              <li>Gumroad pays hourly freelancers around the world $125-$200/hr.</li>
               <li>Everyone chooses how much they'd like to get in stock options–between 0 and 80%.</li>
               <li>We cover the cost of turning the options into equity via an end-of-year cash bonus.</li>
               <li>Equity entitles one to dividends, proportional to their ownership in the business.</li>
@@ -106,19 +106,20 @@ export default function Home() {
         <p>Today, Gumroad pays hourly freelancers around the world $125-$200/hr.</p><p>Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
         <p>In practice, we issue a full year of unvested stock options at the beginning of each year. Options vest as invoices are approved, using the last public valuation–currently $100M.</p>
-        <p>At the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business. Unexercised options expire 10 years after leaving.</p>
-        <p>Future liquidity is hard to reason about. $1 in your pocket today is worth more than $1 in your pocket a year from now. But how much more? That’s different for everyone. For example:</p>
+        <p>At the end of the year, you receive a cash bonus equal to the exercise price of the vested options. Use this to exercise, and start receiving dividends. If you don't, you will still have 10 years–after leaving the company–to do so.</p>
+        <p>There are no cliffs.</p>
+        <p>Still, future liquidity is hard to reason about. $1 in your pocket today is worth more than $1 in your pocket a year from now. But how much more? That’s different for everyone. For example:</p>
         <p>One of our software engineers could have made $308K this year. Instead, they decided to take 50% of their compensation as equity ($154K), saying: “My expenses are low, and I've saved up enough over the last year or two that I don't need the extra cash. I see the options as significantly discounted at their current strike price.”</p>
         <p>Someone who chose 80%: “Living from the 20% is enough for us. I know and trust the team who runs Gumroad, and have been planning to start long-term investing anyway.”</p>
         <p>Someone who chose 1% didn't want to miss out on the fun completely. “It has very little to do with my outlook on Gumroad. I'm just putting all my spare cash into <a href="https://lazytigerhostel.com/">my own business</a> this year.”</p>
         <p>I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
-        <p>In this way, since the beginning of 2024, Gumroad has "raised" $268,988 from our team in this way, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+        <p>The company saves money, the team owns more, the product improves, I work and worry less. Win-win-win-win.</p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
+        <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <h2>D'end</h2>
         <p>From 2012-2015, Gumroad ended each board meeting with a slide that read: “The end. (IPO)”</p>
-        <p>Today, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable. We no longer have plans to IPO nor sell, just to keep shipping product(s) and issuing dividends. As long as the TAM supports the team, I'm happy. And, at least for now, it does.</p>
-        <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
+        <p>Now, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable. We no longer have plans to IPO nor sell, just to keep shipping product(s) and issuing dividends. As long as the TAM supports the team, I'm happy. At least for now, it does.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">register</a> for our next public board meeting on August 15, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
