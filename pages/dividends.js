@@ -74,10 +74,9 @@ export default function Home() {
         <h2>Delving into dividends</h2>
         <p>This isn't new: Dividends are the primary way businesses pay their owners.</p>
         <p>According to the IRS, about 200,000 businesses in the US pay dividends of more than $10M to their owners. For reference, there are just 6,000 publicly-listed companies in the US.</p>
-        <p>Some people prefer profit-sharing. It’s simpler, but it amounts to a glorified bonus. Because it’s a bonus, it's taxed as income. And what happens when you get fired or laid off, or choose to take a break from work? It's gone.</p>
-        <p>Qualified dividends, meanwhile, are taxed at the long-term capital gains rate.</p>
+        <p>Some people prefer profit-sharing. It’s simpler, but it amounts to a glorified bonus. Because it’s a bonus, it's taxed as income. And what happens when you get fired or laid off, or choose to take a break from work? It's gone. Qualified dividends, meanwhile, are taxed at the long-term capital gains rate.</p>
         <p>However, Gumroad’s history made issuing dividends non-trivial. In 2011-2012, we raised Seed and Series A rounds from angels and VCs. As part of owning preferred shares, investors acquire the right to block any dividends to common stockholders.</p>
-        <p>I owe a massive <em>thank you</em> to Accel, Max Levchin, SV Angel, First Round, Naval Ravikant, Collab Fund, Tuesday Capital (formerly CrunchFund), and Caffeinated Capital, for allowing us to amend our charter to issue 60% of our net income as dividends every year.</p>
+        <p>With <a href="https://x.com/shl/status/1679308995268587522">a couple emails</a> asking nicely, I was able to get this approval from all of Gumroad’s original investors. I owe a massive <em>thank you</em> to Accel, Max Levchin, SV Angel, First Round, Naval Ravikant, Collab Fund, Tuesday Capital (formerly CrunchFund), and Caffeinated Capital, for allowing us to amend our charter to issue 60% of our net income as dividends every year.</p>
 
         <p style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
           <img src="/dividends/charter.jpeg" style={{width: "48%", height: "auto"}} />
@@ -114,11 +113,12 @@ export default function Home() {
         <p>Someone who chose 1% didn't want to miss out on the fun completely. “It has very little to do with my outlook on Gumroad. I'm just putting all my spare cash into <a href="https://lazytigerhostel.com/">my own business</a> this year.”</p>
         <p>I made <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">a calculator</a> to help. For 2024, the average equity split is 18.3%.</p>
         <p><img src="/dividends/split.png" /></p>
+        <p>In this way, since the beginning of 2024, Gumroad has "raised" $268,988 from our team in this way, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
         <p>We also gave a token amount of equity to alumni who worked on Gumroad from 2011-2015, without whom you wouldn’t be reading any of this. <em>Thank you</em>!</p>
-        <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <h2>D'end</h2>
         <p>From 2012-2015, Gumroad ended each board meeting with a slide that read: “The end. (IPO)”</p>
         <p>Today, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable.</p><p>We no longer have plans to IPO nor sell, just to keep shipping product(s) and issuing dividends.</p><p>As long as the TAM supports the team, I'm happy. And, at least for now, it does.</p>
+        <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">register</a> for our next public board meeting on August 15, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
