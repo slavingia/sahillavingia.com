@@ -3,6 +3,7 @@ import Layout from '../components/layout'
 import { Tweet } from 'react-tweet'
 import Footer from '../components/footer'
 import { useState } from 'react';
+import { ElevenLabsAudioNative } from '../components/ElevenLabsAudioNative';
 
 export default function Home() {
   const [isTldrExpanded, setIsTldrExpanded] = useState(false);
@@ -48,9 +49,9 @@ export default function Home() {
           )}
         </div>
 
-        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+        <ElevenLabsAudioNative publicUserId="f9f7604c951f6c50eb90f3148422e2866a0fe5da6fb27cbf96f32a3aa487e139" />
 
-        <p>We issued our first annual dividend, of $5.34M, on May 14, 2024.</p>
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
 
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
@@ -104,8 +105,7 @@ export default function Home() {
         <Tweet id="27946496473" />
         <p>Thirteen years later, Gumroad was a profitable business, and Flexile was handling our dividends. Why not add equity to the mix?</p>
         <h2>Equity by the hour</h2>
-        <p>Today, Gumroad pays hourly freelancers around the world $125-$200/hr.</p>
-        <p>Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
+        <p>Today, Gumroad pays hourly freelancers around the world $125-$200/hr. Of this, everyone chooses how much they'd like to get in stock options–between 0 and 80%.</p>
         <p><img src="/dividends/equitybythehour.png" /></p>
         <p>In practice, we issue a full year of unvested stock options at the beginning of each year. Options vest as invoices are approved, using the last public valuation–currently $100M.</p>
         <p>At the end of the year, we issue a cash bonus equivalent to the exercise price of the vested stock options, which can be used to exercise. Upon exercising, you’re entitled to dividends proportional to your equity ownership in the business. Unexercised options expire 10 years after leaving.</p>
