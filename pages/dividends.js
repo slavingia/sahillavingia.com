@@ -36,6 +36,12 @@ export default function Home() {
           Paying Freelancers in Equity and Dividends
         </h2>
 
+        <ElevenLabsAudioNative publicUserId="f9f7604c951f6c50eb90f3148422e2866a0fe5da6fb27cbf96f32a3aa487e139" />
+
+        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
+
+        <p>We issued our first annual dividend, of $5.34M, on May 14, 2024.</p>
+
         <div className="tldr">
           <span onClick={toggleTldr} style={{ cursor: 'pointer' }}>TLDR</span>
           {isTldrExpanded && (
@@ -48,10 +54,6 @@ export default function Home() {
             </ol>
           )}
         </div>
-
-        <ElevenLabsAudioNative publicUserId="f9f7604c951f6c50eb90f3148422e2866a0fe5da6fb27cbf96f32a3aa487e139" />
-
-        <p>Since the beginning of 2024, Gumroad has raised $268,988 from our global team of hourly freelancers, at the same $100M valuation we used for our 2021 crowdfunding round.</p>
 
         <p>I think our equity model is cool. My mom thinks it is confusing. Others, like my wife, see anything that is not a direct cash payment as a Ponzi scheme. This is my best attempt at explaining Gumroad’s approach to equity, and the history behind it, so you can decide for yourself.</p>
         <p>It wasn’t always this way; from 2015-2019, everyone at Gumroad was paid cash, no equity. No one wanted any. Gumroad was no longer on its way to becoming <a href="/reflecting">a billion-dollar company</a>, and I was living cheaply in Utah, learning how to paint 30 hours a week. I used any excess profits to grow the team and tackle the growing wall of technical debt.</p>
@@ -119,8 +121,7 @@ export default function Home() {
         <p>On May 14, we issued our first annual dividend, of $5.34M, equal to 60% of 2023’s net income. For the first time, our team of remote freelancers were able to participate.</p>
         <h2>D'end</h2>
         <p>From 2012-2015, Gumroad ended each board meeting with a slide that read: “The end. (IPO)”</p>
-        <p>Today, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable.</p>
-        <p>We no longer have plans to IPO nor sell, just to keep shipping products and issuing dividends. As long as the TAM supports the team, I'm happy. And, at least for now, it does.</p>
+        <p>Today, we host <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">public quarterly board meetings</a> to keep ourselves accountable.</p><p>We no longer have plans to IPO nor sell, just to keep shipping product(s) and issuing dividends.</p><p>As long as the TAM supports the team, I'm happy. And, at least for now, it does.</p>
         <p><img src="/dividends/metrics2023.png" /></p>
         <p>If you’d like to follow along, <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">register</a> for our next public board meeting on August 15, now recorded live from our new office in DUMBO, Brooklyn, New York!</p>
         <Footer />
