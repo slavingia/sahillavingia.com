@@ -110,12 +110,6 @@ button {
   line-height: 1;
 }
 
-.index-list-of-writings-title {
-  font-size: 1.8rem;
-  line-height: 2rem;
-  margin-top: 1.8rem;
-}
-
 label + .item {
   margin-top: 0.5rem;
   font-weight: 700;
@@ -125,6 +119,13 @@ label + .item {
   label + .item {
     color: white;
   }
+}
+
+.index-list-of-writings-title {
+  font-size: 1.8rem;
+  line-height: 2rem;
+  margin-top: 1.8rem;
+  font-weight: normal;
 }
 
 .item small {
@@ -177,9 +178,25 @@ p + ol {
   margin-top: 2rem;
 }
 
+.new-badge {
+  background-color: #ff6b6b;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 1rem;
+  margin-left: 1rem;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
 .tldr {
   margin-top: 2rem;
   padding: 2rem;
+  background: #f5f5f5;
+  border-radius: 1rem;
+  padding: 1rem;
+  text-align: center;
 
   > span {
     color: #aaa;
@@ -192,6 +209,14 @@ p + ol {
     text-align: left;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  .tldr {
+    background: rgb(41, 41, 41);
+    color: rgb(237, 237, 237);
+  }
+}
+
 
 li {
   margin-top: 1rem;
