@@ -47,12 +47,8 @@ export default function Home() {
         <p>
           Since the beginning of 2024, Gumroad has raised $268,988 from our
           global team of hourly freelancers, at the same $100M valuation we used
-          for our 2021 crowdfunding round.
-        </p>
-
-        <p>
-          Equity entitles one to dividends. We issued our first annual dividend,
-          of $5.34M, on May 14.
+          for our 2021 crowdfunding round. Equity entitles one to dividends. We
+          issued our first annual dividend, of $5.34M, on May 14.
         </p>
 
         <p>
