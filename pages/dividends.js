@@ -56,6 +56,14 @@ export default function Home() {
         </p>
 
         <p>
+          You can read more about our equity program in our{" "}
+          <a href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1">
+            Getting Paid
+          </a>{" "}
+          onboarding document at Gumroad.
+        </p>
+
+        <p>
           I think our equity model is cool. My mom thinks it is confusing.
           Others, like my wife, see anything that is not a direct cash payment
           as a Ponzi scheme. This is my best attempt at explaining Gumroad's
