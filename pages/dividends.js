@@ -45,9 +45,7 @@ export default function Home() {
           </a>
         </label>
 
-        <h1>
-          Paying Freelancers in Equity and Dividends
-        </h1>
+        <h1>Paying Freelancers in Equity and Dividends</h1>
 
         <p>
           Since the beginning of 2024, Gumroad has raised $268,988 from our
@@ -58,9 +56,7 @@ export default function Home() {
 
         <p>
           You can read more about our equity program in our{" "}
-          <a
-            href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1"
-          >
+          <a href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1">
             Getting Paid
           </a>{" "}
           onboarding document at Gumroad.
@@ -76,27 +72,125 @@ export default function Home() {
         <p>
           It wasn't always this way; from 2015-2019, everyone at Gumroad was
           paid cash, no equity. No one wanted any. Gumroad was no longer on its
-          way to becoming{" "}
-          <a href="/reflecting">
-            a billion-dollar company
-          </a>
-          , and I was living cheaply in Utah, learning how to paint 30 hours a
+          way to becoming <a href="/reflecting">a billion-dollar company</a>,
+          and I was living cheaply in Utah, learning how to paint 30 hours a
           week. I used any excess profits to grow the team and tackle the
           growing wall of technical debt.
         </p>
-        <p>
-          <img
-            src="/dividends/metrics2019.png"
-            className="max-w-full my-4 mx-auto"
-          />
-        </p>
+        <div className="overflow-x-auto">
+          <table className="table-auto w-full border-collapse border border-gray-300 my-4">
+            <thead>
+              <tr className="bg-gray-100 text-sm">
+                <th className="border border-gray-300 px-3 py-1">Year</th>
+                <th className="border border-gray-300 px-3 py-1">GMV</th>
+                <th className="border border-gray-300 px-3 py-1">Revenue</th>
+                <th className="border border-gray-300 px-3 py-1">Net income</th>
+                <th className="border border-gray-300 px-3 py-1">CEO salary</th>
+                <th className="border border-gray-300 px-3 py-1">YoY GMV</th>
+                <th className="border border-gray-300 px-3 py-1">
+                  YoY Revenue
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2012</td>
+                <td className="border border-gray-300 px-4 py-2">$600,945</td>
+                <td className="border border-gray-300 px-4 py-2">$40,483</td>
+                <td className="border border-gray-300 px-4 py-2">-$834,335</td>
+                <td className="border border-gray-300 px-4 py-2">$36,000</td>
+                <td className="border border-gray-300 px-4 py-2"></td>
+                <td className="border border-gray-300 px-4 py-2"></td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2013</td>
+                <td className="border border-gray-300 px-4 py-2">$4,940,038</td>
+                <td className="border border-gray-300 px-4 py-2">$311,040</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  -$2,044,173
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$60,000</td>
+                <td className="border border-gray-300 px-4 py-2">722%</td>
+                <td className="border border-gray-300 px-4 py-2">668%</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2014</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  $13,775,340
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$850,210</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  -$3,472,021
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$85,000</td>
+                <td className="border border-gray-300 px-4 py-2">179%</td>
+                <td className="border border-gray-300 px-4 py-2">173%</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2015</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  $21,046,470
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$1,288,672</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  -$3,841,913
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$0</td>
+                <td className="border border-gray-300 px-4 py-2">53%</td>
+                <td className="border border-gray-300 px-4 py-2">52%</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2016</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  $36,251,075
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$2,273,189</td>
+                <td className="border border-gray-300 px-4 py-2">-$139,689</td>
+                <td className="border border-gray-300 px-4 py-2">$0</td>
+                <td className="border border-gray-300 px-4 py-2">72%</td>
+                <td className="border border-gray-300 px-4 py-2">76%</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2017</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  $41,463,817
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$2,745,823</td>
+                <td className="border border-gray-300 px-4 py-2">$62,474</td>
+                <td className="border border-gray-300 px-4 py-2">$120,000</td>
+                <td className="border border-gray-300 px-4 py-2">14%</td>
+                <td className="border border-gray-300 px-4 py-2">21%</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2018</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  $52,395,391
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$3,434,864</td>
+                <td className="border border-gray-300 px-4 py-2">$282,758</td>
+                <td className="border border-gray-300 px-4 py-2">$150,000</td>
+                <td className="border border-gray-300 px-4 py-2">26%</td>
+                <td className="border border-gray-300 px-4 py-2">25%</td>
+              </tr>
+              <tr>
+                <td className="border border-gray-300 px-4 py-2">2019</td>
+                <td className="border border-gray-300 px-4 py-2">
+                  $73,105,515
+                </td>
+                <td className="border border-gray-300 px-4 py-2">$5,022,796</td>
+                <td className="border border-gray-300 px-4 py-2">$195,554</td>
+                <td className="border border-gray-300 px-4 py-2">$150,000</td>
+                <td className="border border-gray-300 px-4 py-2">40%</td>
+                <td className="border border-gray-300 px-4 py-2">46%</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
         <p>
           In January 2020, I moved to Portland, Oregon for my wife's job. Then,
           COVID happened.
         </p>
-        <h2>
-          COVID, Equity Crowdfunding, Creator Economy
-        </h2>
+        <h2>COVID, Equity Crowdfunding, Creator Economy</h2>
         <p>
           Due to the global pandemic, more people than ever before were using
           the Internet to learn new hobbies and monetize their creative skills.
@@ -130,10 +224,8 @@ export default function Home() {
           I used the money to grow the team from 25 to 45, investing heavily in
           our content and community efforts, and refreshed the Gumroad brand. We
           also started working on a new product,{" "}
-          <a href="https://flexile.com/">
-            Flexile
-          </a>
-          , to productize the way we worked, with{" "}
+          <a href="https://flexile.com/">Flexile</a>, to productize the way we
+          worked, with{" "}
           <a href="/work">
             no meetings, no deadlines, and no full-time employees
           </a>
@@ -185,9 +277,7 @@ export default function Home() {
           Gumroad's profits, as a reward for the years of work I put into
           building the company.
         </p>
-        <h2>
-          Delving into dividends
-        </h2>
+        <h2>Delving into dividends</h2>
         <p>
           This isn't new: Dividends are the primary way businesses pay their
           owners.
@@ -212,9 +302,7 @@ export default function Home() {
         </p>
         <p>
           With{" "}
-          <a
-            href="https://x.com/shl/status/1679308995268587522"
-          >
+          <a href="https://x.com/shl/status/1679308995268587522">
             a couple emails
           </a>{" "}
           asking nicely, I was able to get this approval from all of Gumroad's
@@ -257,11 +345,7 @@ export default function Home() {
         </p>
         <p>
           A few months later, in July 2023, we issued a $1M trial dividend to
-          our cap table, using{" "}
-          <a href="https://flexile.com">
-            Flexile
-          </a>
-          .
+          our cap table, using <a href="https://flexile.com">Flexile</a>.
         </p>
         <p>
           To align the team, I proposed an equity bonus, tied to the amount
@@ -274,9 +358,7 @@ export default function Home() {
           To my surprise, there was more confusion than excitement. We jumped on
           a rare Zoom call, where I learned there were many problems.
         </p>
-        <h2>
-          Splitting equity hairs
-        </h2>
+        <h2>Splitting equity hairs</h2>
         <p>
           First, no one knew how to value the equity they were being given. We
           had raised $5M at a $100M valuation from over 7,000 people, but that
@@ -332,9 +414,7 @@ export default function Home() {
           Thirteen years later, Gumroad was a profitable business, and Flexile
           was handling our dividends. Why not add equity to the mix?
         </p>
-        <h2>
-          Equity by the hour
-        </h2>
+        <h2>Equity by the hour</h2>
         <p>
           Today, Gumroad pays hourly freelancers around the world $125-$200/hr.
         </p>
@@ -359,9 +439,7 @@ export default function Home() {
           dividends. If you don't, you will still have 10 years–after leaving
           the company–to do so.
         </p>
-        <p>
-          There are no cliffs.
-        </p>
+        <p>There are no cliffs.</p>
         <p>
           Still, future liquidity is hard to reason about. $1 in your pocket
           today is worth more than $1 in your pocket a year from now. But how
@@ -383,21 +461,51 @@ export default function Home() {
           Someone who chose 1% didn't want to miss out on the fun completely.
           "It has very little to do with my outlook on Gumroad. I'm just putting
           all my spare cash into{" "}
-          <a
-            href="https://lazytigerhostel.com/"
-          >
-            my own business
-          </a>{" "}
-          this year."
+          <a href="https://lazytigerhostel.com/">my own business</a> this year."
         </p>
         <p>
-          I made{" "}
-          <a
-            href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775"
-          >
-            a calculator
-          </a>{" "}
-          to help. For 2024, the average equity split is 18.3%.
+          I've created an interactive compensation calculator to help you understand
+          the equity options:
+        </p>
+        <div>
+          <h3>Compensation Calculator</h3>
+          <div>
+            <label htmlFor="hourlyRate">Hourly Rate ($):</label>
+            <input type="number" id="hourlyRate" defaultValue={150} />
+          </div>
+          <div>
+            <label htmlFor="equityPercentage">Equity Percentage (0-80%):</label>
+            <input type="number" id="equityPercentage" defaultValue={20} min={0} max={80} />
+          </div>
+          <div>
+            <label htmlFor="hoursPerWeek">Hours per Week:</label>
+            <input type="number" id="hoursPerWeek" defaultValue={40} />
+          </div>
+          <button id="calculateBtn">Calculate</button>
+          <div id="result"></div>
+        </div>
+        <script dangerouslySetInnerHTML={{__html: `
+          document.getElementById('calculateBtn').addEventListener('click', function() {
+            const hourlyRate = parseFloat(document.getElementById('hourlyRate').value);
+            const equityPercentage = parseFloat(document.getElementById('equityPercentage').value);
+            const hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value);
+
+            const weeklyIncome = hourlyRate * hoursPerWeek;
+            const yearlyIncome = weeklyIncome * 52;
+            const cashCompensation = yearlyIncome * (1 - equityPercentage / 100);
+            const equityCompensation = yearlyIncome * (equityPercentage / 100);
+
+            const resultHtml = \`
+              <p><strong>Yearly Cash Compensation:</strong> $\${cashCompensation.toFixed(2)}</p>
+              <p><strong>Yearly Equity Compensation:</strong> $\${equityCompensation.toFixed(2)}</p>
+              <p><strong>Total Yearly Compensation:</strong> $\${yearlyIncome.toFixed(2)}</p>
+            \`;
+
+            document.getElementById('result').innerHTML = resultHtml;
+          });
+        `}} />
+        <p>
+          For 2024, the average equity split is 18.3%.
         </p>
         <p>
           <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
@@ -423,9 +531,7 @@ export default function Home() {
         </p>
         <p>
           Now, we host{" "}
-          <a
-            href="https://www.youtube.com/watch?v=qUYSTvJnIXA"
-          >
+          <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">
             public quarterly board meetings
           </a>{" "}
           to keep ourselves accountable. We no longer have plans to IPO nor
@@ -440,9 +546,7 @@ export default function Home() {
         </p>
         <p>
           If you'd like to follow along,{" "}
-          <a
-            href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration"
-          >
+          <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">
             register
           </a>{" "}
           for our next public board meeting on August 15, now recorded live from
