@@ -19,14 +19,14 @@ export default function Home() {
         <meta name="twitter:image" content="https://sahillavingia.com/1_jYRtHx2U3hhD_ffQLKjMXA.png" />
       </Head>
 
-      <main className="centered-main">
-        <label>
-          Feb 7, 2018 by <a href="/">Sahil Lavingia</a>
+      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+        <label className="block mt-8 mb-8">
+          Feb 7, 2018 by <a href="/"><u>Sahil Lavingia</u></a>
         </label>
 
-        <h2 className="item">
+        <h1>
           From Bubble to Bubble
-        </h2>
+        </h1>
 
         <p>A year ago, I lived in San Francisco. I spent over $2,000 a month for one bedroom in a two-bedroom apartment in the Mission District. Outside of working on my startup, I devoured books on my Kindle and brooded with my fellow liberals about Trump and the GOP on Twitter. Most everyone I knew was agnostic.</p>
         <p>I had my whole life planned out. Decades of startups, at least one of which would hit it big. A retirement full of vapid, but pithy tweets.</p>
