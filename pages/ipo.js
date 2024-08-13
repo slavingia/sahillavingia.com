@@ -15,14 +15,14 @@ export default function Home() {
         <meta name="og:image" content="https://sahillavingia.com/republic.png" />
       </Head>
 
-      <main className="centered-main">
-        <label>
-          March 22, 2021 by <a href="/">Sahil Lavingia</a>
+      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+        <label className="block mt-8 mb-8">
+          March 22, 2021 by <a href="/"><u>Sahil Lavingia</u></a>
         </label>
 
-        <h2 className="item">
-          <strong>The Creator-Owner Economy: Gumroad’s "IPO"</strong>
-        </h2>
+        <h1>
+          The Creator-Owner Economy: Gumroad's "IPO"
+        </h1>
 
         <p>Creators deserve to get paid for their work.</p>
         <p>To date, <a href="https://gumroad.com">Gumroad</a> has made it easy by enabling them to sell digital products, online courses, and memberships directly to their audiences. But earning an income isn't the only way to get paid.</p>

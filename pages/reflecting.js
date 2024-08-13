@@ -12,23 +12,23 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@shl" />
         <meta name="twitter:title" content="Reflecting on My Failure to Build a Billion-Dollar Company" />
-        <meta name="twitter:description" content="In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life’s work..." />
+        <meta name="twitter:description" content="In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life's work..." />
         <meta name="twitter:image" content="https://sahillavingia.com/gr.png" />
         <meta name="og:title" content="Reflecting on My Failure to Build a Billion-Dollar Company" />
-        <meta name="og:description" content="In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life’s work..." />
+        <meta name="og:description" content="In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life's work..." />
         <meta name="og:image" content="https://sahillavingia.com/gr.png" />
       </Head>
 
-      <main className="centered-main">
-        <label>
-          Feb 7, 2019 by <a href="/">Sahil Lavingia</a>
+      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+        <label className="block mt-8 mb-8">
+          Feb 7, 2019 by <a href="/"><u>Sahil Lavingia</u></a>
         </label>
 
-        <h2 className="item">
+        <h1>
           Reflecting on My Failure to Build a Billion-Dollar Company
-        </h2>
+        </h1>
 
-        <p>In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life’s work.</p>
+        <p>In 2011, I left my job as the second employee at Pinterest — before I vested any of my stock — to work on what I thought would be my life's work.</p>
 
         <Tweet id="54072049395712000" />
 
