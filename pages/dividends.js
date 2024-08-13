@@ -464,49 +464,13 @@ export default function Home() {
           <a href="https://lazytigerhostel.com/">my own business</a> this year."
         </p>
         <p>
-          I've created an interactive compensation calculator to help you understand
-          the equity options:
+          It can be confusing, so I created{" "}
+          <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">
+            a calculator
+          </a>{" "}
+          to help.
         </p>
-        <div>
-          <h3>Compensation Calculator</h3>
-          <div>
-            <label htmlFor="hourlyRate">Hourly Rate ($):</label>
-            <input type="number" id="hourlyRate" defaultValue={150} />
-          </div>
-          <div>
-            <label htmlFor="equityPercentage">Equity Percentage (0-80%):</label>
-            <input type="number" id="equityPercentage" defaultValue={20} min={0} max={80} />
-          </div>
-          <div>
-            <label htmlFor="hoursPerWeek">Hours per Week:</label>
-            <input type="number" id="hoursPerWeek" defaultValue={40} />
-          </div>
-          <button id="calculateBtn">Calculate</button>
-          <div id="result"></div>
-        </div>
-        <script dangerouslySetInnerHTML={{__html: `
-          document.getElementById('calculateBtn').addEventListener('click', function() {
-            const hourlyRate = parseFloat(document.getElementById('hourlyRate').value);
-            const equityPercentage = parseFloat(document.getElementById('equityPercentage').value);
-            const hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value);
-
-            const weeklyIncome = hourlyRate * hoursPerWeek;
-            const yearlyIncome = weeklyIncome * 52;
-            const cashCompensation = yearlyIncome * (1 - equityPercentage / 100);
-            const equityCompensation = yearlyIncome * (equityPercentage / 100);
-
-            const resultHtml = \`
-              <p><strong>Yearly Cash Compensation:</strong> $\${cashCompensation.toFixed(2)}</p>
-              <p><strong>Yearly Equity Compensation:</strong> $\${equityCompensation.toFixed(2)}</p>
-              <p><strong>Total Yearly Compensation:</strong> $\${yearlyIncome.toFixed(2)}</p>
-            \`;
-
-            document.getElementById('result').innerHTML = resultHtml;
-          });
-        `}} />
-        <p>
-          For 2024, the average equity split is 18.3%.
-        </p>
+        <p>For 2024, the average equity split is 18.3%.</p>
         <p>
           <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
         </p>
