@@ -2,8 +2,238 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import { Tweet } from "react-tweet";
 import Footer from "../components/footer";
+import { useState, useEffect } from "react";
+import {
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 
 export default function Home() {
+  const [hourlyRate, setHourlyRate] = useState(200);
+  const [equityPercentage, setEquityPercentage] = useState(20);
+  const [hoursPerWeek, setHoursPerWeek] = useState(35);
+  const [weeksPerYear, setWeeksPerYear] = useState(44);
+  const [growthRate, setGrowthRate] = useState(0);
+  const [chartData, setChartData] = useState([]);
+  const [tableData, setTableData] = useState([]);
+
+  const financialData = [
+    {
+      year: 2012,
+      gmv: 600945,
+      revenue: 40483,
+      netIncome: -834335,
+      ceoSalary: 36000,
+      yoyGmv: null,
+      yoyRevenue: null,
+    },
+    {
+      year: 2013,
+      gmv: 4940038,
+      revenue: 311040,
+      netIncome: -2044173,
+      ceoSalary: 60000,
+      yoyGmv: 722,
+      yoyRevenue: 668,
+    },
+    {
+      year: 2014,
+      gmv: 13775340,
+      revenue: 850210,
+      netIncome: -3472021,
+      ceoSalary: 85000,
+      yoyGmv: 179,
+      yoyRevenue: 173,
+    },
+    {
+      year: 2015,
+      gmv: 21046470,
+      revenue: 1288672,
+      netIncome: -3841913,
+      ceoSalary: 0,
+      yoyGmv: 53,
+      yoyRevenue: 52,
+    },
+    {
+      year: 2016,
+      gmv: 36251075,
+      revenue: 2273189,
+      netIncome: -139689,
+      ceoSalary: 0,
+      yoyGmv: 72,
+      yoyRevenue: 76,
+    },
+    {
+      year: 2017,
+      gmv: 41463817,
+      revenue: 2745823,
+      netIncome: 62474,
+      ceoSalary: 120000,
+      yoyGmv: 14,
+      yoyRevenue: 21,
+    },
+    {
+      year: 2018,
+      gmv: 52395391,
+      revenue: 3434864,
+      netIncome: 282758,
+      ceoSalary: 150000,
+      yoyGmv: 26,
+      yoyRevenue: 25,
+    },
+    {
+      year: 2019,
+      gmv: 73105515,
+      revenue: 5022796,
+      netIncome: 195554,
+      ceoSalary: 150000,
+      yoyGmv: 40,
+      yoyRevenue: 46,
+    },
+    {
+      year: 2020,
+      gmv: 142301488,
+      revenue: 9316264,
+      netIncome: 619939,
+      ceoSalary: 120000,
+      yoyGmv: 95,
+      yoyRevenue: 85,
+    },
+    {
+      year: 2021,
+      gmv: 185482505,
+      revenue: 10973977,
+      netIncome: 614347,
+      ceoSalary: 180000,
+      yoyGmv: 30,
+      yoyRevenue: 18,
+    },
+    {
+      year: 2022,
+      gmv: 185824553,
+      revenue: 10568383,
+      netIncome: -1010180,
+      ceoSalary: 250000,
+      yoyGmv: 0,
+      yoyRevenue: -4,
+    },
+    {
+      year: 2023,
+      gmv: 170717933,
+      revenue: 20688841,
+      netIncome: 8892746,
+      ceoSalary: 400000,
+      yoyGmv: -8,
+      yoyRevenue: 96,
+    },
+  ];
+
+  useEffect(() => {
+    updateChart();
+  }, [hourlyRate, equityPercentage, hoursPerWeek, weeksPerYear, growthRate]);
+
+  const updateChart = () => {
+    const yearlyIncome = hourlyRate * hoursPerWeek * weeksPerYear;
+    const initialCashCompensation = yearlyIncome * (1 - equityPercentage / 100);
+    const initialEquityCompensation = yearlyIncome * (equityPercentage / 100);
+    const initialDividendRate = 0.0534;
+
+    const newChartData = [];
+    const newTableData = [];
+    const growthMultiplier = 1 + growthRate / 100;
+    let cumulativeDividends = 0;
+
+    for (let year = 1; year <= 30; year++) {
+      const allCashCompensation = yearlyIncome;
+      const cashCompensation = initialCashCompensation;
+      const equityDividend =
+        year === 1
+          ? 0
+          : initialEquityCompensation *
+            initialDividendRate *
+            Math.pow(growthMultiplier, year - 1);
+      cumulativeDividends += equityDividend;
+      const totalCompensation = cashCompensation + cumulativeDividends;
+
+      newChartData.push({
+        name: `Year ${year}`,
+        "All cash": Math.round(allCashCompensation),
+        "Cash + equity": Math.round(totalCompensation),
+      });
+
+      newTableData.push({
+        year: 2023 + year,
+        cash: Math.round(cashCompensation),
+        cashBonus: 0,
+        totalCash: Math.round(cashCompensation),
+        dividends: Math.round(cumulativeDividends),
+        cashPlusEquity: Math.round(totalCompensation),
+        allCash: Math.round(allCashCompensation),
+      });
+    }
+
+    setChartData(newChartData);
+    setTableData(newTableData);
+  };
+
+  const renderFinancialTable = (maxYear) => {
+    const startYear = 2012;
+    const yearsToShow = Array.from(
+      { length: maxYear - startYear + 1 },
+      (_, i) => startYear + i
+    );
+
+    return (
+      <div className="overflow-x-auto">
+        <table className="table-auto w-full border-collapse border border-gray-300 my-4">
+          <thead>
+            <tr className="bg-gray-100 text-sm">
+              <th className="border border-gray-300 px-3 py-1">Year</th>
+              <th className="border border-gray-300 px-3 py-1">GMV</th>
+              <th className="border border-gray-300 px-3 py-1">Revenue</th>
+              <th className="border border-gray-300 px-3 py-1">Net income</th>
+              <th className="border border-gray-300 px-3 py-1">CEO salary</th>
+              <th className="border border-gray-300 px-3 py-1">YoY GMV</th>
+              <th className="border border-gray-300 px-3 py-1">YoY Revenue</th>
+            </tr>
+          </thead>
+          <tbody>
+            {yearsToShow.map((year) => {
+              const data = financialData.find((d) => d.year === year) || {};
+              return (
+                <tr key={year}>
+                  <td className="border border-gray-300 px-4 py-2">{year}</td>
+                  <td className="border border-gray-300 px-4 py-2">
+                    ${data.gmv ? data.gmv.toLocaleString() : "-"}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2">
+                    ${data.revenue ? data.revenue.toLocaleString() : "-"}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2">
+                    ${data.netIncome ? data.netIncome.toLocaleString() : "-"}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2">
+                    ${data.ceoSalary ? data.ceoSalary.toLocaleString() : "-"}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2">
+                    {data.yoyGmv !== null ? `${data.yoyGmv}%` : "-"}
+                  </td>
+                  <td className="border border-gray-300 px-4 py-2">
+                    {data.yoyRevenue !== null ? `${data.yoyRevenue}%` : "-"}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    );
+  };
   return (
     <Layout>
       <Head>
@@ -77,115 +307,7 @@ export default function Home() {
           week. I used any excess profits to grow the team and tackle the
           growing wall of technical debt.
         </p>
-        <div className="overflow-x-auto">
-          <table className="table-auto w-full border-collapse border border-gray-300 my-4">
-            <thead>
-              <tr className="bg-gray-100 text-sm">
-                <th className="border border-gray-300 px-3 py-1">Year</th>
-                <th className="border border-gray-300 px-3 py-1">GMV</th>
-                <th className="border border-gray-300 px-3 py-1">Revenue</th>
-                <th className="border border-gray-300 px-3 py-1">Net income</th>
-                <th className="border border-gray-300 px-3 py-1">CEO salary</th>
-                <th className="border border-gray-300 px-3 py-1">YoY GMV</th>
-                <th className="border border-gray-300 px-3 py-1">
-                  YoY Revenue
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2012</td>
-                <td className="border border-gray-300 px-4 py-2">$600,945</td>
-                <td className="border border-gray-300 px-4 py-2">$40,483</td>
-                <td className="border border-gray-300 px-4 py-2">-$834,335</td>
-                <td className="border border-gray-300 px-4 py-2">$36,000</td>
-                <td className="border border-gray-300 px-4 py-2"></td>
-                <td className="border border-gray-300 px-4 py-2"></td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2013</td>
-                <td className="border border-gray-300 px-4 py-2">$4,940,038</td>
-                <td className="border border-gray-300 px-4 py-2">$311,040</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  -$2,044,173
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$60,000</td>
-                <td className="border border-gray-300 px-4 py-2">722%</td>
-                <td className="border border-gray-300 px-4 py-2">668%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2014</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $13,775,340
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$850,210</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  -$3,472,021
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$85,000</td>
-                <td className="border border-gray-300 px-4 py-2">179%</td>
-                <td className="border border-gray-300 px-4 py-2">173%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2015</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $21,046,470
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$1,288,672</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  -$3,841,913
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$0</td>
-                <td className="border border-gray-300 px-4 py-2">53%</td>
-                <td className="border border-gray-300 px-4 py-2">52%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2016</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $36,251,075
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$2,273,189</td>
-                <td className="border border-gray-300 px-4 py-2">-$139,689</td>
-                <td className="border border-gray-300 px-4 py-2">$0</td>
-                <td className="border border-gray-300 px-4 py-2">72%</td>
-                <td className="border border-gray-300 px-4 py-2">76%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2017</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $41,463,817
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$2,745,823</td>
-                <td className="border border-gray-300 px-4 py-2">$62,474</td>
-                <td className="border border-gray-300 px-4 py-2">$120,000</td>
-                <td className="border border-gray-300 px-4 py-2">14%</td>
-                <td className="border border-gray-300 px-4 py-2">21%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2018</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $52,395,391
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$3,434,864</td>
-                <td className="border border-gray-300 px-4 py-2">$282,758</td>
-                <td className="border border-gray-300 px-4 py-2">$150,000</td>
-                <td className="border border-gray-300 px-4 py-2">26%</td>
-                <td className="border border-gray-300 px-4 py-2">25%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2019</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $73,105,515
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$5,022,796</td>
-                <td className="border border-gray-300 px-4 py-2">$195,554</td>
-                <td className="border border-gray-300 px-4 py-2">$150,000</td>
-                <td className="border border-gray-300 px-4 py-2">40%</td>
-                <td className="border border-gray-300 px-4 py-2">46%</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        {renderFinancialTable(2019)}
         <p>
           In January 2020, I moved to Portland, Oregon for my wife's job. Then,
           COVID happened.
@@ -197,12 +319,7 @@ export default function Home() {
           As a result, Gumroad grew faster in weeks than it had in years.
           Investors and journalists termed this trend the "creator economy."
         </p>
-        <p>
-          <img
-            src="/dividends/metrics2020.png"
-            className="max-w-full my-4 mx-auto"
-          />
-        </p>
+        {renderFinancialTable(2020)}
         <p>
           Raising money was tempting, but I'd been down that road before. Still,
           I felt that we could ship more product features, and let more creators
@@ -243,12 +360,7 @@ export default function Home() {
           In 2022, Gumroad lost $1M helping creators earn $185M. That wasn't
           sustainable.
         </p>
-        <p>
-          <img
-            src="/dividends/metrics2022.png"
-            className="max-w-full my-4 mx-auto"
-          />
-        </p>
+        {renderFinancialTable(2022)}
         <h2>Charging more</h2>
         <p>
           On January 31, 2023, we increased Gumroad's pricing to be simpler,
@@ -260,12 +372,46 @@ export default function Home() {
           spend the first decade of its life operating with an incredibly
           creator-friendly business model was over.
         </p>
-        <p>
-          <img
-            src="/dividends/pricing2.png"
-            className="max-w-full my-4 mx-auto"
-          />
-        </p>
+        <div
+          className="w-[90%] my-8 mx-auto bg-white border border-black"
+          style={{ borderWidth: "1px", color: "#000 !important" }}
+        >
+          <h2 className="text-2xl font-bold mb-4 mt-6 ml-6">
+            Updating Gumroad's fee on Jan 31
+          </h2>
+          <hr className="border-black mb-6" />
+          <p className="mb-2 mx-6 text-black text-base leading-relaxed">
+            We are updating our fee to be simpler and higher.
+          </p>
+          <p className="mb-2 mx-6 text-black text-base leading-relaxed">
+            Going forward, new pricing will be 10% for all creators who use
+            Gumroad. This is 1% higher than the initial 9% tier that Gumroad
+            creators used to start with. This no longer includes credit card
+            processing fees, so you know exactly how much Gumroad is making.
+          </p>
+          <p className="mb-2 mx-6 text-black text-base leading-relaxed">
+            You can see what we've been up to—including demos from a bunch of
+            team members!—as part of{" "}
+            <a href="#" className="text-blue-600 hover:underline">
+              our last public board meeting
+            </a>
+            .
+          </p>
+          <p className="mb-2 mx-6 text-black text-base leading-relaxed">
+            Hopefully you feel it's still a good deal. If you stay, we will work
+            very hard to reward you for that decision. If you decide to leave,
+            that's understandable too.
+          </p>
+          <p className="mb-2 mx-6 text-black text-base leading-relaxed">
+            It was great to create with you over the past decade, and we look
+            forward to the next one!
+          </p>
+          <p className="mx-6 mb-6 text-black text-base leading-relaxed">
+            Best,
+            <br />
+            Sahil and the Gumroad team
+          </p>
+        </div>
         <p>
           Spoiler alert: it worked. <em>Thank you</em> to the 55,000 creators
           who stuck with us!
@@ -423,12 +569,6 @@ export default function Home() {
           options–between 0 and 80%.
         </p>
         <p>
-          <img
-            src="/dividends/equitybythehour.png"
-            className="max-w-full my-4 mx-auto"
-          />
-        </p>
-        <p>
           In practice, we issue a full year of unvested stock options at the
           beginning of each year. Options vest as invoices are approved, using
           the last public valuation–currently $100M.
@@ -464,49 +604,162 @@ export default function Home() {
           <a href="https://lazytigerhostel.com/">my own business</a> this year."
         </p>
         <p>
-          I've created an interactive compensation calculator to help you understand
-          the equity options:
+          It can be confusing, so I created{" "}
+          <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">
+            a calculator
+          </a>{" "}
+          to help:
         </p>
-        <div>
-          <h3>Compensation Calculator</h3>
-          <div>
-            <label htmlFor="hourlyRate">Hourly Rate ($):</label>
-            <input type="number" id="hourlyRate" defaultValue={150} />
+
+        <div className="my-8">
+          <h3>Compensation calculator</h3>
+          <div className="mb-4">
+            <label htmlFor="hourlyRate" className="block">
+              Hourly rate ($): {hourlyRate}
+            </label>
+            <input
+              type="range"
+              id="hourlyRate"
+              min="50"
+              max="250"
+              value={hourlyRate}
+              onChange={(e) => setHourlyRate(Number(e.target.value))}
+              className="w-full"
+            />
           </div>
-          <div>
-            <label htmlFor="equityPercentage">Equity Percentage (0-80%):</label>
-            <input type="number" id="equityPercentage" defaultValue={20} min={0} max={80} />
+          <div className="mb-4">
+            <label htmlFor="hoursPerWeek" className="block">
+              Hours per week: {hoursPerWeek}
+            </label>
+            <input
+              type="range"
+              id="hoursPerWeek"
+              min="1"
+              max="80"
+              value={hoursPerWeek}
+              onChange={(e) => setHoursPerWeek(Number(e.target.value))}
+              className="w-full"
+            />
           </div>
-          <div>
-            <label htmlFor="hoursPerWeek">Hours per Week:</label>
-            <input type="number" id="hoursPerWeek" defaultValue={40} />
+          <div className="mb-4">
+            <label htmlFor="weeksPerYear" className="block">
+              Weeks per year: {weeksPerYear}
+            </label>
+            <input
+              type="range"
+              id="weeksPerYear"
+              min="1"
+              max="52"
+              value={weeksPerYear}
+              onChange={(e) => setWeeksPerYear(Number(e.target.value))}
+              className="w-full"
+            />
           </div>
-          <button id="calculateBtn">Calculate</button>
-          <div id="result"></div>
+          <div className="mb-4">
+            <p>
+              Annual compensation before equity split: $
+              {(hourlyRate * hoursPerWeek * weeksPerYear).toLocaleString()}
+            </p>
+          </div>
+          <div className="mb-4">
+            <label htmlFor="equityPercentage" className="block">
+              Equity percentage: {equityPercentage}%
+            </label>
+            <input
+              type="range"
+              id="equityPercentage"
+              min="0"
+              max="80"
+              value={equityPercentage}
+              onChange={(e) => setEquityPercentage(Number(e.target.value))}
+              className="w-full"
+            />
+          </div>
+          <div className="mb-4">
+            <p>
+              Net annual compensation: $
+              {(
+                hourlyRate *
+                hoursPerWeek *
+                weeksPerYear *
+                (1 - equityPercentage / 100)
+              ).toLocaleString()}
+            </p>
+            <p>
+              Amount taken as equity: $
+              {(
+                hourlyRate *
+                hoursPerWeek *
+                weeksPerYear *
+                (equityPercentage / 100)
+              ).toLocaleString()}
+            </p>
+          </div>
+          {chartData.length > 0 && (
+            <div className="mt-8" style={{ width: "100%", height: 300 }}>
+              <ResponsiveContainer>
+                <BarChart data={chartData}>
+                  <XAxis dataKey="name" />
+                  <YAxis
+                    tickFormatter={(value) => `$${value.toLocaleString()}`}
+                  />
+                  <Tooltip
+                    formatter={(value) => `$${value.toLocaleString()}`}
+                  />
+                  <Legend />
+                  <Bar dataKey="All cash" fill="#8884d8" />
+                  <Bar dataKey="Cash + equity" fill="#82ca9d" />
+                </BarChart>
+              </ResponsiveContainer>
+            </div>
+          )}
+          <div className="mt-4">
+            <label htmlFor="growthRate" className="block">
+              Yearly growth rate: {growthRate}%
+            </label>
+            <input
+              type="range"
+              id="growthRate"
+              min="0"
+              max="100"
+              value={growthRate}
+              onChange={(e) => setGrowthRate(Number(e.target.value))}
+              className="w-full"
+            />
+          </div>
+          {tableData.length > 0 && (
+            <div className="mt-8 overflow-x-auto">
+              <table className="min-w-full">
+                <thead>
+                  <tr>
+                    <th>Year</th>
+                    <th>Cash</th>
+                    <th>Cash bonus (neutral)</th>
+                    <th>Total cash</th>
+                    <th>Dividends</th>
+                    <th>Cash + equity</th>
+                    <th>All cash</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {tableData.map((row, index) => (
+                    <tr key={index}>
+                      <td>{row.year}</td>
+                      <td>${row.cash.toLocaleString()}</td>
+                      <td>${row.cashBonus.toLocaleString()}</td>
+                      <td>${row.totalCash.toLocaleString()}</td>
+                      <td>${row.dividends.toLocaleString()}</td>
+                      <td>${row.cashPlusEquity.toLocaleString()}</td>
+                      <td>${row.allCash.toLocaleString()}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
         </div>
-        <script dangerouslySetInnerHTML={{__html: `
-          document.getElementById('calculateBtn').addEventListener('click', function() {
-            const hourlyRate = parseFloat(document.getElementById('hourlyRate').value);
-            const equityPercentage = parseFloat(document.getElementById('equityPercentage').value);
-            const hoursPerWeek = parseFloat(document.getElementById('hoursPerWeek').value);
 
-            const weeklyIncome = hourlyRate * hoursPerWeek;
-            const yearlyIncome = weeklyIncome * 52;
-            const cashCompensation = yearlyIncome * (1 - equityPercentage / 100);
-            const equityCompensation = yearlyIncome * (equityPercentage / 100);
-
-            const resultHtml = \`
-              <p><strong>Yearly Cash Compensation:</strong> $\${cashCompensation.toFixed(2)}</p>
-              <p><strong>Yearly Equity Compensation:</strong> $\${equityCompensation.toFixed(2)}</p>
-              <p><strong>Total Yearly Compensation:</strong> $\${yearlyIncome.toFixed(2)}</p>
-            \`;
-
-            document.getElementById('result').innerHTML = resultHtml;
-          });
-        `}} />
-        <p>
-          For 2024, the average equity split is 18.3%.
-        </p>
+        <p>For 2024, the average equity split is 18.3%.</p>
         <p>
           <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
         </p>
@@ -538,12 +791,7 @@ export default function Home() {
           sell, just to keep shipping product(s) and issuing dividends. As long
           as the TAM supports the team, I'm happy. At least for now, it does.
         </p>
-        <p>
-          <img
-            src="/dividends/metrics2023.png"
-            className="max-w-full my-4 mx-auto"
-          />
-        </p>
+        {renderFinancialTable(2023)}
         <p>
           If you'd like to follow along,{" "}
           <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">

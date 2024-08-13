@@ -20,6 +20,7 @@
     "react-dom": "^18.3.1",
     "react-ga": "^3.0.0",
     "react-tweet": "^3.2.1",
+    "recharts": "^2.12.7",
     "tailwindcss": "^3.4.9"
   }
 }
