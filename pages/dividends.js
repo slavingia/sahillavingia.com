@@ -77,115 +77,12 @@ export default function Home() {
           week. I used any excess profits to grow the team and tackle the
           growing wall of technical debt.
         </p>
-        <div className="overflow-x-auto">
-          <table className="table-auto w-full border-collapse border border-gray-300 my-4">
-            <thead>
-              <tr className="bg-gray-100 text-sm">
-                <th className="border border-gray-300 px-3 py-1">Year</th>
-                <th className="border border-gray-300 px-3 py-1">GMV</th>
-                <th className="border border-gray-300 px-3 py-1">Revenue</th>
-                <th className="border border-gray-300 px-3 py-1">Net income</th>
-                <th className="border border-gray-300 px-3 py-1">CEO salary</th>
-                <th className="border border-gray-300 px-3 py-1">YoY GMV</th>
-                <th className="border border-gray-300 px-3 py-1">
-                  YoY Revenue
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2012</td>
-                <td className="border border-gray-300 px-4 py-2">$600,945</td>
-                <td className="border border-gray-300 px-4 py-2">$40,483</td>
-                <td className="border border-gray-300 px-4 py-2">-$834,335</td>
-                <td className="border border-gray-300 px-4 py-2">$36,000</td>
-                <td className="border border-gray-300 px-4 py-2"></td>
-                <td className="border border-gray-300 px-4 py-2"></td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2013</td>
-                <td className="border border-gray-300 px-4 py-2">$4,940,038</td>
-                <td className="border border-gray-300 px-4 py-2">$311,040</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  -$2,044,173
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$60,000</td>
-                <td className="border border-gray-300 px-4 py-2">722%</td>
-                <td className="border border-gray-300 px-4 py-2">668%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2014</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $13,775,340
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$850,210</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  -$3,472,021
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$85,000</td>
-                <td className="border border-gray-300 px-4 py-2">179%</td>
-                <td className="border border-gray-300 px-4 py-2">173%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2015</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $21,046,470
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$1,288,672</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  -$3,841,913
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$0</td>
-                <td className="border border-gray-300 px-4 py-2">53%</td>
-                <td className="border border-gray-300 px-4 py-2">52%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2016</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $36,251,075
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$2,273,189</td>
-                <td className="border border-gray-300 px-4 py-2">-$139,689</td>
-                <td className="border border-gray-300 px-4 py-2">$0</td>
-                <td className="border border-gray-300 px-4 py-2">72%</td>
-                <td className="border border-gray-300 px-4 py-2">76%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2017</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $41,463,817
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$2,745,823</td>
-                <td className="border border-gray-300 px-4 py-2">$62,474</td>
-                <td className="border border-gray-300 px-4 py-2">$120,000</td>
-                <td className="border border-gray-300 px-4 py-2">14%</td>
-                <td className="border border-gray-300 px-4 py-2">21%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2018</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $52,395,391
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$3,434,864</td>
-                <td className="border border-gray-300 px-4 py-2">$282,758</td>
-                <td className="border border-gray-300 px-4 py-2">$150,000</td>
-                <td className="border border-gray-300 px-4 py-2">26%</td>
-                <td className="border border-gray-300 px-4 py-2">25%</td>
-              </tr>
-              <tr>
-                <td className="border border-gray-300 px-4 py-2">2019</td>
-                <td className="border border-gray-300 px-4 py-2">
-                  $73,105,515
-                </td>
-                <td className="border border-gray-300 px-4 py-2">$5,022,796</td>
-                <td className="border border-gray-300 px-4 py-2">$195,554</td>
-                <td className="border border-gray-300 px-4 py-2">$150,000</td>
-                <td className="border border-gray-300 px-4 py-2">40%</td>
-                <td className="border border-gray-300 px-4 py-2">46%</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+        <p>
+          <img
+            src="/dividends/metrics2019.png"
+            className="max-w-full my-4 mx-auto"
+          />
+        </p>
         <p>
           In January 2020, I moved to Portland, Oregon for my wife's job. Then,
           COVID happened.
@@ -464,8 +361,8 @@ export default function Home() {
           <a href="https://lazytigerhostel.com/">my own business</a> this year."
         </p>
         <p>
-          I've created an interactive compensation calculator to help you understand
-          the equity options:
+          I've created an interactive compensation calculator to help you
+          understand the equity options:
         </p>
         <div>
           <h3>Compensation Calculator</h3>
@@ -475,7 +372,13 @@ export default function Home() {
           </div>
           <div>
             <label htmlFor="equityPercentage">Equity Percentage (0-80%):</label>
-            <input type="number" id="equityPercentage" defaultValue={20} min={0} max={80} />
+            <input
+              type="number"
+              id="equityPercentage"
+              defaultValue={20}
+              min={0}
+              max={80}
+            />
           </div>
           <div>
             <label htmlFor="hoursPerWeek">Hours per Week:</label>
@@ -484,7 +387,9 @@ export default function Home() {
           <button id="calculateBtn">Calculate</button>
           <div id="result"></div>
         </div>
-        <script dangerouslySetInnerHTML={{__html: `
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
           document.getElementById('calculateBtn').addEventListener('click', function() {
             const hourlyRate = parseFloat(document.getElementById('hourlyRate').value);
             const equityPercentage = parseFloat(document.getElementById('equityPercentage').value);
@@ -503,10 +408,10 @@ export default function Home() {
 
             document.getElementById('result').innerHTML = resultHtml;
           });
-        `}} />
-        <p>
-          For 2024, the average equity split is 18.3%.
-        </p>
+        `,
+          }}
+        />
+        <p>For 2024, the average equity split is 18.3%.</p>
         <p>
           <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
         </p>
