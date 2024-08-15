@@ -405,14 +405,6 @@ export default function Home() {
             className="max-w-full my-4 mx-auto"
           />
         </p>
-        <p>
-          If you'd like to follow along,{" "}
-          <a href="https://us02web.zoom.us/webinar/register/WN_zUIicnMhSe2sMGGwycGyjg#/registration">
-            register
-          </a>{" "}
-          for our next public board meeting on August 15, now recorded live from
-          our new office in DUMBO, Brooklyn, New York!
-        </p>
         <Footer />
       </main>
     </Layout>
