@@ -34,6 +34,15 @@ export default function Home() {
       <h1>God Mode</h1>
 
       <p>
+        <em>
+          God mode, a general purpose term for a cheat code in video games that
+          makes a player invincible.
+        </em>
+      </p>
+
+      <hr />
+
+      <p>
         A few weeks ago, Paul Graham published{" "}
         <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
         about a management style practiced by Brian Chesky at Airbnb that was at
@@ -369,15 +378,6 @@ export default function Home() {
       </p>
 
       <p>So, where do we go from here?</p>
-
-      <hr />
-
-      <p>
-        <em>
-          God mode, a general purpose term for a cheat code in video games that
-          makes a player invincible.
-        </em>
-      </p>
 
       <Footer />
     </main>
