@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Layout from "../components/layout";
-import { Tweet } from "react-tweet";
 import Footer from "../components/footer";
 
 export default function Home() {
