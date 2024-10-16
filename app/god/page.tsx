@@ -34,9 +34,10 @@ export default function Home() {
       <h1>God Mode</h1>
 
       <p>
-        A few weeks ago, Paul Graham published Founder Mode, about a management
-        style practiced by Brian Chesky at Airbnb that was at least partially
-        inspired by Steve Jobs.
+        A few weeks ago, Paul Graham published{" "}
+        <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
+        about a management style practiced by Brian Chesky at Airbnb that was at
+        least partially inspired by Steve Jobs.
       </p>
 
       <p>
@@ -185,8 +186,12 @@ export default function Home() {
       <h2>Why, YC, why?</h2>
 
       <p>
-        YC states that there are three main reasons to have a co-founder when
-        starting a company:
+        YC states in{" "}
+        <a href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
+          this video
+        </a>{" "}
+        that there are three main reasons to have a co-founder when starting a
+        company:
       </p>
 
       <ol>
@@ -231,10 +236,12 @@ export default function Home() {
 
       <p>
         But I don't think that's the core motivation. I think the core
-        motivation, as Nassim Taleb explains in The Most Intolerant Wins: The
-        Dictatorship of the Small Minority, is because having co-founders with
-        an equal split gives YC all of the power. And which institution–or
-        founder–doesn't like power?
+        motivation, as Nassim Taleb explains in{" "}
+        <a href="https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15">
+          The Most Intolerant Wins: The Dictatorship of the Small Minority
+        </a>
+        , is because having co-founders with an equal split gives YC all of the
+        power. And which institution–or founder–doesn't like power?
       </p>
 
       <p>
@@ -273,8 +280,9 @@ export default function Home() {
       <p>
         Recently, WordPress founder Matt Mullenweg banned millions of customers
         from accessing WordPress resources due to a dispute with one of the
-        largest-WordPress hosting sites, WP Engine. As part of Automattic
-        Alignment, 159 people, or 8.4% of the company, left the company.
+        largest-WordPress hosting sites, WP Engine. As part of{" "}
+        <a href="https://ma.tt/2024/10/alignment/">Automattic Alignment</a>, 159
+        people, or 8.4% of the company, left the company.
       </p>
 
       <p>
