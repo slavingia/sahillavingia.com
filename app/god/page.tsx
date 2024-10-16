@@ -87,10 +87,37 @@ export default function Home() {
         their business; companies like Gumroad and Airbnb.)
       </p>
 
-      <h2>From Dead to Alive</h2>
+      <p>Many things follow this cycle.</p>
 
       <p>
-        In 2023, Gumroad doubled "our" pricing to 10% flat. But really, I did.
+        In Hinduism, for example, the universe is created, preserved, and
+        destroyed in a cycle of repeated events:
+      </p>
+
+      <ul>
+        <li>
+          <strong>Creation:</strong> Brahma is the creator of the universe,
+          having made it from himself.
+        </li>
+        <li>
+          <strong>Preservation:</strong> Vishnu preserves the world and humans.
+        </li>
+        <li>
+          <strong>Destruction:</strong> Shiva is the destroyer of the universe,
+          and is responsible for the cyclical resurrection.
+        </li>
+      </ul>
+
+      <p>
+        Christianity innovates on this concept by combining all three gods into
+        a single Godhead, with total omniscience.
+      </p>
+
+      <h2>Solo Founder Mode</h2>
+
+      <p>
+        In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
+        <em>I</em> did.
       </p>
 
       <p>
@@ -244,9 +271,9 @@ export default function Home() {
         companies, it can also kill them.
       </p>
 
-      <h2>Solo founder mode</h2>
-
       <p>Dictators are not always benevolent.</p>
+
+      <h2>From Dead to Alive</h2>
 
       <p>
         Recently, WordPress founder Matt Mullenweg banned millions of customers
@@ -287,11 +314,6 @@ export default function Home() {
       </p>
 
       <p>
-        Before that, the team helped me automate as much as possible so that I
-        could run the business myself.
-      </p>
-
-      <p>
         As part of a failed attempt to sell the business in 2017, I put together
         a one-pager with what manual tasks remained:
       </p>
@@ -312,7 +334,7 @@ export default function Home() {
         much less healthier me.
       </p>
 
-      <p>For Airbnb, this is only the beginning of a long process.</p>
+      <p>I think Brian and Airbnb is on a similar path.</p>
 
       <p>
         Airbnb is a public company and what matters most now is Free Cash Flow.
@@ -333,33 +355,17 @@ export default function Home() {
       </p>
 
       <p>
-        Most people don't want to be founders, and most founders don't want to
-        do it solo.
-      </p>
-
-      <p>
         Many people love their 9-5, and aren't going to advocate for them being
         eliminated, even if that's the right thing for the business or the
         world.
       </p>
 
-      <p>So where do we go from here?</p>
-
       <p>
-        For my part, I've changed the name of Gumroad's parent company from
-        Gumroad to Antiwork, to make it clear what my focus is: eliminating the
-        unfun parts of work–which is almost all of it.
+        Most people don't want to be founders, and even most founders don't want
+        to do it solo.
       </p>
 
-      <p>
-        Finally, I'm done with hiring product designers and software engineers.
-        Instead, I've started prototyping our first hardware product–something I
-        can't have omniscience about.
-      </p>
-
-      <p>If that works, perhaps we'll start hiring again.</p>
-
-      <p>We'll see how it goes.</p>
+      <p>So, where do we go from here?</p>
 
       <hr />
 
