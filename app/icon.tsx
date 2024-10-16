@@ -32,7 +32,7 @@ export default function Icon() {
           fontFamily: `${inter.style.fontFamily}, Helvetica Neue, Arial, sans-serif`,
         }}
       >
-        S
+        ツ
       </div>
     ),
     // ImageResponse options
