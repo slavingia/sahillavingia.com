@@ -1,48 +1,37 @@
-import Head from "next/head";
-import Layout from "../components/layout";
 import { Tweet } from "react-tweet";
-import Footer from "../components/footer";
+import Footer from "../footer";
+import { Metadata } from "next";
+import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Paying Freelancers in Equity and Dividends",
+  description:
+    "Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends.",
+  openGraph: {
+    title: "Paying Freelancers in Equity and Dividends",
+    description:
+      "Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends.",
+    images: ["https://sahillavingia.com/dividends/social-split.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@shl",
+    title: "Paying Freelancers in Equity and Dividends",
+    description:
+      "Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends.",
+    images: ["https://sahillavingia.com/dividends/social-split.png"],
+  },
+};
 
 export default function Home() {
   return (
-    <Layout>
-      <Head>
-        <title>Paying Freelancers in Equity and Dividends</title>
-        <link rel="icon" href="/favicon.svg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@shl" />
-        <meta
-          name="og:title"
-          content="Paying Freelancers in Equity and Dividends"
-        />
-        <meta
-          name="og:description"
-          content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends."
-        />
-        <meta
-          name="og:image"
-          content="https://sahillavingia.com/dividends/social-split.png"
-        />
-        <meta
-          name="twitter:title"
-          content="Paying Freelancers in Equity and Dividends"
-        />
-        <meta
-          name="twitter:description"
-          content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends."
-        />
-        <meta
-          name="twitter:image"
-          content="https://sahillavingia.com/dividends/social-split.png"
-        />
-      </Head>
-
+    <>
       <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
         <label className="block mt-8 mb-8">
           May 20, 2024 by{" "}
-          <a href="/">
+          <Link href="/">
             <u>Sahil Lavingia</u>
-          </a>
+          </Link>
         </label>
 
         <h1>Paying Freelancers in Equity and Dividends</h1>
@@ -56,9 +45,9 @@ export default function Home() {
 
         <p>
           You can read more about our equity program in our{" "}
-          <a href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1">
+          <Link href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1">
             Getting Paid
-          </a>{" "}
+          </Link>{" "}
           onboarding document at Gumroad.
         </p>
 
@@ -72,10 +61,11 @@ export default function Home() {
         <p>
           It wasn't always this way; from 2015-2019, everyone at Gumroad was
           paid cash, no equity. No one wanted any. Gumroad was no longer on its
-          way to becoming <a href="/reflecting">a billion-dollar company</a>,
-          and I was living cheaply in Utah, learning how to paint 30 hours a
-          week. I used any excess profits to grow the team and tackle the
-          growing wall of technical debt.
+          way to becoming{" "}
+          <Link href="/reflecting">a billion-dollar company</Link>, and I was
+          living cheaply in Utah, learning how to paint 30 hours a week. I used
+          any excess profits to grow the team and tackle the growing wall of
+          technical debt.
         </p>
         <p>
           <img
@@ -121,11 +111,11 @@ export default function Home() {
           I used the money to grow the team from 25 to 45, investing heavily in
           our content and community efforts, and refreshed the Gumroad brand. We
           also started working on a new product,{" "}
-          <a href="https://flexile.com/">Flexile</a>, to productize the way we
-          worked, with{" "}
-          <a href="/work">
+          <Link href="https://flexile.com/">Flexile</Link>, to productize the
+          way we worked, with{" "}
+          <Link href="/work">
             no meetings, no deadlines, and no full-time employees
-          </a>
+          </Link>
           . At the time, I used a combination of Bill.com, HelloSign, and a
           bunch of manual processes, to hire and pay everyone; Flexile would
           automate all of that.
@@ -199,9 +189,9 @@ export default function Home() {
         </p>
         <p>
           With{" "}
-          <a href="https://x.com/shl/status/1679308995268587522">
+          <Link href="https://x.com/shl/status/1679308995268587522">
             a couple emails
-          </a>{" "}
+          </Link>{" "}
           asking nicely, I was able to get this approval from all of Gumroad's
           original investors. I owe a massive <em>thank you</em> to Accel, Max
           Levchin, SV Angel, First Round, Naval Ravikant, Collab Fund, Tuesday
@@ -242,7 +232,7 @@ export default function Home() {
         </p>
         <p>
           A few months later, in July 2023, we issued a $1M trial dividend to
-          our cap table, using <a href="https://flexile.com">Flexile</a>.
+          our cap table, using <Link href="https://flexile.com">Flexile</Link>.
         </p>
         <p>
           To align the team, I proposed an equity bonus, tied to the amount
@@ -358,13 +348,14 @@ export default function Home() {
           Someone who chose 1% didn't want to miss out on the fun completely.
           "It has very little to do with my outlook on Gumroad. I'm just putting
           all my spare cash into{" "}
-          <a href="https://lazytigerhostel.com/">my own business</a> this year."
+          <Link href="https://lazytigerhostel.com/">my own business</Link> this
+          year."
         </p>
         <p>
           It can be confusing, so I created{" "}
-          <a href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">
+          <Link href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">
             a calculator
-          </a>{" "}
+          </Link>{" "}
           to help.
         </p>
         <p>For 2024, the average equity split is 18.3%.</p>
@@ -392,9 +383,9 @@ export default function Home() {
         </p>
         <p>
           Now, we host{" "}
-          <a href="https://www.youtube.com/watch?v=qUYSTvJnIXA">
+          <Link href="https://www.youtube.com/watch?v=qUYSTvJnIXA">
             public quarterly board meetings
-          </a>{" "}
+          </Link>{" "}
           to keep ourselves accountable. We no longer have plans to IPO nor
           sell, just to keep shipping product(s) and issuing dividends. As long
           as the TAM supports the team, I'm happy. At least for now, it does.
@@ -407,6 +398,6 @@ export default function Home() {
         </p>
         <Footer />
       </main>
-    </Layout>
+    </>
   );
 }
