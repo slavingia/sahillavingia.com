@@ -35,8 +35,8 @@ export default function Home() {
 
       <p>
         <em>
-          God mode, a general purpose term for a cheat code in video games that
-          makes a player invincible.
+          God mode, a term for a cheat code in video games that makes a player
+          invincible.
         </em>
       </p>
 
