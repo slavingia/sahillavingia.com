@@ -1,6 +1,7 @@
 import { Tweet } from "react-tweet";
 import Footer from "../footer";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "No Meetings, No Deadlines, No Full-Time Employees",
@@ -23,16 +24,16 @@ export default function Home() {
     <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Jan 7, 2021 by{" "}
-        <a href="/">
+        <Link href="/">
           <u>Sahil Lavingia</u>
-        </a>
+        </Link>
       </label>
 
       <h1>No Meetings, No Deadlines, No Full-Time Employees</h1>
 
       <p>
         I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time
-        employees. In 2016, after <a href="/reflecting">failing</a> to raise
+        employees. In 2016, after <Link href="/reflecting">failing</Link> to raise
         more money, I ended up back where I began: a one-person company.
       </p>
       <p>
@@ -75,7 +76,7 @@ export default function Home() {
       <p>
         But hiring people full-time and leasing a new office in San Francisco
         to work out of was untenable. Instead, I found an Indian firm called{" "}
-        <a href="https://bigbinary.com/">BigBinary</a> and hired a few
+        <Link href="https://bigbinary.com/">BigBinary</Link> and hired a few
         engineers as contractors.
       </p>
       <p>
@@ -88,7 +89,7 @@ export default function Home() {
         before the layoffs, this time via an hourly contracting agreement too.
       </p>
       <p>
-        Meanwhile, I <a href="/bubble">moved to Utah</a> and attempted to
+        Meanwhile, I <Link href="/bubble">moved to Utah</Link> and attempted to
         become a full-time creator.
       </p>
       <p>
@@ -148,17 +149,17 @@ export default function Home() {
         People can work on what's fun or rely on their intuition, because as
         long as we remain profitable and keep shipping, we tend to get to the
         important stuff eventually. Our{" "}
-        <a href="https://www.youtube.com/watch?v=CNes_Qfo0gw">
+        <Link href="https://www.youtube.com/watch?v=CNes_Qfo0gw">
           public board meetings
-        </a>{" "}
+        </Link>{" "}
         help Gumroad's creators hold us accountable.
       </p>
       <p>We ship big things this way too.</p>
       <p>
         In November 2020, we shipped{" "}
-        <a href="https://gumroad.com/gumroad/p/introducing-gumroad-memberships">
+        <Link href="https://gumroad.com/gumroad/p/introducing-gumroad-memberships">
           Gumroad Memberships
-        </a>
+        </Link>
         , a year in the works and now used by hundreds of creators to earn
         over $1,500,000 per month.
       </p>
@@ -173,9 +174,9 @@ export default function Home() {
       />
       <p>
         For more, I recorded{" "}
-        <a href="https://www.youtube.com/watch?v=2PcIC1DKBU0">
+        <Link href="https://www.youtube.com/watch?v=2PcIC1DKBU0">
           an hour-long video
-        </a>{" "}
+        </Link>{" "}
         about how we ship something as large as Gumroad Memberships.
       </p>
       <p>
@@ -191,7 +192,7 @@ export default function Home() {
       <p>
         Those are the broad strokes, but we've published more specific
         documentation about{" "}
-        <a href="https://jobs.gumroad.com/">the way we work</a>:
+        <Link href="https://jobs.gumroad.com/">the way we work</Link>:
       </p>
       <ul>
         <li>
@@ -239,7 +240,7 @@ export default function Home() {
       <p>This isn't just for engineers.</p>
       <p>
         Justin Mikolay, a writer at Gumroad, ships each of our{" "}
-        <a href="https://gumroad.com/l/BCMDz">Creator Spotlights</a> this way,
+        <Link href="https://gumroad.com/l/BCMDz">Creator Spotlights</Link> this way,
         even though each one requires at least three people&mdash;plus the
         creator.
       </p>
@@ -258,7 +259,7 @@ export default function Home() {
       </p>
       <p>But we can compete&mdash;and win&mdash;on flexibility.</p>
       <p>
-        <a href="https://twitter.com/sidyadav">Sid Yadav</a>, former VP of
+        <Link href="https://twitter.com/sidyadav">Sid Yadav</Link>, former VP of
         Product at Teachable, joined Gumroad in 2018.
       </p>
       <p>
@@ -270,9 +271,9 @@ export default function Home() {
       </p>
       <p>
         In 2020, Sid left Gumroad to start his own creator economy company,{" "}
-        <a href="https://circle.so">Circle</a>, together with former Gumroad
+        <Link href="https://circle.so">Circle</Link>, together with former Gumroad
         coworker{" "}
-        <a href="https://community.circle.so/u/45ef416b">Rudy Santino</a>:
+        <Link href="https://community.circle.so/u/45ef416b">Rudy Santino</Link>:
       </p>
       <Tweet id="1216761573479473152" />
       <p>Working on Gumroad isn't a majority of anyone's identity.</p>
@@ -296,7 +297,7 @@ export default function Home() {
       <h2>A company of creators</h2>
       <p>
         One day, out of the blue, I received an email from{" "}
-        <a href="https://twitter.com/dvassallo">Daniel Vassallo</a>. I knew
+        <Link href="https://twitter.com/dvassallo">Daniel Vassallo</Link>. I knew
         Daniel; he was a creator who had made over $250,000 on Gumroad in less
         than a year.
       </p>
@@ -346,7 +347,7 @@ export default function Home() {
       <p>
         <em>
           Note: We'll be hiring for more positions soon!{" "}
-          <a href="https://twitter.com/shl">Follow me on Twitter</a> for
+          <Link href="https://twitter.com/shl">Follow me on Twitter</Link> for
           updates.
         </em>
       </p>
@@ -372,9 +373,9 @@ export default function Home() {
       </p>
       <p>
         Since Daniel joined as quarter-time Head of Product, we've had{" "}
-        <a href="https://twitter.com/RandallKanna">Randall Kanna</a> join as
+        <Link href="https://twitter.com/RandallKanna">Randall Kanna</Link> join as
         quarter-time Head of Community and{" "}
-        <a href="https://twitter.com/philip_kiely">Philip Kiely</a> join as
+        <Link href="https://twitter.com/philip_kiely">Philip Kiely</Link> join as
         quarter-time Head of Marketing. They're successful Gumroad creators
         too.
       </p>
@@ -403,7 +404,7 @@ export default function Home() {
         work.
       </p>
       <p>
-        <a href="https://gumroad.com/">Gumroad's homepage</a> is clear about
+        <Link href="https://gumroad.com/">Gumroad's homepage</Link> is clear about
         its benefits to creators who use it: "Escape your 9-to-5 job. Take off
         your suit and tie. End your commute. Get paid for your craft."
       </p>

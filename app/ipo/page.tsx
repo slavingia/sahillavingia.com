@@ -1,5 +1,6 @@
 import { Tweet } from "react-tweet";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: 'The Creator-Owner Economy: Gumroad\'s "IPO"',
@@ -27,16 +28,16 @@ export default function Home() {
       <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
         <label className="block mt-8 mb-8">
           March 22, 2021 by{" "}
-          <a href="/">
+          <Link href="/">
             <u>Sahil Lavingia</u>
-          </a>
+          </Link>
         </label>
 
         <h1>The Creator-Owner Economy: Gumroad's "IPO"</h1>
 
         <p>Creators deserve to get paid for their work.</p>
         <p>
-          To date, <a href="https://gumroad.com">Gumroad</a> has made it easy by
+          To date, <Link href="https://gumroad.com">Gumroad</Link> has made it easy by
           enabling them to sell digital products, online courses, and
           memberships directly to their audiences. But earning an income isn't
           the only way to get paid.
@@ -48,7 +49,7 @@ export default function Home() {
           The last time I tried to raise money, I failed. After meeting with
           dozens of investors and getting dozens of nos, we gave up on a Series
           B and had to either sell Gumroad, shut down, or get acquired. But in
-          spite of <a href="/reflecting">"failing,"</a> we were still helping
+          spite of <Link href="/reflecting">"failing,"</Link> we were still helping
           creators earn about $2 million a month to pay rent, top off their
           children's college funds, or even just to buy a few cups of coffee.
           Knowing that our platform made a big financial difference for our
@@ -69,7 +70,7 @@ export default function Home() {
           In the years since I've often thought about how to make the interests
           of Gumroad's creators, employees, and investors align more cleanly.
           Recently I{" "}
-          <a href="/work">hired a few of our top creators part-time</a> to run
+          <Link href="/work">hired a few of our top creators part-time</Link> to run
           various parts of Gumroad. Letting them become investors was the next
           logical step.
         </p>
@@ -134,9 +135,9 @@ export default function Home() {
             <em>
               BUT we encourage feedback already, and we're very open about our
               decision-making through our{" "}
-              <a href="https://www.youtube.com/watch?v=I192Z6WaVWQ">
+              <Link href="https://www.youtube.com/watch?v=I192Z6WaVWQ">
                 Open Board Meetings
-              </a>
+              </Link>
               .
             </em>
           </li>
@@ -164,10 +165,10 @@ export default function Home() {
         <p>
           This isn't hypothetical. In the UK, where the maximum is higher and
           the required financial disclosures fewer,{" "}
-          <a href="https://docs.google.com/spreadsheets/d/1CZXdI0Giq1AGsPEG2HTg2t6zU5MrSazEvrpSQ0kcib0/edit#gid=0">
+          <Link href="https://docs.google.com/spreadsheets/d/1CZXdI0Giq1AGsPEG2HTg2t6zU5MrSazEvrpSQ0kcib0/edit#gid=0">
             startups have raised 60x the funds through crowdfunding than in the
             US
-          </a>
+          </Link>
           .
         </p>
         <p>
@@ -188,14 +189,14 @@ export default function Home() {
         </p>
         <ul>
           <li>
-            <a href="https://gumroad.com/signup">
+            <Link href="https://gumroad.com/signup">
               Sign up for Gumroad as a creator
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="https://gumroad.com/discover">
+            <Link href="https://gumroad.com/discover">
               Support Gumroad creators as a customer
-            </a>
+            </Link>
           </li>
           <li>
             Tell people that Regulation Crowdfunding exists–start by sharing
@@ -203,14 +204,14 @@ export default function Home() {
           </li>
           <li>
             Send me and the team feedback via{" "}
-            <a href="https://joinclubhouse.com/club/gumroad">Clubhouse</a> and{" "}
-            <a href="https://twitter.com/gumroad">Twitter</a>
+            <Link href="https://joinclubhouse.com/club/gumroad">Clubhouse</Link> and{" "}
+            <Link href="https://twitter.com/gumroad">Twitter</Link>
           </li>
         </ul>
 
         <p>
           And if you're a founder, please check out{" "}
-          <a href="https://raise.gumroad.com/">the materials I used</a> to
+          <Link href="https://raise.gumroad.com/">the materials I used</Link> to
           crowdfund this raise, and reach out if you have any questions.
         </p>
       </main>

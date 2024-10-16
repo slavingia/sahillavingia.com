@@ -1,5 +1,7 @@
 import Footer from "../footer";
 import { Metadata } from "next";
+import Link from "next/link";
+import Power from "./Power";
 
 export const metadata: Metadata = {
   title: "God Mode",
@@ -24,9 +26,9 @@ export default function Home() {
     <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         October 16, 2024 by{" "}
-        <a href="/">
+        <Link href="/">
           <u>Sahil Lavingia</u>
-        </a>
+        </Link>
       </label>
 
       <h1>God Mode</h1>
@@ -52,7 +54,7 @@ export default function Home() {
         specific: god mode.
       </p>
 
-      <h2>Growth, optimization, destruction</h2>
+      <h2>Growth, Optimization, Destruction</h2>
 
       <p>Every startup focuses on growth at its outset.</p>
 
@@ -214,6 +216,8 @@ export default function Home() {
         leader, and kick out the other.
       </p>
 
+      <Power />
+
       <p>
         Founder Mode, though, cannot be implemented in such a scenario. It
         requires one person with almost dictatorial control instilled in them by
@@ -292,7 +296,13 @@ export default function Home() {
         a one-pager with what manual tasks remained:
       </p>
 
-      <img src="/god-mode.png" alt="Gumroad tasks" />
+      <div className="border-4 border-gray-300 rounded-lg p-4 py-0">
+        <img
+          src="/god-mode.png"
+          alt="Gumroad tasks"
+          className="w-full h-auto"
+        />
+      </div>
 
       <p>
         Before I had to make these hard decisions, I thought I needed certain

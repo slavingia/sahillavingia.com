@@ -1,5 +1,6 @@
 import { Tweet } from "react-tweet";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Reflecting on My Failure to Build a Billion-Dollar Company",
@@ -26,9 +27,9 @@ export default function Home() {
     <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Feb 7, 2019 by{" "}
-        <a href="/">
+        <Link href="/">
           <u>Sahil Lavingia</u>
-        </a>
+        </Link>
       </label>
 
       <h1>Reflecting on My Failure to Build a Billion-Dollar Company</h1>
