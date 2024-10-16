@@ -27,14 +27,12 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          color: "white",
+          color: "black",
           fontWeight: 900,
           fontFamily: `${inter.style.fontFamily}, Helvetica Neue, Arial, sans-serif`,
-          backgroundColor: "black",
-          borderRadius: "50%",
         }}
       >
-        S
+        ツ
       </div>
     ),
     // ImageResponse options
