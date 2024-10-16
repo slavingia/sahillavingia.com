@@ -114,7 +114,7 @@ export default function Home() {
         a single Godhead, with total omniscience.
       </p>
 
-      <h2>Solo Founder Mode</h2>
+      <h2>From Dead to Alive</h2>
 
       <p>
         In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
@@ -273,7 +273,7 @@ export default function Home() {
         world.
       </p>
 
-      <h2>From Dead to Alive</h2>
+      <h2>Solo Founder Mode</h2>
 
       <p>Dictators are not always benevolent.</p>
 
