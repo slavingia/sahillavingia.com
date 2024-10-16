@@ -1,26 +1,27 @@
-import Head from "next/head";
-import Layout from "../components/layout";
-import Footer from "../components/footer";
+import Footer from "../footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Across the Border",
+  description: "A story about the distances technology fails to bridge.",
+  openGraph: {
+    title: "Across the Border",
+    description: "A story about the distances technology fails to bridge.",
+    images: [
+      {
+        url: "https://sahillavingia.com/border.png",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@shl",
+  },
+};
 
 export default function Home() {
   return (
-    <Layout>
-      <Head>
-        <title>Across the Border</title>
-        <link rel="icon" href="/favicon.svg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@shl" />
-        <meta name="og:title" content="Across the Border" />
-        <meta
-          name="og:description"
-          content="A story about the distances technology fails to bridge."
-        />
-        <meta name="og:image" content="https://sahillavingia.com/border.png" />
-        <script src="//code.jquery.com/jquery-1.12.4.js"></script>
-        <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-        <script src="/border.js"></script>
-      </Head>
-
+    <>
       <div className="w-full h-[600px] bg-blue-900 bg-opacity-50 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900 opacity-50"></div>
         <div className="absolute inset-0 bg-[url('/border.png')] bg-cover bg-center"></div>
@@ -394,6 +395,6 @@ export default function Home() {
 
         <Footer />
       </main>
-    </Layout>
+    </>
   );
 }

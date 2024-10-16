@@ -1,42 +1,30 @@
-import Head from "next/head";
-import Layout from "../components/layout";
 import { Tweet } from "react-tweet";
-import Footer from "../components/footer";
+import Footer from "../footer";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Paying Freelancers in Equity and Dividends",
+  description:
+    "Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends.",
+  openGraph: {
+    title: "Paying Freelancers in Equity and Dividends",
+    description:
+      "Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends.",
+    images: ["https://sahillavingia.com/dividends/social-split.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@shl",
+    title: "Paying Freelancers in Equity and Dividends",
+    description:
+      "Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends.",
+    images: ["https://sahillavingia.com/dividends/social-split.png"],
+  },
+};
 
 export default function Home() {
   return (
-    <Layout>
-      <Head>
-        <title>Paying Freelancers in Equity and Dividends</title>
-        <link rel="icon" href="/favicon.svg" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@shl" />
-        <meta
-          name="og:title"
-          content="Paying Freelancers in Equity and Dividends"
-        />
-        <meta
-          name="og:description"
-          content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends."
-        />
-        <meta
-          name="og:image"
-          content="https://sahillavingia.com/dividends/social-split.png"
-        />
-        <meta
-          name="twitter:title"
-          content="Paying Freelancers in Equity and Dividends"
-        />
-        <meta
-          name="twitter:description"
-          content="Gumroad pays freelancers around the world $125-$200/hr. They choose how much of this they'd like to get in equity–between 0 and 80%. Equity entitles one to annual dividends."
-        />
-        <meta
-          name="twitter:image"
-          content="https://sahillavingia.com/dividends/social-split.png"
-        />
-      </Head>
-
+    <>
       <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
         <label className="block mt-8 mb-8">
           May 20, 2024 by{" "}
@@ -407,6 +395,6 @@ export default function Home() {
         </p>
         <Footer />
       </main>
-    </Layout>
+    </>
   );
 }
