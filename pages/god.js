@@ -41,11 +41,6 @@ export default function Home() {
         <h1>God Mode</h1>
 
         <p>
-          God mode, a general purpose term for a cheat code in video games that
-          makes a player invincible.
-        </p>
-
-        <p>
           A few weeks ago, Paul Graham published Founder Mode, about a
           management style practiced by Brian Chesky at Airbnb that was at least
           partially inspired by Steve Jobs.
@@ -374,6 +369,13 @@ export default function Home() {
         <p>If that works, perhaps we'll start hiring again.</p>
 
         <p>We'll see how it goes.</p>
+
+        <hr />
+
+        <p><em>
+          God mode, a general purpose term for a cheat code in video games that
+          makes a player invincible.
+        </em></p>
 
         <Footer />
       </main>
