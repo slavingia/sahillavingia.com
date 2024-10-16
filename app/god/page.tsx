@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
-        October 16, 2024 by{" "}
+        October 17, 2024 by{" "}
         <Link href="/">
           <u>Sahil Lavingia</u>
         </Link>
