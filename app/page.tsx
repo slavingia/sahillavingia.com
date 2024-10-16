@@ -1,13 +1,12 @@
 import Link from "next/link";
-import { Twitter } from "lucide-react";
 
 export default function Home() {
   return (
     <main className="py-6 sm:py-10 px-4 sm:px-8 mx-auto max-w-4xl">
       <header className="mb-6 sm:mb-8">
         <h1 className="text-xl sm:text-2xl font-bold">Sahil Lavingia</h1>
-        <a href="https://x.com/shl" className="text-2xl text-[#1DA1F2]">
-          <Twitter size={24} fill="currentColor" strokeWidth={0} />
+        <a href="https://x.com/shl" className="no-underline">
+          𝕏
         </a>
       </header>
 
