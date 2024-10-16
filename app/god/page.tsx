@@ -266,14 +266,9 @@ export default function Home() {
         world.
       </p>
 
-      <p>
-        Because while god mode has the chance of resurrecting flailing
-        companies, it can also kill them.
-      </p>
+      <h2>From Dead to Alive</h2>
 
       <p>Dictators are not always benevolent.</p>
-
-      <h2>From Dead to Alive</h2>
 
       <p>
         Recently, WordPress founder Matt Mullenweg banned millions of customers
