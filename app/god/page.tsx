@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "God Mode",
     description:
-      "A general purpose term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
+      "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/god-mode.png"],
   },
   twitter: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     site: "@shl",
     title: "God Mode",
     description:
-      "A general purpose term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
+      "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/god-mode.png"],
   },
 };
