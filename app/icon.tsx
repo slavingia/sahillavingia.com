@@ -1,4 +1,5 @@
 import { ImageResponse } from "next/og";
+import { Inter } from "next/font/google";
 
 // Route segment config
 export const runtime = "edge";
@@ -9,6 +10,9 @@ export const size = {
   height: 32,
 };
 export const contentType = "image/png";
+
+// Load Inter font
+const inter = Inter({ subsets: ["latin"], weight: ["900"] });
 
 // Image generation
 export default function Icon() {
@@ -24,8 +28,10 @@ export default function Icon() {
           alignItems: "center",
           justifyContent: "center",
           color: "white",
-          fontWeight: "black",
-          fontFamily: "Helvetica Neue",
+          fontWeight: 900,
+          fontFamily: `${inter.style.fontFamily}, Helvetica Neue, Arial, sans-serif`,
+          backgroundColor: "black",
+          borderRadius: "50%",
         }}
       >
         S
