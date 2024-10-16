@@ -16,11 +16,16 @@ export default function Home() {
         <label className="mt-8 block">Writer</label>
 
         <h2 className="flex items-center text-xl">
-          <a href="/dividends">Paying Freelancers in Equity and Dividends</a>
+          <a href="/god">God Mode</a>
           <span className="inline-flex items-center rounded-full bg-[#ff6b6b] px-1.5 py-0.5 text-xs font-medium text-white ring-1 ring-inset ring-red-600/10 uppercase ml-3 mt-0.5">
             New
           </span>
         </h2>
+
+        <h2 className="text-xl">
+          <a href="/dividends">Paying Freelancers in Equity and Dividends</a>
+        </h2>
+
         <h2 className="text-xl">
           <a
             href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397"
