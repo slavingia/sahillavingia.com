@@ -61,7 +61,7 @@ export default function Component() {
           <>
             <p className="font-semibold">
               The {activeColor === "blue" ? "blue" : "red"} shareholders now
-              holds the majority
+              hold the majority
             </p>
           </>
         ) : (
