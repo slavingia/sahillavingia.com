@@ -60,17 +60,8 @@ export default function Component() {
         {activeColor ? (
           <>
             <p className="font-semibold">
-              The {activeColor === "blue" ? "blue" : "red"} shareholder now
+              The {activeColor === "blue" ? "blue" : "red"} shareholders now
               holds the majority
-            </p>
-            <div className="flex items-center justify-center space-x-2">
-              <span className={`font-bold text-${activeColor}-500`}>51%</span>
-              <ArrowRight className="h-4 w-4" />
-              <span>Can make decisions without needing alignment</span>
-            </div>
-            <p className="italic">
-              With 51% ownership, the {activeColor} stakeholder now has full
-              control over decision-making.
             </p>
           </>
         ) : (
