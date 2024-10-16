@@ -10,10 +10,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.svg" />
       </Head>
 
-      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
-        <h2>Sahil Lavingia</h2>
-
-        <label className="mt-8 block">Writer</label>
+      <main className="py-10 px-8 mx-auto">
+        <h1>Sahil Lavingia</h1>
 
         <h2 className="flex items-center text-xl">
           <a href="/god">God Mode</a>
@@ -63,8 +61,6 @@ export default function Home() {
           <span className="ml-3 text-sm text-gray-400 font-normal">2008–</span>
         </h2>
 
-        <label className="mt-8 block">Painter</label>
-
         <a href="https://instagram.com/shlpaints">
           <div className="paintings flex flex-row space-x-4">
             <img
@@ -84,8 +80,6 @@ export default function Home() {
             />
           </div>
         </a>
-
-        <Footer />
       </main>
     </Layout>
   );

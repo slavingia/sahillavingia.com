@@ -3,8 +3,12 @@
 export default function Footer() {
   return (
     <div className="mt-8">
-      <hr className="border-t border-gray-300 my-8" />
-      <form action="https://gumroad.com/follow_from_embed_form" method="post" className="flex justify-center items-center space-x-2">
+      <hr />
+      <form
+        action="https://gumroad.com/follow_from_embed_form"
+        method="post"
+        className="flex justify-center items-center space-x-2"
+      >
         <input name="seller_id" type="hidden" value="2614450981218" />
         <input
           name="email"

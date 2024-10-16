@@ -333,8 +333,6 @@ export default function Home() {
           non-founders to do?
         </p>
 
-        <h2>Gov mode</h2>
-
         <p>
           Most people don't want to be founders, and most founders don't want to
           do it solo.
@@ -347,12 +345,6 @@ export default function Home() {
         </p>
 
         <p>So where do we go from here?</p>
-
-        <p>
-          Personally, I don't think it's the founders' job to figure that out;
-          it's the government's. Social welfare programs should continue to
-          expand as they always have in the face of more and more automation.
-        </p>
 
         <p>
           For my part, I've changed the name of Gumroad's parent company from
@@ -372,10 +364,12 @@ export default function Home() {
 
         <hr />
 
-        <p><em>
-          God mode, a general purpose term for a cheat code in video games that
-          makes a player invincible.
-        </em></p>
+        <p>
+          <em>
+            God mode, a general purpose term for a cheat code in video games
+            that makes a player invincible.
+          </em>
+        </p>
 
         <Footer />
       </main>
