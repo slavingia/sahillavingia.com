@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/dividends": "pages/dividends.js",
   "/": "pages/index.js",
-  "/border": "pages/border.js"
+  "/god": "pages/god.js"
 }
