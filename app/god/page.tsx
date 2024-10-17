@@ -82,14 +82,14 @@ export default function Home() {
       </p>
 
       <p>
-        This also means that god mode is only possible within the rare
+        (This also means that god mode is only possible within the rare
         businesses where a single person can have complete omniscience about
-        their business; companies like Gumroad and Airbnb.
+        their business; companies like Gumroad and Airbnb.)
       </p>
 
       <p>
-        Which is rare. In Hinduism, even, the universe is created, preserved,
-        and destroyed in a cycle of repeated events by three gods:
+        In Hinduism, for example, the universe is created, preserved, and
+        destroyed in a cycle of repeated events by three different gods:
       </p>
 
       <ul>
