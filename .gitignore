@@ -3,5 +3,3 @@ node_modules
 .DS_Store
 .vercel
 *.log
-*.lock
-package-lock.json

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "God Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
-    images: ["https://sahillavingia.com/god-mode.png"],
+    images: ["https://sahillavingia.com/gumroad-tasks.png"],
   },
   twitter: {
     card: "summary_large_image",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "God Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
-    images: ["https://sahillavingia.com/god-mode.png"],
+    images: ["https://sahillavingia.com/gumroad-tasks.png"],
   },
 };
 
@@ -79,7 +79,6 @@ export default function Home() {
       <p>
         Destruction is akin to invasive surgery, and similar to surgery, it's
         only possible with a god-like omniscience about the entire system.
-        Hence, god mode.
       </p>
 
       <p>
@@ -88,11 +87,9 @@ export default function Home() {
         their business; companies like Gumroad and Airbnb.)
       </p>
 
-      <p>Many things follow this cycle.</p>
-
       <p>
         In Hinduism, for example, the universe is created, preserved, and
-        destroyed in a cycle of repeated events:
+        destroyed in a cycle of repeated events by three different gods:
       </p>
 
       <ul>
@@ -114,7 +111,7 @@ export default function Home() {
         a single Godhead, with total omniscience.
       </p>
 
-      <h2>From Dead to Alive</h2>
+      <h2>Solo Founder Mode</h2>
 
       <p>
         In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
@@ -273,7 +270,7 @@ export default function Home() {
         world.
       </p>
 
-      <h2>Solo Founder Mode</h2>
+      <h2>Default Dead or Default Alive?</h2>
 
       <p>Dictators are not always benevolent.</p>
 
@@ -294,20 +291,20 @@ export default function Home() {
       <p>The company may even lose, but society eventually wins.</p>
 
       <p>
-        Perhaps Founder Mode–even when misapplied–allows one human's selfishness
-        to continue the process of creative destruction that leads to the best
-        tools for civilization at the best possible prices.
+        Perhaps founder mode, even when misapplied, allows one human's
+        selfishness to continue the process of creative destruction that leads
+        to the best tools for civilization at the best possible prices.
       </p>
 
       <p>
         (Or maybe Matt's right, and we'll all realize that several years from
-        now. He may know something none of the rest of us knows.)
+        now. He knows stuff the rest of us don't.)
       </p>
 
       <p>
         In any case, I believe that this dictatorial way of running businesses
         will get much more popular as software eats the world, AI eats software,
-        and founders use all of these advancements to scale their skill.
+        and founders use all of these advancements to scale their skills.
       </p>
 
       <p>
@@ -323,7 +320,7 @@ export default function Home() {
 
       <div className="border-4 border-gray-300 rounded-lg p-4 py-0">
         <img
-          src="/god-mode.png"
+          src="/gumroad-tasks.png"
           alt="Gumroad tasks"
           className="w-full h-auto"
         />
