@@ -121,9 +121,9 @@ export default function Home() {
       </p>
 
       <p>
-        No one else would have made the same decision–it put the entire company
-        at risk. But from my perspective, the entire company was already dead,
-        and I needed to do something aggressive to save it.
+        No one else would have made the same decision, as it put the entire
+        company at risk. But from my perspective, the entire company was already
+        dead, and I needed to do something aggressive to save it.
       </p>
 
       <p>
@@ -348,7 +348,8 @@ export default function Home() {
       <p>
         Today, humans are necessary for stellar customer service, crisis
         management, regulatory compliance and negotiations, property
-        inspections–but it won't be long until AI can do all of the above.
+        inspections, and more. But it won't be long until AI can do all of the
+        above.
       </p>
 
       <p>
@@ -369,14 +370,25 @@ export default function Home() {
 
       <p>So, where do we go from here?</p>
 
-      <p>Personally, I don’t think it's the founders' job to figure that out; it’s the government’s. Social welfare programs should continue to expand as they always have in the face of more and more automation.
+      <p>
+        Personally, I don't think it's the founders' job to figure that out;
+        it's the government's. Social welfare programs should continue to expand
+        as they always have in the face of more and more automation.
+      </p>
 
-      <p>For my part, I’ve changed the name of Gumroad’s parent company from Gumroad to Antiwork, to make it clear what my focus is: eliminating the unfun parts of work–which is almost all of it.</p>
+      <p>
+        For my part, I've changed the name of Gumroad's parent company from
+        Gumroad to Antiwork, to make it clear what my focus is: eliminating the
+        unfun parts of work, which is almost all of it.
+      </p>
 
-      <p>I’ve also started prototyping our first hardware product–something I can’t have omniscience about.</p>
+      <p>
+        I've also started prototyping our first hardware product, something I
+        can't have omniscience about.
+      </p>
 
       <p>We'll see how it goes.</p>
-        
+
       <Footer />
     </main>
   );
