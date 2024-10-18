@@ -377,9 +377,9 @@ export default function Home() {
       </p>
 
       <p>
-        For my part, I've changed the name of Gumroad's parent company from
-        Gumroad to Antiwork, to make it clear what my focus is: eliminating the
-        unfun parts of work, which is almost all of it.
+        For <em>my</em> part, I've changed the name of Gumroad's parent company
+        from Gumroad to Antiwork, to make it clear what <em>my</em> focus is:
+        eliminating the unfun parts of work, which is almost all of it.
       </p>
 
       <p>
