@@ -4,9 +4,9 @@ import Link from "next/link";
 import Power from "./Power";
 
 export const metadata: Metadata = {
-  title: "God Mode",
+  title: "GOD Mode",
   openGraph: {
-    title: "God Mode",
+    title: "GOD Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/gumroad-tasks.png"],
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@shl",
-    title: "God Mode",
+    title: "GOD Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/gumroad-tasks.png"],
@@ -31,7 +31,7 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>God Mode</h1>
+      <h1>GOD Mode</h1>
 
       <p>
         A few weeks ago, Paul Graham published{" "}
@@ -52,7 +52,7 @@ export default function Home() {
 
       <p>
         This is my attempt at proposing something more truthful by being more
-        specific: god mode.
+        specific: GOD mode.
       </p>
 
       <h2>Growth, Optimization, Destruction</h2>
@@ -80,6 +80,8 @@ export default function Home() {
         Destruction is akin to invasive surgery, and similar to surgery, it's
         only possible with a god-like omniscience about the entire system.
       </p>
+
+      <p>Hence, god mode.</p>
 
       <p>
         (This also means that god mode is only possible within the rare
@@ -119,9 +121,9 @@ export default function Home() {
       </p>
 
       <p>
-        No one else would have made the same decision–it put the entire company
-        at risk. But from my perspective, the entire company was already dead,
-        and I needed to do something aggressive to save it.
+        No one else would have made the same decision, as it put the entire
+        company at risk. But from my perspective, the entire company was already
+        dead, and I needed to do something aggressive to save it.
       </p>
 
       <p>
@@ -346,7 +348,8 @@ export default function Home() {
       <p>
         Today, humans are necessary for stellar customer service, crisis
         management, regulatory compliance and negotiations, property
-        inspections–but it won't be long until AI can do all of the above.
+        inspections, and more. But it won't be long until AI can do all of the
+        above.
       </p>
 
       <p>
@@ -366,6 +369,25 @@ export default function Home() {
       </p>
 
       <p>So, where do we go from here?</p>
+
+      <p>
+        Personally, I don't think it's the founders' job to figure that out;
+        it's the government's. Social welfare programs should continue to expand
+        as they always have in the face of more and more automation.
+      </p>
+
+      <p>
+        For <em>my</em> part, I've changed the name of Gumroad's parent company
+        from Gumroad to Antiwork, to make it clear what <em>my</em> focus is:
+        eliminating the unfun parts of work, which is almost all of it.
+      </p>
+
+      <p>
+        I've also started prototyping our first hardware product, something I
+        can't have omniscience about.
+      </p>
+
+      <p>We'll see how it goes.</p>
 
       <Footer />
     </main>
