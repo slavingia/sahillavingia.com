@@ -4,9 +4,9 @@ import Link from "next/link";
 import Power from "./Power";
 
 export const metadata: Metadata = {
-  title: "God Mode",
+  title: "GOD Mode",
   openGraph: {
-    title: "God Mode",
+    title: "GOD Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/gumroad-tasks.png"],
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@shl",
-    title: "God Mode",
+    title: "GOD Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/gumroad-tasks.png"],
@@ -31,7 +31,7 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>God Mode</h1>
+      <h1>GOD Mode</h1>
 
       <p>
         A few weeks ago, Paul Graham published{" "}
@@ -52,7 +52,7 @@ export default function Home() {
 
       <p>
         This is my attempt at proposing something more truthful by being more
-        specific: god mode.
+        specific: GOD mode.
       </p>
 
       <h2>Growth, Optimization, Destruction</h2>
@@ -80,6 +80,8 @@ export default function Home() {
         Destruction is akin to invasive surgery, and similar to surgery, it's
         only possible with a god-like omniscience about the entire system.
       </p>
+
+      <p>Hence, god mode.</p>
 
       <p>
         (This also means that god mode is only possible within the rare
@@ -367,6 +369,14 @@ export default function Home() {
 
       <p>So, where do we go from here?</p>
 
+      <p>Personally, I don’t think it's the founders' job to figure that out; it’s the government’s. Social welfare programs should continue to expand as they always have in the face of more and more automation.
+
+      <p>For my part, I’ve changed the name of Gumroad’s parent company from Gumroad to Antiwork, to make it clear what my focus is: eliminating the unfun parts of work–which is almost all of it.</p>
+
+      <p>I’ve also started prototyping our first hardware product–something I can’t have omniscience about.</p>
+
+      <p>We'll see how it goes.</p>
+        
       <Footer />
     </main>
   );
