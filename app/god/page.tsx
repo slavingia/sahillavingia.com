@@ -4,20 +4,20 @@ import Link from "next/link";
 import Power from "./Power";
 
 export const metadata: Metadata = {
-  title: "GOD Mode",
+  title: "God Mode",
   openGraph: {
-    title: "GOD Mode",
+    title: "God Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
-    images: ["https://sahillavingia.com/gumroad-tasks.png"],
+    images: ["https://sahillavingia.com/god-mode.png"],
   },
   twitter: {
     card: "summary_large_image",
     site: "@shl",
-    title: "GOD Mode",
+    title: "God Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
-    images: ["https://sahillavingia.com/gumroad-tasks.png"],
+    images: ["https://sahillavingia.com/god-mode.png"],
   },
 };
 
@@ -31,7 +31,7 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>GOD Mode</h1>
+      <h1>God Mode</h1>
 
       <p>
         A few weeks ago, Paul Graham published{" "}
