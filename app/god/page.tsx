@@ -4,9 +4,9 @@ import Link from "next/link";
 import Power from "./Power";
 
 export const metadata: Metadata = {
-  title: "God Mode",
+  title: "GOD Mode",
   openGraph: {
-    title: "God Mode",
+    title: "GOD Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/god-mode.png"],
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@shl",
-    title: "God Mode",
+    title: "GOD Mode",
     description:
       "A term for a cheat code in video games that makes a player invincible, and how it applies to startup founders.",
     images: ["https://sahillavingia.com/god-mode.png"],
@@ -31,7 +31,7 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>God Mode</h1>
+      <h1>GOD Mode</h1>
 
       <p>
         A few weeks ago, Paul Graham published{" "}
@@ -74,17 +74,17 @@ export default function Home() {
         in.
       </p>
 
-      <p>The third point of god mode defines founder mode: destruction.</p>
+      <p>The third point of GOD mode defines founder mode: destruction.</p>
 
       <p>
         Destruction is akin to invasive surgery, and similar to surgery, it's
         only possible with a god-like omniscience about the entire system.
       </p>
 
-      <p>Hence, god mode.</p>
+      <p>Hence, GOD mode.</p>
 
       <p>
-        (This also means that god mode is only possible within the rare
+        (This also means that GOD mode is only possible within the rare
         businesses where a single person can have complete omniscience about
         their business; companies like Gumroad and Airbnb.)
       </p>
