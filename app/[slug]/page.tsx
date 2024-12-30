@@ -8,12 +8,14 @@ import Power from "@/components/Power"
 import ExternalLink from "@/components/ui/ExternalLink"
 import { Metadata } from 'next'
 import Image from '@/components/ui/Image'
+import ChatMessages from '@/components/ChatMessages'
 
 const components = {
     Tweet,
     Footer,
     Power,
     Image: Image,
+    ChatMessages,
     a: ({ href, ...props }) => {
         if (href?.startsWith('http')) {
             return <ExternalLink children={undefined} href={href} {...props} />
