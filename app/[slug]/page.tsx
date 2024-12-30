@@ -9,6 +9,7 @@ import ExternalLink from "@/components/ui/ExternalLink"
 import { Metadata } from 'next'
 import Image from '@/components/ui/Image'
 import ChatMessages from '@/components/ChatMessages'
+import ScrollProgress from '@/components/ScrollProgress'
 
 const components = {
     Tweet,
@@ -65,34 +66,37 @@ export default async function Page({ params }: { params: { slug: string } }) {
         })
 
         return (
-            <main className="prose mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
-                <div className="bg-white z-50  sticky py-3 my-auto  top-0 left-0">
-                    <Link
-                        href="/"
-                        className="text-sm  text-gray-600 items-center flex hover:text-gray-900 underline block"
-                >
-                        ← Back to Home
-                    </Link>
-                </div>
-
-                {(frontMatter.date || frontMatter.author) && (
-                    <div className="text-gray-600 mt-4 mb-3">
-                        {frontMatter.date && formatDate(frontMatter.date)}
-                        {frontMatter.date && frontMatter.author && " by "}
-                        {frontMatter.author && (
-                            <Link href="/" className="hover:text-gray-900">
-                                <u>{frontMatter.author}</u>
-                            </Link>
-                        )}
+            <>
+                <ScrollProgress />
+                <main className="prose mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
+                    <div className="bg-white z-50  sticky py-3 my-auto  top-0 left-0">
+                        <Link
+                            href="/"
+                            className="text-sm  text-gray-600 items-center flex hover:text-gray-900 underline block"
+                        >
+                            ← Back to Home
+                        </Link>
                     </div>
-                )}
 
-                <div className="mb-8">
-                    <h1>{frontMatter.title}</h1>
-                </div>
+                    {(frontMatter.date || frontMatter.author) && (
+                        <div className="text-gray-600 mt-4 mb-3">
+                            {frontMatter.date && formatDate(frontMatter.date)}
+                            {frontMatter.date && frontMatter.author && " by "}
+                            {frontMatter.author && (
+                                <Link href="/" className="hover:text-gray-900">
+                                    <u>{frontMatter.author}</u>
+                                </Link>
+                            )}
+                        </div>
+                    )}
 
-                {mdxContent}
-            </main>
+                    <div className="mb-8">
+                        <h1>{frontMatter.title}</h1>
+                    </div>
+
+                    {mdxContent}
+                </main>
+            </>
         )
     } catch (e) {
         notFound()

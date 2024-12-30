@@ -3,13 +3,15 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply prose max-w-none bg-white;
-    scroll-behavior: smooth;
     overflow: -moz-scrollbars-none;
   }
 }
-
 
 body::-webkit-scrollbar {
   display: none;
