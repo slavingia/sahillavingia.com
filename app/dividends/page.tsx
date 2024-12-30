@@ -2,7 +2,7 @@ import Tweet from "../components/Tweet";
 import Footer from "../footer";
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "@/components/ui/Image";
 
 export const metadata: Metadata = {
   title: "Paying Freelancers in Equity and Dividends",
@@ -68,15 +68,10 @@ export default function Home() {
           any excess profits to grow the team and tackle the growing wall of
           technical debt.
         </p>
-        <p>
-          <Image
-            src="/dividends/metrics2019.png"
-            className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-          />
-        </p>
+        <Image
+          src="/dividends/metrics2019.png"
+          alt="Metrics 2019"
+        />
         <p>
           In January 2020, I moved to Portland, Oregon for my wife's job. Then,
           COVID happened.
@@ -88,15 +83,10 @@ export default function Home() {
           As a result, Gumroad grew faster in weeks than it had in years.
           Investors and journalists termed this trend the "creator economy."
         </p>
-        <p>
-          <Image
-            src="/dividends/metrics2020.png"
-            className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-          />
-        </p>
+        <Image
+          src="/dividends/metrics2020.png"
+          alt="Metrics 2020"
+        />
         <p>
           Raising money was tempting, but I'd been down that road before. Still,
           I felt that we could ship more product features, and let more creators
@@ -137,15 +127,10 @@ export default function Home() {
           In 2022, Gumroad lost $1M helping creators earn $185M. That wasn't
           sustainable.
         </p>
-        <p>
-          <Image
-            src="/dividends/metrics2022.png"
-            className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-          />
-        </p>
+        <Image
+          src="/dividends/metrics2022.png"
+          alt="Metrics 2022"
+        />
         <h2>Charging more</h2>
         <p>
           On January 31, 2023, we increased Gumroad's pricing to be simpler,
@@ -157,15 +142,10 @@ export default function Home() {
           spend the first decade of its life operating with an incredibly
           creator-friendly business model was over.
         </p>
-        <p>
-          <Image
-            src="/dividends/pricing2.png"
-            className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-          />
-        </p>
+        <Image
+          src="/dividends/pricing2.png"
+          alt="Pricing chart"
+        />
         <p>
           Spoiler alert: it worked. <em>Thank you</em> to the 55,000 creators
           who stuck with us!
@@ -213,18 +193,18 @@ export default function Home() {
           every year.
         </p>
 
-        <p className="flex justify-between items-center">
-          <Image src="/dividends/charter.jpeg" className="w-1/2 h-auto"
-                      width="800"
-                      draggable="false"
-                      height="800"
-                      />
-          <Image src="/dividends/intelligent.jpeg" className="w-1/2 h-auto"
-            width="800"
-            draggable="false"
-            height="800"
-                       />
-        </p>
+        <div className="flex justify-between items-center">
+          <Image
+            src="/dividends/charter.jpeg"
+            alt="Charter"
+            className="w-1/2"
+          />
+          <Image
+            src="/dividends/intelligent.jpeg"
+            alt="Intelligent Investor"
+            className="w-1/2"
+          />
+        </div>
         <p>
           (I got 60% from The Intelligent Investor, a book recommended by Warren
           Buffett and published in 1949, back when interest rates were non-zero.
@@ -330,15 +310,10 @@ export default function Home() {
           Of this, everyone chooses how much they'd like to get in stock
           options–between 0 and 80%.
         </p>
-        <p>
-          <Image
-            src="/dividends/equitybythehour.png"
-            className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-          />
-        </p>
+        <Image
+          src="/dividends/equitybythehour.png"
+          alt="Equity by the hour"
+        />
         <p>
           In practice, we issue a full year of unvested stock options at the
           beginning of each year. Options vest as invoices are approved, using
@@ -383,13 +358,10 @@ export default function Home() {
           to help.
         </p>
         <p>For 2024, the average equity split is 18.3%.</p>
-        <p>
-          <Image src="/dividends/split.png" className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-                       />
-        </p>
+        <Image
+          src="/dividends/split.png"
+          alt="Split chart"
+        />
         <p>
           The company saves money, the team owns more, the product improves, I
           work and worry less. Win-win-win-win.
@@ -418,15 +390,10 @@ export default function Home() {
           sell, just to keep shipping product(s) and issuing dividends. As long
           as the TAM supports the team, I'm happy. At least for now, it does.
         </p>
-        <p>
-          <Image
-            src="/dividends/metrics2023.png"
-            className="max-w-full my-4 mx-auto"
-            width="800"
-            draggable="false"
-            height="800"
-          />
-        </p>
+        <Image
+          src="/dividends/metrics2023.png"
+          alt="Metrics 2023"
+        />
         <Footer />
       </main>
     </>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Painting from "./components/Painting";
+import ExternalLink from "@/components/ui/ExternalLink";
 
 export default function Home() {
   return (
@@ -8,17 +9,17 @@ export default function Home() {
         <header className="mb-6 sm:mb-8 flex justify-between items-center">
           <div>
             <h1 className="text-xl sm:text-2xl font-bold">Sahil Lavingia</h1>
-            <div className="flex space-x-4 text-sm text-gray-600">
-              <a href="https://www.antiwork.com" className="no-underline">
+            <div className="flex -mt-2 space-x-2 text-sm text-gray-500">
+              <ExternalLink href="https://www.antiwork.com" className="no-underline text-gray-700">
                 Founder
-              </a>
+              </ExternalLink>
               <span>Writer</span>
               <span>Painter</span>
             </div>
           </div>
-          <a href="https://x.com/shl" className="no-underline text-2xl">
+          <ExternalLink href="https://x.com/shl" className="no-underline text-2xl">
             𝕏
-          </a>
+          </ExternalLink>
         </header>
 
         <div className="space-y-4 sm:space-y-6">
@@ -37,12 +38,12 @@ export default function Home() {
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <a
+            <ExternalLink
               href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397"
-              style={{ fontWeight: 1000 }}
+              className="font-extrabold"
             >
               The Minimalist Entrepreneur
-            </a>
+            </ExternalLink>
             <span className="ml-3 text-sm text-gray-400 font-normal">2021</span>
           </h2>
 
