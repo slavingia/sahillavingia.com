@@ -3,6 +3,7 @@
 import Link from "next/link";
 import Painting from "../components/Painting";
 import ExternalLink from "@/components/ui/ExternalLink";
+import DarkModeToggle from "@/components/ui/DarkModeToggle";
 
 export default function Home() {
   return (
@@ -19,9 +20,12 @@ export default function Home() {
               <span>Painter</span>
             </div>
           </div>
-          <a href="https://x.com/shl" target="_blank" className="no-underline text-2xl dark:text-white">
-            𝕏
-          </a>
+          <div className="flex items-center space-x-4">
+            <a href="https://x.com/shl" target="_blank" className="no-underline text-2xl dark:text-white">
+              𝕏
+            </a>
+            <DarkModeToggle />
+          </div>
         </header>
 
         <div className="space-y-4 sm:space-y-6 pt-10">

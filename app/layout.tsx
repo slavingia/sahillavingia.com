@@ -7,7 +7,7 @@ import { themeScript } from "@/lib/theme-script";
 
 function FallbackUI() {
   return (
-    <div className="min-h-screen flex items-center bg-white dark:bg-black">
+    <div className="min-h-screen flex items-center bg-white dark:bg-black py-5 sm:py-0">
       <main className="py-6 sm:py-10 px-4 sm:px-8 mx-auto max-w-4xl w-full">
         <div className="space-y-6 animate-pulse">
           {/* Header */}
@@ -79,9 +79,6 @@ export default function RootLayout({
       </head>
       <body>
         <DarkModeProvider>
-          <div className="fixed top-4 right-4 z-50">
-            <DarkModeToggle />
-          </div>
           <Suspense fallback={<FallbackUI />}>
             {children}
           </Suspense>
