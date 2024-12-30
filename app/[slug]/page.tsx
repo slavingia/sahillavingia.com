@@ -69,13 +69,13 @@ export default async function Page({ params }: { params: { slug: string } }) {
         })
 
         return (
-            <>
+            <div className="bg-white dark:bg-black min-h-screen">
                 <ScrollProgress />
-                <main className="prose mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
-                    <div className="bg-white z-50 sticky py-3 my-auto top-0 left-0">
+                <main className="prose dark:prose-invert mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
+                    <div className="bg-white dark:bg-black z-50 sticky py-3 my-auto top-0 left-0">
                         <Link
                             href="/"
-                            className="text-sm text-gray-600 items-center flex hover:text-gray-900 underline block"
+                            className="text-sm text-gray-600 dark:text-gray-400 items-center flex hover:text-gray-900 dark:hover:text-gray-100 underline block"
                             prefetch={true}
                         >
                             ← Back to Home
@@ -107,7 +107,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
                         {mdxContent}
                     </Suspense>
                 </main>
-            </>
+            </div>
         )
     } catch (e) {
         notFound()

@@ -5,14 +5,49 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    @apply bg-white dark:bg-black;
   }
 
   body {
-    @apply prose max-w-none bg-white;
+    @apply bg-white dark:bg-black text-gray-900 dark:text-white transition-colors duration-200;
     overflow: -moz-scrollbars-none;
+  }
+
+  a {
+    @apply text-gray-900 dark:text-white hover:text-gray-700 dark:hover:text-gray-300;
   }
 }
 
 body::-webkit-scrollbar {
   display: none;
+}
+
+/* Dark mode prose styles */
+.dark .prose {
+  --tw-prose-body: theme('colors.gray.300');
+  --tw-prose-headings: theme('colors.gray.100');
+  --tw-prose-lead: theme('colors.gray.300');
+  --tw-prose-links: theme('colors.gray.100');
+  --tw-prose-bold: theme('colors.gray.100');
+  --tw-prose-counters: theme('colors.gray.400');
+  --tw-prose-bullets: theme('colors.gray.400');
+  --tw-prose-hr: theme('colors.gray.800');
+  --tw-prose-quotes: theme('colors.gray.300');
+  --tw-prose-quote-borders: theme('colors.gray.800');
+  --tw-prose-captions: theme('colors.gray.400');
+  --tw-prose-code: theme('colors.gray.100');
+  --tw-prose-pre-code: theme('colors.gray.300');
+  --tw-prose-pre-bg: theme('colors.gray.900');
+  --tw-prose-th-borders: theme('colors.gray.800');
+  --tw-prose-td-borders: theme('colors.gray.800');
+}
+
+.prose p {
+  @apply text-gray-800 dark:text-neutral-300;
+}
+
+.prose h1,
+.prose h2,
+.prose h3 {
+  @apply text-gray-900 dark:text-gray-100;
 }

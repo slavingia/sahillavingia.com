@@ -12,7 +12,7 @@ export default function ExternalLink({ href, children, className = "" }: Externa
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-flex items-center gap-1 ${className}`}
+            className={`inline-flex items-center gap-1 hover:text-gray-700 dark:hover:text-gray-300 ${className}`}
         >
             {children}
             <ArrowUpRight className="w-3 h-3" />

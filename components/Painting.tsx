@@ -52,7 +52,7 @@ export default function Painting({ src, alt }: PaintingProps) {
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      style={{ height: "320px" }}
+      style={{ height: "300px" }}
     >
       <Image
         src={src}

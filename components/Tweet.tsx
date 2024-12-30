@@ -2,122 +2,118 @@
 
 import { useEffect, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useDarkMode } from '@/lib/DarkModeContext';
 
 interface TweetProps {
   id: string;
 }
 
-const TweetSkeleton = () => (
-  <motion.div
-    initial={{ opacity: 0.6 }}
-    animate={{ opacity: [0.6, 0.8, 0.6] }}
-    exit={{ opacity: 0 }}
-    transition={{
-      duration: 1.5,
-      repeat: Infinity,
-      ease: "easeInOut"
-    }}
-    className="tweet-skeleton"
-    style={{
-      width: '550px',
-      padding: '1rem',
-      background: 'white',
-      borderRadius: '16px',
-      border: '1px solid rgb(207, 217, 222)',
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '0.75rem',
-      position: 'absolute',
-      zIndex: 10,
-      left: '50%',
-      top: '50%',
-      transform: 'translate(-50%, -50%)'
-    }}
-  >
-    {/* Header */}
-    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-      <motion.div
-        style={{
-          width: '48px',
-          height: '48px',
-          borderRadius: '50%',
-          background: '#f7f7f7'
-        }}
-      />
-      <div style={{ flex: 1 }}>
+const TweetSkeleton = () => {
+  const { isDarkMode } = useDarkMode();
+  const bgColor = isDarkMode ? '#000000' : 'white';
+  const borderColor = isDarkMode ? '#262626' : 'rgb(207, 217, 222)';
+  const skeletonBg = isDarkMode ? '#0a0a0a' : '#f7f7f7';
+
+  return (
+    <motion.div
+      initial={{ opacity: 0.6 }}
+      animate={{ opacity: [0.6, 0.8, 0.6] }}
+      exit={{ opacity: 0 }}
+      transition={{
+        duration: 1.5,
+        repeat: Infinity,
+        ease: "easeInOut"
+      }}
+      className="tweet-skeleton"
+      style={{
+        width: '550px',
+        padding: '1rem',
+        background: bgColor,
+        borderRadius: '16px',
+        border: `1px solid ${borderColor}`,
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '0.75rem',
+        position: 'absolute',
+        zIndex: 10,
+        left: '50%',
+        top: '50%',
+        transform: 'translate(-50%, -50%)'
+      }}
+    >
+      {/* Header */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
         <motion.div
           style={{
-            height: '14px',
-            width: '140px',
-            background: '#f7f7f7',
-            borderRadius: '4px',
-            marginBottom: '4px'
+            width: '48px',
+            height: '48px',
+            borderRadius: '50%',
+            background: skeletonBg
           }}
         />
-        <motion.div
-          style={{
-            height: '14px',
-            width: '90px',
-            background: '#f7f7f7',
-            borderRadius: '4px'
-          }}
-        />
+        <div style={{ flex: 1 }}>
+          <motion.div
+            style={{
+              height: '14px',
+              width: '140px',
+              background: skeletonBg,
+              borderRadius: '4px',
+              marginBottom: '4px'
+            }}
+          />
+          <motion.div
+            style={{
+              height: '14px',
+              width: '90px',
+              background: skeletonBg,
+              borderRadius: '4px'
+            }}
+          />
+        </div>
       </div>
-    </div>
 
-    {/* Content */}
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
-      <motion.div
-        style={{
-          height: '14px',
-          width: '100%',
-          background: '#f7f7f7',
-          borderRadius: '4px'
-        }}
-      />
-      <motion.div
-        style={{
-          height: '14px',
-          width: '90%',
-          background: '#f7f7f7',
-          borderRadius: '4px'
-        }}
-      />
-      <motion.div
-        style={{
-          height: '14px',
-          width: '95%',
-          background: '#f7f7f7',
-          borderRadius: '4px'
-        }}
-      />
-    </div>
+      {/* Content */}
+      <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+        {[...Array(3)].map((_, i) => (
+          <motion.div
+            key={i}
+            style={{
+              height: '14px',
+              width: i === 1 ? '90%' : i === 2 ? '95%' : '100%',
+              background: skeletonBg,
+              borderRadius: '4px'
+            }}
+          />
+        ))}
+      </div>
 
-    {/* Footer */}
-    <div style={{
-      display: 'flex',
-      justifyContent: 'space-between',
-      marginTop: '0.5rem',
-      paddingTop: '0.75rem',
-      borderTop: '1px solid #f7f7f7'
-    }}>
-      {[...Array(4)].map((_, i) => (
-        <motion.div
-          key={i}
-          style={{
-            height: '14px',
-            width: '40px',
-            background: '#f7f7f7',
-            borderRadius: '4px'
-          }}
-        />
-      ))}
-    </div>
-  </motion.div>
-);
+      {/* Footer */}
+      <div style={{
+        display: 'flex',
+        justifyContent: 'space-between',
+        marginTop: '0.5rem',
+        paddingTop: '0.75rem',
+        borderTop: `1px solid ${skeletonBg}`
+      }}>
+        {[...Array(4)].map((_, i) => (
+          <motion.div
+            key={i}
+            style={{
+              height: '14px',
+              width: '40px',
+              background: skeletonBg,
+              borderRadius: '4px'
+            }}
+          />
+        ))}
+      </div>
+    </motion.div>
+  );
+};
 
 export default function Tweet({ id }: TweetProps) {
   const [isLoading, setIsLoading] = useState(true);
+  const { isDarkMode } = useDarkMode();
 
   useEffect(() => {
     const script = document.createElement('script');
@@ -174,7 +170,7 @@ export default function Tweet({ id }: TweetProps) {
       <blockquote
         className="twitter-tweet"
         data-dnt="true"
-        data-theme="light"
+        data-theme={isDarkMode ? "dark" : "light"}
         data-align="center"
       >
         <a href={`https://twitter.com/x/status/${id}`}></a>
