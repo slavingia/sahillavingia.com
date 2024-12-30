@@ -82,12 +82,12 @@ export default function Home() {
 
         <a href="https://instagram.com/shlpaints" className="mt-8 block">
           <div className="paintings grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Painting src="/paintings/painting.jpeg" alt="Digital painting of train station, 2019" />
-            <Painting src="/paintings/rocks.png" alt="Oil painting of rocks, 2017" />
-            <Painting src="/paintings/bhosle.jpeg" alt="Oil painting of woman, 2019" />
-            <Painting src="/paintings/shamisen.png" alt="Oil painting of woman, 2019" />
-            <Painting src="/paintings/head.png" alt="Oil painting of woman, 2019" />
-            <Painting src="/paintings/four.png" alt="Oil painting of woman, 2019" />
+            <Painting src="/paintings/painting.webp" alt="Digital painting of train station, 2019" />
+            <Painting src="/paintings/rocks.webp" alt="Oil painting of rocks, 2017" />
+            <Painting src="/paintings/bhosle.webp" alt="Oil painting of woman, 2019" />
+            <Painting src="/paintings/shamisen.webp" alt="Oil painting of woman, 2019" />
+            <Painting src="/paintings/head.webp" alt="Oil painting of woman, 2019" />
+            <Painting src="/paintings/four.webp" alt="Oil painting of woman, 2019" />
           </div>
         </a>
       </main>
