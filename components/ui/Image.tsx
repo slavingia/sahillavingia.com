@@ -17,6 +17,7 @@ interface ImageProps {
 export default function Image({ src, alt, className, tooltip, invertInDark = false }: ImageProps) {
     const [isZoomed, setIsZoomed] = useState(false)
     const [isHovering, setIsHovering] = useState(false)
+    const [isLoading, setIsLoading] = useState(true)
     const { isDarkMode } = useDarkMode()
 
     const shouldInvert = isDarkMode && invertInDark
@@ -37,18 +38,28 @@ export default function Image({ src, alt, className, tooltip, invertInDark = fal
                     {tooltip}
                 </div>
             )}
-            <NextImage
-                src={src}
-                alt={alt}
-                width={1200}
-                height={630}
-                className={cn(
-                    "w-full h-auto transition-all cursor-zoom-in",
-                    shouldInvert && "filter invert hue-rotate-180",
-                    className
+
+            <div className="relative">
+                {isLoading && (
+                    <div className="absolute inset-0 animate-pulse bg-gray-200 dark:bg-neutral-800 rounded-lg" />
                 )}
-                onClick={() => setIsZoomed(true)}
-            />
+                <NextImage
+                    src={src}
+                    alt={alt}
+                    width={1200}
+                    height={630}
+                    draggable={false}
+                    className={cn(
+                        "w-full h-auto transition-all cursor-zoom-in rounded-lg",
+                        shouldInvert && "filter invert hue-rotate-180",
+                        isLoading ? "opacity-0" : "opacity-100",
+                        className
+                    )}
+                    onClick={() => setIsZoomed(true)}
+                    onLoad={() => setIsLoading(false)}
+                    priority={true}
+                />
+            </div>
 
             <AnimatePresence>
                 {isZoomed && (
