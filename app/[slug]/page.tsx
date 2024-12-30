@@ -66,15 +66,17 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
         return (
             <main className="prose mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
-                <Link
-                    href="/"
-                    className="text-sm text-gray-600 hover:text-gray-900 no-underline mb-6 block"
+                <div className="bg-white z-50  sticky py-3 my-auto  top-0 left-0">
+                    <Link
+                        href="/"
+                        className="text-sm  text-gray-600 items-center flex hover:text-gray-900 underline block"
                 >
-                    ← Back to Home
-                </Link>
+                        ← Back to Home
+                    </Link>
+                </div>
 
                 {(frontMatter.date || frontMatter.author) && (
-                    <div className="text-gray-600 mb-3">
+                    <div className="text-gray-600 mt-4 mb-3">
                         {frontMatter.date && formatDate(frontMatter.date)}
                         {frontMatter.date && frontMatter.author && " by "}
                         {frontMatter.author && (
