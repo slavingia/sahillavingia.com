@@ -1,7 +1,8 @@
-import { Tweet } from "react-tweet";
+import Tweet from "../components/Tweet";
 import Footer from "../footer";
 import { Metadata } from "next";
 import Link from "next/link";
+import Image from 'next/image'
 
 export const metadata: Metadata = {
   title: "Paying Freelancers in Equity and Dividends",
@@ -68,9 +69,12 @@ export default function Home() {
           technical debt.
         </p>
         <p>
-          <img
+          <Image
             src="/dividends/metrics2019.png"
             className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
           />
         </p>
         <p>
@@ -85,9 +89,12 @@ export default function Home() {
           Investors and journalists termed this trend the "creator economy."
         </p>
         <p>
-          <img
+          <Image
             src="/dividends/metrics2020.png"
             className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
           />
         </p>
         <p>
@@ -131,9 +138,12 @@ export default function Home() {
           sustainable.
         </p>
         <p>
-          <img
+          <Image
             src="/dividends/metrics2022.png"
             className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
           />
         </p>
         <h2>Charging more</h2>
@@ -148,9 +158,12 @@ export default function Home() {
           creator-friendly business model was over.
         </p>
         <p>
-          <img
+          <Image
             src="/dividends/pricing2.png"
             className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
           />
         </p>
         <p>
@@ -201,8 +214,16 @@ export default function Home() {
         </p>
 
         <p className="flex justify-between items-center">
-          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto" />
-          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto" />
+          <Image src="/dividends/charter.jpeg" className="w-1/2 h-auto"
+                      width="800"
+                      draggable="false"
+                      height="800"
+                      />
+          <Image src="/dividends/intelligent.jpeg" className="w-1/2 h-auto"
+            width="800"
+            draggable="false"
+            height="800"
+                       />
         </p>
         <p>
           (I got 60% from The Intelligent Investor, a book recommended by Warren
@@ -310,9 +331,12 @@ export default function Home() {
           options–between 0 and 80%.
         </p>
         <p>
-          <img
+          <Image
             src="/dividends/equitybythehour.png"
             className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
           />
         </p>
         <p>
@@ -360,7 +384,11 @@ export default function Home() {
         </p>
         <p>For 2024, the average equity split is 18.3%.</p>
         <p>
-          <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
+          <Image src="/dividends/split.png" className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
+                       />
         </p>
         <p>
           The company saves money, the team owns more, the product improves, I
@@ -391,9 +419,12 @@ export default function Home() {
           as the TAM supports the team, I'm happy. At least for now, it does.
         </p>
         <p>
-          <img
+          <Image
             src="/dividends/metrics2023.png"
             className="max-w-full my-4 mx-auto"
+            width="800"
+            draggable="false"
+            height="800"
           />
         </p>
         <Footer />
