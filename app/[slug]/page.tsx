@@ -11,6 +11,7 @@ import Image from '@/components/ui/Image'
 import ChatMessages from '@/components/ChatMessages'
 import ScrollProgress from '@/components/ScrollProgress'
 import { Suspense } from 'react'
+import DarkModeToggle from "@/components/ui/DarkModeToggle"
 
 const components = {
     Tweet,
@@ -71,6 +72,9 @@ export default async function Page({ params }: { params: { slug: string } }) {
         return (
             <div className="bg-white dark:bg-black min-h-screen mx-2 sm:mx-1">
                 <ScrollProgress />
+                <div className="fixed top-6 right-4 z-50">
+                    <DarkModeToggle />
+                </div>
                 <main className="prose dark:prose-invert mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
                     <div className="bg-white dark:bg-black z-50 sticky py-3 my-auto top-0 left-0">
                         <Link
