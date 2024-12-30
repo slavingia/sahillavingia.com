@@ -25,6 +25,14 @@ jobs:
       - name: Format
         run: npx prettier --write "**/*.{js,jsx,ts,tsx,md,mdx,json,yaml,yml}"
         
+      - name: Commit formatting changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git diff --quiet && git diff --staged --quiet || git commit -m "style: format code with prettier"
+          git push
+        
       - name: Build project
         run: |
           npm run build
