@@ -3,15 +3,15 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sahil Lavingia",
-  description: "Sahil Lavingia is a writer, painter, and founder.",
+  description: "A writer, painter, and founder.",
   openGraph: {
     title: "Sahil Lavingia",
-    description: "Sahil Lavingia is a writer, painter, and founder.",
+    description: "A writer, painter, and founder.",
     images: ["https://sahillavingia.com/og.png"],
   },
   twitter: {
     title: "Sahil Lavingia",
-    description: "Sahil Lavingia is a writer, painter, and founder.",
+    description: "A writer, painter, and founder.",
     images: ["https://sahillavingia.com/og.png"],
   },
   icons: {
