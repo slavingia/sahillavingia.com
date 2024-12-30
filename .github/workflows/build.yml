@@ -17,22 +17,39 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
+      
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+          
+      - name: Get pnpm store directory
+        shell: bash
+        run: |
+          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Setup pnpm cache
+        uses: actions/cache@v3
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: |
+            ${{ runner.os }}-pnpm-store-
           
       - name: Install dependencies
-        run: npm i
+        run: pnpm i
         
       - name: Format
         run: npx prettier --write "**/*.{js,jsx,ts,tsx,md,mdx,json,yaml,yml}"
         
       - name: Commit formatting changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add -A
-          git diff --quiet && git diff --staged --quiet || git commit -m "style: format code with prettier"
+          git config --global user.name "zerops-gh"
+          git config --global user.email "zerops.gh@gmail.com"
+          git add .
+          git commit -m "Format code with prettier ✨"
           git push
         
       - name: Build project
         run: |
-          npm run build
+          pnpm run build
