@@ -6,10 +6,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: '**', // Replace with your actual image domain(s)
+        hostname: 'sahillavingia.com',
       },
     ],
+    unoptimized: false,
   },
+  swcMinify: true,
 }
 
 module.exports = nextConfig
