@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply prose max-w-none;
+    @apply prose max-w-none bg-white;
   }
 }
