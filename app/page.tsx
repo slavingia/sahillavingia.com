@@ -17,9 +17,9 @@ export default function Home() {
               <span>Painter</span>
             </div>
           </div>
-          <ExternalLink href="https://x.com/shl" className="no-underline text-2xl">
+          <a href="https://x.com/shl" target="_blank" className="no-underline text-2xl">
             𝕏
-          </ExternalLink>
+          </a>
         </header>
 
         <div className="space-y-4 sm:space-y-6">
@@ -40,7 +40,7 @@ export default function Home() {
           <h2 className="text-lg sm:text-xl">
             <ExternalLink
               href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397"
-              className="font-extrabold"
+              className="font-bold"
             >
               The Minimalist Entrepreneur
             </ExternalLink>

@@ -1,4 +1,4 @@
-import { getPostBySlug } from '@/lib/utils'
+import { getPostBySlug } from '@/lib/mdx.server'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
@@ -61,26 +61,16 @@ export default async function Page({ params }: { params: { slug: string } }) {
         })
 
         return (
-            <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+            <main className="prose mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
                 <Link
                     href="/"
-                    className="text-sm text-gray-600 hover:text-gray-900 no-underline mb-8 block"
+                    className="text-sm text-gray-600 hover:text-gray-900 no-underline mb-6 block"
                 >
                     ← Back to Home
                 </Link>
 
-                {frontMatter.image && (
-                    <div className="w-full h-[600px] bg-blue-900 bg-opacity-50 relative overflow-hidden mb-8">
-                        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900 opacity-50"></div>
-                        <div
-                            className="absolute inset-0 bg-cover bg-center"
-                            style={{ backgroundImage: `url('${frontMatter.image}')` }}
-                        ></div>
-                    </div>
-                )}
-
                 {(frontMatter.date || frontMatter.author) && (
-                    <div className="text-gray-600 mb-8">
+                    <div className="text-gray-600 mb-3">
                         {frontMatter.date && formatDate(frontMatter.date)}
                         {frontMatter.date && frontMatter.author && " by "}
                         {frontMatter.author && (
