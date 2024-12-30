@@ -75,7 +75,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
                     <div className="bg-white dark:bg-black z-50 sticky py-3 my-auto top-0 left-0">
                         <Link
                             href="/"
-                            className="text-sm text-gray-600 dark:text-gray-400 items-center flex hover:text-gray-900 dark:hover:text-gray-100 underline block"
+                            className="text-sm text-gray-600 dark:text-neutral-300 items-center flex hover:text-gray-900 dark:hover:text-neutral-200 underline block"
                             prefetch={true}
                         >
                             ← Back to Home
@@ -84,7 +84,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
                     <Suspense fallback={<div className="animate-pulse h-4 bg-gray-200 rounded w-1/4"></div>}>
                         {(frontMatter.date || frontMatter.author) && (
-                            <div className="text-gray-600 mt-4 mb-3">
+                            <div className="text-gray-600 dark:text-neutral-400 mt-4 mb-3">
                                 {frontMatter.date && formatDate(frontMatter.date)}
                                 {frontMatter.date && frontMatter.author && " by "}
                                 {frontMatter.author && (

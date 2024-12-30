@@ -17,7 +17,7 @@ export default function Component() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white dark:bg-neutral-950 p-8 border-4 border-gray-300 dark:border-neutral-800 rounded-lg my-8">
+    <div className="flex flex-col items-center justify-center bg-white dark:bg-neutral-950 p-8 border-2 border-gray-300 dark:border-neutral-800 rounded-md my-8">
       <h1 className="text-2xl font-bold mb-6 text-center text-gray-900 dark:text-neutral-300">
         Who Has the Power in a {activeColor ? "51-49" : "49-49-2"} Split?
       </h1>

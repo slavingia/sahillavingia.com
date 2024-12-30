@@ -82,7 +82,7 @@ export default function Image({ src, alt, className, tooltip, invertInDark = fal
                                 width={1920}
                                 height={1080}
                                 className={cn(
-                                    "w-full h-auto object-contain",
+                                    "w-full h-auto object-contain rounded-lg",
                                     shouldInvert && "filter invert hue-rotate-180"
                                 )}
                                 quality={100}
