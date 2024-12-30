@@ -69,7 +69,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
         })
 
         return (
-            <div className="bg-white dark:bg-black min-h-screen mx-2 sm:mx-1 my-2 sm:my-0">
+            <div className="bg-white dark:bg-black min-h-screen mx-2 sm:mx-1">
                 <ScrollProgress />
                 <main className="prose dark:prose-invert mx-auto py-5 sm:py-24 flex-1 w-full max-w-3xl relative z-10">
                     <div className="bg-white dark:bg-black z-50 sticky py-3 my-auto top-0 left-0">
