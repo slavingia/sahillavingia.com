@@ -51,3 +51,13 @@ body::-webkit-scrollbar {
 .prose h3 {
   @apply text-gray-900 dark:text-gray-100;
 }
+
+/* Remove default box styles */
+.prose img {
+  @apply m-0 border-none shadow-none box-border;
+}
+
+/* Remove any default margins/borders from image container */
+.prose .image-container {
+  @apply m-0 border-none;
+}

@@ -1,33 +1,29 @@
 "use client";
 
-import NextImage from "next/image";
-import { cn } from "@/lib/utils";
-import { useState } from "react";
-import { useDarkMode } from "@/lib/DarkModeContext";
+import { useState } from 'react'
+import NextImage from 'next/image'
+import { motion, AnimatePresence } from 'framer-motion'
+import { useDarkMode } from "@/lib/DarkModeContext"
+import { cn } from "@/lib/utils"
 
 interface ImageProps {
-    src: string;
-    alt: string;
-    className?: string;
-    tooltip?: string;
-    invertInDark?: boolean;
+    src: string
+    alt: string
+    className?: string
+    tooltip?: string
+    invertInDark?: boolean
 }
 
-export default function Image({
-    src,
-    alt,
-    className,
-    tooltip,
-    invertInDark = false
-}: ImageProps) {
-    const [isHovering, setIsHovering] = useState(false);
-    const { isDarkMode } = useDarkMode();
+export default function Image({ src, alt, className, tooltip, invertInDark = false }: ImageProps) {
+    const [isZoomed, setIsZoomed] = useState(false)
+    const [isHovering, setIsHovering] = useState(false)
+    const { isDarkMode } = useDarkMode()
 
-    const shouldInvert = isDarkMode && invertInDark;
+    const shouldInvert = isDarkMode && invertInDark
 
     return (
         <div
-            className="w-[95%] mx-auto relative"
+            className="w-full relative"
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
         >
@@ -44,15 +40,47 @@ export default function Image({
             <NextImage
                 src={src}
                 alt={alt}
-                width={800}
-                height={800}
+                width={1200}
+                height={630}
                 className={cn(
-                    "w-full h-auto transition-all",
+                    "w-full h-auto transition-all cursor-zoom-in",
                     shouldInvert && "filter invert hue-rotate-180",
                     className
                 )}
-                draggable={false}
+                onClick={() => setIsZoomed(true)}
             />
+
+            <AnimatePresence>
+                {isZoomed && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        onClick={() => setIsZoomed(false)}
+                        className="fixed inset-0 bg-black/90 z-50 cursor-zoom-out flex items-center justify-center p-4 md:p-8"
+                    >
+                        <motion.div
+                            initial={{ scale: 0.8 }}
+                            animate={{ scale: 1 }}
+                            exit={{ scale: 0.8 }}
+                            className="relative w-full max-w-7xl"
+                        >
+                            <NextImage
+                                src={src}
+                                alt={alt}
+                                width={1920}
+                                height={1080}
+                                className={cn(
+                                    "w-full h-auto object-contain",
+                                    shouldInvert && "filter invert hue-rotate-180"
+                                )}
+                                quality={100}
+                                priority={true}
+                            />
+                        </motion.div>
+                    </motion.div>
+                )}
+            </AnimatePresence>
         </div>
-    );
+    )
 } 
