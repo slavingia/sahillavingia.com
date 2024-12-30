@@ -8,16 +8,16 @@ export default function Footer() {
         className="flex justify-center items-center"
       >
         <input name="seller_id" type="hidden" value="2614450981218" />
-        <div className="relative flex items-center">
+        <div className="relative flex items-center border border-gray-200 rounded-full">
           <input
             name="email"
             type="email"
             placeholder="Email address"
-            className="px-4 py-2 pr-24 rounded-full focus:outline-none focus:ring-2 focus:ring-black focus:border-transparent focus:ring-offset-4"
+            className="px-4 py-2 pr-24 rounded-full focus:outline-none "
           />
           <button
             type="submit"
-            className="absolute right-0 px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-black focus:ring-offset-4"
+            className="absolute right-0 px-4 py-2 bg-black text-white rounded-full hover:bg-gray-800 focus:outline-none"
             title="Mostly to invites to future Gumroad public quarterly board meetings"
           >
             Subscribe

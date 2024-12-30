@@ -1,4 +1,4 @@
-import { Tweet } from "react-tweet";
+import Tweet from "@/components/Tweet";
 import { Metadata } from "next";
 import Link from "next/link";
 

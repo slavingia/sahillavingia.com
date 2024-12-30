@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Painting from "./components/Painting";
+import Painting from "../components/Painting";
 import ExternalLink from "@/components/ui/ExternalLink";
 
 export default function Home() {

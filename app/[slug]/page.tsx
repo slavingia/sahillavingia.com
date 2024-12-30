@@ -2,7 +2,7 @@ import { getPostBySlug } from '@/lib/mdx.server'
 import { compileMDX } from 'next-mdx-remote/rsc'
 import { notFound } from 'next/navigation'
 import Link from 'next/link'
-import Tweet from '@/app/components/Tweet'
+import Tweet from '@/components/Tweet'
 import Footer from "@/app/footer"
 import Power from "@/components/Power"
 import ExternalLink from "@/components/ui/ExternalLink"
@@ -16,7 +16,7 @@ const components = {
     Image: Image,
     a: ({ href, ...props }) => {
         if (href?.startsWith('http')) {
-            return <ExternalLink href={href} {...props} />
+            return <ExternalLink children={undefined} href={href} {...props} />
         }
         return <Link href={href || '/'} {...props} />
     }
