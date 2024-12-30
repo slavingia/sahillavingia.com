@@ -7,11 +7,13 @@ import Footer from "@/app/footer"
 import Power from "@/components/Power"
 import ExternalLink from "@/components/ui/ExternalLink"
 import { Metadata } from 'next'
+import MDXImage from '@/app/components/MDXImage'
 
 const components = {
     Tweet,
     Footer,
     Power,
+    Image: MDXImage,
     a: ({ href, ...props }) => {
         if (href?.startsWith('http')) {
             return <ExternalLink href={href} {...props} />

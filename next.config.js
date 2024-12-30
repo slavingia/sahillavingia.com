@@ -2,7 +2,14 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['react-tweet']
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**', // Replace with your actual image domain(s)
+      },
+    ],
+  },
 }
 
 module.exports = nextConfig

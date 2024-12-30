@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Image from "next/image";
 
 interface PaintingProps {
   src: string;
@@ -53,10 +54,12 @@ export default function Painting({ src, alt }: PaintingProps) {
       onMouseLeave={handleMouseLeave}
       style={{ height: "320px" }}
     >
-      <img
+      <Image
         src={src}
-        className="painting w-full h-full object-cover transition-transform duration-300 origin-center absolute"
         alt={alt}
+        fill
+        className="painting object-cover transition-transform duration-300 origin-center"
+        priority={false}
         style={{
           transform: isZoomed
             ? `translate(${mousePosition.x}px, ${mousePosition.y}px) scale(3)`

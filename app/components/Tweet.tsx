@@ -20,8 +20,13 @@ export default function Tweet({ id }: TweetProps) {
   }, []);
 
   return (
-    <div className="flex justify-center my-4">
-      <blockquote className="twitter-tweet">
+    <div style={{ width: '100%', display: 'flex', justifyContent: 'center', marginTop: '2.5rem', marginBottom: '2.5rem' }}>
+      <blockquote
+        className="twitter-tweet"
+        data-dnt="true"
+        data-theme="light"
+        data-align="center"
+      >
         <a href={`https://twitter.com/x/status/${id}`}></a>
       </blockquote>
     </div>
