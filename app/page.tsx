@@ -10,7 +10,7 @@ export default function Home() {
         <header className="mb-6 sm:mb-8 flex justify-between items-center">
           <div>
             <h1 className="text-xl sm:text-2xl font-bold text-gray-900 dark:text-white">Sahil Lavingia</h1>
-            <div className="flex space-x-4 text-sm text-gray-600 dark:text-gray-400">
+            <div className="flex space-x-4 pt-5 text-sm text-gray-600 dark:text-gray-400">
               <a href="https://www.antiwork.com" className="no-underline text-gray-700 dark:text-gray-300">
                 Founder
               </a>
@@ -23,7 +23,7 @@ export default function Home() {
           </a>
         </header>
 
-        <div className="space-y-4 sm:space-y-6">
+        <div className="space-y-4 sm:space-y-6 pt-3">
           <h2 className="flex items-center text-lg sm:text-xl">
             <Link href="/god" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">God Mode</Link>
             <span className="inline-flex items-center rounded-full bg-[#ff6b6b] dark:bg-neutral-600 px-1.5 py-0.5 text-xs font-medium text-white ring-1 ring-inset ring-red-600/10 uppercase ml-3 mt-0.5">
