@@ -2,7 +2,16 @@
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['react-tweet']
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'sahillavingia.com',
+      },
+    ],
+    unoptimized: false,
+  },
+  swcMinify: true,
 }
 
 module.exports = nextConfig
