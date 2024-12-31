@@ -25,14 +25,14 @@ export default function Home() {
 
         <div className="space-y-4 sm:space-y-6">
           <h2 className="flex items-center text-lg sm:text-xl">
-            <Link href="/god" className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">God Mode</Link>
+            <Link href="/god" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">God Mode</Link>
             <span className="inline-flex items-center rounded-full bg-[#ff6b6b] dark:bg-neutral-600 px-1.5 py-0.5 text-xs font-medium text-white ring-1 ring-inset ring-red-600/10 uppercase ml-3 mt-0.5">
               New
             </span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/dividends" className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">
+            <Link href="/dividends" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">
               Paying Freelancers in Equity and Dividends
             </Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-gray-500 font-normal">2024</span>
@@ -41,7 +41,7 @@ export default function Home() {
           <h2 className="text-lg sm:text-xl">
             <a
               href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397"
-              className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100"
+              className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100"
               style={{ fontWeight: 1000 }}
             >
               The Minimalist Entrepreneur
@@ -50,26 +50,26 @@ export default function Home() {
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/work" className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">
+            <Link href="/work" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">
               No Meetings, No Deadlines, No Full-Time Employees
             </Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-gray-500 font-normal">2021</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/reflecting" className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">
+            <Link href="/reflecting" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">
               Reflecting on My Failure to Build a Billion-Dollar Company
             </Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-gray-500 font-normal">2019</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/border" className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">Across the Border</Link>
+            <Link href="/border" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">Across the Border</Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-gray-500 font-normal">2018</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/bubble" className="text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">From Bubble to Bubble</Link>
+            <Link href="/bubble" className="underline text-gray-900 dark:text-neutral-200 hover:text-gray-700 dark:hover:text-neutral-100">From Bubble to Bubble</Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-gray-500 font-normal">2018</span>
           </h2>
         </div>
