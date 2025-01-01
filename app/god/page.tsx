@@ -54,7 +54,7 @@ export default function Home() {
          This is my attempt at proposing something more truthful by being more
          specific: GOD mode.
        </p>
-
+       
       <h2>Growth, Optimization, Destruction</h2>
 
       <p>Every startup focuses on growth at its outset.</p>
