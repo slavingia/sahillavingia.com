@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+      <main className="prose dark:prose-invert dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8 dark:text-neutral-300">
           May 20, 2024 by{" "}
           <Link href="/" className="dark:text-neutral-100">
@@ -34,8 +34,7 @@ export default function Home() {
           </Link>
         </label>
 
-        <h1 className="title">Paying Freelancers in Equity and Dividends</h1>
-        <div className="content">
+        <h1>Paying Freelancers in Equity and Dividends</h1>
         <p>
           Since the beginning of 2024, Gumroad has raised $268,988 from our
           global team of hourly freelancers, at the same $100M valuation we used
@@ -402,7 +401,6 @@ export default function Home() {
             className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
-        </div>
         <Footer />
       </main>
     </>

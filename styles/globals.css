@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply prose max-w-none dark:bg-black;
+    @apply prose dark:prose-invert dark:prose-invert max-w-none dark:bg-black;
   }
 
   a {
@@ -14,20 +14,4 @@
   .Link {
     @apply dark:text-neutral-100;  
   }
-}
-
-.title {
-  @apply dark:text-white;
-}
-
-.content {
-  @apply dark:text-neutral-200;
-}
-
-.link {
-  @apply dark:text-neutral-100;
-}
-
-.headingTwo {
-  @apply dark:text-neutral-50;
 }

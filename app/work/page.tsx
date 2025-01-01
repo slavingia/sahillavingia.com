@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8 dark:text-neutral-300">
         Jan 7, 2021 by{" "}
         <Link href="/" className="dark:text-neutral-100">
@@ -29,9 +29,8 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1 className="title">No Meetings, No Deadlines, No Full-Time Employees</h1>
+      <h1>No Meetings, No Deadlines, No Full-Time Employees</h1>
 
-      <div className="content">
       <p>
         I started Gumroad in 2011. In 2015, we reached a peak of 23 full-time
         employees. In 2016, after <Link className="link" href="/reflecting">failing</Link> to raise
@@ -434,7 +433,6 @@ export default function Home() {
         to see them unfold. There are a lot of different ways to make work
         work. Ours is just one.
       </p>
-      </div>
       <Footer />
     </main>
   );

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8 dark:text-neutral-300">
         Feb 7, 2019 by{" "}
         <Link href="/" className="dark:text-neutral-100">
@@ -32,8 +32,8 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1 className="title">Reflecting on My Failure to Build a Billion-Dollar Company</h1>
-      <div className="content">
+      <h1>Reflecting on My Failure to Build a Billion-Dollar Company</h1>
+
       <p>
         In 2011, I left my job as the second employee at Pinterest — before I
         vested any of my stock — to work on what I thought would be my life's
@@ -524,7 +524,6 @@ export default function Home() {
           Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.
         </em>
       </p>
-      </div>
     </main>
   );
 }

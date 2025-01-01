@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto dark:bg-black p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert dark:prose-invert mx-auto dark:bg-black p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8 dark:text-neutral-300">
         October 17, 2024 by{" "}
         <Link href="/" className="dark:text-neutral-100">
@@ -31,9 +31,8 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1 className="title">GOD Mode</h1>
+      <h1>GOD Mode</h1>
 
-      <div className="content">
         <p>
           A few weeks ago, Paul Graham published{" "}
           <a className="link" href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
@@ -390,7 +389,6 @@ export default function Home() {
       </p>
 
       <p>We'll see how it goes.</p>
-      </div>
       <Footer />
     </main>
   );
