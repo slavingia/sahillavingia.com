@@ -32,6 +32,7 @@ export default function Home() {
       </label>
 
       <h1 className="title">GOD Mode</h1>
+
       <div className="content">
         <p>
           A few weeks ago, Paul Graham published{" "}
@@ -54,11 +55,9 @@ export default function Home() {
           This is my attempt at proposing something more truthful by being more
           specific: GOD mode.
         </p>
-    </div>
 
     <h2 className="title">Growth, Optimization, Destruction</h2>
 
-    <div className="content">
       <p>Every startup focuses on growth at its outset.</p>
 
       <p>They often raise money in order to focus exclusively on that.</p>
@@ -114,10 +113,9 @@ export default function Home() {
         Christianity innovates on this concept by combining all three gods into
         a single Godhead, with total omniscience.
       </p>
-      </div>
 
       <h2 className="title">Solo Founder Mode</h2>
-      <div className="content">
+
       <p>
         In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
         <em>I</em> did.
@@ -184,11 +182,9 @@ export default function Home() {
       <p>Yet, this goes against Y Combinator's most dogmatic advice:</p>
 
       <p>Have co-founders, and–ideally–make yourselves equals.</p>
-      </div>
 
       <h2 className="title">Why, YC, why?</h2>
       
-      <div className="content">
       <p>
         YC states in{" "}
         <a className="link" href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
@@ -276,11 +272,10 @@ export default function Home() {
         way to start and run a business. Maybe not for the founders, but for the
         world.
       </p>
-      </div>
 
       <h2 className="title">Default Dead or Default Alive?</h2>
 
-      <div className="content">
+
       <p>Dictators are not always benevolent.</p>
 
       <p>
