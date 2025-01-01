@@ -326,7 +326,7 @@ export default function Home() {
         <img
           src="/gumroad-tasks.png"
           alt="Gumroad tasks"
-          className="w-full h-auto invert"
+          className="w-full h-auto dark:invert dark:hue-rotate-180"
         />
       </div>
 
