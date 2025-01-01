@@ -96,14 +96,14 @@ export default function Home() {
 
       <ul>
         <li>
-          <strong className="dark:text-neutral-100">Creation:</strong> Brahma is the creator of the universe,
+          <strong>Creation:</strong> Brahma is the creator of the universe,
           having made it from himself.
         </li>
         <li>
-          <strong className="dark:text-neutral-100">Preservation:</strong> Vishnu preserves the world and humans.
+          <strong>Preservation:</strong> Vishnu preserves the world and humans.
         </li>
         <li>
-          <strong className="dark:text-neutral-100">Destruction:</strong> Shiva is the destroyer of the universe,
+          <strong>Destruction:</strong> Shiva is the destroyer of the universe,
           and is responsible for the cyclical resurrection.
         </li>
       </ul>

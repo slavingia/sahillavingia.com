@@ -196,7 +196,7 @@ export default function Home() {
       </p>
       <ul>
         <li>
-          <strong className="dark:text-neutral-100">How do we decide what to work on?</strong>
+          <strong>How do we decide what to work on?</strong>
           <p>
             "At the end of the day there's a lot of emotion that goes into
             Gumroad, that's not dissimilar from an art project. We sometimes
@@ -206,11 +206,11 @@ export default function Home() {
           </p>
         </li>
         <li>
-          <strong className="dark:text-neutral-100">How do we communicate?</strong>
+          <strong>How do we communicate?</strong>
           <p>"Turn off all notifications from your phone!"</p>
         </li>
         <li>
-          <strong className="dark:text-neutral-100">What does working at Gumroad feel like?</strong>
+          <strong>What does working at Gumroad feel like?</strong>
           <p>
             "We ship incrementally, iteratively, and have one massive tentpole
             launch a year. Every month we see how much creators got paid, then
@@ -219,7 +219,7 @@ export default function Home() {
           </p>
         </li>
         <li>
-          <strong className="dark:text-neutral-100">What's not so good at Gumroad?</strong>
+          <strong>What's not so good at Gumroad?</strong>
           <p>
             "There's not a lot of room for growth. We're staying profitable,
             and not planning to double the team every year. While there will
