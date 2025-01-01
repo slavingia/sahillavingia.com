@@ -118,7 +118,7 @@ export default function Home() {
       </p>
       <p>
         <img
-          className="dark:invert dark:hue-rotate-180"
+          className="darkImage"
           src="/0_z7tBf5i6wH-HbLhU.png"
           alt="Up-and-to-the-right growth chart"
         />
@@ -347,7 +347,7 @@ export default function Home() {
       </p>
       <p>
         <img
-          className="dark:invert dark:hue-rotate-180"
+          className="darkImage"
           src="/1_nRgMCKaG464-ma278ZG5pA.png"
           alt="Another up-and-to-the-right growth chart"
         />

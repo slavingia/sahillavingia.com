@@ -11,7 +11,8 @@
     @apply dark:text-neutral-300;
   }
 
-  .Link {
-    @apply dark:text-neutral-100;  
+  .darkImage {
+    @apply dark:invert dark:hue-rotate-180;
   }
 }
+

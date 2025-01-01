@@ -52,7 +52,7 @@ export default function Home() {
       <img
         src="/2020-earnings.png"
         alt="2020 earnings"
-        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <p>
         That said, I don't expect anyone to copy our way of working wholesale.
@@ -71,7 +71,7 @@ export default function Home() {
       <img
         src="/2018-earnings.png"
         alt="2018 earnings"
-        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <p>
         But hiring people full-time and leasing a new office in San Francisco
@@ -112,7 +112,7 @@ export default function Home() {
       <img
         src="/operating.png"
         alt="Operating expenses versus creator earnings chart"
-        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <h2>How we work</h2>
       <p>
@@ -170,7 +170,7 @@ export default function Home() {
       <img
         src="/memberships-roadmap.png"
         alt="Memberships roadmap"
-        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <p>
         For more, I recorded{" "}

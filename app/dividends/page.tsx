@@ -70,7 +70,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2019.png"
-            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -87,7 +87,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2020.png"
-            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -133,7 +133,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2022.png"
-            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <h2>Charging more</h2>
@@ -150,7 +150,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/pricing2.png"
-            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -201,8 +201,8 @@ export default function Home() {
         </p>
 
         <p className="flex justify-between items-center">
-          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto dark:invert dark:hue-rotate-180" />
-          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto dark:invert dark:hue-rotate-180" />
+          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto darkImage" />
+          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto darkImage" />
         </p>
         <p>
           (I got 60% from The Intelligent Investor, a book recommended by Warren
@@ -320,7 +320,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/equitybythehour.png"
-            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -401,7 +401,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2023.png"
-            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <Footer />
