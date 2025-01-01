@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose mx-auto dark:bg-black p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         October 17, 2024 by{" "}
         <Link href="/">
@@ -31,32 +31,34 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>GOD Mode</h1>
+      <h1 className="title">GOD Mode</h1>
+      <div className="content">
+        <p>
+          A few weeks ago, Paul Graham published{" "}
+          <a className="link" href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
+          about a management style practiced by Brian Chesky at Airbnb that was at
+          least partially inspired by Steve Jobs.
+        </p>
 
-      <p>
-        A few weeks ago, Paul Graham published{" "}
-        <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
-        about a management style practiced by Brian Chesky at Airbnb that was at
-        least partially inspired by Steve Jobs.
-      </p>
+        <p>
+          As Paul states in Founder Mode, "It seems to be working. Airbnb's free
+          cash flow margin is now among the best in Silicon Valley."
+        </p>
 
-      <p>
-        As Paul states in Founder Mode, "It seems to be working. Airbnb's free
-        cash flow margin is now among the best in Silicon Valley."
-      </p>
+        <p>
+          So, what is founder mode? The article rang true to me, but was
+          purposefully unspecific.
+        </p>
 
-      <p>
-        So, what is founder mode? The article rang true to me, but was
-        purposefully unspecific.
-      </p>
+        <p>
+          This is my attempt at proposing something more truthful by being more
+          specific: GOD mode.
+        </p>
+    </div>
 
-      <p>
-        This is my attempt at proposing something more truthful by being more
-        specific: GOD mode.
-      </p>
+    <h2 className="title">Growth, Optimization, Destruction</h2>
 
-      <h2>Growth, Optimization, Destruction</h2>
-
+    <div className="content">
       <p>Every startup focuses on growth at its outset.</p>
 
       <p>They often raise money in order to focus exclusively on that.</p>
@@ -96,14 +98,14 @@ export default function Home() {
 
       <ul>
         <li>
-          <strong>Creation:</strong> Brahma is the creator of the universe,
+          <strong className="dark:text-neutral-100">Creation:</strong> Brahma is the creator of the universe,
           having made it from himself.
         </li>
         <li>
-          <strong>Preservation:</strong> Vishnu preserves the world and humans.
+          <strong className="dark:text-neutral-100">Preservation:</strong> Vishnu preserves the world and humans.
         </li>
         <li>
-          <strong>Destruction:</strong> Shiva is the destroyer of the universe,
+          <strong className="dark:text-neutral-100">Destruction:</strong> Shiva is the destroyer of the universe,
           and is responsible for the cyclical resurrection.
         </li>
       </ul>
@@ -112,9 +114,10 @@ export default function Home() {
         Christianity innovates on this concept by combining all three gods into
         a single Godhead, with total omniscience.
       </p>
+      </div>
 
-      <h2>Solo Founder Mode</h2>
-
+      <h2 className="title">Solo Founder Mode</h2>
+      <div className="content">
       <p>
         In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
         <em>I</em> did.
@@ -181,12 +184,14 @@ export default function Home() {
       <p>Yet, this goes against Y Combinator's most dogmatic advice:</p>
 
       <p>Have co-founders, and–ideally–make yourselves equals.</p>
+      </div>
 
-      <h2>Why, YC, why?</h2>
-
+      <h2 className="title">Why, YC, why?</h2>
+      
+      <div className="content">
       <p>
         YC states in{" "}
-        <a href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
+        <a className="link" href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
           this video
         </a>{" "}
         that there are three main reasons to have a co-founder when starting a
@@ -236,7 +241,7 @@ export default function Home() {
       <p>
         But I don't think that's the core motivation. I think the core
         motivation, as Nassim Taleb explains in{" "}
-        <a href="https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15">
+        <a className="link" href="https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15">
           The Most Intolerant Wins: The Dictatorship of the Small Minority
         </a>
         , is because having co-founders with an equal split gives YC all of the
@@ -271,16 +276,18 @@ export default function Home() {
         way to start and run a business. Maybe not for the founders, but for the
         world.
       </p>
+      </div>
 
-      <h2>Default Dead or Default Alive?</h2>
+      <h2 className="title">Default Dead or Default Alive?</h2>
 
+      <div className="content">
       <p>Dictators are not always benevolent.</p>
 
       <p>
         Recently, WordPress founder Matt Mullenweg banned millions of customers
         from accessing WordPress resources due to a dispute with one of the
         largest-WordPress hosting sites, WP Engine. As part of{" "}
-        <a href="https://ma.tt/2024/10/alignment/">Automattic Alignment</a>, 159
+        <a className="link" href="https://ma.tt/2024/10/alignment/">Automattic Alignment</a>, 159
         people, or 8.4% of the company, left the company.
       </p>
 
@@ -320,11 +327,11 @@ export default function Home() {
         a one-pager with what manual tasks remained:
       </p>
 
-      <div className="border-4 border-gray-300 rounded-lg p-4 py-0">
+      <div className="border-4 border-gray-300 dark:border-neutral-800 rounded-lg p-4 py-0">
         <img
           src="/gumroad-tasks.png"
           alt="Gumroad tasks"
-          className="w-full h-auto"
+          className="w-full h-auto invert"
         />
       </div>
 
@@ -388,7 +395,7 @@ export default function Home() {
       </p>
 
       <p>We'll see how it goes.</p>
-
+      </div>
       <Footer />
     </main>
   );

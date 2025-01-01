@@ -4,6 +4,30 @@
 
 @layer base {
   body {
-    @apply prose max-w-none;
+    @apply prose max-w-none dark:bg-black;
   }
+
+  h2 {
+    @apply dark:text-neutral-50;
+  }
+
+  a {
+    @apply dark:text-neutral-300;
+  }
+
+  .Link {
+    @apply dark:text-neutral-100;  
+  }
+}
+
+.title {
+  @apply dark:text-white;
+}
+
+.content {
+  @apply dark:text-neutral-200;
+}
+
+.link {
+  @apply dark:text-neutral-100;
 }
