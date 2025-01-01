@@ -33,7 +33,7 @@ export default function Home() {
             <Link href="/dividends">
               Paying Freelancers in Equity and Dividends
             </Link>
-            <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2024</span>
+            <span className="ml-3 text-sm text-gray-400 date font-normal">2024</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
@@ -44,31 +44,31 @@ export default function Home() {
             >
               The Minimalist Entrepreneur
             </a>
-            <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2021</span>
+            <span className="ml-3 text-sm text-gray-400 date font-normal">2021</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
             <Link href="/work">
               No Meetings, No Deadlines, No Full-Time Employees
             </Link>
-            <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2021</span>
+            <span className="ml-3 text-sm text-gray-400 date font-normal">2021</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
             <Link href="/reflecting">
               Reflecting on My Failure to Build a Billion-Dollar Company
             </Link>
-            <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2019</span>
+            <span className="ml-3 text-sm text-gray-400 date font-normal">2019</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
             <Link href="/border">Across the Border</Link>
-            <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2018</span>
+            <span className="ml-3 text-sm text-gray-400 date font-normal">2018</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
             <Link href="/bubble">From Bubble to Bubble</Link>
-            <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2018</span>
+            <span className="ml-3 text-sm text-gray-400 date font-normal">2018</span>
           </h2>
         </div>
 

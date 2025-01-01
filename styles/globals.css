@@ -14,5 +14,9 @@
   .darkImage {
     @apply dark:invert dark:hue-rotate-180;
   }
+  
+  .date {
+    @apply dark:text-neutral-500;
+  }
 }
 
