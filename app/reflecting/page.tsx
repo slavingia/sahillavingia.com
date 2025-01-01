@@ -434,9 +434,11 @@ export default function Home() {
         change that. So in April 2018, I started to release our monthly
         financials publicly.
       </p>
+
       <div className="flex justify-center">
         <Tweet id="996042451843461120" />
       </div>
+      
       <p>
         Ironically, more investors have reached out (we're just interested in
         raising money from our customers for the moment, thanks!), more folks
@@ -481,9 +483,11 @@ export default function Home() {
         I'm happy creating value beyond our revenue-generating product (like
         these words you're reading).
       </p>
+
       <div className="flex justify-center">
         <Tweet id="384838645829480449" />
       </div>
+
       <p>
         I consider myself "successful" now. Not exactly in the way I intended,
         though I think what I'm doing now counts.

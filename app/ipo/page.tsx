@@ -43,10 +43,13 @@ export default function Home() {
           the only way to get paid.
         </p>
         <p>Owning equity in a business is another.</p>
+        
         <div className="flex justify-center">
           <Tweet id="1002103670400417792" />
         </div>
+
         <h2>From income to equity</h2>
+
         <p>
           The last time I tried to raise money, I failed. After meeting with
           dozens of investors and getting dozens of nos, we gave up on a Series

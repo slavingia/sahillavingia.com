@@ -35,6 +35,7 @@ export default function Home() {
         </label>
 
         <h1>Paying Freelancers in Equity and Dividends</h1>
+
         <p>
           Since the beginning of 2024, Gumroad has raised $268,988 from our
           global team of hourly freelancers, at the same $100M valuation we used
@@ -270,6 +271,7 @@ export default function Home() {
         <div className="flex justify-center">
           <Tweet id="1002103670400417792" />
         </div>
+
         <p>
           I'll admit my obsession with giving people equity stems from my own
           missed opportunity.
@@ -302,6 +304,7 @@ export default function Home() {
         <div className="flex justify-center">
           <Tweet id="27946496473" />
         </div>
+        
         <p>
           Thirteen years later, Gumroad was a profitable business, and Flexile
           was handling our dividends. Why not add equity to the mix?
