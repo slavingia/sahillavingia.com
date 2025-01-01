@@ -45,7 +45,7 @@ export default function Home() {
 
         <p>
           You can read more about our equity program in our{" "}
-          <Link className="link" href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1">
+          <Link href="https://www.notion.so/gumroad/Getting-paid-1d0a875413444556953d044bc4502469#71bfd72228bf4b88815c6e665d2f32e1">
             Getting Paid
           </Link>{" "}
           onboarding document at Gumroad.
@@ -62,7 +62,7 @@ export default function Home() {
           It wasn't always this way; from 2015-2019, everyone at Gumroad was
           paid cash, no equity. No one wanted any. Gumroad was no longer on its
           way to becoming{" "}
-          <Link className="link" href="/reflecting">a billion-dollar company</Link>, and I was
+          <Link href="/reflecting">a billion-dollar company</Link>, and I was
           living cheaply in Utah, learning how to paint 30 hours a week. I used
           any excess profits to grow the team and tackle the growing wall of
           technical debt.
@@ -111,9 +111,9 @@ export default function Home() {
           I used the money to grow the team from 25 to 45, investing heavily in
           our content and community efforts, and refreshed the Gumroad brand. We
           also started working on a new product,{" "}
-          <Link className="link" href="https://flexile.com/">Flexile</Link>, to productize the
+          <Link href="https://flexile.com/">Flexile</Link>, to productize the
           way we worked, with{" "}
-          <Link className="link" href="/work">
+          <Link href="/work">
             no meetings, no deadlines, and no full-time employees
           </Link>
           . At the time, I used a combination of Bill.com, HelloSign, and a
@@ -189,7 +189,7 @@ export default function Home() {
         </p>
         <p>
           With{" "}
-          <Link className="link" href="https://x.com/shl/status/1679308995268587522">
+          <Link href="https://x.com/shl/status/1679308995268587522">
             a couple emails
           </Link>{" "}
           asking nicely, I was able to get this approval from all of Gumroad's
@@ -232,7 +232,7 @@ export default function Home() {
         </p>
         <p>
           A few months later, in July 2023, we issued a $1M trial dividend to
-          our cap table, using <Link className="link" href="https://flexile.com">Flexile</Link>.
+          our cap table, using <Link href="https://flexile.com">Flexile</Link>.
         </p>
         <p>
           To align the team, I proposed an equity bonus, tied to the amount
@@ -356,12 +356,12 @@ export default function Home() {
           Someone who chose 1% didn't want to miss out on the fun completely.
           "It has very little to do with my outlook on Gumroad. I'm just putting
           all my spare cash into{" "}
-          <Link className="link" href="https://lazytigerhostel.com/">my own business</Link> this
+          <Link href="https://lazytigerhostel.com/">my own business</Link> this
           year."
         </p>
         <p>
           It can be confusing, so I created{" "}
-          <Link className="link" href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">
+          <Link href="https://docs.google.com/spreadsheets/d/1OvHmIg5MA72oot-jRW-whEBROSmcMXcMRvFqkKfiQFM/edit#gid=805394775">
             a calculator
           </Link>{" "}
           to help.
@@ -391,7 +391,7 @@ export default function Home() {
         </p>
         <p>
           Now, we host{" "}
-          <Link className="link" href="https://www.youtube.com/watch?v=qUYSTvJnIXA">
+          <Link href="https://www.youtube.com/watch?v=qUYSTvJnIXA">
             public quarterly board meetings
           </Link>{" "}
           to keep ourselves accountable. We no longer have plans to IPO nor
