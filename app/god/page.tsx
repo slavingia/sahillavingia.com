@@ -33,29 +33,29 @@ export default function Home() {
 
       <h1>GOD Mode</h1>
 
-        <p>
-          A few weeks ago, Paul Graham published{" "}
-          <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
-          about a management style practiced by Brian Chesky at Airbnb that was at
-          least partially inspired by Steve Jobs.
-        </p>
+      <p>
+         A few weeks ago, Paul Graham published{" "}
+         <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
+         about a management style practiced by Brian Chesky at Airbnb that was at
+         least partially inspired by Steve Jobs.
+       </p>
 
-        <p>
-          As Paul states in Founder Mode, "It seems to be working. Airbnb's free
-          cash flow margin is now among the best in Silicon Valley."
-        </p>
+       <p>
+         As Paul states in Founder Mode, "It seems to be working. Airbnb's free
+         cash flow margin is now among the best in Silicon Valley."
+       </p>
 
-        <p>
-          So, what is founder mode? The article rang true to me, but was
-          purposefully unspecific.
-        </p>
+       <p>
+         So, what is founder mode? The article rang true to me, but was
+         purposefully unspecific.
+       </p>
 
-        <p>
-          This is my attempt at proposing something more truthful by being more
-          specific: GOD mode.
-        </p>
+       <p>
+         This is my attempt at proposing something more truthful by being more
+         specific: GOD mode.
+       </p>
 
-    <h2>Growth, Optimization, Destruction</h2>
+      <h2>Growth, Optimization, Destruction</h2>
 
       <p>Every startup focuses on growth at its outset.</p>
 
