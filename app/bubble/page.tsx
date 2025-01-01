@@ -55,7 +55,7 @@ export default function Home() {
         Sunday.
       </p>
       <p>What changed?</p>
-      <h2>A quarter-life crisis</h2>
+      <h2 className="headingTwo">A quarter-life crisis</h2>
       <p>
         In 2014, I was the founder of a 20-person VC-backed startup called
         Gumroad that helps creators of all stripes sell their work.
@@ -112,7 +112,7 @@ export default function Home() {
         where Hillary Clinton garnered just 14% of the vote and less than 1%
         of the population was black? It sounded like hell to me.
       </p>
-      <h2>Culture shock (and lack thereof)</h2>
+      <h2 className="headingTwo">Culture shock (and lack thereof)</h2>
       <p>
         I gave away all of my furniture and landed in Provo on a Sunday, five
         suitcases in tow, hoping for some grand epiphany about my path
@@ -161,7 +161,7 @@ export default function Home() {
         the neighborhood gym, and located my default coffee shop. I worked on
         my novel, drew, and had meals with anyone that was willing.
       </p>
-      <h2>Learning the language</h2>
+      <h2 className="headingTwo">Learning the language</h2>
       <p>
         I knew I wasn't experiencing a representative data sample of Provo's
         voter demographics — these people were mostly under forty and worked
@@ -222,7 +222,7 @@ export default function Home() {
         today. And if I, a self-righteous liberal, decide to vote for Hillary
         Clinton and do basically nothing else, am I any better than them?
       </p>
-      <h2>Wasted time</h2>
+      <h2 className="headingTwo">Wasted time</h2>
       <p>
         Because I have made a lot of progress in Provo and have learned these
         things about conservatives, I look back at the time I spent in San
@@ -251,7 +251,7 @@ export default function Home() {
         about making sure the other person converts to their side. (Warning:
         This does not work with Mormon missionaries.)
       </p>
-      <h2>Room for improvement</h2>
+      <h2 className="headingTwo">Room for improvement</h2>
       <p>
         I have learned plenty from Provo. But here are some things I still
         hope to teach it:
@@ -301,7 +301,7 @@ export default function Home() {
         got me re-amped about the work we're doing at Gumroad to empower the
         creative class.
       </p>
-      <h2>The bubble that keeps on bursting</h2>
+      <h2 className="headingTwo">The bubble that keeps on bursting</h2>
       <p>
         Provo hasn't changed much in the year that I have been here. San
         Francisco hasn't either. But I have. My bubble has, at least a little

@@ -46,7 +46,7 @@ export default function Home() {
         <div className="flex justify-center">
           <Tweet id="1002103670400417792" />
         </div>
-        <h2>From income to equity</h2>
+        <h2 className="headingTwo">From income to equity</h2>
         <p>
           The last time I tried to raise money, I failed. After meeting with
           dozens of investors and getting dozens of nos, we gave up on a Series
@@ -76,7 +76,7 @@ export default function Home() {
           various parts of Gumroad. Letting them become investors was the next
           logical step.
         </p>
-        <h2>Turning creators into owners</h2>
+        <h2 className="headingTwo">Turning creators into owners</h2>
         <p>
           On March 15 2021, the SEC started to allow companies to raise up to
           $5M from the public using Regulation Crowdfunding (Reg CF). Startups
@@ -113,7 +113,7 @@ export default function Home() {
           secondary sales after a one-year lockup period. Gumroad will take
           advantage of that the day it becomes possible.
         </p>
-        <h2>The future of fundraising</h2>
+        <h2 className="headingTwo">The future of fundraising</h2>
         <p>
           I hope to see more startups raise money from their customers and
           communities. And not just startups, but restaurants and coffee shops

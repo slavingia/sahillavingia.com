@@ -7,10 +7,6 @@
     @apply prose max-w-none dark:bg-black;
   }
 
-  h2 {
-    @apply dark:text-neutral-50;
-  }
-
   a {
     @apply dark:text-neutral-300;
   }
@@ -30,4 +26,8 @@
 
 .link {
   @apply dark:text-neutral-100;
+}
+
+.headingTwo {
+  @apply dark:text-neutral-50;
 }

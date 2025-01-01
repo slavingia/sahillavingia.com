@@ -77,7 +77,7 @@ export default function Home() {
           In January 2020, I moved to Portland, Oregon for my wife's job. Then,
           COVID happened.
         </p>
-        <h2>COVID, Equity Crowdfunding, Creator Economy</h2>
+        <h2 className="headingTwo">COVID, Equity Crowdfunding, Creator Economy</h2>
         <p>
           Due to the global pandemic, more people than ever before were using
           the Internet to learn new hobbies and monetize their creative skills.
@@ -136,7 +136,7 @@ export default function Home() {
             className="max-w-full my-4 mx-auto"
           />
         </p>
-        <h2>Charging more</h2>
+        <h2 className="headingTwo">Charging more</h2>
         <p>
           On January 31, 2023, we increased Gumroad's pricing to be simpler,
           higher, and the same for all creators, regardless of income level: 10%
@@ -164,7 +164,7 @@ export default function Home() {
           Gumroad's profits, as a reward for the years of work I put into
           building the company.
         </p>
-        <h2>Delving into dividends</h2>
+        <h2 className="headingTwo">Delving into dividends</h2>
         <p>
           This isn't new: Dividends are the primary way businesses pay their
           owners.
@@ -245,8 +245,8 @@ export default function Home() {
           To my surprise, there was more confusion than excitement. We jumped on
           a rare Zoom call, where I learned there were many problems.
         </p>
-        <h2>Splitting equity hairs</h2>
-        <p>
+        <h2 className="headingTwo">Splitting equity hairs</h2>
+        <p className="headingTwo">
           First, no one knew how to value the equity they were being given. We
           had raised $5M at a $100M valuation from over 7,000 people, but that
           was now two years prior. What would someone pay for it today?
@@ -307,7 +307,7 @@ export default function Home() {
           Thirteen years later, Gumroad was a profitable business, and Flexile
           was handling our dividends. Why not add equity to the mix?
         </p>
-        <h2>Equity by the hour</h2>
+        <h2 className="headingTwo">Equity by the hour</h2>
         <p>
           Today, Gumroad pays hourly freelancers around the world $125-$200/hr.
         </p>
@@ -382,7 +382,7 @@ export default function Home() {
           60% of 2023's net income. For the first time, our team of remote
           freelancers were able to participate.
         </p>
-        <h2>D'end</h2>
+        <h2 className="headingTwo">D'end</h2>
         <p>
           From 2012-2015, Gumroad ended each board meeting with a slide that
           read: "The end. (IPO)"

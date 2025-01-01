@@ -56,7 +56,7 @@ export default function Home() {
           specific: GOD mode.
         </p>
 
-    <h2 className="title">Growth, Optimization, Destruction</h2>
+    <h2 className="headingTwo">Growth, Optimization, Destruction</h2>
 
       <p>Every startup focuses on growth at its outset.</p>
 
@@ -114,7 +114,7 @@ export default function Home() {
         a single Godhead, with total omniscience.
       </p>
 
-      <h2 className="title">Solo Founder Mode</h2>
+      <h2 className="headingTwo">Solo Founder Mode</h2>
 
       <p>
         In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
@@ -183,7 +183,7 @@ export default function Home() {
 
       <p>Have co-founders, and–ideally–make yourselves equals.</p>
 
-      <h2 className="title">Why, YC, why?</h2>
+      <h2 className="headingTwo">Why, YC, why?</h2>
       
       <p>
         YC states in{" "}
@@ -273,7 +273,7 @@ export default function Home() {
         world.
       </p>
 
-      <h2 className="title">Default Dead or Default Alive?</h2>
+      <h2 className="headingTwo">Default Dead or Default Alive?</h2>
 
 
       <p>Dictators are not always benevolent.</p>
