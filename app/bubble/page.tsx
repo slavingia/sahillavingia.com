@@ -28,7 +28,7 @@ export default function Home() {
     <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8 dark:text-neutral-300">
         Feb 7, 2018 by{" "}
-        <Link href="/" className="text-neutral-100">
+        <Link href="/" className="dark:text-neutral-100">
           <u>Sahil Lavingia</u>
         </Link>
       </label>
@@ -345,7 +345,7 @@ export default function Home() {
         ago, but I am a little bit better.
       </p>
       </div>
-      
+
       <Footer />
     </main>
   );
