@@ -17,13 +17,13 @@ export default function Component() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white p-8 border-4 border-gray-300 rounded-lg my-8">
-      <h1 className="text-2xl font-bold mb-6 text-center">
+    <div className="flex flex-col items-center justify-center bg-white dark:bg-neutral-950 p-8 border-4 border-gray-300 dark:border-neutral-800 rounded-lg my-8">
+      <h1 className="text-2xl font-bold mb-6 text-center title">
         Who Has the Power in a {activeColor ? "51-49" : "49-49-2"} Split?
       </h1>
       <div className="relative w-64 h-64 my-4">
         <div
-          className={`absolute inset-0 bg-black rounded-full cursor-pointer ${
+          className={`absolute inset-0 bg-black dark:bg-white  rounded-full cursor-pointer ${
             activeColor === "black"
               ? "opacity-100"
               : "opacity-80 hover:opacity-100"
@@ -31,7 +31,7 @@ export default function Component() {
           onClick={() => handleClick("black")}
         ></div>
         <div
-          className={`absolute inset-0 bg-white rounded-full cursor-pointer ${
+          className={`absolute inset-0 bg-white dark:bg-black rounded-full cursor-pointer ${
             activeColor === "white"
               ? "opacity-100"
               : "opacity-80 hover:opacity-100"
@@ -46,10 +46,10 @@ export default function Component() {
             activeColor ? `bg-${activeColor}` : "bg-[#FF6600]"
           }`}
         ></div>
-        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white font-bold">
+        <div className="absolute top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 text-white dark:text-black font-bold">
           {activeColor === "black" ? "51%" : "49%"}
         </div>
-        <div className="absolute top-1/2 right-1/4 transform translate-x-1/2 -translate-y-1/2 text-black font-bold">
+        <div className="absolute top-1/2 right-1/4 transform translate-x-1/2 -translate-y-1/2 text-black dark:text-white font-bold">
           {activeColor === "white" ? "51%" : "49%"}
         </div>
         {!activeColor && (

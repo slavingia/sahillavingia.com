@@ -28,7 +28,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-[url('/border.png')] bg-cover bg-center"></div>
       </div>
 
-      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+      <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
         <label className="block mt-8 mb-8">
           Aug 31, 2018 by{" "}
           <Link href="/">
@@ -76,7 +76,7 @@ export default function Home() {
           ].map((message, index) => (
             <div
               key={index}
-              className="px-3 py-2 bg-gray-200 text-black rounded-2xl rounded-bl-none max-w-[70%]"
+              className="px-3 py-2 bg-gray-200 dark:bg-neutral-900 text-black dark:text-white rounded-2xl rounded-bl-none max-w-[70%]"
             >
               {message}
             </div>
@@ -393,7 +393,6 @@ export default function Home() {
           pen, hidden at the very back of the drawer; rolling it between his
           fingers, he realized it had never been used.
         </p>
-
         <Footer />
       </main>
     </>

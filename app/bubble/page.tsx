@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Feb 7, 2018 by{" "}
         <Link href="/">
@@ -236,8 +236,10 @@ export default function Home() {
         impact of specific policies versus the idiocracy.
       </p>
 
-      <Tweet id="808076173456670721" />
-
+      <div className="flex justify-center">
+        <Tweet id="808076173456670721" />
+      </div>
+      
       <p>
         I look back and see the hundreds, if not thousands, of things I
         tweeted. They were funny, maybe, but besides inflate my ego and

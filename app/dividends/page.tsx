@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+      <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
         <label className="block mt-8 mb-8">
           May 20, 2024 by{" "}
           <Link href="/">
@@ -70,7 +70,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2019.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -87,7 +87,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2020.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -133,7 +133,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2022.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <h2>Charging more</h2>
@@ -150,7 +150,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/pricing2.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -201,8 +201,8 @@ export default function Home() {
         </p>
 
         <p className="flex justify-between items-center">
-          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto" />
-          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto" />
+          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto darkImage" />
+          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto darkImage" />
         </p>
         <p>
           (I got 60% from The Intelligent Investor, a book recommended by Warren
@@ -267,7 +267,11 @@ export default function Home() {
           All in all, equity was valuable to me, but not seen as valuable by the
           median freelancer. So why bother?
         </p>
-        <Tweet id="1002103670400417792" />
+
+        <div className="flex justify-center">
+          <Tweet id="1002103670400417792" />
+        </div>
+
         <p>
           I'll admit my obsession with giving people equity stems from my own
           missed opportunity.
@@ -296,7 +300,11 @@ export default function Home() {
           But I wanted to earn equity, so I dropped out. Before I did so, I
           tweeted:
         </p>
-        <Tweet id="27946496473" />
+
+        <div className="flex justify-center">
+          <Tweet id="27946496473" />
+        </div>
+        
         <p>
           Thirteen years later, Gumroad was a profitable business, and Flexile
           was handling our dividends. Why not add equity to the mix?
@@ -312,7 +320,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/equitybythehour.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <p>
@@ -360,7 +368,7 @@ export default function Home() {
         </p>
         <p>For 2024, the average equity split is 18.3%.</p>
         <p>
-          <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
+          <img src="/dividends/split.png" className="max-w-full my-4 mx-auto dark:invert dark:saturate-0" />
         </p>
         <p>
           The company saves money, the team owns more, the product improves, I
@@ -393,7 +401,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2023.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto darkImage"
           />
         </p>
         <Footer />

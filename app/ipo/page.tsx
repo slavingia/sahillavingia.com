@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <>
-      <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+      <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
         <label className="block mt-8 mb-8">
           March 22, 2021 by{" "}
           <Link href="/">
@@ -43,8 +43,13 @@ export default function Home() {
           the only way to get paid.
         </p>
         <p>Owning equity in a business is another.</p>
-        <Tweet id="1002103670400417792" />
+        
+        <div className="flex justify-center">
+          <Tweet id="1002103670400417792" />
+        </div>
+
         <h2>From income to equity</h2>
+
         <p>
           The last time I tried to raise money, I failed. After meeting with
           dozens of investors and getting dozens of nos, we gave up on a Series

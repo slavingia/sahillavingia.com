@@ -4,6 +4,19 @@
 
 @layer base {
   body {
-    @apply prose max-w-none;
+    @apply prose dark:prose-invert max-w-none dark:bg-black;
+  }
+
+  a {
+    @apply dark:text-neutral-300;
+  }
+
+  .darkImage {
+    @apply dark:invert dark:hue-rotate-180;
+  }
+  
+  .date {
+    @apply dark:text-neutral-500;
   }
 }
+

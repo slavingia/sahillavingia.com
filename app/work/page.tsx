@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Jan 7, 2021 by{" "}
         <Link href="/">
@@ -52,7 +52,7 @@ export default function Home() {
       <img
         src="/2020-earnings.png"
         alt="2020 earnings"
-        className="max-w-full my-4 mx-auto"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <p>
         That said, I don't expect anyone to copy our way of working wholesale.
@@ -71,7 +71,7 @@ export default function Home() {
       <img
         src="/2018-earnings.png"
         alt="2018 earnings"
-        className="max-w-full my-4 mx-auto"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <p>
         But hiring people full-time and leasing a new office in San Francisco
@@ -112,7 +112,7 @@ export default function Home() {
       <img
         src="/operating.png"
         alt="Operating expenses versus creator earnings chart"
-        className="max-w-full my-4 mx-auto"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <h2>How we work</h2>
       <p>
@@ -170,7 +170,7 @@ export default function Home() {
       <img
         src="/memberships-roadmap.png"
         alt="Memberships roadmap"
-        className="max-w-full my-4 mx-auto"
+        className="max-w-full my-4 mx-auto darkImage"
       />
       <p>
         For more, I recorded{" "}
@@ -275,7 +275,11 @@ export default function Home() {
         coworker{" "}
         <Link href="https://community.circle.so/u/45ef416b">Rudy Santino</Link>:
       </p>
-      <Tweet id="1216761573479473152" />
+
+      <div className="flex justify-center">
+        <Tweet id="1216761573479473152" />
+      </div>
+
       <p>Working on Gumroad isn't a majority of anyone's identity.</p>
       <p>
         People work at Gumroad as little as they need to sustain the other
@@ -306,7 +310,7 @@ export default function Home() {
         Gumroad ought to solve next&mdash;and he had some ideas for how he
         could help out:
       </p>
-      <blockquote>
+      <blockquote className="dark:text-neutral-100">
         I love Gumroad (and I'm living off it!), I enjoy product scoping and
         strategy, and I think I can take over your PM tasks. I would only be
         able to dedicate around 2hrs/day on average, but I'd be available
@@ -321,14 +325,23 @@ export default function Home() {
         year.
       </p>
       <p>How? He works ten hours a week for us. In his words:</p>
-      <Tweet id="1334288446697865216" />
+      
+      <div className="flex justify-center">
+        <Tweet id="1334288446697865216" />
+      </div>
+
       <h2>Getting paid</h2>
+
       <p>
         In practice, we pay everyone hourly based on their role. The range
         varies from $50 (customer support) to $250 (Head of Product) an hour.
       </p>
       <p>Recently I standardized our rates world-wide:</p>
-      <Tweet id="1334201934702493697" />
+
+      <div className="flex justify-center">
+        <Tweet id="1334201934702493697" />
+      </div>
+      
       <p>This rate is agreed upon during our interview process:</p>
       <ol>
         <li>Apply via a form.</li>
@@ -425,7 +438,6 @@ export default function Home() {
         to see them unfold. There are a lot of different ways to make work
         work. Ours is just one.
       </p>
-
       <Footer />
     </main>
   );

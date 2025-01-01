@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto dark:bg-black p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         October 17, 2024 by{" "}
         <Link href="/">
@@ -34,27 +34,27 @@ export default function Home() {
       <h1>GOD Mode</h1>
 
       <p>
-        A few weeks ago, Paul Graham published{" "}
-        <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
-        about a management style practiced by Brian Chesky at Airbnb that was at
-        least partially inspired by Steve Jobs.
-      </p>
+         A few weeks ago, Paul Graham published{" "}
+         <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
+         about a management style practiced by Brian Chesky at Airbnb that was at
+         least partially inspired by Steve Jobs.
+       </p>
 
-      <p>
-        As Paul states in Founder Mode, "It seems to be working. Airbnb's free
-        cash flow margin is now among the best in Silicon Valley."
-      </p>
+       <p>
+         As Paul states in Founder Mode, "It seems to be working. Airbnb's free
+         cash flow margin is now among the best in Silicon Valley."
+       </p>
 
-      <p>
-        So, what is founder mode? The article rang true to me, but was
-        purposefully unspecific.
-      </p>
+       <p>
+         So, what is founder mode? The article rang true to me, but was
+         purposefully unspecific.
+       </p>
 
-      <p>
-        This is my attempt at proposing something more truthful by being more
-        specific: GOD mode.
-      </p>
-
+       <p>
+         This is my attempt at proposing something more truthful by being more
+         specific: GOD mode.
+       </p>
+       
       <h2>Growth, Optimization, Destruction</h2>
 
       <p>Every startup focuses on growth at its outset.</p>
@@ -183,7 +183,7 @@ export default function Home() {
       <p>Have co-founders, and–ideally–make yourselves equals.</p>
 
       <h2>Why, YC, why?</h2>
-
+      
       <p>
         YC states in{" "}
         <a href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
@@ -274,6 +274,7 @@ export default function Home() {
 
       <h2>Default Dead or Default Alive?</h2>
 
+
       <p>Dictators are not always benevolent.</p>
 
       <p>
@@ -320,11 +321,11 @@ export default function Home() {
         a one-pager with what manual tasks remained:
       </p>
 
-      <div className="border-4 border-gray-300 rounded-lg p-4 py-0">
+      <div className="border-4 border-gray-300 dark:border-neutral-800 rounded-lg p-4 py-0">
         <img
           src="/gumroad-tasks.png"
           alt="Gumroad tasks"
-          className="w-full h-auto"
+          className="w-full h-auto darkImage"
         />
       </div>
 
@@ -388,7 +389,6 @@ export default function Home() {
       </p>
 
       <p>We'll see how it goes.</p>
-
       <Footer />
     </main>
   );

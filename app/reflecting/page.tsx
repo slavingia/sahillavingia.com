@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Feb 7, 2019 by{" "}
         <Link href="/">
@@ -40,7 +40,9 @@ export default function Home() {
         work.
       </p>
 
-      <Tweet id="54072049395712000" />
+      <div className="flex justify-center">
+        <Tweet id="54072049395712000" />
+      </div>
 
       <p>
         I thought Gumroad would become a billion-dollar company, with hundreds
@@ -116,6 +118,7 @@ export default function Home() {
       </p>
       <p>
         <img
+          className="darkImage"
           src="/0_z7tBf5i6wH-HbLhU.png"
           alt="Up-and-to-the-right growth chart"
         />
@@ -309,7 +312,7 @@ export default function Home() {
       <p>
         On November 27, 2017, I got this email from KPCB, our lead investor:
       </p>
-      <blockquote>
+      <blockquote className="dark:text-neutral-100">
         I am following up our conversation a few months ago. KP would like to
         sell our ownership back to Gumroad for $1. Can we discuss this week?
       </blockquote>
@@ -344,6 +347,7 @@ export default function Home() {
       </p>
       <p>
         <img
+          className="darkImage"
           src="/1_nRgMCKaG464-ma278ZG5pA.png"
           alt="Another up-and-to-the-right growth chart"
         />
@@ -385,7 +389,11 @@ export default function Home() {
         Take Austen Allred, for example. He's raised $48M for his startup Lambda
         School, and he got his start selling a book on Gumroad.
       </p>
-      <Tweet id="961268207398010880" />
+
+      <div className="flex justify-center">
+        <Tweet id="961268207398010880" />
+      </div>
+
       <p>
         Startups have been founded by former Gumroad employees, and dozens more
         companies have been massively improved by recruiting our alumni. On top
@@ -426,7 +434,11 @@ export default function Home() {
         change that. So in April 2018, I started to release our monthly
         financials publicly.
       </p>
-      <Tweet id="996042451843461120" />
+
+      <div className="flex justify-center">
+        <Tweet id="996042451843461120" />
+      </div>
+      
       <p>
         Ironically, more investors have reached out (we're just interested in
         raising money from our customers for the moment, thanks!), more folks
@@ -471,7 +483,11 @@ export default function Home() {
         I'm happy creating value beyond our revenue-generating product (like
         these words you're reading).
       </p>
-      <Tweet id="384838645829480449" />
+
+      <div className="flex justify-center">
+        <Tweet id="384838645829480449" />
+      </div>
+
       <p>
         I consider myself "successful" now. Not exactly in the way I intended,
         though I think what I'm doing now counts.
