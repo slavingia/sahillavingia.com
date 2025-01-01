@@ -276,7 +276,11 @@ export default function Home() {
         coworker{" "}
         <Link className="link" href="https://community.circle.so/u/45ef416b">Rudy Santino</Link>:
       </p>
-      <Tweet id="1216761573479473152" />
+
+      <div className="flex justify-center">
+        <Tweet id="1216761573479473152" />
+      </div>
+
       <p>Working on Gumroad isn't a majority of anyone's identity.</p>
       <p>
         People work at Gumroad as little as they need to sustain the other
@@ -322,14 +326,18 @@ export default function Home() {
         year.
       </p>
       <p>How? He works ten hours a week for us. In his words:</p>
-      <Tweet id="1334288446697865216" />
+      <div className="flex justify-center">
+        <Tweet id="1334288446697865216" />
+      </div>
       <h2 className="dark:text-neutral-50">Getting paid</h2>
       <p>
         In practice, we pay everyone hourly based on their role. The range
         varies from $50 (customer support) to $250 (Head of Product) an hour.
       </p>
       <p>Recently I standardized our rates world-wide:</p>
-      <Tweet id="1334201934702493697" />
+      <div className="flex justify-center">
+        <Tweet id="1334201934702493697" />
+      </div>
       <p>This rate is agreed upon during our interview process:</p>
       <ol>
         <li>Apply via a form.</li>

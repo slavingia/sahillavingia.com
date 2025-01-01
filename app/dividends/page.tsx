@@ -267,7 +267,10 @@ export default function Home() {
           All in all, equity was valuable to me, but not seen as valuable by the
           median freelancer. So why bother?
         </p>
-        <Tweet id="1002103670400417792" />
+
+        <div className="flex justify-center">
+          <Tweet id="1002103670400417792" />
+        </div>
         <p>
           I'll admit my obsession with giving people equity stems from my own
           missed opportunity.
@@ -296,7 +299,10 @@ export default function Home() {
           But I wanted to earn equity, so I dropped out. Before I did so, I
           tweeted:
         </p>
-        <Tweet id="27946496473" />
+
+        <div className="flex justify-center">
+          <Tweet id="27946496473" />
+        </div>
         <p>
           Thirteen years later, Gumroad was a profitable business, and Flexile
           was handling our dividends. Why not add equity to the mix?

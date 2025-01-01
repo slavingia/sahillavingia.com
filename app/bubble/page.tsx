@@ -236,8 +236,9 @@ export default function Home() {
         impact of specific policies versus the idiocracy.
       </p>
 
-      <Tweet id="808076173456670721" />
-
+      <div className="flex justify-center">
+        <Tweet id="808076173456670721" />
+      </div>
       <p>
         I look back and see the hundreds, if not thousands, of things I
         tweeted. They were funny, maybe, but besides inflate my ego and

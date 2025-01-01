@@ -32,15 +32,17 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>Reflecting on My Failure to Build a Billion-Dollar Company</h1>
-
+      <h1 className="title">Reflecting on My Failure to Build a Billion-Dollar Company</h1>
+      <div className="content">
       <p>
         In 2011, I left my job as the second employee at Pinterest — before I
         vested any of my stock — to work on what I thought would be my life's
         work.
       </p>
 
-      <Tweet id="54072049395712000" />
+      <div className="flex justify-center">
+        <Tweet id="54072049395712000" />
+      </div>
 
       <p>
         I thought Gumroad would become a billion-dollar company, with hundreds
@@ -385,7 +387,11 @@ export default function Home() {
         Take Austen Allred, for example. He's raised $48M for his startup Lambda
         School, and he got his start selling a book on Gumroad.
       </p>
-      <Tweet id="961268207398010880" />
+
+      <div className="flex justify-center">
+        <Tweet id="961268207398010880" />
+      </div>
+
       <p>
         Startups have been founded by former Gumroad employees, and dozens more
         companies have been massively improved by recruiting our alumni. On top
@@ -426,7 +432,9 @@ export default function Home() {
         change that. So in April 2018, I started to release our monthly
         financials publicly.
       </p>
-      <Tweet id="996042451843461120" />
+      <div className="flex justify-center">
+        <Tweet id="996042451843461120" />
+      </div>
       <p>
         Ironically, more investors have reached out (we're just interested in
         raising money from our customers for the moment, thanks!), more folks
@@ -471,7 +479,9 @@ export default function Home() {
         I'm happy creating value beyond our revenue-generating product (like
         these words you're reading).
       </p>
-      <Tweet id="384838645829480449" />
+      <div className="flex justify-center">
+        <Tweet id="384838645829480449" />
+      </div>
       <p>
         I consider myself "successful" now. Not exactly in the way I intended,
         though I think what I'm doing now counts.
@@ -512,6 +522,7 @@ export default function Home() {
           Francisco Gutierrez, Kyle Doherty, and Jessica Jalsevac. Thank you.
         </em>
       </p>
+      </div>
     </main>
   );
 }
