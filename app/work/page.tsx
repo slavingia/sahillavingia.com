@@ -53,7 +53,7 @@ export default function Home() {
       <img
         src="/2020-earnings.png"
         alt="2020 earnings"
-        className="max-w-full my-4 mx-auto invert hue-rotate-180"
+        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
       />
       <p>
         That said, I don't expect anyone to copy our way of working wholesale.
@@ -72,7 +72,7 @@ export default function Home() {
       <img
         src="/2018-earnings.png"
         alt="2018 earnings"
-        className="max-w-full my-4 mx-auto invert hue-rotate-180"
+        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
       />
       <p>
         But hiring people full-time and leasing a new office in San Francisco
@@ -113,7 +113,7 @@ export default function Home() {
       <img
         src="/operating.png"
         alt="Operating expenses versus creator earnings chart"
-        className="max-w-full my-4 mx-auto invert hue-rotate-180"
+        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
       />
       <h2 className="headingTwo">How we work</h2>
       <p>
@@ -171,7 +171,7 @@ export default function Home() {
       <img
         src="/memberships-roadmap.png"
         alt="Memberships roadmap"
-        className="max-w-full my-4 mx-auto invert hue-rotate-180"
+        className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
       />
       <p>
         For more, I recorded{" "}
@@ -311,7 +311,7 @@ export default function Home() {
         Gumroad ought to solve next&mdash;and he had some ideas for how he
         could help out:
       </p>
-      <blockquote className="text-neutral-100">
+      <blockquote className="dark:text-neutral-100">
         I love Gumroad (and I'm living off it!), I enjoy product scoping and
         strategy, and I think I can take over your PM tasks. I would only be
         able to dedicate around 2hrs/day on average, but I'd be available

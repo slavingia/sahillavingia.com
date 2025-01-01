@@ -36,8 +36,9 @@ export default function Home() {
           </Link>
         </label>
 
-        <h1>Across the Border</h1>
-
+        <h1 className="title">Across the Border</h1>
+        
+        <div className="content">
         <p>
           Matthew lifted his foot off the gas pedal, inching the car forward.
           The re-entry point was only a few hundred feet away, but at this pace
@@ -393,7 +394,7 @@ export default function Home() {
           pen, hidden at the very back of the drawer; rolling it between his
           fingers, he realized it had never been used.
         </p>
-
+        </div>
         <Footer />
       </main>
     </>

@@ -118,6 +118,7 @@ export default function Home() {
       </p>
       <p>
         <img
+          className="dark:invert dark:hue-rotate-180"
           src="/0_z7tBf5i6wH-HbLhU.png"
           alt="Up-and-to-the-right growth chart"
         />
@@ -311,7 +312,7 @@ export default function Home() {
       <p>
         On November 27, 2017, I got this email from KPCB, our lead investor:
       </p>
-      <blockquote>
+      <blockquote className="dark:text-neutral-100">
         I am following up our conversation a few months ago. KP would like to
         sell our ownership back to Gumroad for $1. Can we discuss this week?
       </blockquote>
@@ -346,6 +347,7 @@ export default function Home() {
       </p>
       <p>
         <img
+          className="dark:invert dark:hue-rotate-180"
           src="/1_nRgMCKaG464-ma278ZG5pA.png"
           alt="Another up-and-to-the-right growth chart"
         />

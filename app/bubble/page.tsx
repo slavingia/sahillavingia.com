@@ -33,8 +33,9 @@ export default function Home() {
         </Link>
       </label>
 
-      <h1>From Bubble to Bubble</h1>
+      <h1 className="title">From Bubble to Bubble</h1>
 
+      <div className="content">
       <p>
         A year ago, I lived in San Francisco. I spent over $2,000 a month for
         one bedroom in a two-bedroom apartment in the Mission District.
@@ -343,7 +344,8 @@ export default function Home() {
         I am not a fundamentally different person than the one I was a year
         ago, but I am a little bit better.
       </p>
-
+      </div>
+      
       <Footer />
     </main>
   );

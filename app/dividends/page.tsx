@@ -70,7 +70,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2019.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
         <p>
@@ -87,7 +87,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2020.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
         <p>
@@ -133,7 +133,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2022.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
         <h2 className="headingTwo">Charging more</h2>
@@ -150,7 +150,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/pricing2.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
         <p>
@@ -201,8 +201,8 @@ export default function Home() {
         </p>
 
         <p className="flex justify-between items-center">
-          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto" />
-          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto" />
+          <img src="/dividends/charter.jpeg" className="w-1/2 h-auto dark:invert dark:hue-rotate-180" />
+          <img src="/dividends/intelligent.jpeg" className="w-1/2 h-auto dark:invert dark:hue-rotate-180" />
         </p>
         <p>
           (I got 60% from The Intelligent Investor, a book recommended by Warren
@@ -318,7 +318,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/equitybythehour.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
         <p>
@@ -366,7 +366,7 @@ export default function Home() {
         </p>
         <p>For 2024, the average equity split is 18.3%.</p>
         <p>
-          <img src="/dividends/split.png" className="max-w-full my-4 mx-auto" />
+          <img src="/dividends/split.png" className="max-w-full my-4 mx-auto dark:invert dark:saturate-0" />
         </p>
         <p>
           The company saves money, the team owns more, the product improves, I
@@ -399,7 +399,7 @@ export default function Home() {
         <p>
           <img
             src="/dividends/metrics2023.png"
-            className="max-w-full my-4 mx-auto"
+            className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
           />
         </p>
         </div>
