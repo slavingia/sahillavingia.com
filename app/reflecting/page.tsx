@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose dark:prose-invert dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Feb 7, 2019 by{" "}
         <Link href="/">
@@ -62,7 +62,7 @@ export default function Home() {
         feel shame in the path I took to get to where I am today — but for a
         long time, I did. This is my journey, from the beginning.
       </p>
-      <h2 className="headingTwo">A weekend project turned VC-backed startup</h2>
+      <h2>A weekend project turned VC-backed startup</h2>
       <p>
         The idea behind Gumroad was simple: Creators and others should be able
         to sell their products directly to their audiences with quick, simple
@@ -111,7 +111,7 @@ export default function Home() {
         in their own businesses.
       </p>
       <p>So what exactly went wrong, and when?</p>
-      <h2 className="headingTwo">Failing in style</h2>
+      <h2>Failing in style</h2>
       <p>
         Let's start with the numbers. This is our monthly processed volume,
         until the layoffs:
@@ -183,7 +183,7 @@ export default function Home() {
         just between August and November.
       </p>
       <p>Unfortunately, we didn't hit the numbers we needed.</p>
-      <h2 className="headingTwo">Slim down or shut down?</h2>
+      <h2>Slim down or shut down?</h2>
       <p>
         Looking back, I'm glad we didn't hit those numbers. If we'd doubled
         down, raised more money, and appeared in the headlines again, there
@@ -259,7 +259,7 @@ export default function Home() {
         It hurt, but it meant creators would keep getting paid. It also meant
         that we were in control of our own destiny.
       </p>
-      <h2 className="headingTwo">From skeleton crew to lifestyle business</h2>
+      <h2>From skeleton crew to lifestyle business</h2>
       <p>It got worse from there.</p>
       <p>
         Gumroad was no longer the venture-funded, fast-growing startup our
@@ -303,7 +303,7 @@ export default function Home() {
         Living in San Francisco was already a struggle. When Trump won the
         election, I ended up leaving for good.
       </p>
-      <h2 className="headingTwo">New beginnings</h2>
+      <h2>New beginnings</h2>
       <p>
         Then one day, everything changed. Again. I'm wary about sharing this
         part of the story, because I don't know if there is anything to learn
@@ -338,7 +338,7 @@ export default function Home() {
         started to feel okay. Certainly, the thousands of creators selling on
         Gumroad wouldn't mind.
       </p>
-      <h2 className="headingTwo">Finding new forms of impact</h2>
+      <h2>Finding new forms of impact</h2>
       <p>
         The eight years I worked on Gumroad were full of personal ups and downs.
         There were months where I worked 16 hours a day, but there were also
@@ -368,7 +368,7 @@ export default function Home() {
         better and better for our existing creators. Because they are the ones
         that have kept us alive.
       </p>
-      <h2 className="headingTwo">Creating and capturing value</h2>
+      <h2>Creating and capturing value</h2>
       <p>
         At a CEO Summit many years ago, my all-time hero, Bill Gates, took the
         stage. Someone asked him how he dealt with failing to capture so much
@@ -408,7 +408,7 @@ export default function Home() {
         impact of the impact, the opportunities that those creators have taken
         to create new opportunities for others.
       </p>
-      <h2 className="headingTwo">Opening up about our financials</h2>
+      <h2>Opening up about our financials</h2>
       <p>
         I've found other ways to create value, too. After the layoffs, I didn't
         talk to anyone about Gumroad. Not even my mom. And after moving away
@@ -461,7 +461,7 @@ export default function Home() {
         Presence-of-Blackness project in speculative fiction, and a Mexicanx
         publication.
       </p>
-      <h2 className="headingTwo">Seeking the non-binary</h2>
+      <h2>Seeking the non-binary</h2>
       <p>
         For years, my only metric of success was building a billion-dollar
         company. Now, I realize that was a terrible goal. It's completely

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose dark:prose-invert dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         Jan 7, 2021 by{" "}
         <Link href="/">
@@ -63,7 +63,7 @@ export default function Home() {
         that could benefit other companies, their people, and&mdash;most
         importantly&mdash;their customers.
       </p>
-      <h2 className="headingTwo">Freedom at all costs</h2>
+      <h2>Freedom at all costs</h2>
       <p>
         After the layoffs in 2015, even though the team shrunk, Gumroad itself
         continued to grow.
@@ -114,7 +114,7 @@ export default function Home() {
         alt="Operating expenses versus creator earnings chart"
         className="max-w-full my-4 mx-auto dark:invert dark:hue-rotate-180"
       />
-      <h2 className="headingTwo">How we work</h2>
+      <h2>How we work</h2>
       <p>
         Today, working at Gumroad resembles working on an open source project
         like Rails. Except it's neither open source, nor unpaid.
@@ -250,7 +250,7 @@ export default function Home() {
         more.
       </p>
 
-      <h2 className="headingTwo">Minimum viable culture</h2>
+      <h2>Minimum viable culture</h2>
       <p>This way of working isn't for everyone.</p>
       <p>
         There are no retreats planned, and no social channels in Slack. There
@@ -298,7 +298,7 @@ export default function Home() {
         example, I paint for fun, and every once in a while, I sell a
         painting.
       </p>
-      <h2 className="headingTwo">A company of creators</h2>
+      <h2>A company of creators</h2>
       <p>
         One day, out of the blue, I received an email from{" "}
         <Link className="link" href="https://twitter.com/dvassallo">Daniel Vassallo</Link>. I knew
@@ -328,7 +328,7 @@ export default function Home() {
       <div className="flex justify-center">
         <Tweet id="1334288446697865216" />
       </div>
-      <h2 className="headingTwo">Getting paid</h2>
+      <h2>Getting paid</h2>
       <p>
         In practice, we pay everyone hourly based on their role. The range
         varies from $50 (customer support) to $250 (Head of Product) an hour.
@@ -395,7 +395,7 @@ export default function Home() {
       <p>
         This is what <em>working in the creator economy</em> should feel like.
       </p>
-      <h2 className="headingTwo">The future of work is not working</h2>
+      <h2>The future of work is not working</h2>
       <p>
         Recently, I pitched the whole company about going full-time, because
         it felt wrong to grow any larger without full-time staff.

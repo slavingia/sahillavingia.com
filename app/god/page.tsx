@@ -23,7 +23,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="prose dark:prose-invert dark:prose-invert mx-auto dark:bg-black p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
+    <main className="prose dark:prose-invert mx-auto dark:bg-black p-4 sm:p-8 flex-1 w-full max-w-3xl relative z-10">
       <label className="block mt-8 mb-8">
         October 17, 2024 by{" "}
         <Link href="/">
@@ -55,7 +55,7 @@ export default function Home() {
           specific: GOD mode.
         </p>
 
-    <h2 className="headingTwo">Growth, Optimization, Destruction</h2>
+    <h2>Growth, Optimization, Destruction</h2>
 
       <p>Every startup focuses on growth at its outset.</p>
 
@@ -113,7 +113,7 @@ export default function Home() {
         a single Godhead, with total omniscience.
       </p>
 
-      <h2 className="headingTwo">Solo Founder Mode</h2>
+      <h2>Solo Founder Mode</h2>
 
       <p>
         In 2023, Gumroad doubled "our" pricing to 10% flat. But really,{" "}
@@ -182,7 +182,7 @@ export default function Home() {
 
       <p>Have co-founders, and–ideally–make yourselves equals.</p>
 
-      <h2 className="headingTwo">Why, YC, why?</h2>
+      <h2>Why, YC, why?</h2>
       
       <p>
         YC states in{" "}
@@ -272,7 +272,7 @@ export default function Home() {
         world.
       </p>
 
-      <h2 className="headingTwo">Default Dead or Default Alive?</h2>
+      <h2>Default Dead or Default Alive?</h2>
 
 
       <p>Dictators are not always benevolent.</p>
