@@ -246,7 +246,7 @@ export default function Home() {
           a rare Zoom call, where I learned there were many problems.
         </p>
         <h2>Splitting equity hairs</h2>
-        <p className="headingTwo">
+        <p>
           First, no one knew how to value the equity they were being given. We
           had raised $5M at a $100M valuation from over 7,000 people, but that
           was now two years prior. What would someone pay for it today?

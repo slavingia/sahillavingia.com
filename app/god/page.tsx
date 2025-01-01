@@ -35,7 +35,7 @@ export default function Home() {
 
         <p>
           A few weeks ago, Paul Graham published{" "}
-          <a className="link" href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
+          <a href="https://www.paulgraham.com/foundermode.html">Founder Mode</a>,
           about a management style practiced by Brian Chesky at Airbnb that was at
           least partially inspired by Steve Jobs.
         </p>
@@ -186,7 +186,7 @@ export default function Home() {
       
       <p>
         YC states in{" "}
-        <a className="link" href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
+        <a href="https://www.youtube.com/watch?v=prKi3-rUPHc&t=27s">
           this video
         </a>{" "}
         that there are three main reasons to have a co-founder when starting a
@@ -236,7 +236,7 @@ export default function Home() {
       <p>
         But I don't think that's the core motivation. I think the core
         motivation, as Nassim Taleb explains in{" "}
-        <a className="link" href="https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15">
+        <a href="https://medium.com/incerto/the-most-intolerant-wins-the-dictatorship-of-the-small-minority-3f1f83ce4e15">
           The Most Intolerant Wins: The Dictatorship of the Small Minority
         </a>
         , is because having co-founders with an equal split gives YC all of the
@@ -281,7 +281,7 @@ export default function Home() {
         Recently, WordPress founder Matt Mullenweg banned millions of customers
         from accessing WordPress resources due to a dispute with one of the
         largest-WordPress hosting sites, WP Engine. As part of{" "}
-        <a className="link" href="https://ma.tt/2024/10/alignment/">Automattic Alignment</a>, 159
+        <a href="https://ma.tt/2024/10/alignment/">Automattic Alignment</a>, 159
         people, or 8.4% of the company, left the company.
       </p>
 

@@ -23,14 +23,14 @@ export default function Home() {
 
         <div className="space-y-4 sm:space-y-6">
           <h2 className="flex items-center text-lg sm:text-xl ">
-            <Link href="/god" className="Link">God Mode</Link>
+            <Link href="/god">God Mode</Link>
             <span className="inline-flex items-center rounded-full bg-[#ff6b6b] dark:bg-neutral-800 px-2 py-0.5 text-xs font-medium text-white dark:text-neutral-300 ring-1 ring-inset ring-red-600/10 dark:ring-neutral-600  uppercase ml-3 mt-0.5">
               New
             </span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/dividends" className="Link">
+            <Link href="/dividends">
               Paying Freelancers in Equity and Dividends
             </Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2024</span>
@@ -39,7 +39,7 @@ export default function Home() {
           <h2 className="text-lg sm:text-xl">
             <a
               href="https://www.amazon.com/Minimalist-Entrepreneur-Great-Founders-More/dp/0593192397"
-              className="Link"
+             
               style={{ fontWeight: 1000 }}
             >
               The Minimalist Entrepreneur
@@ -48,26 +48,26 @@ export default function Home() {
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/work" className="Link">
+            <Link href="/work">
               No Meetings, No Deadlines, No Full-Time Employees
             </Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2021</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/reflecting" className="Link">
+            <Link href="/reflecting">
               Reflecting on My Failure to Build a Billion-Dollar Company
             </Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2019</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/border" className="Link">Across the Border</Link>
+            <Link href="/border">Across the Border</Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2018</span>
           </h2>
 
           <h2 className="text-lg sm:text-xl">
-            <Link href="/bubble" className="Link">From Bubble to Bubble</Link>
+            <Link href="/bubble">From Bubble to Bubble</Link>
             <span className="ml-3 text-sm text-gray-400 dark:text-neutral-500 font-normal">2018</span>
           </h2>
         </div>
