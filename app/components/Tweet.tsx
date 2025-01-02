@@ -1,13 +1,13 @@
 "use client";
 
+import { useEffect, useState, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+
 declare global {
   interface Window {
     twitter?: TwitterWidget;
   }
 }
-
-import { useEffect, useState, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 
 interface TwitterWidget {
   events: {
