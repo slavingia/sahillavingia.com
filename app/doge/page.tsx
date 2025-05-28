@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: "DOGE Days",
     description:
       "My experience joining the United States DOGE Service as a software engineer, and what I learned along the way.",
-    images: ["https://sahillavingia.com/doge/social-split.png"],
+    images: ["https://sahillavingia.com/va.png"],
   },
   twitter: {
     card: "summary_large_image",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "DOGE Days",
     description:
       "My experience joining the United States DOGE Service as a software engineer, and what I learned along the way.",
-    images: ["https://sahillavingia.com/doge/social-split.png"],
+    images: ["https://sahillavingia.com/va.png"],
   },
 };
 
