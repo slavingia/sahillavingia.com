@@ -268,12 +268,6 @@ export default function Home() {
           DOGE act as the 'fall guy' for unpopular decisions.
         </p>
 
-        <p>
-          Over time, my calculator became just another prototype gathering dust,
-          slowly getting "cut" not through any formal rejection, but through the
-          death of a thousand deferrals.
-        </p>
-
         <h2>Day 13</h2>
 
         <p>
