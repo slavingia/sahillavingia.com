@@ -123,8 +123,7 @@ export default function Home() {
 
         <p>
           I also suggested a dashboard where VA contracting officers could
-          easily view flagged contracts. Lastly, I built a veterans disability
-          calculator prototype to show off my ability to build–not just cut.
+          easily view flagged contracts.
         </p>
 
         <h2>Day 2</h2>
@@ -195,14 +194,6 @@ export default function Home() {
           performers, the government cuts its newest people first, regardless of
           performance. Anyone promoted within the last two years was also
           considered probationary—first in line to go.
-        </p>
-
-        <p>
-          I also presented my veterans disability calculator prototype to
-          several VA employees. "This looks awesome," one VA employee told me.
-          "We need this yesterday," said another. But when it came time to
-          actually get approval, there was always another meeting, another
-          review, another reason to wait.
         </p>
 
         <h2>Day 5</h2>
@@ -294,7 +285,7 @@ export default function Home() {
           technical advice didn't take up much of my time.
         </p>
 
-        <p>I gave up on most of my pet projects and focused on just two:</p>
+        <p>I started to work on two VA-specific projects:</p>
 
         <ul>
           <li>Modernizing our internal version of ChatGPT (called VAGPT)</li>
