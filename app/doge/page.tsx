@@ -44,7 +44,7 @@ export default function Home() {
           Service.
         </p>
 
-        <blockquote>
+        <blockquote className="text-gray-500 font-light">
           In consultation with USDS, each Agency Head shall establish within
           their respective Agencies a DOGE Team of at least four employees,
           which may include Special Government Employees, hired or assigned
@@ -56,12 +56,18 @@ export default function Home() {
           with USDS and advise their respective Agency Heads on implementing the
           President's DOGE Agenda.
         </blockquote>
+        <p className="text-sm text-gray-500">
+          — Executive Order 14123: Establishing and Implementing the President's
+          Department of Government Efficiency{" "}
+          <Link href="https://www.federalregister.gov/documents/2025/01/29/2025-02005/establishing-and-implementing-the-presidents-department-of-government-efficiency">
+            (Federal Register)
+          </Link>
+        </p>
 
         <p>
           On March 17 2025, I joined DOGE as a software engineer working for the
           Department of Veterans Affairs (VA).
         </p>
-
         <h2>Day 0</h2>
 
         <p>
@@ -97,7 +103,7 @@ export default function Home() {
 
         <p>My first task involved reviewing contracts.</p>
 
-        <blockquote>
+        <blockquote className="text-gray-500 font-light">
           Each Agency Head, in consultation with the agency's DOGE Team Lead,
           shall review all existing covered contracts and grants and, where
           appropriate and consistent with applicable law, terminate or modify
@@ -105,7 +111,13 @@ export default function Home() {
           reduce overall Federal spending or reallocate spending to promote
           efficiency and advance the policies of my Administration.
         </blockquote>
-
+        <p className="text-sm text-gray-500">
+          — Executive Order 14124: Implementing the President's Department of
+          Government Efficiency Cost Efficiency Initiative{" "}
+          <Link href="https://www.federalregister.gov/documents/2025/03/03/2025-03527/implementing-the-presidents-department-of-government-efficiency-cost-efficiency-initiative">
+            (Federal Register)
+          </Link>
+        </p>
         <p>
           The existing method was manual and tedious: finding PDFs, contacting
           responsible individuals, and determining necessity. VA had over 90,000
@@ -123,8 +135,7 @@ export default function Home() {
 
         <p>
           I also suggested a dashboard where VA contracting officers could
-          easily view flagged contracts. Lastly, I built a veterans disability
-          calculator prototype to show off my ability to build–not just cut.
+          easily view flagged contracts.
         </p>
 
         <h2>Day 2</h2>
@@ -160,11 +171,18 @@ export default function Home() {
           reorganization.
         </p>
 
-        <blockquote>
+        <blockquote className="text-gray-500 font-light">
           Agency heads should collaborate with their Department of Government
           Efficiency ("DOGE") team leads within the agency in developing
           competitive areas for ARRPs.
         </blockquote>
+        <p className="text-sm text-gray-500">
+          — Executive Order 14159: Implementing the President's Department of
+          Government Efficiency Workforce Optimization Initiative{" "}
+          <Link href="https://www.federalregister.gov/documents/2025/02/14/2025-02762/implementing-the-presidents-department-of-government-efficiency-workforce-optimization-initiative">
+            (Federal Register)
+          </Link>
+        </p>
 
         <p>
           Initially, I expected multiple fragmented HR systems, but learned VA
@@ -195,14 +213,6 @@ export default function Home() {
           performers, the government cuts its newest people first, regardless of
           performance. Anyone promoted within the last two years was also
           considered probationary—first in line to go.
-        </p>
-
-        <p>
-          I also presented my veterans disability calculator prototype to
-          several VA employees. "This looks awesome," one VA employee told me.
-          "We need this yesterday," said another. But when it came time to
-          actually get approval, there was always another meeting, another
-          review, another reason to wait.
         </p>
 
         <h2>Day 5</h2>
@@ -294,7 +304,7 @@ export default function Home() {
           technical advice didn't take up much of my time.
         </p>
 
-        <p>I gave up on most of my pet projects and focused on just two:</p>
+        <p>I started to work on two VA-specific projects:</p>
 
         <ul>
           <li>Modernizing our internal version of ChatGPT (called VAGPT)</li>
@@ -312,7 +322,6 @@ export default function Home() {
           mobile responsive.
         </p>
 
-        {/* Interactive before/after comparison */}
         <Vagpt />
 
         <p>
