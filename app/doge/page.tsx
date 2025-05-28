@@ -335,8 +335,12 @@ export default function Home() {
 
         <p>
           I reached out to someone who wrote about Gumroad's recent transition
-          to open source. During the interview, I was asked about my experience
-          working at DOGE, which had been revealed publicly as part of{" "}
+          to open source. During the interview, which was then published in{" "}
+          <Link href="https://www.fastcompany.com/91330297/doge-sahil-lavignia-gumroad">
+            Fast Company
+          </Link>
+          , I was asked about my experience working at DOGE, which had been
+          revealed publicly as part of{" "}
           <Link href="https://www.wired.com/story/doge-department-of-veterans-affairs-ai/">
             a WIRED article
           </Link>
