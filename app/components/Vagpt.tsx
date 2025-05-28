@@ -14,6 +14,7 @@ export default function Vagpt() {
   /* STATE -------------------------------------------------------------- */
   const [defaultValue, setDefaultValue] = useState<string>("desktop");
   const [isInitialized, setIsInitialized] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(0);
 
   /* EFFECTS ------------------------------------------------------------ */
   // Detect user agent and set default view on mount
@@ -30,6 +31,16 @@ export default function Vagpt() {
     setIsInitialized(true);
   }, []);
 
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   /* RENDER ------------------------------------------------------------- */
   // Show loading state while detecting user agent
   if (!isInitialized) {
@@ -40,6 +51,11 @@ export default function Vagpt() {
     );
   }
 
+  const canUseExtendedWidth = windowWidth >= 1440;
+  const desktopContentClass = canUseExtendedWidth
+    ? "w-[200%] -ml-[50%]"
+    : "w-full";
+
   return (
     <Tabs defaultValue={defaultValue} className="my-8">
       <TabsList className="mb-4">
@@ -47,7 +63,7 @@ export default function Vagpt() {
         <TabsTrigger value="mobile">Mobile</TabsTrigger>
       </TabsList>
 
-      <TabsContent value="desktop" className="w-[200%] -ml-[50%]">
+      <TabsContent value="desktop" className={desktopContentClass}>
         {(() => {
           const beforeSrc = "/old.png";
           const afterSrc = "/new.png";
