@@ -11,23 +11,12 @@ import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
  *   /old.png, /old-mobile.png, /new.png, /new-mobile.png
  */
 export default function Vagpt() {
-  /* STATE -------------------------------------------------------------- */
-  const [defaultValue, setDefaultValue] = useState<string>("desktop");
+  const [defaultValue, setDefaultValue] = useState<string>("mobile");
   const [isInitialized, setIsInitialized] = useState(false);
   const [windowWidth, setWindowWidth] = useState(0);
 
-  /* EFFECTS ------------------------------------------------------------ */
-  // Detect user agent and set default view on mount
   useEffect(() => {
-    const userAgent = navigator.userAgent;
-
-    const isMobileDevice =
-      /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
-        userAgent
-      );
-
-    const detectedDefault = isMobileDevice ? "mobile" : "desktop";
-    setDefaultValue(detectedDefault);
+    setDefaultValue("mobile");
     setIsInitialized(true);
   }, []);
 
@@ -38,11 +27,11 @@ export default function Vagpt() {
 
     handleResize();
     window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
-  /* RENDER ------------------------------------------------------------- */
-  // Show loading state while detecting user agent
   if (!isInitialized) {
     return (
       <div className="my-8 flex justify-center">
@@ -70,7 +59,6 @@ export default function Vagpt() {
 
           return (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {/* BEFORE */}
               <div>
                 <h3 className="text-center font-semibold mb-2">Before</h3>
                 <img
@@ -80,7 +68,6 @@ export default function Vagpt() {
                 />
               </div>
 
-              {/* AFTER */}
               <div>
                 <h3 className="text-center font-semibold mb-2">After</h3>
                 <img
@@ -101,7 +88,6 @@ export default function Vagpt() {
 
           return (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {/* BEFORE */}
               <div>
                 <h3 className="text-center font-semibold mb-2">Before</h3>
                 <img
@@ -111,7 +97,6 @@ export default function Vagpt() {
                 />
               </div>
 
-              {/* AFTER */}
               <div>
                 <h3 className="text-center font-semibold mb-2">After</h3>
                 <img
