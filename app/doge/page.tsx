@@ -56,12 +56,18 @@ export default function Home() {
           with USDS and advise their respective Agency Heads on implementing the
           President's DOGE Agenda.
         </blockquote>
+        <p className="text-sm text-gray-500">
+          — Executive Order 14123: Establishing and Implementing the President's
+          Department of Government Efficiency{" "}
+          <Link href="https://www.federalregister.gov/documents/2025/01/29/2025-02005/establishing-and-implementing-the-presidents-department-of-government-efficiency">
+            (Federal Register)
+          </Link>
+        </p>
 
         <p>
           On March 17 2025, I joined DOGE as a software engineer working for the
           Department of Veterans Affairs (VA).
         </p>
-
         <h2>Day 0</h2>
 
         <p>
@@ -105,7 +111,13 @@ export default function Home() {
           reduce overall Federal spending or reallocate spending to promote
           efficiency and advance the policies of my Administration.
         </blockquote>
-
+        <p className="text-sm text-gray-500">
+          — Executive Order 14124: Implementing the President's Department of
+          Government Efficiency Cost Efficiency Initiative{" "}
+          <Link href="https://www.federalregister.gov/documents/2025/03/03/2025-03527/implementing-the-presidents-department-of-government-efficiency-cost-efficiency-initiative">
+            (Federal Register)
+          </Link>
+        </p>
         <p>
           The existing method was manual and tedious: finding PDFs, contacting
           responsible individuals, and determining necessity. VA had over 90,000
@@ -164,6 +176,13 @@ export default function Home() {
           Efficiency ("DOGE") team leads within the agency in developing
           competitive areas for ARRPs.
         </blockquote>
+        <p className="text-sm text-gray-500">
+          — Executive Order 14159: Implementing the President's Department of
+          Government Efficiency Workforce Optimization Initiative{" "}
+          <Link href="https://www.federalregister.gov/documents/2025/02/14/2025-02762/implementing-the-presidents-department-of-government-efficiency-workforce-optimization-initiative">
+            (Federal Register)
+          </Link>
+        </p>
 
         <p>
           Initially, I expected multiple fragmented HR systems, but learned VA
@@ -303,7 +322,6 @@ export default function Home() {
           mobile responsive.
         </p>
 
-        {/* Interactive before/after comparison */}
         <Vagpt />
 
         <p>
