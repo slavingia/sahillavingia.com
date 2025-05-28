@@ -39,9 +39,12 @@ export default function Home() {
 
         <p>
           In August 2014, President Obama and Congress created the United States
-          Digital Service (USDS). In January 2025, President Trump signed an
-          executive order to rename and reorganize it as the United States DOGE
-          Service.
+          Digital Service (USDS).
+        </p>
+
+        <p>
+          In January 2025, President Trump signed an executive order to rename
+          and reorganize it as the United States DOGE Service.
         </p>
 
         <blockquote className="text-gray-500 font-light">
