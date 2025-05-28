@@ -44,7 +44,7 @@ export default function Home() {
           Service.
         </p>
 
-        <blockquote>
+        <blockquote className="text-gray-500 font-light">
           In consultation with USDS, each Agency Head shall establish within
           their respective Agencies a DOGE Team of at least four employees,
           which may include Special Government Employees, hired or assigned
@@ -103,7 +103,7 @@ export default function Home() {
 
         <p>My first task involved reviewing contracts.</p>
 
-        <blockquote>
+        <blockquote className="text-gray-500 font-light">
           Each Agency Head, in consultation with the agency's DOGE Team Lead,
           shall review all existing covered contracts and grants and, where
           appropriate and consistent with applicable law, terminate or modify
@@ -171,7 +171,7 @@ export default function Home() {
           reorganization.
         </p>
 
-        <blockquote>
+        <blockquote className="text-gray-500 font-light">
           Agency heads should collaborate with their Department of Government
           Efficiency ("DOGE") team leads within the agency in developing
           competitive areas for ARRPs.

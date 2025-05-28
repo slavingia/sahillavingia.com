@@ -438,7 +438,7 @@ export default function Home() {
       <div className="flex justify-center">
         <Tweet id="996042451843461120" />
       </div>
-      
+
       <p>
         Ironically, more investors have reached out (we're just interested in
         raising money from our customers for the moment, thanks!), more folks
