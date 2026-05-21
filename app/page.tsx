@@ -30,6 +30,13 @@ export default function Home() {
         </header>
 
         <div className="space-y-4 sm:space-y-6">
+          <h2 className="flex items-center text-lg sm:text-xl">
+            <a href="https://zoom.sahillavingia.com">sahillavingia.com is a Zoom call now</a>
+            <span className="inline-flex items-center rounded-full bg-[#2d8cff] px-2 py-0.5 text-xs font-medium text-white uppercase ml-3 mt-0.5">
+              Live
+            </span>
+          </h2>
+
           <h2 className="flex items-center text-lg sm:text-xl ">
             <Link href="/doge">DOGE Days</Link>
             <span className="inline-flex items-center rounded-full bg-[#ff6b6b] dark:bg-neutral-800 px-2 py-0.5 text-xs font-medium text-white dark:text-neutral-300 ring-1 ring-inset ring-red-600/10 dark:ring-neutral-600  uppercase ml-3 mt-0.5">
