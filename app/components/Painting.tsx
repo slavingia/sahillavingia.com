@@ -5,9 +5,15 @@ import { useState, useEffect, useRef } from "react";
 interface PaintingProps {
   src: string;
   alt: string;
+  /** Tile height — defaults to the 320px homepage tile. */
+  height?: string;
 }
 
-export default function Painting({ src, alt }: PaintingProps) {
+export default function Painting({
+  src,
+  alt,
+  height = "320px",
+}: PaintingProps) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isZoomed, setIsZoomed] = useState(false);
   const hoverTimerRef = useRef<NodeJS.Timeout | null>(null);
@@ -51,7 +57,7 @@ export default function Painting({ src, alt }: PaintingProps) {
       onMouseMove={handleMouseMove}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      style={{ height: "320px" }}
+      style={{ height }}
     >
       <img
         src={src}
