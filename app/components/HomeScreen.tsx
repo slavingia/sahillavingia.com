@@ -6,17 +6,7 @@ import Painting from "./Painting";
 import {
   AntiworkGlyph,
   AppIcon,
-  BooksGlyph,
-  CalendarGlyph,
-  GitHubGlyph,
-  GumroadGlyph,
-  InstagramGlyph,
-  IrsGlyph,
-  NotesGlyph,
-  PhotosGlyph,
-  PinterestGlyph,
   StatusGlyphs,
-  XGlyph,
 } from "./AppIcons";
 
 const BOOK_URL =
@@ -151,20 +141,17 @@ export default function HomeScreen() {
             <AppIcon
               label="Pinterest"
               href="https://www.pinterest.com/slavingia/"
-              tile="bg-[#e60023]"
-              glyph={<PinterestGlyph />}
+              img="/icons/pinterest.png"
             />
             <AppIcon
               label="IRS"
               href="https://github.com/slavingia/design"
-              tile="bg-white"
-              glyph={<IrsGlyph />}
+              img="/icons/irs.png"
             />
             <AppIcon
               label="Gumroad"
               href="https://gumroad.com"
-              tile="bg-[#ff90e8]"
-              glyph={<GumroadGlyph />}
+              img="/icons/gumroad.png"
             />
             <AppIcon
               label="Antiwork"
@@ -172,23 +159,16 @@ export default function HomeScreen() {
               tile="bg-black"
               glyph={<AntiworkGlyph />}
             />
-            <AppIcon
-              label="X"
-              href="https://x.com/shl"
-              tile="bg-black"
-              glyph={<XGlyph />}
-            />
+            <AppIcon label="X" href="https://x.com/shl" img="/icons/x.png" />
             <AppIcon
               label="GitHub"
               href="https://github.com/slavingia"
-              tile="bg-white"
-              glyph={<GitHubGlyph />}
+              img="/icons/github.png"
             />
             <AppIcon
               label="Instagram"
               href={INSTAGRAM_URL}
-              tile="bg-gradient-to-br from-[#f9ce34] via-[#ee2a7b] to-[#6228d7]"
-              glyph={<InstagramGlyph />}
+              img="/icons/instagram.png"
             />
           </div>
         </div>
@@ -203,29 +183,25 @@ export default function HomeScreen() {
               label="Notes"
               hideLabel
               onClick={() => setSheet("notes")}
-              tile="bg-white"
-              glyph={<NotesGlyph />}
+              img="/icons/notes.png"
             />
             <AppIcon
               label="Photos"
               hideLabel
               onClick={() => setSheet("photos")}
-              tile="bg-white"
-              glyph={<PhotosGlyph />}
+              img="/icons/photos.png"
             />
             <AppIcon
               label="Books"
               hideLabel
               href={BOOK_URL}
-              tile="bg-gradient-to-b from-[#ffb340] to-[#ff9500]"
-              glyph={<BooksGlyph />}
+              img="/icons/books.png"
             />
             <AppIcon
               label="Calendar"
               hideLabel
               href="/video"
-              tile="bg-white"
-              glyph={<CalendarGlyph now={now} />}
+              img="/icons/calendar.png"
             />
           </div>
           {/* iOS home indicator */}
